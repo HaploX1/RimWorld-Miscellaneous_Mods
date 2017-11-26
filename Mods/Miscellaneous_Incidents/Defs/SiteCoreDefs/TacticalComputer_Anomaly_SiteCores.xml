@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Anomaly: Nothing -->
+  
+  <SiteCoreDef>
+    <defName>Anomaly_Nothing</defName>
+    <label>Anomaly</label>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Anomaly_Unknown</expandingIconTexture>
+  </SiteCoreDef>
+  
+  
+  <!-- Anomaly: Item Stash -->
+  
+  <SiteCoreDef>
+    <defName>Anomaly_ItemStash</defName>
+    <label>Anomaly</label>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Anomaly_Unknown</expandingIconTexture>
+  </SiteCoreDef>
+
+  <GenStepDef>
+    <defName>Anomaly_ItemStash</defName>
+    <linkWithSite>Anomaly_ItemStash</linkWithSite>
+    <order>460</order>
+    <genStep Class="GenStep_ItemStash">
+      <itemCollectionGeneratorDefs>
+        <li>RawResources</li>
+        <li>Apparel</li>
+        <li>Weapons</li>
+      </itemCollectionGeneratorDefs>
+      <totalValueRange><min>1500</min><max>3500</max></totalValueRange>
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+
+  
+  <!-- Anomaly: Precious Lump -->
+  
+  <SiteCoreDef>
+    <defName>Anomaly_PreciousLump</defName>
+    <label>Anomaly</label>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Anomaly_Unknown</expandingIconTexture>
+    <forceExitAndRemoveMapCountdownDurationDays>10</forceExitAndRemoveMapCountdownDurationDays>
+  </SiteCoreDef>
+
+  <GenStepDef>
+    <defName>Anomaly_PreciousLump</defName>
+    <linkWithSite>Anomaly_PreciousLump</linkWithSite>
+    <order>450</order>
+    <genStep Class="GenStep_PreciousLump">
+      <mineables>
+        <li>MineableGold</li>
+        <li>MineableJade</li>
+      </mineables>
+      <totalValueRange><min>1500</min><max>4000</max></totalValueRange>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+  
+</Defs>

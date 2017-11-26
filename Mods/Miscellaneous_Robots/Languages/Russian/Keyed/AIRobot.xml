@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- AIRobotGenerator -->
+	<AIRobot_Basename_first>Робот</AIRobot_Basename_first>
+	<AIRobot_Basename_last>...</AIRobot_Basename_last>
+	<AIRobot_Basename_nick></AIRobot_Basename_nick>
+
+	<!-- AIRobotRechargeStation -->
+	<AIRobot_NoOwner>Не назначен владелец</AIRobot_NoOwner>
+	<AIRobot_RobotIs>Робот:</AIRobot_RobotIs>
+	<AIRobot_Label_SpawnRobot>Активировать</AIRobot_Label_SpawnRobot>
+	<AIRobot_SpawnRobot>Активировать робота.</AIRobot_SpawnRobot>
+	<AIRobot_Label_SendOwnerToRecharge>Выключить</AIRobot_Label_SendOwnerToRecharge>
+	<AIRobot_SendOwnerToRecharge>Отозвать и выключить активного робота.</AIRobot_SendOwnerToRecharge>
+	<AIRobot_Start>Активировать робота</AIRobot_Start>
+	<AIRobot_NoPower>Нет энергии!</AIRobot_NoPower>
+	<AIRobot_Label_RecallAllRobots>Recall All</AIRobot_Label_RecallAllRobots>
+	<AIRobot_RecallAllRobots>Recall and deactivate all active robots.</AIRobot_RecallAllRobots>
+	<AIRobot_Label_ActivateAllRobots>Activate All</AIRobot_Label_ActivateAllRobots>
+	<AIRobot_ActivateAllRobots>Activate all available robots.</AIRobot_ActivateAllRobots>
+	<AIRobot_RobotIsDestroyed>Robot is destroyed!</AIRobot_RobotIsDestroyed>
+	
+	<!-- AIRobot_destroyed -->
+	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>
+	<AIRobot_DismantleRobot>Dismantle robot and station</AIRobot_DismantleRobot>
+	
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!--
+	<ResearchTurretWeaponBaseA.label>Waffenplattform Auto</ResearchTurretWeaponBaseA.label>
+	<ResearchTurretWeaponBaseA.description>Erforsche wie man Handwaffen in eine automatische Waffenplattform einbaut.</ResearchTurretWeaponBaseA.description>
+	<ResearchTurretWeaponBaseA.descriptionDiscovered>Du kannst jetzt automatische Geschütze bauen, die mit Handwaffen ausgerüstet werden. \nHinweis: Das Nachladen ist aufgrund der Automatik noch komplizierter.</ResearchTurretWeaponBaseA.descriptionDiscovered>
+	-->
+	
+	<ResearchTurretWeaponBaseAlternateCooldown.label>Waffenpl. Nachladen</ResearchTurretWeaponBaseAlternateCooldown.label>
+	<ResearchTurretWeaponBaseAlternateCooldown.description>Erforsche wie man die benötigte Zeit zum Nachladen der Waffenplattformen verbessern kann.</ResearchTurretWeaponBaseAlternateCooldown.description>
+	<ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>Du hast das Design deiner Waffenplattform erfolgreich angepasst, so dass das Nachladen etwas schneller geht.</ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>
+	
+</LanguageData>

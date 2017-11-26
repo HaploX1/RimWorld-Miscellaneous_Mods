@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<Beekeeping.label>пчеловодство</Beekeeping.label>
+	<Beekeeping.description>Позволяет построить пчелиный улей, где вы можете собрать мёд.</Beekeeping.description>
+	<Beekeeping.descriptionDiscovered>Сейчас вы можете построить пчелиный улей и начать производство мёда.\n\nNote: Вам нужна королева для постройки пчелиного улья. Вы можете их найти в дупле дерева или купить их у торговцев.</Beekeeping.descriptionDiscovered>
+	
+</LanguageData>

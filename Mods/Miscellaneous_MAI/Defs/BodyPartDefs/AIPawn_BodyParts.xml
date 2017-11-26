@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BodyPartDefs>
+
+  <!-- AIPawn  -->
+  
+  <BodyPartDef>
+    <defName>AIPawn_Thorax</defName>
+    <label>Thorax</label>
+	<hitPoints>40</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<isSolid>true</isSolid>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_Neck</defName>
+    <label>Neck</label>
+	<hitPoints>30</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>TalkingPathway</li>
+		<li>BreathingPathway</li>
+		<li>EatingPathway</li>
+	</tags>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <!--
+  <BodyPartDef>
+    <defName>AIPawn_Head</defName>
+    <label>Head</label>
+	<hitPoints>30</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+    <bleedingRateMultiplier>2</bleedingRateMultiplier>
+  </BodyPartDef>
+  -->
+  
+  <BodyPartDef>
+	<defName>AIPawn_ArtificialBrain</defName>
+	<label>Central Processing Unit</label>
+	<hitPoints>10</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>ConsciousnessSource</li>
+		<li>SightSource</li>
+		<li>HearingSource</li>
+	</tags>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+    <BodyPartDef>
+	<defName>AIPawn_UnneededData</defName>
+	<label>Central Memory Unit</label>
+	<hitPoints>3</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>BreathingSource</li>
+		<li>BreathingPathway</li>
+	</tags>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+	<defName>AIPawn_SpeakerDevice</defName>
+	<label>Speaker</label>
+	<hitPoints>10</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>EatingSource</li>
+		<li>TalkingSource</li>
+	</tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_BatteryLeft</defName>
+    <label>Left battery</label>
+	<hitPoints>20</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<tags>
+      <li>BreathingPathway</li>
+	</tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_BatteryRight</defName>
+    <label>Right battery</label>
+	<hitPoints>20</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<tags>
+      <li>BreathingPathway</li>
+	</tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_MaterialAnalyzer</defName>
+    <label>Material analyzer</label>
+	<hitPoints>10</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<tags>
+		<li>EatingDigestion</li>
+	</tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_Spine</defName>
+    <label>Spine</label>
+	<hitPoints>35</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>false</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>Spine</li>
+	</tags>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AIPawn_Abdomen</defName>
+    <label>Abdomen</label>
+	<hitPoints>40</hitPoints>
+	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<skinCovered>true</skinCovered>
+	<isSolid>true</isSolid>
+	<tags>
+		<li>Pelvis</li>
+	</tags>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+  
+</BodyPartDefs>

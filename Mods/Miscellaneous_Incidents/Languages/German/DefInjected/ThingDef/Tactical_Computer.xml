@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<TacticalComputer.label>Taktischer Computer</TacticalComputer.label>
+	<TacticalComputer.description>Dieser Computer stellt verschiedene Informationen und Optionen bereit. Weiterhin können seine Sensoren interessante Orte ausfindig machen.</TacticalComputer.description>
+	
+	<TacticalComputerExtension.label>Computer Terminal</TacticalComputerExtension.label>
+	<TacticalComputerExtension.description>Dieses Terminal stellt einige Funktionen des Taktischen Computers bereit.\nHinweis: Benötigt einen Taktischen Computer.</TacticalComputerExtension.description>
+	
+</LanguageData>

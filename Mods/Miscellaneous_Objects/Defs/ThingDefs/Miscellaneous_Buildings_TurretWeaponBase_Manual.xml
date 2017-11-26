@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="BuildingTurretMBase" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<category>Building</category>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingTurretMBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<defName>TurretWeaponBaseMannable</defName>
+		<label>Turret Base</label>
+		<thingClass>TurretWeaponBase.Building_TurretWeaponBase</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Turret/TurretBaseManualWithMaterial</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<!-- <minifiedDef>MinifiedTurretWeaponBase</minifiedDef> -->
+		<altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>2700</WorkToBuild>
+			<Beauty>-60</Beauty>
+			<Mass>50</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<description>A manned turret controlling a fixed weapon.</description>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.75</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Steel>100</Steel>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<turretTopgraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopgraphicPath>
+		</building>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+
+		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
+		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon_Top</TopMatMediumPath>
+		<TopMatLongPath>Things/Building/Turret/TurretLargeWeapon_Top</TopMatLongPath>
+		<priceShortMax>400</priceShortMax>
+		<priceMediumMax>750</priceMediumMax>
+		<usedTopGraphic>ShortMediumLongMat</usedTopGraphic>
+		<cooldownMultiplicator>1.25</cooldownMultiplicator>
+		<cooldownAddition>120</cooldownAddition>
+		<cooldownResearchName>ResearchTurretWeaponBaseAlternateCooldown</cooldownResearchName>
+		<cooldownResearchMultiplicator>1.15</cooldownResearchMultiplicator>
+		<cooldownResearchAddition>80</cooldownResearchAddition>
+	</ThingDef>
+
+</ThingDefs>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ResearchProjectDef>
+		<defName>ResearchTurretWeaponBaseA</defName>
+		<label>Turret: Weapon Base A</label>
+		<description>Research how to fit hand weapons into an automatic firing turret base.</description>
+		<descriptionDiscovered>Now you can build automatic turrets, which can be equipped with hand weapons. \nNote: Reloading is a even more complicated due to the automatic installation.</descriptionDiscovered>
+		<baseCost>450</baseCost>
+		<tab>Miscellaneous</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef> -->
+
+  <ResearchTurretWeaponBaseAlternateCooldown.label>炮台裝填改進</ResearchTurretWeaponBaseAlternateCooldown.label>
+  <ResearchTurretWeaponBaseAlternateCooldown.description>研究如何提升炮台基座的裝填速度。</ResearchTurretWeaponBaseAlternateCooldown.description>
+  <ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>你成功對炮台基座進行重新設計，裝填速度略有提升。</ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>
+
+
+  <!-- <ResearchProjectDef>
+		<defName>ResearchTurretWeaponBaseA</defName>
+		<label>Turret: Weapon Base A</label>
+		<description>Research how to fit hand weapons into an automatic firing turret base.</description>
+		<descriptionDiscovered>Now you can build automatic turrets, which can be equipped with hand weapons. \nNote: Reloading is a even more complicated due to the automatic installation.</descriptionDiscovered>
+		<baseCost>450</baseCost>
+	</ResearchProjectDef> -->
+
+</LanguageData>

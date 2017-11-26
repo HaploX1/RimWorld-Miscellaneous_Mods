@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Misc. Weapon Repair</name>
+	<author>Haplo</author>
+	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
+	<targetVersion>0.18.1772</targetVersion>
+	<description>
+   Are your best weapons always in an awful condition, with no way to repair them?
+   Do you have multiple less quality weapons of the same kind just laying around, doing nothing for you?
+   Rejoice, now you can use spare parts from your low quality weapons of the same kind to repair your legendaries!
+   --- Needed machining table and skills not included ---
+
+   
+(Version: 0.18.1)
+Language: English, German, Chinese
+
+Thanks to duduluu and Biscuit now with a translation for Chinese (both)
+	</description>
+</ModMetaData>

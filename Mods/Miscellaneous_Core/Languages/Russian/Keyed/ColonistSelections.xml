@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Colonist Groups -->
+	<ColonistGroups_GroupSaved>Группа {0} с {1} колонистами сохранена.</ColonistGroups_GroupSaved>
+	<ColonistGroups_GroupNotSet_PositionMode>Группа {0} не назначена. Используй Shift+{1} для назначения боеготовых колонистов.</ColonistGroups_GroupNotSet_PositionMode>
+	<ColonistGroups_GroupInvalid_PositionMode>Группа {0} не назначена. Не обнаружено боеготовых колонистов.</ColonistGroups_GroupInvalid_PositionMode>
+	<ColonistGroups_GroupNotSet_SelectionMode>Группа {0} не назначена. Используй Shift+{1} для назначения выбранных колонистов.</ColonistGroups_GroupNotSet_SelectionMode>
+	<ColonistGroups_GroupInvalid_SelectionMode>Группа {0} не назначена. Не обнаружено боеготовых колонистов.</ColonistGroups_GroupInvalid_SelectionMode>
+	<ColonistGroups_GroupPositioned>Группа {0} в пути.</ColonistGroups_GroupPositioned>
+	<ColonistGroups_GroupSelected>Группа {0} выбрана.</ColonistGroups_GroupSelected>
+	<ColonistGroups_PawnsUndrafted>Всем колонистам без активных заданий - \"вольно\".</ColonistGroups_PawnsUndrafted>
+	<ColonistGroups_GroupSelectionActive>Групповой режим активирован.</ColonistGroups_GroupSelectionActive>
+	<ColonistGroups_GroupPositioningActive>Режим расстановки активирован.</ColonistGroups_GroupPositioningActive>
+
+	<!-- Colonist Groups: Help Screen -->
+	<ColonistGroups_GameStartHelp_prt1>Miscellaneous: группировка колонистов</ColonistGroups_GameStartHelp_prt1>
+	<ColonistGroups_GameStartHelp_prt2>Клавиши 6, 7, 8, 9 могут быть использованы для определения групп и позиций колонистов.\nИспользовать так:\nПризови к бою колонистов, для которых ты хочешь определить группу или позицию, и расставь их по позициям. Затем выбери тех, кто должен составлять единую группу, и нажми SHIFT+6 (для группы 1).\nТеперь эти выбранные боеготовые колонисты назначены в группу и запомнили свои исходные позиции.\nДля быстрой расстановки просто нажми 6. Аналогично для клавиш 7, 8 и 9 (группы 2, 3 и 4 соответственно).\n\nЗаметка: Если групповой режим активен (переключается: SHIFT+0), эти колонисты будут только выбраны.\nВ этом режиме они не пойдут на свои исходные позиции.</ColonistGroups_GameStartHelp_prt2>
+	<ColonistGroups_GameStartHelp_prt3>Клавиша 0 имеет два назначения:\nПростым нажатием ты дашь команду \"вольно\" боеготовым колонистам, не имеющим активных задач.\nОдновременным нажатием SHIFT+0 ты переключишься между режимами расстановки и групповым.\n\nДополнительно может использоваться клавиша BACKSPACE.\nBACKSPACE'ом ты переместишь камеру в произвольное место твоей домашней зоны.\nТакой типа аналог \"айда домой\"-кнопки.\n\nГорячие клавиши могут быть изменены в окне их настройки.</ColonistGroups_GameStartHelp_prt3>
+	<ColonistGroups_GameStartHelp_openHelp>Эту справку можно открыть нажатием SHIFT+K.</ColonistGroups_GameStartHelp_openHelp>
+	<ColonistGroups_Letter_InfoOpenHelp>Информация</ColonistGroups_Letter_InfoOpenHelp>
+	<ColonistGroups_Message_InfoOpenHelp>Просмотр справки для Miscellaneous: когда угодно.\n\nПросто нажми SHIFT+K - и справка откроется.\n\n</ColonistGroups_Message_InfoOpenHelp>
+	
+	
+</LanguageData>

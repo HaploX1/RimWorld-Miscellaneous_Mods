@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBaseBlueprintDef Name="SmallVillageBase">
+		<defName>Simple_Small_Village_wo_pawns</defName>
+		<createdBy>Haplo</createdBy>
+		<techLevelRequired>Neolithic</techLevelRequired>
+		<techLevelMax>Neolithic</techLevelMax>
+		<chance>10</chance>
+		<size>(28, 30)</size>
+		<canHaveHoles>False</canHaveHoles>
+		<createTrigger>False</createTrigger>
+		<buildingData>
+...aaaaa....................
+..aac.caa...........aaaaaaaa
+..a...e.a...........ac....ka
+..a.....a...........a......a
+..a.....a...aaaaaa..aaaa..ka
+..aaaadaa...a....a.....a...a
+............a....a.....a..ka
+............aadaaa.....a...a
+.......................d..ka
+.......................ac..a
+aaaaa..................aaaaa
+ab.ca...aaaaaaaaaaaaa.......
+a...a..aac.........caa......
+a...d..a.............a......
+a...a..d......i......d......
+ab.ca..a.............a......
+aaaaa..aac.........caa......
+........aaaaaaaaaaaaa.......
+............f.f.f...........
+............................
+............................
+...aaaa...............aaaa..
+..aab.aa.............aa.jaa.
+.aa....aa...........aa....aa
+.ac.....d...aadaa...d.....ca
+.aa....aa..aa...aa..aa....aa
+..aab.aa...ac...ca...aa.jaa.
+...aaaa....a.g.g.a....aaaa..
+...........aa...aa..........
+............aaaaa...........
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>TorchLamp</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>RoyalBed</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>HorseshoesPin</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>Campfire</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>HospitalBed</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>3</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+...aaaaa....................
+..aaaaaaa...........aaaaaaaa
+..aaaaaaa...........aaaaaaaa
+..aaaaaaa...........aaaaaaaa
+..aaaaaaa...aaaaaa..aaaaaaaa
+..aaaaaaa...aaaaaa.....aaaaa
+............aaaaaa.....aaaaa
+............aaaaaa.....aaaaa
+.......................aaaaa
+.......................aaaaa
+aaaaa..................aaaaa
+aaaaa...aaaaaaaaaaaaa.......
+aaaaa..aaaaaaaaaaaaaaa......
+aaaaa..aaaaaaaaaaaaaaa......
+aaaaa..aaaaaaabaaaaaaa......
+aaaaa..aaaaaaaaaaaaaaa......
+aaaaa..aaaaaaaaaaaaaaa......
+........aaaaaaaaaaaaa.......
+............................
+............................
+............................
+...aaaa...............aaaa..
+..aaaaaa.............aaaaaa.
+.aaaaaaaa...........aaaaaaaa
+.aaaaaaaa...aaaaa...aaaaaaaa
+.aaaaaaaa..aaaaaaa..aaaaaaaa
+..aaaaaa...aaaaaaa...aaaaaa.
+...aaaa....aaaaaaa....aaaa..
+...........aaaaaaa..........
+............aaaaa...........
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>WoodPlankFloor</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>TileSlate</value>
+			</li>
+		</floorLegend>
+		<itemData>
+...aaaaa....................
+..aa.y.aa...........aaaaaaaa
+..ax....a...........a.....ka
+..a.....a...........a00...za
+..a.....a...aaaaaa..aaaa..ka
+..aaaadaa...ass11a.....a...a
+............a2.21a.....a..ka
+............aadaaa.....a...a
+.......................d..ka
+.......................a...a
+aaaaa..................aaaaa
+a...a...aaaaaaaaaaaaa.......
+a...a..aa...........aa......
+a...d..a.............a......
+a...a..d......i......d......
+a...a..a.............a......
+aaaaa..aac.........caa......
+........aaaaaaaaaaaaa.......
+............f.f.f...........
+............................
+............................
+...aaaa...............aaaa..
+..aab.aa.............aa..aa.
+.aa....aa...........aax...aa
+.a......d...aadaa...d......a
+.aa...xaa..aa...aa..aa....aa
+..aab.aa...a.....a...aa..aa.
+...aaaa....a.....a....aaaa..
+...........aa...aa..........
+............aaaaa...........
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>x</key>
+				<value>Jade</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Gold</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Silver</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>Medicine</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>Pemmican</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>MealSimple</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>60</itemSpawnChance>
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+
+	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="SmallVillageBase">
+		<defName>Simple_Small_Village_w_pawns</defName>
+		<createdBy>Haplo</createdBy>
+		<techLevelRequired>Neolithic</techLevelRequired>
+		<techLevelMax>Industrial</techLevelMax>
+		<chance>10</chance>
+		<pawnData>
+...aaaaa....................
+..aac.caa...........aaaaaaaa
+..a...e.a...........ac....ka
+..a.....a...........a......a
+..a.yx..a...aaaaaa..aaaa..ka
+..aaaadaa...a...ja.....a...a
+............a....a.....a..ka
+............aahaaa.....a...a
+.......................d..ka
+.......................ac..a
+aaaaa..................aaaaa
+ab.ca...aaaaaaaaaaaaa.......
+a...a..aac.......0.caa......
+a.1.d..a......x......a......
+a...a..d......i.1....d......
+ab.ca..a..0..........a......
+aaaaa..aac.........caa......
+........aaaaaaaaaaaaa.......
+............f.f.f...........
+............................
+............................
+...aaaa...............aaaa..
+..aab.aa.............aa.jaa.
+.aa....aa...........aa....aa
+.ac.....d...aahaa...d.....ca
+.aa....aa..aa...aa..aa.0..aa
+..aab.aa...ac...ca...aa.jaa.
+...aaaa....a.g.g.a....aaaa..
+...........aa...aa..........
+............aaaaa...........
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>x</key>
+				<value>MercenarySniper</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>TribalChief</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>TribalWarrior</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>TribalArcher</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>75</pawnSpawnChance>
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+</Defs>

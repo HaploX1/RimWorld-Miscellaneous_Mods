@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<InstallBionicTacticalImplant.label>вживить бионический мозговой имплант</InstallBionicTacticalImplant.label>
+	<InstallBionicTacticalImplant.description>Вживляет бионический мозговой имплант.</InstallBionicTacticalImplant.description>
+	<InstallBionicTacticalImplant.jobString>Вживление бионического мозгового импланта.</InstallBionicTacticalImplant.jobString>
+	
+	<InstallElectronicTacticalImplant.label>вживить электронный мозговой имплант</InstallElectronicTacticalImplant.label>
+	<InstallElectronicTacticalImplant.description>Вживляет электронный мозговой имплант.</InstallElectronicTacticalImplant.description>
+	<InstallElectronicTacticalImplant.jobString>Вживление электронный мозгового импланта.</InstallElectronicTacticalImplant.jobString>
+	
+</LanguageData>

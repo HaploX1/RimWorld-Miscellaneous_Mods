@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Colonist Selection Keys -->
+
+  <ColonistSelectionKeys_Help.label>打開編組幫助菜單(SHIFT+key)</ColonistSelectionKeys_Help.label>
+  <ColonistSelectionKeys_Release.label>解散單位 / SHIFT：切換模式</ColonistSelectionKeys_Release.label>
+  <ColonistSelectionKeys_Group1.label>選擇編組 1 / 編入編組 SHIFT+key</ColonistSelectionKeys_Group1.label>
+  <ColonistSelectionKeys_Group2.label>選擇編組 2 / 編入編組 SHIFT+key</ColonistSelectionKeys_Group2.label>
+  <ColonistSelectionKeys_Group3.label>選擇編組 3 / 編入編組 SHIFT+key</ColonistSelectionKeys_Group3.label>
+  <ColonistSelectionKeys_Group4.label>選擇編組 4 / 編入編組 SHIFT+key</ColonistSelectionKeys_Group4.label>
+  <ColonistSelectionKeys_CenterOnColony.label>跳轉至隨機殖民地位置</ColonistSelectionKeys_CenterOnColony.label>
+
+
+</LanguageData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Tactical Computer -->
+	<TacticalComputer_Offline>-= 오프라인 =-</TacticalComputer_Offline>
+	<TacticalComputer_Colonist>거주민</TacticalComputer_Colonist>
+	<TacticalComputer_Prisoner>수감자</TacticalComputer_Prisoner>
+	<TacticalComputer_Enemy>적대적</TacticalComputer_Enemy>
+	<TacticalComputer_Friendly>우호적</TacticalComputer_Friendly>
+	<TacticalComputer_Animal>Animals</TacticalComputer_Animal>
+	<TacticalComputer_SwitchToNextColonist>다음 거주민으로 이동합니다.</TacticalComputer_SwitchToNextColonist>
+	<TacticalComputer_SwitchToNextPrisoner>다음 수감자로 이동합니다.</TacticalComputer_SwitchToNextPrisoner>
+	<TacticalComputer_SwitchToNextEnemy>다음 적대적 대상으로 이동합니다.</TacticalComputer_SwitchToNextEnemy>
+	<TacticalComputer_SwitchToNextFriendly>다음 우호적 대상으로 이동합니다.</TacticalComputer_SwitchToNextFriendly>
+	<TacticalComputer_SwitchToNextColonyAnimal>Switch to next colony animal.</TacticalComputer_SwitchToNextColonyAnimal>
+	<TacticalComputer_CallColonistsToArms>무장한 거주민들을 호출합니다.</TacticalComputer_CallColonistsToArms>
+	<TacticalComputer_MessageCalledColonists>{0} colonist(s) on their way.</TacticalComputer_MessageCalledColonists>
+
+	<!-- Tactical Computer - Incident Anomaly -->
+	<TacticalComputer_Message_AnomalyFound>The scanners of your tactical computer detected an anomaly only a few days away.\n\nIf you want, you can send an investigation team to it.</TacticalComputer_Message_AnomalyFound>
+	<TacticalComputer_LetterLabel_AnomalyFound>Anomaly</TacticalComputer_LetterLabel_AnomalyFound>
+	<TacticalComputer_LongRangeAnomalyScannerEfficiency>Efficiency: {0}</TacticalComputer_LongRangeAnomalyScannerEfficiency>
+	
+	<TacticalComputer_PlacementRestricter_NoTacticalComputerFound>전술 컴퓨터 없음</TacticalComputer_PlacementRestricter_NoTacticalComputerFound>
+
+	<!-- Tactical Computer External Terminal -->
+	<TacticalComputer_CallColonistsToArmsToMe>무장한 거주민들을 부릅니다.\n위치: 여기</TacticalComputer_CallColonistsToArmsToMe>
+	<TacticalComputer_CallColonistsToArmsToMainComputer>무장한 거주민들을 부릅니다.\n위치: 전술 컴퓨터</TacticalComputer_CallColonistsToArmsToMainComputer>
+	<TacticalComputer_CallColonistsNotArmedToMe>비무장 거주민들을 부릅니다.\n위치: 여기</TacticalComputer_CallColonistsNotArmedToMe>
+	<TacticalComputer_CallColonistsNotArmedToMainComputer>비무장 거주민들을 부릅니다.\n위치: 전술 컴퓨터</TacticalComputer_CallColonistsNotArmedToMainComputer>
+	
+	
+</LanguageData>

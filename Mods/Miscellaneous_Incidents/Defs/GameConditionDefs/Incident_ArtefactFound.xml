@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<IncidentDefs>
+
+	<IncidentDef>
+		<defName>ArtefactFound</defName>
+		<label>artefact found</label>
+		<targetType>MapPlayerHome</targetType>
+		<workerClass>ArtefactFound.IncidentWorker_ArtefactFound</workerClass>
+		<baseChance>3</baseChance>
+		<minRefireDays>20</minRefireDays>
+		<category>ThreatSmall</category>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+</IncidentDefs>

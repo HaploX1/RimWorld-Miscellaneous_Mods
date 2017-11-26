@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Check if <comps /> exists. If not, add it -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[starts-with(defName, 'Gun_')]/comps</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[starts-with(defName, 'Gun_')]</xpath>
+				<value>
+					<comps />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Find entries where AccuracyLong > 0.5 and add the new comp -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[starts-with(defName, 'Gun_')]/comps</xpath>
+		<value>
+			<li Class="WeaponRepair.CompProperties_WeaponRepairTwo2One">
+				<worktableDefs>
+					<li>TableMachining</li>
+				</worktableDefs>
+				<allowedDefSubName>Gun_</allowedDefSubName>
+				<compareQuality>true</compareQuality>
+				<jobDef>WeaponRepairTwo2One</jobDef>
+				<workTypeDef>Smithing</workTypeDef>
+				<maxRepair>0.95</maxRepair>
+			</li>
+		</value>
+	</Operation>
+	
+	
+	<!--  ###### SNIPPETS: Various working XPath calls #######
+	<xpath>*/ThingDef[statBases/AccuracyLong > 0.05]/comps</xpath>
+	<xpath>*/ThingDef[starts-with(defName, 'Gun_')]/comps</xpath>
+	-->
+	
+</Patch>
+

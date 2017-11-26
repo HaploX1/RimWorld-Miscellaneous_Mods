@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<BionicTacticalImplant.label>бионический мозговой имплант</BionicTacticalImplant.label>
+	<BionicTacticalImplant.description>Продвинутый бионический компьютер, отлично дополняющий человеческий мозг.</BionicTacticalImplant.description>
+	
+	<ElectronicTacticalImplant.label>электронный мозговой имплант</ElectronicTacticalImplant.label>
+	<ElectronicTacticalImplant.description>Продвинутый компьютер с непосредственным нейроинтерфейсом.</ElectronicTacticalImplant.description>	
+	
+</LanguageData>

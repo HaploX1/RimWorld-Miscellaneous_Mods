@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<Beehive.label>пчелиный улей</Beehive.label>
+	<Beehive.description>Это закрытая структура, в которой живут пчёлы и растят своё потомство. Ваши колонисты могут собирать их мёд.</Beehive.description>
+	
+	<Honey.label>мёд</Honey.label>
+	<Honey.description>Вкусная конфета от нашей подруги пчелы.</Honey.description>
+	
+	<HoneycombWithQueen.label>Соты w. Королевы</HoneycombWithQueen.label>
+	<HoneycombWithQueen.description>Соты с живой пчелиной королевой. Вы можете поместить её внутрь пчелиного дома, и она будет наращивать свой улей.\n\nCaution:\n-У вас ограниченно время, чтобы построить улей для вашей королевы или она исчезнет.\n-Королева умрет, если температура воздуха снаружи будет слишком жаркой или слишком холодной.</HoneycombWithQueen.description>
+	
+	<UnfinishedHoneycomb.label>незавершенные соты</UnfinishedHoneycomb.label>
+	
+	<TreeBeeHive.label>дуплёное дерево</TreeBeeHive.label>
+	<TreeBeeHive.description>Старое дуплёное дерево. В нём вы можете найти дикий улей.</TreeBeeHive.description>
+	
+</LanguageData>
