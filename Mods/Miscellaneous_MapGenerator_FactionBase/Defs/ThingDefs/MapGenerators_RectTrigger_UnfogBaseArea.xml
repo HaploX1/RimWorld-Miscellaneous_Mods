@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefinitions>
+<Defs>
 
   <ThingDef>
     <defName>RectTrigger_UnfogBaseArea</defName>
@@ -10,4 +10,4 @@
     <tickerType>Normal</tickerType>
   </ThingDef>
   
-</ThingDefinitions>
+</Defs>

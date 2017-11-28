@@ -80,7 +80,7 @@ aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa
 			</li>
 			<li>
 				<key>g</key>
-				<value>FueledGenerator</value>
+				<value>WoodFiredGenerator</value>
 			</li>
 			<li>
 				<key>h</key>
@@ -136,7 +136,7 @@ aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa
 			</li>
 			<li>
 				<key>u</key>
-				<value>TableShort</value>
+				<value>Table2x2c</value>
 			</li>
 			<li>
 				<key>v</key>

@@ -15,8 +15,8 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [ ] Miscellaneous_BeeAndHoney                 -->   A17
 - [ ] Miscellaneous_Incidents                   -->   A17
 - [ ] Miscellaneous_MAI                         -->   A17
-- [ ] Miscellaneous_MapGenerator                -->   A17
-- [ ] Miscellaneous_MapGenerator_FactionBase    -->   A17
+- [x] Miscellaneous_MapGenerator                -->   B18
+- [x] Miscellaneous_MapGenerator_FactionBase    -->   B18
 - [ ] Miscellaneous_Objects                     -->   A17
 - [x] Miscellaneous_Robots                      -->   B18
 - [x] Miscellaneous_TrainingFacility            -->   B18

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<MapGenerator.MapGeneratorBaseBlueprintDef Name="SmallOutpostABase">
 		<defName>SmallOutpost_A</defName>
@@ -241,7 +241,7 @@ aaaabbaaaaaaaaaaaabbb..bbaaaa
 			</li>
 			<li>
 				<key>4</key>
-				<value>Neurotrainer</value>
+				<value>MechSerumNeurotrainer</value>
 			</li>
 			<li>
 				<key>5</key>

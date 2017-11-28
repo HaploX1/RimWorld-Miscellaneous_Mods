@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<MapGenerator.MapGeneratorBlueprintDef>
 		<defName>Blueprint_Well</defName>
-		<Size>5,5</Size>
-		<Chance>20</Chance>
-		<FloorData>
+		<size>5,5</size>
+		<chance>20</chance>
+		<floorData>
 			.111.
 			11011
 			10001
 			11011
 			.111.
-		</FloorData>
-		<FloorLegend>
+		</floorData>
+		<floorLegend>
 			<li>
 				<key>0</key>
 				<value>WaterShallow</value>
@@ -21,8 +21,8 @@
 				<key>1</key>
 				<value>TileMarble</value>
 			</li>
-		</FloorLegend>
-		<CanHaveHoles>false</CanHaveHoles>
+		</floorLegend>
+		<canHaveHoles>false</canHaveHoles>
 	</MapGenerator.MapGeneratorBlueprintDef>
 
 </Defs>
