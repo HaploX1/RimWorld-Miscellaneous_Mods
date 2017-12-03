@@ -34,10 +34,10 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<CostList>
+		<costList>
 			<HoneycombWithQueen>1</HoneycombWithQueen>
 			<WoodLog>40</WoodLog>
-		</CostList>
+		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
