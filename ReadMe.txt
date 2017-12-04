@@ -12,7 +12,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **These mods are available here:**
 **==============================**
 - [x] Miscellaneous_Core                        -->   B18
-- [ ] Miscellaneous_BeeAndHoney                 -->   A17
+- [x] Miscellaneous_BeeAndHoney                 -->   B18
 - [ ] Miscellaneous_Incidents                   -->   A17
 - [ ] Miscellaneous_MAI                         -->   A17
 - [x] Miscellaneous_MapGenerator                -->   B18
