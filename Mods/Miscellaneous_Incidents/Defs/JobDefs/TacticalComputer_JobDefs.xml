@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<JobDefs>
+<Defs>
 
   <!--========= Miscellaneous Jobs ============-->
 
@@ -35,4 +35,4 @@
     <joyKind>Study</joyKind>
   </JobDef>
   
-</JobDefs>
+</Defs>

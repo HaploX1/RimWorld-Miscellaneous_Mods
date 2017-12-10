@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 	<ThingDef Name="BuildingBaseArtefact" Abstract="True">
@@ -41,4 +41,4 @@
 		<neverMultiSelect>true</neverMultiSelect>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<IncidentDefs>
+<Defs>
 
 	<IncidentDef>
 		<defName>CrashedCryptoSleepCasket</defName>
 		<label>crashed rescue pod</label>
-		<targetType>MapPlayerHome</targetType>
+		<targetTypes>
+			<li>MapPlayerHome</li>
+		</targetTypes>
 		<workerClass>Incidents.IncidentWorker_CrashedCryptoSleepCasket</workerClass>
 		<baseChance>3</baseChance>
 		<minRefireDays>55</minRefireDays>
-		<category>ThreatSmall</category>
+		<category>OrbitalVisitor</category>
 	</IncidentDef>
 
-</IncidentDefs>
+</Defs>

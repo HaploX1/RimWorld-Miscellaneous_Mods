@@ -30,7 +30,7 @@
         <li>Apparel</li>
         <li>Weapons</li>
       </itemCollectionGeneratorDefs>
-      <totalValueRange><min>1500</min><max>3500</max></totalValueRange>
+      <totalValueRange><min>1800</min><max>3500</max></totalValueRange>
       <count>1</count>
       <nearMapCenter>true</nearMapCenter>
     </genStep>
@@ -44,7 +44,7 @@
     <label>Anomaly</label>
     <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Anomaly_Unknown</expandingIconTexture>
-    <forceExitAndRemoveMapCountdownDurationDays>10</forceExitAndRemoveMapCountdownDurationDays>
+    <forceExitAndRemoveMapCountdownDurationDays>15</forceExitAndRemoveMapCountdownDurationDays>
   </SiteCoreDef>
 
   <GenStepDef>
@@ -53,10 +53,11 @@
     <order>450</order>
     <genStep Class="GenStep_PreciousLump">
       <mineables>
-        <li>MineableGold</li>
-        <li>MineableJade</li>
+        <MineableGold>1</MineableGold>
+        <MineableJade>1</MineableJade>
+        <MineableUranium>0.1</MineableUranium>
       </mineables>
-      <totalValueRange><min>1500</min><max>4000</max></totalValueRange>
+      <totalValueRange><min>2000</min><max>5000</max></totalValueRange>
       <nearMapCenter>true</nearMapCenter>
     </genStep>
   </GenStepDef>
