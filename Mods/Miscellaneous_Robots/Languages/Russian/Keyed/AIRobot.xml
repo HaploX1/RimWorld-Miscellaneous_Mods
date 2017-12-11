@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
+
 	<!-- AIRobotGenerator -->
 	<AIRobot_Basename_first>Робот</AIRobot_Basename_first>
 	<AIRobot_Basename_last>...</AIRobot_Basename_last>
-	<AIRobot_Basename_nick></AIRobot_Basename_nick>
+	<AIRobot_Basename_nick/>
 
 	<!-- AIRobotRechargeStation -->
 	<AIRobot_NoOwner>Не назначен владелец</AIRobot_NoOwner>
@@ -20,9 +20,11 @@
 	<AIRobot_Label_ActivateAllRobots>Activate All</AIRobot_Label_ActivateAllRobots>
 	<AIRobot_ActivateAllRobots>Activate all available robots.</AIRobot_ActivateAllRobots>
 	<AIRobot_RobotIsDestroyed>Robot is destroyed!</AIRobot_RobotIsDestroyed>
-	
+
+	<AIRobot_MessageRechargeStationOutsideAreaRestriction>Assigned robot area does not include the recharge station! Resetting..</AIRobot_MessageRechargeStationOutsideAreaRestriction>
+
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>
 	<AIRobot_DismantleRobot>Dismantle robot and station</AIRobot_DismantleRobot>
-	
+
 </LanguageData>

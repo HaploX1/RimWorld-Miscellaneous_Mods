@@ -21,6 +21,8 @@
 	<AIRobot_ActivateAllRobots>Activate all available robots.</AIRobot_ActivateAllRobots>
 	<AIRobot_RobotIsDestroyed>Robot is destroyed!</AIRobot_RobotIsDestroyed>
 	
+	<AIRobot_MessageRechargeStationOutsideAreaRestriction>Assigned robot area does not include the recharge station! Resetting..</AIRobot_MessageRechargeStationOutsideAreaRestriction>
+	
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>
 	<AIRobot_DismantleRobot>Dismantle robot and station</AIRobot_DismantleRobot>

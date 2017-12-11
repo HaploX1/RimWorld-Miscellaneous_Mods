@@ -58,11 +58,11 @@
 						<li Class="JobGiver_SeekSafeTemperature" />
 						<!-- Drop unused inventory -->
 						<li Class="JobGiver_DropUnusedInventory" />
-						<!-- Emergency work -->
+						<!-- Emergency work 
 						<li Class="JobGiver_Work">
 							<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
 							<emergency>true</emergency>
-						</li>
+						</li>  -->
 					</subNodes>
 				</li>
 
@@ -83,15 +83,7 @@
 							<subNodes>
 								<!-- AIPawn - satisfy basic needs -->
 								<li Class="AIRobot.X2_JobGiver_RechargeEnergy" />
-
-								<!-- AIPawn - taken from animal handling - disabled!
-								<li Class="AIRobot.X2_ThinkNode_Conditional_DoWork" >
-									<workType>Hauling</workType>
-									<subNodes>
-										<li Class="JobGiver_Haul" />
-									</subNodes>
-								</li> 
-								-->
+								
 								<li Class="AIRobot.X2_JobGiver_Work" />
 							</subNodes>
 						</li>
@@ -101,6 +93,7 @@
 				<!-- Idle wander for colonists -->
 				<li Class="ThinkNode_ConditionalOfPlayerFaction">
 					<subNodes>
+						<li Class="AIRobot.X2_JobGiver_Return2BaseRoom" />
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>Idle</tagToGive>
 							<subNodes>
