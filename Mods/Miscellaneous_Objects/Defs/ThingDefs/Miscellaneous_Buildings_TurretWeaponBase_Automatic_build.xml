@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<defName>TurretWeaponBaseAutomatic_Buildable</defName>
@@ -16,16 +16,14 @@
 		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
-		<hasInteractionCell>false</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<useHitPoints>true</useHitPoints>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>2700</WorkToBuild>
+			<WorkToBuild>3000</WorkToBuild>
 			<MarketValue>350</MarketValue>
-			<Beauty>-40</Beauty>
-			<Mass>75</Mass>
+			<Mass>50</Mass>
+			<Beauty>-10</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -35,7 +33,7 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>3.4</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
@@ -64,7 +62,7 @@
 		<designationCategory>Security</designationCategory>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretTopgraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopGraphicPath>
 		</building>
 		<designationHotKey>Misc2</designationHotKey>
 		<researchPrerequisites>
@@ -84,4 +82,4 @@
 		<cooldownResearchAddition>200</cooldownResearchAddition>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

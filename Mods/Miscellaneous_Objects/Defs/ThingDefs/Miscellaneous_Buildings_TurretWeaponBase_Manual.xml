@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
 	<ThingDef Name="BuildingTurretMBase" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<category>Building</category>
+		<thingClass>Building</thingClass>
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -10,6 +11,9 @@
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<filthLeaving>BuildingRubble</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingTurretMBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
@@ -26,15 +30,15 @@
 		</graphicData>
 		<!-- <minifiedDef>MinifiedTurretWeaponBase</minifiedDef> -->
 		<altitudeLayer>Building</altitudeLayer>
-    <stealable>false</stealable>
+		<stealable>false</stealable>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>2700</WorkToBuild>
-			<Beauty>-60</Beauty>
+			<WorkToBuild>3200</WorkToBuild>
+			<Beauty>-10</Beauty>
 			<Mass>50</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -48,8 +52,8 @@
 		<size>(2,2)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.75</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -60,7 +64,8 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
 		<building>
-			<turretTopgraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopgraphicPath>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretTopGraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopGraphicPath>
 		</building>
 		<researchPrerequisites>
 			<li>Smithing</li>
@@ -79,4 +84,4 @@
 		<cooldownResearchAddition>80</cooldownResearchAddition>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

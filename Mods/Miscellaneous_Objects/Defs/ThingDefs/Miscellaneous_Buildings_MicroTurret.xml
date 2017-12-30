@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<!--=============== Micro turret ===============-->
 	<ThingDef Name="BuildingMicroTurretBase" Abstract="True">
@@ -11,6 +11,9 @@
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<filthLeaving>BuildingRubble</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef Abstract="True" Name="BaseMicroTurretWeapon">
@@ -93,7 +96,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="WeaponBase.CompProperties_RemainingLifetime">
-				<lifetime>33</lifetime>
+				<lifetime>41</lifetime>
 			</li>
 		</comps>
 		<description>A miniature turret that automatically fires at nearby enemies. Its Micro AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
@@ -111,7 +114,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_MicroTurretMKI</turretGunDef>
 			<turretBurstCooldownTime>2.5</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/MicroTurretWeapon_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/MicroTurretWeapon_Top</turretTopGraphicPath>
 		</building>
 		<!--
 		<designationCategory>Security</designationCategory>
@@ -127,7 +130,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>5</damageAmountBase>
 			<speed>100</speed>
 		</projectile>
 	</ThingDef>
@@ -145,12 +148,14 @@
 		<canBeSpawningInventory>false</canBeSpawningInventory>
 		<tradeability>Never</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
+		<useHitPoints>false</useHitPoints>
 		<statBases>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.64</AccuracyShort>
-			<AccuracyMedium>0.41</AccuracyMedium>
-			<AccuracyLong>0.32</AccuracyLong>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.66</AccuracyShort>
+			<AccuracyMedium>0.43</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<weaponTags>
 			<li>TurretGun</li>
@@ -159,11 +164,11 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_MicroTurretMKI</projectileDef>
+				<defaultProjectile>Bullet_MicroTurretMKI</defaultProjectile>
 				<warmupTime>1.0</warmupTime>
 				<range>7.3</range>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<burstShotCount>1</burstShotCount>
+				<burstShotCount>2</burstShotCount>
 				<soundCast>GunShotA</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
@@ -198,13 +203,14 @@
 		<techLevel>Spacer</techLevel>
 		<soundInteract>InteractRifle</soundInteract>
 		<statBases>
-			<WorkToMake>90000</WorkToMake>
+			<WorkToMake>80000</WorkToMake>
 			<Mass>8</Mass>
-			<AccuracyTouch>0.35</AccuracyTouch>
-			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
 			<AccuracyMedium>0.50</AccuracyMedium>
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>4.45</RangedWeapon_Cooldown>
+			<Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -214,7 +220,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_MicroThingSpawnerMKI</projectileDef>
+				<defaultProjectile>Bullet_MicroThingSpawnerMKI</defaultProjectile>
 				<warmupTime>2.5</warmupTime>
 				<range>27</range>
 				<forcedMissRadius>0.5</forcedMissRadius>
@@ -223,6 +229,15 @@
 				<muzzleFlashScale>6</muzzleFlashScale>
 			</li>
 		</verbs>
+		<tools>
+			<li>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
 		<weaponTags>
 			<li>Gun</li>
 			<li>GunHeavy</li>
@@ -231,6 +246,9 @@
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
+		<itemGeneratorTags>
+			<li>SpecialReward</li>
+		</itemGeneratorTags>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

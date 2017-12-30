@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Class="NanoPrinter.ThingDef_NanoPrinter" ParentName="BuildingBase">
-		<DefName>NanoPrinter</DefName>
+		<defName>NanoPrinter</defName>
 		<label>Nano Printer</label>
 		<description>The nano printer can make nearly identical copies of equipment. Note: The resulting quality may not be the best.</description>
 		<thingClass>NanoPrinter.Building_NanoPrinter</thingClass>
@@ -18,7 +18,7 @@
 			</damageData>
 		</graphicData>
 		<minifiedDef>MinifiedFurniture</minifiedDef>
-		<AltitudeLayer>Building</AltitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
@@ -150,4 +150,4 @@
 	</ThingDef>
 
 
-</ThingDefs>
+</Defs>

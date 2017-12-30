@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
 	<ThingDef Name="BuildingTurretBase" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<category>Building</category>
@@ -10,6 +10,9 @@
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<filthLeaving>BuildingRubble</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
@@ -26,17 +29,15 @@
 		</graphicData>
 		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
-    <stealable>false</stealable>
-		<hasInteractionCell>false</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<useHitPoints>true</useHitPoints>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>2700</WorkToBuild>
+			<WorkToBuild>3000</WorkToBuild>
 			<MarketValue>350</MarketValue>
-			<Beauty>-40</Beauty>
-			<Mass>40</Mass>
+			<Mass>50</Mass>
+			<Beauty>-10</Beauty>
 		</statBases>
 		<tradeTags>
 			<li>Exotic</li>
@@ -49,17 +50,17 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>3.4</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
-        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>350</basePowerConsumption>
+				<basePowerConsumption>300</basePowerConsumption>
 			</li>
-      <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<description>An automatic turret controlling a fixed weapon. Explodes if severely damaged.</description>
+		<description>An automatic turret controlling a fixed weapon. Explodes when damaged.</description>
 		<size>(1,1)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
@@ -73,7 +74,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretTopgraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopGraphicPath>
 		</building>
 
 		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
@@ -103,17 +104,15 @@
 		</graphicData>
 		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
-    <stealable>false</stealable>
-		<hasInteractionCell>false</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<useHitPoints>true</useHitPoints>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>255</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>2700</WorkToBuild>
+			<WorkToBuild>3200</WorkToBuild>
 			<MarketValue>750</MarketValue>
-			<Beauty>-40</Beauty>
-			<Mass>35</Mass>
+			<Mass>55</Mass>
+			<Beauty>-10</Beauty>
 		</statBases>
 		<tradeTags>
 			<li>Exotic</li>
@@ -126,17 +125,17 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>3.4</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
-        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+				<chanceNeverExplodeFromDamage>0.6</chanceNeverExplodeFromDamage>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>350</basePowerConsumption>
 			</li>
-      <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<description>An automatic turret controlling a fixed weapon with a light armor plating. Explodes if severely damaged.</description>
+		<description>An automatic turret controlling a fixed weapon with a light armor plating. Explodes when damaged.</description>
 		<size>(1,1)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
@@ -150,7 +149,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretTopgraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/TurretEmptyWeapon_Top</turretTopGraphicPath>
 		</building>
 
 		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
@@ -166,4 +165,4 @@
 		<cooldownResearchAddition>200</cooldownResearchAddition>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

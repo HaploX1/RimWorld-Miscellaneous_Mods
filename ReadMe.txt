@@ -17,7 +17,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [ ] Miscellaneous_MAI                         -->   A17
 - [x] Miscellaneous_MapGenerator                -->   B18
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   B18
-- [ ] Miscellaneous_Objects                     -->   A17
+- [x] Miscellaneous_Objects                     -->   B18
 - [x] Miscellaneous_Robots                      -->   B18
 - [x] Miscellaneous_TrainingFacility            -->   B18
 - [x] Miscellaneous_WeaponRepair                -->   B18
