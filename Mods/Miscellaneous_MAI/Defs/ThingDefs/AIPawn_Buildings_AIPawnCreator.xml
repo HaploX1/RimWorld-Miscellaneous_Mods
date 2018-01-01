@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BuildingCreatorBase">
-		<DefName>AIPawn_AIPawnCreator</DefName>
-		<Label>Mai Creator, female</Label>
-		<ThingClass>AIPawn.Building_AIPawnCreator</ThingClass>
-	</ThingDef>
-	
-	<ThingDef ParentName="BuildingCreatorBase">
-		<DefName>AIPawn_AIPawnCreatorE</DefName>
-		<Label>MAI Creator, female (Enhanced)</Label>
-		<ThingClass>AIPawn.Building_AIPawnCreatorEnhanced</ThingClass>
-	</ThingDef>
-	
-	<ThingDef ParentName="BuildingCreatorBase">
-		<DefName>AIPawn_AIPawnCreatorMale</DefName>
-		<Label>Mai Creator, male</Label>
-		<ThingClass>AIPawn.Building_AIPawnCreator_male</ThingClass>
-	</ThingDef>
-	
-	<ThingDef ParentName="BuildingCreatorBase">
-		<DefName>AIPawn_AIPawnCreatorMaleE</DefName>
-		<Label>MAI Creator, male (Enhanced)</Label>
-		<ThingClass>AIPawn.Building_AIPawnCreatorEnhanced_male</ThingClass>
+		<defName>AIPawn_AIPawnCreator</defName>
+		<label>Mai Creator, female</label>
+		<thingClass>AIPawn.Building_AIPawnCreator</thingClass>
 	</ThingDef>
 
-</ThingDefs>
+	<ThingDef ParentName="BuildingCreatorBase">
+		<defName>AIPawn_AIPawnCreatorE</defName>
+		<label>MAI Creator, female (Enhanced)</label>
+		<thingClass>AIPawn.Building_AIPawnCreatorEnhanced</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingCreatorBase">
+		<defName>AIPawn_AIPawnCreatorMale</defName>
+		<label>Mai Creator, male</label>
+		<thingClass>AIPawn.Building_AIPawnCreator_male</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingCreatorBase">
+		<defName>AIPawn_AIPawnCreatorMaleE</defName>
+		<label>MAI Creator, male (Enhanced)</label>
+		<thingClass>AIPawn.Building_AIPawnCreatorEnhanced_male</thingClass>
+	</ThingDef>
+
+</Defs>

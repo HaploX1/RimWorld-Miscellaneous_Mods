@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThinkTrees>
+<Defs>
 
 	<ThinkTreeDef>
 		<defName>AIPawn</defName>
 		<thinkRoot Class="ThinkNode_Priority">
 			<subNodes>
-				<!-- Do something while lying down -->
+				<!-- Do lovin' -->
 				<li Class="ThinkNode_ConditionalLyingDown">
 					<subNodes>
 						<li Class="ThinkNode_ChancePerHour_Lovin">
@@ -23,6 +23,11 @@
 				<!-- If we HAVE to keep lying down... -->
 				<li Class="ThinkNode_ConditionalMustKeepLyingDown">
 					<subNodes>
+						<!-- Do a queued job if possible (e.g. watch tv in bed) -->
+						<li Class="ThinkNode_QueuedJob">
+							<inBedOnly>true</inBedOnly>
+						</li>
+
 						<!-- Get joy -->
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>SatisfyingNeeds</tagToGive>
@@ -58,7 +63,10 @@
 					<insertTag>Humanlike_PostMentalState</insertTag>
 				</li>
 
-				<!-- Take direct orders when drafted -->
+				<!-- Do a queued job -->
+				<li Class="ThinkNode_QueuedJob" />
+
+				<!-- Wait if drafted -->
 				<li Class="ThinkNode_ConditionalColonist">
 					<subNodes>
 						<li Class="ThinkNode_Tagger">
@@ -112,6 +120,20 @@
 							</subNodes>
 						</li>
 
+						<!-- Exit map if released -->
+						<li Class="ThinkNode_ConditionalReleased">
+							<subNodes>
+								<li Class="ThinkNode_Tagger">
+									<tagToGive>Misc</tagToGive>
+									<subNodes>
+										<li Class="JobGiver_ExitMapBest">
+											<defaultLocomotion>Walk</defaultLocomotion>
+										</li>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>RestingForMedicalReasons</tagToGive>
 							<subNodes>
@@ -119,15 +141,13 @@
 							</subNodes>
 						</li>
 
-						<!--
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>ChangingApparel</tagToGive>
 							<subNodes>
 								<li Class="JobGiver_PrisonerGetDressed" />
 							</subNodes>
 						</li>
--->
-						
+
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>SatisfyingNeeds</tagToGive>
 							<subNodes>
@@ -144,20 +164,6 @@
 								</li>
 							</subNodes>
 						</li>
-
-						<li Class="ThinkNode_ConditionalReleased">
-							<subNodes>
-								<li Class="ThinkNode_Tagger">
-									<tagToGive>Misc</tagToGive>
-									<subNodes>
-										<li Class="JobGiver_ExitMapBest">
-											<defaultLocomotion>Walk</defaultLocomotion>
-										</li>
-									</subNodes>
-								</li>
-							</subNodes>
-						</li>
-
 						<!-- Join auto joinable caravan -->
 						<li Class="ThinkNode_Subtree">
 							<treeDef>JoinAutoJoinableCaravan</treeDef>
@@ -293,6 +299,16 @@
 						</li>
 					</subNodes>
 				</li>
+				<!-- Main wild man behavior core -->
+				<li Class="ThinkNode_ConditionalPawnKind">
+					<pawnKind>WildMan</pawnKind>
+					<subNodes>
+						<li Class="ThinkNode_Subtree">
+							<treeDef>MainWildAIBehaviorCore</treeDef>
+							<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+						</li>
+					</subNodes>
+				</li>
 
 				<!-- Insertion hook for modders -->
 				<li Class="ThinkNode_SubtreesByTag">
@@ -318,6 +334,26 @@
 								<!-- Wander -->
 								<li Class="JobGiver_WanderColony">
 									<maxDanger>None</maxDanger>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+
+				<!-- Idle wild man -->
+				<li Class="ThinkNode_ConditionalPawnKind">
+					<pawnKind>WildMan</pawnKind>
+					<subNodes>
+						<li Class="ThinkNode_Tagger">
+							<tagToGive>Idle</tagToGive>
+							<subNodes>
+								<!-- Wander -->
+								<li Class="JobGiver_WanderAnywhere">
+									<maxDanger>Deadly</maxDanger>
+									<ticksBetweenWandersRange>
+										<min>120</min>
+										<max>240</max>
+									</ticksBetweenWandersRange>
 								</li>
 							</subNodes>
 						</li>
@@ -387,7 +423,7 @@
 				<li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
 					<subNodes>
 						<!-- Flee explosion -->
-						<li Class="JobGiver_FleeExplosion" />
+						<li Class="JobGiver_FleePotentialExplosion" />
 
 						<!-- Hostility response -->
 						<li Class="JobGiver_ConfigurableHostilityResponse" />
@@ -402,4 +438,4 @@
 		</thinkRoot>
 	</ThinkTreeDef>
 
-</ThinkTrees>
+</Defs>

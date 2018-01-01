@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BuildingCreatorBase" Abstract="True">
 		<category>Building</category>
@@ -10,23 +10,22 @@
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<filthLeaving>BuildingRubble</filthLeaving>
-
-		<Description>This creates the AI-Pawn and destroys itself.</Description>
+		<description>This creates the AI-Pawn and destroys itself.</description>
 		<graphicData>
 			<texPath>Things/Building/AIPawnCreator_Alpha</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<CostList>
+		<costList>
 			<Silver>1</Silver>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToMake>550</WorkToMake>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 		</statBases>
-		<Size>(1,1)</Size>
+		<size>(1,1)</size>
 		<passability>Standable</passability>
 		<pathCost>200</pathCost>
 		<hasInteractionCell>false</hasInteractionCell>
@@ -37,4 +36,4 @@
 		<DesignationCategory>Production</DesignationCategory> -->
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

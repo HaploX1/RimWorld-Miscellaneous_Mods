@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="RecipeActivateMaiEnhanced" Abstract="True">
 		<jobString>Working.</jobString>
@@ -33,10 +33,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>9</minLevel>
-			</li>
+			<Crafting>9</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
@@ -59,4 +56,4 @@
 		</products>
 	</RecipeDef>
 	
-</RecipeDefs>
+</Defs>

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThinkTrees>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
 	<!--============= Main colonist behavior core ============-->
 
@@ -21,6 +21,47 @@
 		</thinkRoot>
 	</ThinkTreeDef>
 
+	<!--============= Main wild man behavior core ============-->
+
+	<ThinkTreeDef>
+		<defName>MainWildAIBehaviorCore</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<!-- Leave the colony -->
+				<li Class="ThinkNode_ConditionalWildManNeedsToReachOutside">
+					<subNodes>
+						<li Class="JobGiver_ReachOutside" />
+					</subNodes>
+				</li>
+
+				<!-- Drop random gear or apparel -->
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>10</mtbHours>
+					<subNodes>
+						<li Class="JobGiver_DropRandomGearOrApparel"/>
+					</subNodes>
+				</li>
+
+				<!-- Satisfy needs -->
+				<li Class="ThinkNode_Tagger">
+					<tagToGive>SatisfyingNeeds</tagToGive>
+					<subNodes>
+						<li Class="ThinkNode_PrioritySorter">
+							<subNodes>
+								<li Class="JobGiver_GetFood"/>
+								<li Class="AIPawn.JobGiver_RechargeEnergy"/>
+								<li Class="ThinkNode_Priority_GetJoy">
+									<subNodes>
+										<li Class="JobGiver_GetJoy"/>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
 	<!--============= Burning Response ============-->
 
 	<ThinkTreeDef>
@@ -29,6 +70,7 @@
 			<subNodes>
 				<li Class="ThinkNode_Priority">
 					<subNodes>
+						<li Class="JobGiver_JumpInWater" />
 						<li Class="JobGiver_ExtinguishSelf" />
 					</subNodes>
 				</li>
@@ -40,7 +82,8 @@
 	<!--============= Mental state ============-->
 	<ThinkTreeDef>
 		<defName>AIPawn_MentalStateCritical</defName>
-		<thinkRoot Class="ThinkNode_Priority">
+		<thinkRoot Class="ThinkNode_Tagger">
+			<tagToGive>InMentalState</tagToGive>
 			<subNodes>
 				<li Class="ThinkNode_ConditionalMentalState">
 					<state>Berserk</state>
@@ -74,7 +117,8 @@
 
 	<ThinkTreeDef>
 		<defName>AIPawn_MentalStateNonCritical</defName>
-		<thinkRoot Class="ThinkNode_Priority">
+		<thinkRoot Class="ThinkNode_Tagger">
+			<tagToGive>InMentalState</tagToGive>
 			<subNodes>
 				<!-- Various wanders  -->
 				<li Class="ThinkNode_ConditionalMentalState">
@@ -112,65 +156,10 @@
 					</subNodes>
 				</li>
 
-				<!-- Binging on alcohol
-        <li Class="ThinkNode_ConditionalMentalState">
-          <state>BingingAlcohol</state>
-          <subNodes>
-            <li Class="ThinkNode_PrioritySorter">
-              <minPriority>0.5</minPriority>
-              <subNodes>
-                <li Class="JobGiver_GetFood"/>
-                <li Class="JobGiver_GetRest"/>
-                <li Class="ThinkNode_Priority_GetJoy">
-                  <subNodes>
-                    <li Class="JobGiver_GetJoy"/>
-                  </subNodes>
-                </li>
-              </subNodes>
-            </li>
-            <li Class="JobGiver_BingeAlcohol"/>
-            <li Class="JobGiver_WanderColony" />
-          </subNodes>
-        </li> -->
-
-				<!-- Binging on food -->
-				<li Class="ThinkNode_ConditionalMentalState">
-					<state>BingingFood</state>
-					<subNodes>
-						<li Class="ThinkNode_PrioritySorter">
-							<minPriority>0.5</minPriority>
-							<subNodes>
-								<li Class="JobGiver_GetFood"/>
-								<li Class="JobGiver_GetRest"/>
-								<li Class="ThinkNode_Priority_GetJoy">
-									<subNodes>
-										<li Class="JobGiver_GetJoy"/>
-									</subNodes>
-								</li>
-							</subNodes>
-						</li>
-						<li Class="JobGiver_BingeFood"/>
-						<li Class="JobGiver_WanderColony" />
-					</subNodes>
-				</li>
 
 				<!-- Manhunter -->
-				<!-- Hack: these have to be identical -->
-				<li Class="ThinkNode_ConditionalMentalState">
-					<state>Manhunter</state>
-					<subNodes>
-						<li Class="ThinkNode_Priority">
-							<subNodes>
-								<li Class="JobGiver_Manhunter" />
-								<li Class="JobGiver_WanderAnywhere">
-									<maxDanger>Deadly</maxDanger>
-								</li>
-							</subNodes>
-						</li>
-					</subNodes>
-				</li>
-				<li Class="ThinkNode_ConditionalMentalState">
-					<state>ManhunterPermanent</state>
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_Manhunter</stateClass>
 					<subNodes>
 						<li Class="ThinkNode_Priority">
 							<subNodes>
@@ -221,4 +210,4 @@
 	</ThinkTreeDef>
 
 
-</ThinkTrees>
+</Defs>

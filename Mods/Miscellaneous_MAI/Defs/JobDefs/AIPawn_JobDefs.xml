@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<JobDefs>
+<Defs>
 
 	<JobDef>
 		<defName>AIPawn_Goto</defName>
@@ -20,4 +20,4 @@
 	</JobDef>
 	
   
-</JobDefs>
+</Defs>

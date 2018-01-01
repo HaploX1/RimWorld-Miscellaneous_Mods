@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Empty ruins -->
+	<GenStepDef>
+		<defName>ScatterRuinsSimple</defName>
+		<linkWithMapGenerator>BasicMap</linkWithMapGenerator>
+		<order>300</order>
+		<genStep Class="GenStep_ScatterRuinsSimple">
+			<allowOnWater>false</allowOnWater>
+			<countPer10kCellsRange>
+				<min>0.10</min>
+				<max>3.00</max>
+			</countPer10kCellsRange>
+		</genStep>
+	</GenStepDef>
+
+	<!-- Blueprint ruins (single buildings) -->
+	<GenStepDef>
+		<defName>ScatterBlueprintSimple</defName>
+		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
+		<order>330</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle">
+			<allowOnWater>true</allowOnWater>
+			<countPer10kCellsRange>
+				<min>10.00</min>
+				<max>22.00</max>
+			</countPer10kCellsRange>
+		</genStep>
+	</GenStepDef>
+
+	<!-- Blueprint ruins (village) -->
+	<GenStepDef>
+		<defName>ScatterBlueprintVillage</defName>
+		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
+		<order>340</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage">
+			<allowOnWater>false</allowOnWater>
+			<countPer10kCellsRange>
+				<min>0.40</min>
+				<max>1.80</max>
+			</countPer10kCellsRange>
+			<ruinCountRange>
+				<min>2</min>
+				<max>5</max>
+			</ruinCountRange>
+			<ruinDistanceRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinDistanceRange>
+			<ruinOffsetHorizontalRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinOffsetHorizontalRange>
+			<ruinOffsetVerticalRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinOffsetVerticalRange>
+		</genStep>
+	</GenStepDef>
+
+
+</Defs>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResearchProjectDefs>
+<Defs>
 
 	<ResearchProjectDef>
 		<defName>AIPawnBaseResearch</defName>
@@ -143,4 +143,4 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
-</ResearchProjectDefs>
+</Defs>

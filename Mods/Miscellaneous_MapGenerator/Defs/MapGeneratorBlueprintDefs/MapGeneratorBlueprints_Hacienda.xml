@@ -15,7 +15,7 @@
 			w........ww.ww.......w.........w
 			w........ws..........w.........w
 			wwwwwwwwwwwdwwwwwww.wwwwww..wwww
-			..........wwww.......w.........w
+			.............w.......w.........w
 			.............w.................w
 			.............w.......w.........w
 			.............w.......w.........w
@@ -79,7 +79,7 @@
 			</li>
 			<li>
 				<key>o</key>
-				<value>WaterDeep</value>
+				<value>WaterShallow</value>
 			</li>
 			<li>
 				<key>c</key>

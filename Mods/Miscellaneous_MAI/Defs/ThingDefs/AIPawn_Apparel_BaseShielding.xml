@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="ApparelShieldingBase" Abstract="True">
     <thingClass>Apparel</thingClass>
@@ -65,7 +65,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Items/Shielding/Shielding_Alpha</worngraphicPath>
+      <wornGraphicPath>Things/Items/Shielding/Shielding_Alpha</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -88,4 +88,4 @@
     </colorGenerator>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

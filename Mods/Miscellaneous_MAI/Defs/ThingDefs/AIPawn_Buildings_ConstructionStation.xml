@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingBase">
 
 		<category>Building</category>
-		<DefName>AIPawn_ConstructionStation</DefName>
-		<Label>Automatic Assembler AI</Label>
-		<Description>This is an automatic assembler to build ai constructs.</Description>
-		<ThingClass>AIPawn.Building_AIPawnConstructionStation</ThingClass>
+		<defName>AIPawn_ConstructionStation</defName>
+		<label>Automatic Assembler AI</label>
+		<description>This is an automatic assembler to build ai constructs.</description>
+		<thingClass>AIPawn.Building_AIPawnConstructionStation</thingClass>
 		<graphicData>
 			<texPath>Things/Building/AIPawn_Assembler/Assembler</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -22,14 +22,14 @@
 			<Flammability>1.0</Flammability>
 			<MarketValue>2000</MarketValue>
 		</statBases>
-		<CostList>
+		<costList>
 			<Silver>100</Silver>
 			<Steel>250</Steel>
 			<Uranium>25</Uranium>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
-		<Size>(4,2)</Size>
-		<DesignationCategory>Production</DesignationCategory>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(4,2)</size>
+		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>200</pathCost>
 		<castEdgeShadows>False</castEdgeShadows>
@@ -81,4 +81,4 @@
 
 	</ThingDef>
 
-</ThingDefs>
+</Defs>
