@@ -2,9 +2,9 @@
 <Defs>
 
 	<MapGenerator.MapGeneratorBlueprintDef>
-		<defName>Blueprint_Well</defName>
+		<defName>Blueprint_WellA_5x5</defName>
 		<size>5,5</size>
-		<chance>20</chance>
+		<chance>15</chance>
 		<floorData>
 			.111.
 			11011
@@ -25,4 +25,72 @@
 		<canHaveHoles>false</canHaveHoles>
 	</MapGenerator.MapGeneratorBlueprintDef>
 
+	<MapGenerator.MapGeneratorBlueprintDef>
+		<defName>Blueprint_WellB_5x5</defName>
+		<size>5,5</size>
+		<chance>15</chance>
+		<floorData>
+			.111.
+			11011
+			10001
+			11011
+			.111.
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>0</key>
+				<value>WaterShallow</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>TileGranite</value>
+			</li>
+		</floorLegend>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+
+	<MapGenerator.MapGeneratorBlueprintDef>
+		<defName>Blueprint_Well_3x3</defName>
+		<size>3,3</size>
+		<chance>15</chance>
+		<floorData>
+			111
+			101
+			111
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>0</key>
+				<value>WaterShallow</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>TileGranite</value>
+			</li>
+		</floorLegend>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+
+	<MapGenerator.MapGeneratorBlueprintDef>
+		<defName>Blueprint_Well_3x3</defName>
+		<size>3,3</size>
+		<chance>15</chance>
+		<floorData>
+			111
+			101
+			111
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>0</key>
+				<value>WaterShallow</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>TileLimestone</value>
+			</li>
+		</floorLegend>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
 </Defs>
