@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnColumnDef>
+    <defName>AIRobot_Charge</defName>
+    <workerClass>AIRobot.X2_PawnColumnWorker_Charge</workerClass>
+    <widthPriority>60</widthPriority>
+  </PawnColumnDef>
+
+
+</Defs>

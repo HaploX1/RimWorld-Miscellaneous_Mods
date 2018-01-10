@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnTableDef>
+    <defName>AIRobots</defName>
+    <columns>
+      <li>Label</li>
+      <li>GapTiny</li>
+      <li>GapTiny</li>
+      <li>AIRobot_Charge</li>
+      <li>GapTiny</li>
+      <li>GapTiny</li>
+      <li>GapTiny</li>
+      <li>AllowedAreaWide</li>
+      <li>GapTiny</li>
+      <li>RemainingSpace</li>
+    </columns>
+  </PawnTableDef>
+
+</Defs>
