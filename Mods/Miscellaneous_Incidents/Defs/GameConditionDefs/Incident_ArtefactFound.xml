@@ -9,8 +9,8 @@
     </targetTypes>
 		<workerClass>ArtefactFound.IncidentWorker_ArtefactFound</workerClass>
 		<baseChance>3</baseChance>
-		<minRefireDays>20</minRefireDays>
-		<category>Misc</category>
+		<minRefireDays>10</minRefireDays>
+		<category>ThreatSmall</category>
 		<pointsScaleable>true</pointsScaleable>
 	</IncidentDef>
 

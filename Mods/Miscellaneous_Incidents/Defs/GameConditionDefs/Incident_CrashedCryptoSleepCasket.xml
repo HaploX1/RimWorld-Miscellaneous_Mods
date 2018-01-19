@@ -9,7 +9,7 @@
 		</targetTypes>
 		<workerClass>Incidents.IncidentWorker_CrashedCryptoSleepCasket</workerClass>
 		<baseChance>3</baseChance>
-		<minRefireDays>55</minRefireDays>
+		<minRefireDays>10</minRefireDays>
 		<category>OrbitalVisitor</category>
 	</IncidentDef>
 
