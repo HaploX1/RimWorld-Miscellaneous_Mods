@@ -7,7 +7,7 @@
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 *** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	
-This will create an urban like map from the blueprints provided in Misc MapGenerator.
+This will provide biomes with an urban like map from the blueprints provided in Misc MapGenerator.
 	
 ### Recommended Mod sequence ###
 - Core
@@ -20,12 +20,7 @@ This will create an urban like map from the blueprints provided in Misc MapGener
 !!! WARNING !!!
 Because of how it works, it sometimes may happen that you get attacked by Mechanoids or Insects shortly after the start!
 
-!!! NOTE !!! 
-This mod will only do something when you start or settle for a new colony!
-You should disable this mod extension once you've created your colony
-otherwise it might create cities when you settle or attack other factions!
 
-
-(Version: 0.18.1)
+(Version: 0.18.5)
 	</description>
 </ModMetaData>

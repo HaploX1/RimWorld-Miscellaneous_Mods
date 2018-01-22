@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MapGenerator_ModOptions_Category>Miscellaneous - Map Generator</MapGenerator_ModOptions_Category>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>Try to always spawn with holes</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>The generator will always try to spawn holes in the blueprint. \nHint: Exceptions are buildings containing enemies.</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>
+	<MapGenerator_ModOptions_HoleChancePercent>Chance per cell to generate a hole: </MapGenerator_ModOptions_HoleChancePercent>
+	<MapGenerator_ModOptions_HoleChanceOnWaterPercent>Chance per water-cell to generate a hole: </MapGenerator_ModOptions_HoleChanceOnWaterPercent>
+	
+</LanguageData>

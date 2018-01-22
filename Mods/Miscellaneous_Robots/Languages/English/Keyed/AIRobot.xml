@@ -5,7 +5,7 @@
 	<AIRobot_Basename_first>Robot</AIRobot_Basename_first>
 	<AIRobot_Basename_last>...</AIRobot_Basename_last>
 	<AIRobot_Basename_nick></AIRobot_Basename_nick>
-
+	
 	<!-- AIRobotRechargeStation -->
 	<AIRobot_NoOwner>No owner assigned</AIRobot_NoOwner>
 	<AIRobot_RobotIs>Robot:</AIRobot_RobotIs>

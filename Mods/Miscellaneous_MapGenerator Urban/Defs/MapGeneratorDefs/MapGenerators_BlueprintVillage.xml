@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<!-- Empty ruins -->
-	<GenStepDef>
-		<defName>ScatterRuinsSimple</defName>
-		<linkWithMapGenerator>BasicMap</linkWithMapGenerator>
-		<order>300</order>
-		<genStep Class="GenStep_ScatterRuinsSimple">
-			<allowOnWater>false</allowOnWater>
-			<countPer10kCellsRange>
-				<min>0.10</min>
-				<max>3.00</max>
-			</countPer10kCellsRange>
-		</genStep>
-	</GenStepDef>
-
+	
 	<!-- Blueprint ruins (single buildings) -->
 	<GenStepDef>
-		<defName>ScatterBlueprintSimple</defName>
+		<defName>ScatterBlueprintSimple_urban</defName>
 		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
-		<order>330</order>
-		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle">
+		<order>332</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle_urban">
 			<allowOnWater>true</allowOnWater>
 			<countPer10kCellsRange>
 				<min>10.00</min>
@@ -31,14 +17,14 @@
 
 	<!-- Blueprint ruins (village) -->
 	<GenStepDef>
-		<defName>ScatterBlueprintVillage</defName>
+		<defName>ScatterBlueprintVillage_urban</defName>
 		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
-		<order>340</order>
-		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage">
+		<order>342</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage_urban">
 			<allowOnWater>false</allowOnWater>
 			<countPer10kCellsRange>
 				<min>0.40</min>
-				<max>1.80</max>
+				<max>2.50</max>
 			</countPer10kCellsRange>
 			<ruinCountRange>
 				<min>2</min>
