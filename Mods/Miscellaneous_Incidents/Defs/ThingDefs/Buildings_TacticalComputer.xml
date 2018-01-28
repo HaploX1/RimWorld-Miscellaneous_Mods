@@ -68,9 +68,9 @@
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="TacticalComputer.CompProperties_LongRangeAnomalyScanner">
-				<radius>20</radius>
-				<mtbDays>35</mtbDays>
-				<chanceForNoSitePart>0.35</chanceForNoSitePart>
+				<radius>25</radius>
+				<mtbDays>25</mtbDays>
+				<chanceForNoSitePart>0.25</chanceForNoSitePart>
 				<researchSensorsDef>ResearchTacticalComputerImprovedSensors</researchSensorsDef>
 			</li>
 		</comps>
