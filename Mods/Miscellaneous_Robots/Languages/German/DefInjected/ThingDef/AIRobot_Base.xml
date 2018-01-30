@@ -19,4 +19,12 @@
 	<AIRobot_Cleaner_disabled.label>Reinigungsbot (disabled)</AIRobot_Cleaner_disabled.label>
 	<AIRobot_Cleaner_disabled.description>Dies ist der traurige Rest eines Roboters. Er ist nicht länger nützlich und benötigt größere Reparaturen oder muss zerlegt werden.</AIRobot_Cleaner_disabled.description>
 	
+	<AIRobot_Hauler.tools.0.label>linker Manipulator</AIRobot_Hauler.tools.0.label>
+	<AIRobot_Hauler.tools.1.label>rechter Manipulator</AIRobot_Hauler.tools.1.label>
+	<AIRobot_Hauler.tools.2.label>Kopf</AIRobot_Hauler.tools.2.label>
+	
+	<AIRobot_Cleaner.tools.0.label>linker Manipulator</AIRobot_Cleaner.tools.0.label>
+	<AIRobot_Cleaner.tools.1.label>rechter Manipulator</AIRobot_Cleaner.tools.1.label>
+	<AIRobot_Cleaner.tools.2.label>Kopf</AIRobot_Cleaner.tools.2.label>
+	
 </LanguageData>
