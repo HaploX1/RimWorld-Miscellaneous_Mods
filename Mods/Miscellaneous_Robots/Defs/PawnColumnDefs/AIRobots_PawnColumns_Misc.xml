@@ -2,10 +2,22 @@
 <Defs>
 
   <PawnColumnDef>
+    <defName>AIRobot_Label</defName>
+    <workerClass>PawnColumnWorker_Label</workerClass>
+    <widthPriority>100</widthPriority>
+    <sortable>true</sortable>
+  </PawnColumnDef>
+
+  <PawnColumnDef>
     <defName>AIRobot_Charge</defName>
     <workerClass>AIRobot.X2_PawnColumnWorker_Charge</workerClass>
     <widthPriority>60</widthPriority>
   </PawnColumnDef>
 
+  <PawnColumnDef>
+    <defName>AIRobot_Rename</defName>
+    <workerClass>AIRobot.X2_PawnColumnWorker_Rename</workerClass>
+    <widthPriority>20</widthPriority>
+  </PawnColumnDef>
 
 </Defs>

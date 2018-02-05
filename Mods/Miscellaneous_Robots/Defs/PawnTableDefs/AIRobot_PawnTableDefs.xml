@@ -4,12 +4,12 @@
   <PawnTableDef>
     <defName>AIRobots</defName>
     <columns>
-      <li>Label</li>
+      <li>AIRobot_Rename</li>
       <li>GapTiny</li>
-      <li>GapTiny</li>
+      <li>AIRobot_Label</li>
+      <li>GapSmall</li>
       <li>AIRobot_Charge</li>
-      <li>GapTiny</li>
-      <li>GapTiny</li>
+      <li>GapSmall</li>
       <li>GapTiny</li>
       <li>AllowedAreaWide</li>
       <li>GapTiny</li>

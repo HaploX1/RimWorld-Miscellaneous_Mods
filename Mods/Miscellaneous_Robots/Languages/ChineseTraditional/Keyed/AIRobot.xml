@@ -27,6 +27,9 @@
 	<AIRobot_MainTab_SendRobotToRecharge>Click to recharge this robot.</AIRobot_MainTab_SendRobotToRecharge>
 
 	<AIRobot_MessageRechargeStationOutsideAreaRestriction>Assigned robot area does not include the recharge station! Resetting..</AIRobot_MessageRechargeStationOutsideAreaRestriction>
+	
+	<AIRobot_RenameRobot>Click to rename this robot.</AIRobot_RenameRobot>
+	<AIRobot_RobotIsRenamed>Your robot is now named {0}.</AIRobot_RobotIsRenamed>
 
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>

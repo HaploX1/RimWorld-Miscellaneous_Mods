@@ -28,6 +28,9 @@
 	
 	<AIRobot_MessageRechargeStationOutsideAreaRestriction>Zugewiesenes Robotergebiet beinhaltet nicht die Ladestation! Wird zurückgesetzt..</AIRobot_MessageRechargeStationOutsideAreaRestriction>
 	
+	<AIRobot_RenameRobot>Klicke, um diesem Roboter einen neuen Namen zu geben.</AIRobot_RenameRobot>
+	<AIRobot_RobotIsRenamed>Dein Roboter heißt jetzt {0}.</AIRobot_RobotIsRenamed>
+	
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repariere Roboter</AIRobot_RepairRobot>
 	<AIRobot_DismantleRobot>Zerlege Roboter und Station</AIRobot_DismantleRobot>
