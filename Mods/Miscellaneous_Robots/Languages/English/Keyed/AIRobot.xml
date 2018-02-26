@@ -31,6 +31,8 @@
 	
 	<AIRobot_RenameRobot>Click to rename this robot.</AIRobot_RenameRobot>
 	<AIRobot_RobotIsRenamed>Your robot is now named {0}.</AIRobot_RobotIsRenamed>
+	<AIRobot_ShutDownRobot>Click to send the robot to its base for shutdown.</AIRobot_ShutDownRobot>
+	<AIRobot_ShutDownAllRobots>Click to send all robots to their base for shutdown.</AIRobot_ShutDownAllRobots>
 	
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>

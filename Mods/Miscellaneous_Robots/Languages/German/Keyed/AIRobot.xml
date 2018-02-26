@@ -30,6 +30,8 @@
 	
 	<AIRobot_RenameRobot>Klicke, um diesem Roboter einen neuen Namen zu geben.</AIRobot_RenameRobot>
 	<AIRobot_RobotIsRenamed>Dein Roboter heißt jetzt {0}.</AIRobot_RobotIsRenamed>
+	<AIRobot_ShutDownRobot>Klicke, um den Roboter zum Abschalten zurück zur Basis zu schicken.</AIRobot_ShutDownRobot>
+	<AIRobot_ShutDownAllRobots>Klicke, um alle Roboter zum Abschalten zurück auf ihre Basis zu schicken.</AIRobot_ShutDownAllRobots>
 	
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repariere Roboter</AIRobot_RepairRobot>
