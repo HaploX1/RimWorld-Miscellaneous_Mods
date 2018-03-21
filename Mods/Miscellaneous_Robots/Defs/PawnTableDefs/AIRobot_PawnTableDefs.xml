@@ -10,7 +10,7 @@
       <li>GapSmall</li>
       <li>AIRobot_Charge</li>
 	  <li>AIRobot_ShutDown</li>
-      <li>GapSmall</li>
+      <li>AIRobot_IsRecharging</li>
       <li>GapTiny</li>
       <li>AllowedAreaWide</li>
       <li>GapWide</li>

@@ -32,4 +32,10 @@
     <widthPriority>20</widthPriority>
   </PawnColumnDef>
 
+  <PawnColumnDef>
+    <defName>AIRobot_IsRecharging</defName>
+    <workerClass>AIRobot.X2_PawnColumnWorker_IsInRecharge</workerClass>
+    <widthPriority>20</widthPriority>
+  </PawnColumnDef>
+
 </Defs>
