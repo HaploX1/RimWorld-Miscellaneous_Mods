@@ -70,7 +70,7 @@
 			<li Class="TacticalComputer.CompProperties_LongRangeAnomalyScanner">
 				<radius>25</radius>
 				<mtbDays>25</mtbDays>
-				<chanceForNoSitePart>0.25</chanceForNoSitePart>
+				<chanceForNoSitePart>0.0001</chanceForNoSitePart>
 				<researchSensorsDef>ResearchTacticalComputerImprovedSensors</researchSensorsDef>
 			</li>
 		</comps>
