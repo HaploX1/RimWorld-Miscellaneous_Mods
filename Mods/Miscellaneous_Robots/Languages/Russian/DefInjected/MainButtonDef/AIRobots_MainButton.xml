@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well 76561198079058811 -->
+
 <LanguageData>
-  
-	<AIRobots.label>Robots</AIRobots.label>
-	<AIRobots.description>Configure the colony's active robots.</AIRobots.description>
-	
+
+	<AIRobots.label>Дроны</AIRobots.label>
+	<AIRobots.description>Настройки активных дронов в колонии.</AIRobots.description>
+
 </LanguageData>
