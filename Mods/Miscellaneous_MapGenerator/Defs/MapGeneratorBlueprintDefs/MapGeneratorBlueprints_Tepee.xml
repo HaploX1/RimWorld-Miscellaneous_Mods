@@ -6,7 +6,7 @@
 		<chance>15</chance>
 		<size>7,7</size>
 		<canHaveHoles>false</canHaveHoles>
-		<buildingMaterial>Deer_Leather</buildingMaterial>
+		<buildingMaterial>Leather_Plain</buildingMaterial>
 		<buildingData>
 			.wwwww.
 			ww...ww

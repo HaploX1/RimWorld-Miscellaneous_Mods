@@ -9,7 +9,7 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<useHitPoints>false</useHitPoints>
 		<hasTooltip>true</hasTooltip>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<statBases>
 			<Flammability>1.0</Flammability>
 			<LeatherAmount>0</LeatherAmount>
@@ -59,6 +59,9 @@
 				<li>
 					<def>MechanoidFullyFormed</def>
 					<minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+          <soundCall>Pawn_Mech_Centipede_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
@@ -72,9 +75,9 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
-				<cooldownTime>1.7</cooldownTime>
+				<cooldownTime>1.6</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-				<commonality>1.0</commonality>
+				<chanceFactor>1.0</chanceFactor>
 			</li>
 			<li>
 				<label>right manipulator</label>
@@ -82,9 +85,9 @@
 					<li>Cut</li>
 				</capacities>
 				<power>4</power>
-				<cooldownTime>1.7</cooldownTime>
+				<cooldownTime>1.6</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-				<commonality>0.8</commonality>
+				<chanceFactor>0.8</chanceFactor>
 			</li>
 			<li>
 				<label>head</label>
@@ -94,7 +97,8 @@
 				<power>3</power>
 				<cooldownTime>2.5</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 	</ThingDef>
@@ -181,7 +185,7 @@
 		</robotWorkTypes>
 		<robotSkills>
 			<li>
-				<skillDef>Growing</skillDef>
+				<skillDef>Plants</skillDef>
 				<level>6</level>
 				<passion>Minor</passion>
 			</li>
@@ -202,7 +206,7 @@
 				<priority>3</priority>
 			</li>
 			<li>
-				<workTypeDef>Growing</workTypeDef>
+				<workTypeDef>Plants</workTypeDef>
 				<priority>2</priority>
 			</li>
 		</robotWorkTypes>

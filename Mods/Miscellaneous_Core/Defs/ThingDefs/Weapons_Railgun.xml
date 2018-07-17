@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef Abstract="True" Name="BaseWeapon">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>10</pathCost>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-3</Beauty>
+			<SellPriceFactor>0.20</SellPriceFactor>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingDef>
+
 	<ThingDef Name="BaseGun" Abstract="True" ParentName="BaseWeapon">
 		<techLevel>Industrial</techLevel>
 		<smeltable>true</smeltable>
@@ -10,14 +39,17 @@
 		<inspectorTabs>
 			<li>ITab_Art</li>
 		</inspectorTabs>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
 		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
 			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_WeaponGun</nameMaker>
+				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
 	</ThingDef>
@@ -71,10 +103,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>35</damageAmountBase>
+			<damageAmountBase>29</damageAmountBase>
+			<stoppingPower>2.5</stoppingPower>
 			<speed>250</speed>
+			<armorPenetrationBase>0.03</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 
@@ -86,23 +119,22 @@
 			<texPath>Things/Weapon/Railgun/Railgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeLance</soundInteract>
 		<statBases>
-			<MarketValue>2500</MarketValue>
-			<WorkToBuild>250000</WorkToBuild>
 			<Mass>6.25</Mass>
-			<SellPriceFactor>0.7</SellPriceFactor>
+			<MarketValue>3200</MarketValue>
+			<WorkToMake>200000</WorkToMake>
+			<SellPriceFactor>0.8</SellPriceFactor>
 			<AccuracyTouch>0.45</AccuracyTouch>
-			<AccuracyShort>0.88</AccuracyShort>
-			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyShort>0.76</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
 			<AccuracyLong>0.90</AccuracyLong>
-			<RangedWeapon_Cooldown>3.45</RangedWeapon_Cooldown>
-			<Weapon_Bulk>2.0</Weapon_Bulk>
+			<RangedWeapon_Cooldown>3.75</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
 			<Plasteel>75</Plasteel>
-			<Component>15</Component>
+			<ComponentSpacer>15</ComponentSpacer>
 		</costList>
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>false</destroyOnDrop>
@@ -112,11 +144,12 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_RailgunMKI</defaultProjectile>
-				<warmupTime>3.75</warmupTime>
-				<range>45</range>
+				<warmupTime>3.5</warmupTime>
+				<minRange>2.5</minRange>
+				<range>44.9</range>
 				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
-				<soundCast>ShotChargeRifle</soundCast>
+				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			</li>
@@ -127,7 +160,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>7</power>
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 			<li>
@@ -136,16 +169,16 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
+				<power>7.9</power>
 				<cooldownTime>1.9</cooldownTime>
 			</li>
 		</tools>
 		<weaponTags>
 			<li>SniperRifle</li>
-			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
 		</weaponTags>
-		<itemGeneratorTags>
-			<li>SpecialReward</li>
-		</itemGeneratorTags>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
 	</ThingDef>  
 </Defs>

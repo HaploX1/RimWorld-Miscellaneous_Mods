@@ -64,11 +64,11 @@
 		<pawnLegend>
 			<li>
 				<key>s</key>
-				<value>Scyther</value>
+				<value>Mech_Scyther</value>
 			</li>
 			<li>
 				<key>c</key>
-				<value>Centipede</value>
+				<value>Mech_Centipede</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>25</pawnSpawnChance>

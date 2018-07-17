@@ -129,7 +129,7 @@
 		<itemLegend>
 			<li>
 				<key>1</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -137,7 +137,7 @@
 			</li>
 			<li>
 				<key>3</key>
-				<value>GlitterworldMedicine</value>
+				<value>MedicineUltratech</value>
 			</li>
 			<li>
 				<key>4</key>
@@ -189,7 +189,7 @@
 		<pawnLegend>
 			<li>
 				<key>x</key>
-				<value>Scyther</value>
+				<value>Mech_Scyther</value>
 			</li>
 		</pawnLegend>
 		<factionDef>Mechanoid</factionDef>

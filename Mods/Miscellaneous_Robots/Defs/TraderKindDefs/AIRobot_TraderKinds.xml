@@ -15,7 +15,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>Component</thingDef>
+				<thingDef>ComponentIndustrial</thingDef>
 				<countRange>
 					<min>-5</min>
 					<max>35</max>

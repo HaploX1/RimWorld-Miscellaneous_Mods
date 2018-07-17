@@ -113,9 +113,11 @@
 				<li Class="ThinkNode_ConditionalPrisoner">
 					<invert>true</invert>
 					<subNodes>
-						<li Class="ThinkNode_ConditionalNeutralFaction">
+						<li Class="ThinkNode_ConditionalNonPlayerNonHostileFactionOrFactionless">
 							<subNodes>
-								<li Class="JobGiver_ExitMapBest" />
+								<li Class="JobGiver_ExitMapBest" >
+								<defaultLocomotion>Walk</defaultLocomotion>
+								</li>
 							</subNodes>
 						</li>
 					</subNodes>

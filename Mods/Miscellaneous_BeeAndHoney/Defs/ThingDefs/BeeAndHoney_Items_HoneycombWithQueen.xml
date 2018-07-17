@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--================== Bases ==================-->
-
-	<ThingDef Name="ResourceHoneycombBase" Abstract="True">
-		<thingClass>ThingWithComps</thingClass>
-		<label>unspecified resource</label>
-		<category>Item</category>
-		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<useHitPoints>true</useHitPoints>
-		<selectable>true</selectable>
-		<altitudeLayer>Item</altitudeLayer>
-		<stackLimit>5</stackLimit>
-		<tickerType>Rare</tickerType>
-		<socialPropernessMatters>true</socialPropernessMatters>
-		<thingCategories>
-			<li>Foods</li>
-			<li>Items</li>
-		</thingCategories>
-		<tradeTags>
-			<li>Exotic</li>
-		</tradeTags>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<alwaysHaulable>true</alwaysHaulable>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<rotatable>false</rotatable>
-		<pathCost>15</pathCost>
-	</ThingDef>
-
 	<!--=============== Luxury ====================-->
 
 	<ThingDef ParentName="ResourceHoneycombBase">
@@ -52,13 +23,14 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>5</DeteriorationRate>
+			<Nutrition>0.10</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
 			<Mass>0.3</Mass>
 		</statBases>
 		<ingestible>
 			<tasteThought>AteHoney</tasteThought>
 			<preferability>NeverForNutrition</preferability>
-			<foodType>VegetableOrFruit</foodType>
-			<nutrition>0.05</nutrition>
+			<foodType>AnimalProduct</foodType>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>

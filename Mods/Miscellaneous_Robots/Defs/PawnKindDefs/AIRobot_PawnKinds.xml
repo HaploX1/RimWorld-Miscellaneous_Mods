@@ -11,7 +11,7 @@
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Spacer</backstoryCategory>
 		<isFighter>false</isFighter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<wildGroupSize>0</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -45,7 +45,7 @@
 		</gearHealthRange>
 		<invNutrition>0.05</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelAllowHeadwearChance>0.04</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0.04</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 	</PawnKindDef>
@@ -59,7 +59,7 @@
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Spacer</backstoryCategory>
 		<isFighter>false</isFighter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+		<wildGroupSize>0</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -93,7 +93,7 @@
 		</gearHealthRange>
 		<invNutrition>0.05</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelAllowHeadwearChance>0.04</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0.04</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 	</PawnKindDef>

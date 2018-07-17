@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="ResourceHoneyBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+
+	<ThingDef Name="ResourceHoneycombBase" ParentName="ResourceHoneyBase" Abstract="True">
+		<stackLimit>5</stackLimit>
+		<tickerType>Rare</tickerType>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>Foods</li>
+			<li>Items</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<ThingDef Name="UnfinishedBeeBase" ParentName="ResourceHoneyBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Unfinished/UnfinishedHoneycomb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<isUnfinishedThing>true</isUnfinishedThing>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<selectable>true</selectable>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Beauty>-8</Beauty>
+			<Mass>0.2</Mass>
+			<!-- ingredients are added to this value -->
+		</statBases>
+		<alwaysHaulable>true</alwaysHaulable>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+		<thingCategories>
+			<li>Unfinished</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+	</ThingDef>
+
+
+	<ThingDef Name="BuildingBeeHiveBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>

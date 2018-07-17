@@ -19,10 +19,12 @@
       <DeteriorationRate>0.3</DeteriorationRate>
       <MarketValue>16</MarketValue>
       <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.13</Nutrition>
     </statBases>
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
-      <nutrition>0.13</nutrition>
+      <joyKind>Chemical</joyKind>
       <joy>0.18</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>
@@ -53,7 +55,7 @@
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Alcohol</chemical>
-        <addictiveness>0.015</addictiveness>
+        <addictiveness>0.012</addictiveness>
         <minToleranceToAddict>0.25</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>1</needLevelOffset>
@@ -68,7 +70,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>9.2</power>
         <cooldownTime>1.8</cooldownTime>
       </li>
       <li>
@@ -76,7 +78,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>5</power>
+        <power>6</power>
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>

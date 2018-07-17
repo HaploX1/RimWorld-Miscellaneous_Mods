@@ -56,7 +56,7 @@
 		<pawnLegend>
 			<li>
 				<key>x</key>
-				<value>Scyther</value>
+				<value>Mech_Scyther</value>
 			</li>
 		</pawnLegend>
 		<factionDef>Mechanoid</factionDef>

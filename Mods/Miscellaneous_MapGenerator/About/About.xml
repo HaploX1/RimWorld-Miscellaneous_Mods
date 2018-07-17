@@ -3,7 +3,7 @@
 	<name>Misc. MapGenerator</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>0.18.1722</targetVersion>
+	<targetVersion>1.0.1945</targetVersion>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 	
 -Blueprint MapGenerator
@@ -14,7 +14,7 @@
 (Note: This mod only works when you start a new colony!)
 
 
-(Version: 0.18.6)
+(Version: 1.0.0)
 Language: English, German
 	</description>
 </ModMetaData>

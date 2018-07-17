@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-	<!--================================ Abstract bases ======================================-->
-
-	<ThingDef Name="BuildingBeeHiveBase" Abstract="True">
-		<category>Building</category>
-		<thingClass>Building</thingClass>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<repairEffect>Repair</repairEffect>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
-	</ThingDef>
-
 	<!-- ========================= Work tables ==========================-->
 
 	<ThingDef ParentName="BuildingBeeHiveBase">
@@ -23,6 +8,9 @@
 		<label>beehive</label>
 		<description>This is an enclosed structure where some honey bees live and raise their young. Your colonists can harvest their honey.</description>
 		<thingClass>Building_WorkTable</thingClass>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Building/Beehive</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -36,7 +24,7 @@
 		</graphicData>
 		<costList>
 			<HoneycombWithQueen>1</HoneycombWithQueen>
-			<WoodLog>40</WoodLog>
+			<WoodLog>30</WoodLog>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -44,16 +32,16 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>75</costStuffCount>
+		<blockWind>false</blockWind>
 		<altitudeLayer>Building</altitudeLayer>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<tickerType>Normal</tickerType>
 		<statBases>
-			<WorkToBuild>3200</WorkToBuild>
+			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Beauty>-2</Beauty>
 			<Mass>25</Mass>
 		</statBases>
 		<size>(1,1)</size>
@@ -73,14 +61,17 @@
 		<comps>
 			<li Class="BeeAndHoney.CompProperties_BeeHive">
 				<compClass>BeeAndHoney.CompBeeHive</compClass>
-				<updateTicks>1300</updateTicks>
-				<activeTempRange><min>10</min><max>40</max></activeTempRange>
+				<updateTicks>1450</updateTicks>
+				<activeTempRange>
+					<min>10</min>
+					<max>40</max>
+				</activeTempRange>
 				<resourceIntervalDays>3</resourceIntervalDays>
-				<rangeThings>15</rangeThings>
+				<rangeThings>17</rangeThings>
 				<thingsCountMin>50</thingsCountMin>
 				<resources>
 					<resourceDef>Honey</resourceDef>
-					<resourceCount>4</resourceCount>
+					<resourceCount>5</resourceCount>
 				</resources>
 			</li>
 		</comps>

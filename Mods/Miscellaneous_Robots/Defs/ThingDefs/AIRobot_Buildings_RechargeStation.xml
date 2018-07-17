@@ -6,13 +6,13 @@
 
 	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation" Name="Base_X2_Building_RechargeStation" Abstract="True">
 		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	</ThingDef>
 
 	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation" ParentName="Base_X2_Building_RechargeStation" Name="Base_X2_AIRobotRechargeStation" Abstract="True">
@@ -57,6 +57,9 @@
 				<rect>(0.05,0.05,0.95,0.95)</rect>
 			</damageData>
 		</graphicData>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<minifiedDef>AIRobot_MinifiedRechargeStation</minifiedDef>
 		<fillPercent>0.25</fillPercent>
 		<statBases>
@@ -68,7 +71,7 @@
 		</statBases>
 		<costList>
 			<Steel>50</Steel>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 
 		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
@@ -90,6 +93,9 @@
 			</damageData>
 		</graphicData>
 		<minifiedDef>AIRobot_MinifiedRechargeStation</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<fillPercent>0.25</fillPercent>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -100,7 +106,7 @@
 		</statBases>
 		<costList>
 			<Steel>50</Steel>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 
 		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>

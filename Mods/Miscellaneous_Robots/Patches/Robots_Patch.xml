@@ -23,9 +23,9 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName = "AIPersonaCore"]</xpath>
 		<value>
-			<itemGeneratorTags>
-				<li>SpecialReward</li>
-			</itemGeneratorTags>
+			<thingSetMakerTags>
+				<li>RewardSpecial</li>
+			</thingSetMakerTags>
 		</value>
 	</Operation>
 

@@ -10,11 +10,11 @@
 
   <HediffDef ParentName="ImplantBase">
     <defName>BionicTacticalImplant</defName>
-    <label>bionic brainPal</label>
+    <label>bionic BrainPal</label>
+    <labelNoun>a bionic BrainPal</labelNoun>
       <spawnThingOnRemoved>BionicTacticalImplant</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>
@@ -43,11 +43,11 @@
   
   <HediffDef ParentName="ImplantBase">
     <defName>ElectronicTacticalImplant</defName>
-    <label>electronic brainPal</label>
+    <label>electronic BrainPal</label>
+    <labelNoun>an electronic BrainPal</labelNoun>
     <spawnThingOnRemoved>ElectronicTacticalImplant</spawnThingOnRemoved>
     <addedPartProps>
-      <isBionic>true</isBionic>
-      <isSolid>true</isSolid>
+      <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
     <stages>

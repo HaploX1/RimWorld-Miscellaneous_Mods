@@ -1,16 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
+	<MapGeneratorDef Name="MapCommonBase" Abstract="True">
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>Terrain</li>
+			<li>CavesTerrain</li>
+			<li>Roads</li>
+			<li>RockChunks</li>
+			<li>ScatterRuinsSimple_new</li>
+			<li>ScatterBlueprintSimple_normal</li>
+			<li>ScatterBlueprintSimple_urban</li>
+			<li>ScatterBlueprintVillage_normal</li>
+			<li>ScatterBlueprintVillage_urban</li>
+			<li>SteamGeysers</li>
+			<li>FindPlayerStartSpot</li>
+			<li>ScenParts</li>
+			<li>Plants</li>
+			<li>Snow</li>
+			<li>Animals</li>
+			<li>CaveHives</li>
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+
+	<MapGeneratorDef ParentName="MapCommonBase">
+		<defName>Base_Player</defName>
+		<genSteps>
+			<li>RocksFromGrid</li>
+			<li>ScatterDeepResourceLumps</li>
+			<li>ScatterShrines</li>
+		</genSteps>
+	</MapGeneratorDef>
+	
 	<!-- Blueprint ruins (single buildings) -->
 	<GenStepDef>
 		<defName>ScatterBlueprintSimple_urban</defName>
-		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
 		<order>332</order>
 		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle_urban">
-			<allowOnWater>true</allowOnWater>
+			<allowInWaterBiome>true</allowInWaterBiome>
 			<countPer10kCellsRange>
-				<min>10.00</min>
-				<max>22.00</max>
+				<min>15.00</min>
+				<max>32.00</max>
 			</countPer10kCellsRange>
 		</genStep>
 	</GenStepDef>
@@ -18,10 +50,9 @@
 	<!-- Blueprint ruins (village) -->
 	<GenStepDef>
 		<defName>ScatterBlueprintVillage_urban</defName>
-		<linkWithMapGenerator>MainMap</linkWithMapGenerator>
 		<order>342</order>
 		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage_urban">
-			<allowOnWater>false</allowOnWater>
+			<allowInWaterBiome>false</allowInWaterBiome>
 			<countPer10kCellsRange>
 				<min>0.40</min>
 				<max>2.50</max>
