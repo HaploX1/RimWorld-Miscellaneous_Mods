@@ -210,7 +210,7 @@
 			</li>
 			<li>
 				<key>1</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -218,7 +218,7 @@
 			</li>
 			<li>
 				<key>3</key>
-				<value>GlitterworldMedicine</value>
+				<value>MedicineUltratech</value>
 			</li>
 			<li>
 				<key>4</key>
@@ -237,7 +237,7 @@
 	</MapGenerator.MapGeneratorBaseBlueprintDef>
 
 	<MapGenerator.MapGeneratorBaseBlueprintDef ParentName="MiniBase2Base">
-		<defName>MiniBase3_wo_holes_w_mercenary</defName>
+		<defName>MiniBase3_wo_holes_w_Mercenary_</defName>
 		<createdBy>Haplo</createdBy>
 		<chance>10</chance>
 		<canHaveHoles>false</canHaveHoles>
@@ -271,7 +271,7 @@
 		<pawnLegend>
 			<li>
 				<key>x</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>40</pawnSpawnChance>

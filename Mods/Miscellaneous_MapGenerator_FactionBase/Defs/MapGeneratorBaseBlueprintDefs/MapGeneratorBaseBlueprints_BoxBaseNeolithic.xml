@@ -232,7 +232,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -305,23 +305,23 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 			<li>
 				<key>o</key>
-				<value>TribalHeavyArcher</value>
+				<value>Tribal_HeavyArcher</value>
 			</li>
 			<li>
 				<key>q</key>
-				<value>TribalBerserker</value>
+				<value>Tribal_Berserker</value>
 			</li>
 			<li>
 				<key>7</key>
-				<value>TribalChief</value>
+				<value>Tribal_ChiefMelee</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>55</pawnSpawnChance>
@@ -404,7 +404,7 @@
 			</li>
 			<li>
 				<key>p</key>
-				<value>PlantPotato</value>
+				<value>Plant_Potato</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -557,7 +557,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -630,7 +630,7 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>60</pawnSpawnChance>
@@ -864,7 +864,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -937,7 +937,7 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 			<li>
 				<key>3</key>
@@ -945,15 +945,15 @@
 			</li>
 			<li>
 				<key>o</key>
-				<value>TribalHeavyArcher</value>
+				<value>Tribal_HeavyArcher</value>
 			</li>
 			<li>
 				<key>q</key>
-				<value>TribalBerserker</value>
+				<value>Tribal_Berserker</value>
 			</li>
 			<li>
 				<key>7</key>
-				<value>TribalChief</value>
+				<value>Tribal_ChiefMelee</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>65</pawnSpawnChance>
@@ -1188,7 +1188,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -1261,11 +1261,11 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -1507,7 +1507,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -1580,11 +1580,11 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -1676,7 +1676,7 @@
 			</li>
 			<li>
 				<key>q</key>
-				<value>PlantSmokeleaf</value>
+				<value>Plant_Smokeleaf</value>
 			</li>
 			<li>
 				<key>o</key>
@@ -1874,7 +1874,7 @@
 			</li>
 			<li>
 				<key>3</key>
-				<value>PsychoidPekoe</value>
+				<value>PsychiteTea</value>
 			</li>
 			<li>
 				<key>4</key>
@@ -1894,7 +1894,7 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -1967,11 +1967,11 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>TribalArcher</value>
+				<value>Tribal_Archer</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 			<li>
 				<key>2</key>
@@ -1983,7 +1983,7 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>GrizzlyBear</value>
+				<value>Bear_Grizzly</value>
 			</li>
 			<li>
 				<key>6</key>
@@ -1991,39 +1991,39 @@
 			</li>
 			<li>
 				<key>7</key>
-				<value>TribalChief</value>
+				<value>Tribal_ChiefMelee</value>
 			</li>
 			<li>
 				<key>8</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>9</key>
-				<value>MercenarySlasher</value>
+				<value>Mercenary_Slasher</value>
 			</li>
 			<li>
 				<key>i</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>j</key>
-				<value>MercenaryElite</value>
+				<value>Mercenary_Elite</value>
 			</li>
 			<li>
 				<key>k</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>l</key>
-				<value>MercenaryElite</value>
+				<value>Mercenary_Elite</value>
 			</li>
 			<li>
 				<key>m</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 			<li>
 				<key>n</key>
-				<value>WolfTimber</value>
+				<value>Wolf_Timber</value>
 			</li>
 
 		</pawnLegend>

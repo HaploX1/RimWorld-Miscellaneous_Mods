@@ -210,7 +210,7 @@ aaaaa..aac.........caa......
 			</li>
 			<li>
 				<key>0</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>1</key>
@@ -265,19 +265,19 @@ aaaaa..aac.........caa......
 		<pawnLegend>
 			<li>
 				<key>x</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>y</key>
-				<value>TribalChief</value>
+				<value>Tribal_ChiefRanged</value>
 			</li>
 			<li>
 				<key>0</key>
-				<value>TribalWarrior</value>
+				<value>Tribal_Warrior</value>
 			</li>
 			<li>
 				<key>1</key>
-				<value>TribalArcher</value>
+				<value>Tribal_HeavyArcher</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>75</pawnSpawnChance>

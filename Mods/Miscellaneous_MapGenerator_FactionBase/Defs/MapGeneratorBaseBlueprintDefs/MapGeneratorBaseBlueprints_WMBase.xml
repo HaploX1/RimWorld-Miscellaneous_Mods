@@ -415,7 +415,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			</li>
 			<li>
 				<key>7</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>8</key>
@@ -423,7 +423,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			</li>
 			<li>
 				<key>+</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>g</key>
@@ -439,7 +439,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			</li>
 			<li>
 				<key>3</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>4</key>
@@ -499,7 +499,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		<pawnLegend>
 			<li>
 				<key>r</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>u</key>
@@ -507,7 +507,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			</li>
 			<li>
 				<key>q</key>
-				<value>MercenaryElite</value>
+				<value>Mercenary_Elite</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>50</pawnSpawnChance>

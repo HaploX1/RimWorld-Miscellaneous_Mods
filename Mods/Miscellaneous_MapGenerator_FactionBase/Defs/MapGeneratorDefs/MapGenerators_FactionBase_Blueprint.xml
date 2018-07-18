@@ -1,16 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Blueprint Faction Base -->
-  <GenStepDef>
-    <defName>FactionBase</defName>
-    <linkWithMapGenerator>FactionBase</linkWithMapGenerator>
-    <order>400</order>
-    <genStep Class="MapGenerator.Genstep_CreateBlueprintBase">
-      <count>1</count>
-      <nearMapCenter>true</nearMapCenter>
-      <randomlyUseVanilla>true</randomlyUseVanilla>
-    </genStep>
-  </GenStepDef>
-  
+	<MapGeneratorDef Name="MapCommonBase" Abstract="True">
+		<genSteps>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>Terrain</li>
+			<li>CavesTerrain</li>
+			<li>Roads</li>
+			<li>RockChunks</li>
+			<li>ScatterRuinsSimple_new</li>
+			<li>ScatterBlueprintSimple_normal</li>
+			<li>ScatterBlueprintVillage_normal</li>
+			<li>SteamGeysers</li>
+			<li>FindPlayerStartSpot</li>
+			<li>ScenParts</li>
+			<li>Plants</li>
+			<li>Snow</li>
+			<li>Animals</li>
+			<li>CaveHives</li>
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+
+	<MapGeneratorDef ParentName="MapCommonBase">
+		<defName>Base_Faction</defName>
+		<genSteps>
+			<li>RocksFromGrid</li>
+			<li>ScatterDeepResourceLumps</li>
+			<li>FactionBase</li>
+			<li>SettlementPower</li>
+		</genSteps>
+	</MapGeneratorDef>
+
+	<!-- Blueprint Faction Base -->
+	<GenStepDef>
+		<defName>FactionBase</defName>
+		<order>400</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintBase">
+			<count>1</count>
+			<nearMapCenter>true</nearMapCenter>
+			<randomlyUseVanilla>true</randomlyUseVanilla>
+		</genStep>
+	</GenStepDef>
+
 </Defs>

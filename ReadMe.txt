@@ -11,15 +11,15 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 **These mods are available here:**
 **==============================**
-- [x] Miscellaneous_Core                        -->   B18
-- [x] Miscellaneous_BeeAndHoney                 -->   B18
+- [x] Miscellaneous_Core                        -->   1.0 unstable 
+- [x] Miscellaneous_BeeAndHoney                 -->   1.0 unstable 
 - [x] Miscellaneous_Incidents                   -->   B18
 - [x] Miscellaneous_MAI                         -->   B18
-- [x] Miscellaneous_MapGenerator                -->   B18
-- [x] Miscellaneous_MapGenerator 'URBAN'        -->   B18
-- [x] Miscellaneous_MapGenerator_FactionBase    -->   B18
+- [x] Miscellaneous_MapGenerator                -->   1.0 unstable 
+- [x] Miscellaneous_MapGenerator 'URBAN'        -->   1.0 unstable 
+- [x] Miscellaneous_MapGenerator_FactionBase    -->   1.0 unstable 
 - [x] Miscellaneous_Objects                     -->   B18
-- [x] Miscellaneous_Robots                      -->   B18
+- [x] Miscellaneous_Robots                      -->   1.0 unstable 
 - [x] Miscellaneous_TrainingFacility            -->   B18
 - [x] Miscellaneous_WeaponRepair                -->   B18
 

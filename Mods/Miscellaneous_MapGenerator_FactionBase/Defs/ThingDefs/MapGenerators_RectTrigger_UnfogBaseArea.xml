@@ -3,8 +3,9 @@
 
   <ThingDef>
     <defName>RectTrigger_UnfogBaseArea</defName>
-    <category>Ethereal</category>
     <label>RectTrigger with unfog function</label>
+    <category>Ethereal</category>
+    <useHitPoints>false</useHitPoints>
     <thingClass>MapGenerator.RectTrigger_UnfogBaseArea</thingClass>
     <drawerType>None</drawerType>
     <tickerType>Normal</tickerType>

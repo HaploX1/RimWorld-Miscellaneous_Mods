@@ -130,7 +130,7 @@
 			</li>
 			<li>
 				<key>z</key>
-				<value>TurretGun</value>
+				<value>Turret_MiniTurret</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -393,11 +393,11 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>7</key>
@@ -453,11 +453,11 @@
 			</li>
 			<li>
 				<key>y</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>z</key>
-				<value>AdvancedComponent</value>
+				<value>ComponentSpacer</value>
 			</li>
 
 		</itemLegend>
@@ -595,7 +595,7 @@
 			</li>
 			<li>
 				<key>z</key>
-				<value>TurretGun</value>
+				<value>Turret_MiniTurret</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -858,11 +858,11 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>7</key>
@@ -918,11 +918,11 @@
 			</li>
 			<li>
 				<key>y</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>z</key>
-				<value>AdvancedComponent</value>
+				<value>ComponentSpacer</value>
 			</li>
 
 		</itemLegend>
@@ -1072,7 +1072,7 @@
 			</li>
 			<li>
 				<key>z</key>
-				<value>TurretGun</value>
+				<value>Turret_MiniTurret</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -1347,11 +1347,11 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>HerbalMedicine</value>
+				<value>MedicineHerbal</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>7</key>
@@ -1407,11 +1407,11 @@
 			</li>
 			<li>
 				<key>y</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>z</key>
-				<value>AdvancedComponent</value>
+				<value>ComponentSpacer</value>
 			</li>
 
 		</itemLegend>
@@ -1561,7 +1561,7 @@
 			</li>
 			<li>
 				<key>z</key>
-				<value>TurretGun</value>
+				<value>Turret_MiniTurret</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -1836,11 +1836,11 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>GlitterworldMedicine</value>
+				<value>MedicineUltratech</value>
 			</li>
 			<li>
 				<key>7</key>
@@ -1896,11 +1896,11 @@
 			</li>
 			<li>
 				<key>y</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>z</key>
-				<value>AdvancedComponent</value>
+				<value>ComponentSpacer</value>
 			</li>
 
 		</itemLegend>
@@ -2051,7 +2051,7 @@
 			</li>
 			<li>
 				<key>z</key>
-				<value>TurretGun</value>
+				<value>Turret_MiniTurret</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
@@ -2326,11 +2326,11 @@
 			</li>
 			<li>
 				<key>5</key>
-				<value>Medicine</value>
+				<value>MedicineIndustrial</value>
 			</li>
 			<li>
 				<key>6</key>
-				<value>GlitterworldMedicine</value>
+				<value>MedicineUltratech</value>
 			</li>
 			<li>
 				<key>7</key>
@@ -2386,11 +2386,11 @@
 			</li>
 			<li>
 				<key>y</key>
-				<value>Component</value>
+				<value>ComponentIndustrial</value>
 			</li>
 			<li>
 				<key>z</key>
-				<value>AdvancedComponent</value>
+				<value>ComponentSpacer</value>
 			</li>
 
 		</itemLegend>
@@ -2447,7 +2447,7 @@
 		<pawnLegend>
 			<li>
 				<key>0</key>
-				<value>MercenarySniper</value>
+				<value>Mercenary_Sniper</value>
 			</li>
 			<li>
 				<key>1</key>
@@ -2455,15 +2455,15 @@
 			</li>
 			<li>
 				<key>2</key>
-				<value>MercenaryGunner</value>
+				<value>Mercenary_Gunner</value>
 			</li>
 			<li>
 				<key>3</key>
-				<value>MercenaryElite</value>
+				<value>Mercenary_Elite</value>
 			</li>
 			<li>
 				<key>4</key>
-				<value>MercenarySlasher</value>
+				<value>Mercenary_Slasher</value>
 			</li>
 		</pawnLegend>
 		<pawnSpawnChance>85</pawnSpawnChance>
