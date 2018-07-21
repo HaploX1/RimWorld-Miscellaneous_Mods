@@ -4,13 +4,16 @@
 	<ThingDef Name="BuildingBase" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
 	</ThingDef>
 
 
@@ -25,7 +28,7 @@
 				<rect>(0.2,0.2,0.8,0.8)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Archery/ArcheryStand_front</uiIconPath>
+		<uiIconPath>Things/Building/Archery/ArcheryStand_south</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -35,7 +38,7 @@
 			<Flammability>1.0</Flammability>
 			<Beauty>-2</Beauty>
 			<Mass>25</Mass>
-			<EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
+			<JoyGainFactor>1</JoyGainFactor>
 		</statBases>
 		<building>
 			<watchBuildingStandDistanceRange>
@@ -56,6 +59,9 @@
 		</costList>
 		<pathCost>10</pathCost>
 		<designationCategory>Joy</designationCategory>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsJoy</li>
+		</thingCategories>
 	</ThingDef>
 </Defs>

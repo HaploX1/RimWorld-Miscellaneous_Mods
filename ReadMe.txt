@@ -20,7 +20,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.0 unstable 
 - [x] Miscellaneous_Objects                     -->   B18
 - [x] Miscellaneous_Robots                      -->   1.0 unstable 
-- [x] Miscellaneous_TrainingFacility            -->   B18
+- [x] Miscellaneous_TrainingFacility            -->   1.0 unstable 
 - [x] Miscellaneous_WeaponRepair                -->   B18
 
 
