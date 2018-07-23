@@ -13,15 +13,16 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 - [x] Miscellaneous_Core                        -->   1.0 unstable 
 - [x] Miscellaneous_BeeAndHoney                 -->   1.0 unstable 
-- [x] Miscellaneous_Incidents                   -->   B18
-- [x] Miscellaneous_MAI                         -->   B18
+- [x] Miscellaneous_BeeAndHoney 'Urban'         -->   1.0 unstable 
+- [ ] Miscellaneous_Incidents                   -->   B18
+- [ ] Miscellaneous_MAI                         -->   B18
 - [x] Miscellaneous_MapGenerator                -->   1.0 unstable 
-- [x] Miscellaneous_MapGenerator 'URBAN'        -->   1.0 unstable 
+- [x] Miscellaneous_MapGenerator 'Urban'        -->   1.0 unstable 
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.0 unstable 
-- [x] Miscellaneous_Objects                     -->   B18
+- [ ] Miscellaneous_Objects                     -->   B18
 - [x] Miscellaneous_Robots                      -->   1.0 unstable 
 - [x] Miscellaneous_TrainingFacility            -->   1.0 unstable 
-- [x] Miscellaneous_WeaponRepair                -->   B18
+- [ ] Miscellaneous_WeaponRepair                -->   B18
 
 
 

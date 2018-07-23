@@ -148,15 +148,15 @@
 	</BiomeDef>
 
 	<BiomeDef>
-		<defName>TemperateSwamp</defName>
-		<label>temperate swamp</label>
+		<defName>TemperateSwamp_UrbanRuins</defName>
+		<label>urban ruins in temperate swamp</label>
 		<description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures.</description>
-		<workerClass>BiomeWorker_TemperateSwamp</workerClass>
+		<workerClass>MapGenerator.BiomeWorker_TemperateSwamp_UrbanRuins</workerClass>
 		<animalDensity>4.3</animalDensity>
 		<plantDensity>0.80</plantDensity>
 		<settlementSelectionWeight>0.6</settlementSelectionWeight>
 		<movementDifficulty>4</movementDifficulty>
-		<texture>World/Biomes/TemperateSwamp</texture>
+		<texture>World/Biomes/TemperateSwamp_UrbanRuins</texture>
 		<forageability>0.75</forageability>
 		<foragedFood>RawBerries</foragedFood>
 		<wildPlantRegrowDays>15</wildPlantRegrowDays>
