@@ -22,7 +22,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [ ] Miscellaneous_Objects                     -->   B18
 - [x] Miscellaneous_Robots                      -->   1.0 unstable 
 - [x] Miscellaneous_TrainingFacility            -->   1.0 unstable 
-- [ ] Miscellaneous_WeaponRepair                -->   B18
+- [x] Miscellaneous_WeaponRepair                -->   1.0 unstable 
 
 
 
