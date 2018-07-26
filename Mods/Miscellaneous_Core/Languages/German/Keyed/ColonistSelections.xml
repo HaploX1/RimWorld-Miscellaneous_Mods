@@ -21,5 +21,18 @@
 	<ColonistGroups_Letter_InfoOpenHelp>Information</ColonistGroups_Letter_InfoOpenHelp>
 	<ColonistGroups_Message_InfoOpenHelp>Du kannst die Hilfe von Miscellaneous: Kolonisten Gruppierung jederzeit aufrufen.\n\nZum Lesen drücke einfach die Tasten SHIFT+K.\n\n</ColonistGroups_Message_InfoOpenHelp>
 
+	<!-- Colonist Groups: Mod Options -->
+	<ColonistSelections_ModOptions_Category>Miscellaneous Core: Kolonisten Gruppierung</ColonistSelections_ModOptions_Category>
+	<ColonistSelections_ModOptions_ShowGroupIcons>Icons sind aktiv</ColonistSelections_ModOptions_ShowGroupIcons>
+	<ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>Wenn das deaktiviert ist, werden ALLE Icons von Kolonisten Gruppierung deaktiviert.</ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>
+	<ColonistSelections_ModOptions_SizeGroupIconsPercent>Icon-Größe relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_SizeGroupIconsPercent>
+	<ColonistSelections_ModOptions_StartPosGroupIconsX>Icon-Position X relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_StartPosGroupIconsX>
+	<ColonistSelections_ModOptions_StartPosGroupIconsY>Icon-Position Y relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_StartPosGroupIconsY>
+	
+	<!-- Colonist Groups: Icon Texts -->
+	<ColonistSelection_Icon_ToggleGroupIcons>Schalte Gruppierungs-Icons Ein/Aus</ColonistSelection_Icon_ToggleGroupIcons>
+	<ColonistSelection_Icon_Click2CallGroupX>Klicke um Gruppe {0} zu rufen. ({1} Pers.)\nShift+Klick um Gruppe {0} festzulegen.\nTaste: {2} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2CallGroupX>
+	<ColonistSelection_Icon_Click2ReleaseAll>Klicke um alle wartenden Kolonisten freizugeben.\nTaste: {0} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2ReleaseAll>
+	
 
 </LanguageData>
