@@ -19,8 +19,8 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [x] Miscellaneous_MapGenerator                -->   1.0 unstable 
 - [x] Miscellaneous_MapGenerator 'Urban'        -->   1.0 unstable 
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.0 unstable 
-- [ ] Miscellaneous_Objects                     -->   B18
 - [x] Miscellaneous_Robots                      -->   1.0 unstable 
+- [x] Miscellaneous_TurretBase + Objects        -->   1.0 unstable
 - [x] Miscellaneous_TrainingFacility            -->   1.0 unstable 
 - [x] Miscellaneous_WeaponRepair                -->   1.0 unstable 
 
