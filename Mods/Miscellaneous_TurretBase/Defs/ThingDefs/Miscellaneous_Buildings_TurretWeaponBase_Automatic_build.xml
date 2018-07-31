@@ -13,7 +13,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>false</rotatable>
@@ -56,7 +56,7 @@
 		<costStuffCount>75</costStuffCount>
 		<costList>
 			<Steel>75</Steel>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>

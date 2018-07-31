@@ -4,19 +4,19 @@
 	<!--=============== Micro turret ===============-->
 	<ThingDef Name="BuildingMicroTurretBase" Abstract="True">
 		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="BaseMicroTurretWeapon">
+	<ThingDef Name="BaseMicroTurretGun" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -27,11 +27,13 @@
 		<useHitPoints>true</useHitPoints>
 		<pathCost>10</pathCost>
 		<selectable>true</selectable>
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.5</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
-			<Beauty>-6</Beauty>
+			<Beauty>-3</Beauty>
 			<SellPriceFactor>0.20</SellPriceFactor>
 		</statBases>
 		<comps>
@@ -40,17 +42,12 @@
 				<compClass>CompEquippable</compClass>
 			</li>
 		</comps>
-		<graphicData>
-			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef Name="BaseMicroTurretGun" Abstract="True" ParentName="BaseMicroTurretWeapon">
-		<techLevel>Spacer</techLevel>
-		<smeltable>false</smeltable>
 		<thingCategories>
 			<li>WeaponsRanged</li>
 		</thingCategories>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef Name="BaseMicroTurretBullet" Abstract="True">
@@ -96,7 +93,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="WeaponBase.CompProperties_RemainingLifetime">
-				<lifetime>41</lifetime>
+				<lifetime>56</lifetime>
 			</li>
 		</comps>
 		<description>A miniature turret that automatically fires at nearby enemies. Its Micro AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
@@ -111,14 +108,12 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<specialDisplayRadius>7.3</specialDisplayRadius>
 		<building>
+			<ai_chillDestination>false</ai_chillDestination>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_MicroTurretMKI</turretGunDef>
 			<turretBurstCooldownTime>2.5</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Building/Turret/MicroTurretWeapon_Top</turretTopGraphicPath>
 		</building>
-		<!--
-		<designationCategory>Security</designationCategory>
-		-->
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMicroTurretBullet">
@@ -131,7 +126,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>5</damageAmountBase>
-			<speed>100</speed>
+			<speed>70</speed>
 		</projectile>
 	</ThingDef>
 
@@ -145,11 +140,10 @@
 		<menuHidden>true</menuHidden>
 		<description>A micro gun working in a micro turret.</description>
 		<soundInteract>InteractRifle</soundInteract>
-		<canBeSpawningInventory>false</canBeSpawningInventory>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
-		<useHitPoints>false</useHitPoints>
 		<statBases>
+			<Mass>0.5</Mass>
 			<AccuracyTouch>0.70</AccuracyTouch>
 			<AccuracyShort>0.66</AccuracyShort>
 			<AccuracyMedium>0.43</AccuracyMedium>
@@ -201,7 +195,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
-		<soundInteract>InteractRifle</soundInteract>
+		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>80000</WorkToMake>
 			<Mass>8</Mass>
@@ -210,11 +204,10 @@
 			<AccuracyMedium>0.50</AccuracyMedium>
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>4.45</RangedWeapon_Cooldown>
-			<Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
-			<Component>8</Component>
+			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
@@ -222,8 +215,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_MicroThingSpawnerMKI</defaultProjectile>
 				<warmupTime>2.5</warmupTime>
-				<range>27</range>
-				<forcedMissRadius>0.5</forcedMissRadius>
+				<range>26.9</range>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>6</muzzleFlashScale>
@@ -231,24 +223,23 @@
 		</verbs>
 		<tools>
 			<li>
+				<label>barrel</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>2.0</cooldownTime>
+				<power>11.2</power>
+				<cooldownTime>2.6</cooldownTime>
 			</li>
 		</tools>
 		<weaponTags>
-			<li>Gun</li>
-			<li>GunHeavy</li>
-			<li>EliteGun</li>
+			<li>SpacerGun</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Exotic</li>
+			<li>ExoticMisc</li>
 		</tradeTags>
-		<itemGeneratorTags>
-			<li>SpecialReward</li>
-		</itemGeneratorTags>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
 	</ThingDef>
 
 </Defs>

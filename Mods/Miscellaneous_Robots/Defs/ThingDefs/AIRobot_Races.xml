@@ -119,15 +119,6 @@
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<LeatherAmount>0</LeatherAmount>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.45</defaultCooldownTime>
-				<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-			</li>
-		</verbs>
 		<race>
 			<body>AIRobot</body>
 			<baseBodySize>0.6</baseBodySize>
@@ -160,15 +151,6 @@
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.45</defaultCooldownTime>
-				<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-			</li>
-		</verbs>
 		<race>
 			<body>AIRobot</body>
 			<baseBodySize>0.6</baseBodySize>

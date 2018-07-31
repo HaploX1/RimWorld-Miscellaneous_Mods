@@ -3,16 +3,19 @@
 
 	<ThingDef Name="BuildingTurretBase" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
@@ -27,7 +30,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>false</rotatable>
@@ -69,7 +72,7 @@
 		<hasTooltip>true</hasTooltip>
 		<costList>
 			<Steel>100</Steel>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<building>
@@ -102,7 +105,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<minifiedDef>MinifiedTurretWeaponBase</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>false</rotatable>
@@ -144,7 +147,7 @@
 		<fillPercent>0.4</fillPercent>
 		<costList>
 			<Plasteel>125</Plasteel>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<building>
