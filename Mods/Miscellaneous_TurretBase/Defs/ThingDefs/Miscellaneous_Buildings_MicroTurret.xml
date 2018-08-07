@@ -139,7 +139,7 @@
 		</graphicData>
 		<menuHidden>true</menuHidden>
 		<description>A micro gun working in a micro turret.</description>
-		<soundInteract>InteractRifle</soundInteract>
+		<soundInteract>Interact_Rifle</soundInteract>
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<statBases>

@@ -110,7 +110,7 @@
 			</li>
 			<li>
 				<key>n</key>
-				<value>TrapDeadfall</value>
+				<value>TrapSpike</value>
 			</li>
 			<li>
 				<key>o</key>
@@ -575,7 +575,7 @@
 			</li>
 			<li>
 				<key>n</key>
-				<value>TrapDeadfall</value>
+				<value>TrapSpike</value>
 			</li>
 			<li>
 				<key>o</key>
@@ -1040,7 +1040,7 @@
 			</li>
 			<li>
 				<key>n</key>
-				<value>TrapDeadfall</value>
+				<value>TrapSpike</value>
 			</li>
 			<li>
 				<key>o</key>
@@ -1529,7 +1529,7 @@
 			</li>
 			<li>
 				<key>n</key>
-				<value>TrapDeadfall</value>
+				<value>TrapSpike</value>
 			</li>
 			<li>
 				<key>o</key>
@@ -2019,7 +2019,7 @@
 			</li>
 			<li>
 				<key>n</key>
-				<value>TrapDeadfall</value>
+				<value>TrapSpike</value>
 			</li>
 			<li>
 				<key>o</key>

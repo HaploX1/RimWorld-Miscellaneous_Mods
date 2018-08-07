@@ -3,7 +3,7 @@
 	<name>Misc. TurretBase, Objects</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>1.0.1972</targetVersion>
+	<targetVersion>0.19.1987</targetVersion>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 
 -Turret: Weapon Base
@@ -11,13 +11,13 @@
    The manable weapon base needs the research 'Smithing', the automatic version needs 'Gun Turrets'.
 -Micro Turret Launcher
    A launcher with nanobots inside the projectile. Will do virtually no damage, but builds a micro turret at its place of impact.
--Nano Replicator
+-Nano Replicator (Currently Disabled)
    Like a 3D-Printer only for much more complex items
    Needs to be researched.
 
    
 Special thanks to mrofa for the graphics.
-(Version: 1.0.0)
+(Version: 0.19.0)
 Language: English, German, Chinese, Korean
 
 Thanks to duduluu and Biscuit now with a translation for Chinese (both)
