@@ -32,7 +32,7 @@
 	<!-- Colonist Groups: Icon Texts -->
 	<ColonistSelection_Icon_ToggleGroupIcons>Schalte Gruppierungs-Icons Ein/Aus</ColonistSelection_Icon_ToggleGroupIcons>
 	<ColonistSelection_Icon_Click2CallGroupX>Klicke um Gruppe {0} zu rufen. ({1} Pers.)\nShift+Klick um Gruppe {0} festzulegen.\nTaste: {2} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2CallGroupX>
-	<ColonistSelection_Icon_Click2ReleaseAll>Klicke um alle wartenden Kolonisten freizugeben.\nTaste: {0} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2ReleaseAll>
+	<ColonistSelection_Icon_Click2ReleaseAll>Klicke um alle wartenden Kolonisten freizugeben.\nShift+Klick: Wechsle Gruppierungsmodus.\nTaste: {0} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2ReleaseAll>
 	
 
 </LanguageData>

@@ -32,6 +32,6 @@
 	<!-- Colonist Groups: Icon Texts -->
 	<ColonistSelection_Icon_ToggleGroupIcons>Toggle colonist group icons</ColonistSelection_Icon_ToggleGroupIcons>
 	<ColonistSelection_Icon_Click2CallGroupX>Click to call group {0}. ({1} Colonists)\nShift+Click to set group {0}.\nKey: {2} / Shift+K for help.</ColonistSelection_Icon_Click2CallGroupX>
-	<ColonistSelection_Icon_Click2ReleaseAll>Click to release all idle colonists.\nKey: {0} / Shift+K for help.</ColonistSelection_Icon_Click2ReleaseAll>
+	<ColonistSelection_Icon_Click2ReleaseAll>Click to release all idle colonists.\nShift+Click to toggle group mode.\nKey: {0} / Shift+K for help.</ColonistSelection_Icon_Click2ReleaseAll>
 	
 </LanguageData>
