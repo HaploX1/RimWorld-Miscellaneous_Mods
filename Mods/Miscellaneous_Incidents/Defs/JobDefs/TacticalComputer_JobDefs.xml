@@ -20,7 +20,7 @@
     <joyGainRate>1.4</joyGainRate>
     <joySkill>Intellectual</joySkill>
     <joyXpPerTick>0.002</joyXpPerTick>
-    <joyKind>GamingCerebral</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
   </JobDef>
   
   <JobDef>
@@ -32,7 +32,7 @@
     <joyGainRate>1.4</joyGainRate>
     <joySkill>Intellectual</joySkill>
     <joyXpPerTick>0.002</joyXpPerTick>
-    <joyKind>Study</joyKind>
+    <joyKind>Television</joyKind>
   </JobDef>
   
 </Defs>

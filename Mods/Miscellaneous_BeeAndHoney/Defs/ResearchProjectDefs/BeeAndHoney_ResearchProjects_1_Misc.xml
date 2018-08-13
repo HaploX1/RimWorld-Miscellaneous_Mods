@@ -7,7 +7,7 @@
 		<defName>Beekeeping</defName>
 		<label>beekeeping</label>
 		<description>Allows you to build a bee hive where you can harvest honey.\n\nNote: You'll need a queen bee to build a beehive. You can find them in hollowed trees or buy them from traders.</description>
-		<baseCost>600</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<tab>Miscellaneous</tab>
 		<researchViewX>0</researchViewX>

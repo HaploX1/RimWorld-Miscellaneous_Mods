@@ -4,13 +4,13 @@
 
 	<ThingDef Name="BuildingTCBase" Abstract="True">
 		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<tradeTags>
 			<li>Exotic</li>
 			<li>Computer</li>
@@ -37,7 +37,10 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/TacticalComputer/MainComputer_MenuIcon</uiIconPath>
-		<minifiedDef>MinifiedTacticalComputer</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>150</pathCost>
@@ -48,12 +51,13 @@
 			<Flammability>0.0</Flammability>
 			<Beauty>12</Beauty>
 			<MarketValue>800</MarketValue>
+			<Mass>70</Mass>
 		</statBases>
 		<size>(3,3)</size>
 		<costList>
 			<Steel>250</Steel>
 			<Silver>100</Silver>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">

@@ -4,13 +4,13 @@
 	<ThingDef Name="CrashedCryptoSleepCasketBase" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	</ThingDef>
 
 	<ThingDef ParentName="CrashedCryptoSleepCasketBase">
@@ -43,10 +43,10 @@
 			<Uranium>5</Uranium>
 		</costList>
 		<killedLeavings>
-			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
 			<Steel>15</Steel>
 			<Plasteel>20</Plasteel>
-			<Uranium>3</Uranium>
+			<Uranium>5</Uranium>
 		</killedLeavings>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

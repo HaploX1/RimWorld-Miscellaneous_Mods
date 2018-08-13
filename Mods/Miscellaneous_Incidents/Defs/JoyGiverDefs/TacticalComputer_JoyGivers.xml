@@ -11,7 +11,7 @@
 			<li>TacticalComputer</li>
 		</thingDefs>
     <jobDef>PlayTacticalComputer</jobDef>
-    <joyKind>GamingCerebral</joyKind>
+    <joyKind>Gaming_Cerebral</joyKind>
   </JoyGiverDef>
 
   <JoyGiverDef>
@@ -22,7 +22,7 @@
 			<li>TacticalComputerExtension</li>
 		</thingDefs>
     <jobDef>PlayComputerTerminal</jobDef>
-    <joyKind>Study</joyKind>
+    <joyKind>Television</joyKind>
   </JoyGiverDef>
   
 </Defs>
