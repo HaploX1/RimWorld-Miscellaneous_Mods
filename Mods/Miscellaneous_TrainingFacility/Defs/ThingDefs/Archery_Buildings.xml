@@ -33,7 +33,7 @@
 		<rotatable>true</rotatable>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>750</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-2</Beauty>

@@ -9,7 +9,9 @@
 		<combatPower>999999</combatPower>
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Spacer</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<isFighter>false</isFighter>
 		<wildGroupSize>0</wildGroupSize>
 		<lifeStages>
@@ -57,7 +59,9 @@
 		<combatPower>999999</combatPower>
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Spacer</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<isFighter>false</isFighter>
 		<wildGroupSize>0</wildGroupSize>
 		<lifeStages>
