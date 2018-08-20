@@ -112,8 +112,8 @@
 		<description>A hauling robot.</description>
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
-			<MarketValue>1300</MarketValue>
-			<MoveSpeed>5.85</MoveSpeed>
+			<MarketValue>10</MarketValue>
+			<MoveSpeed>5.45</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
@@ -121,9 +121,9 @@
 		</statBases>
 		<race>
 			<body>AIRobot</body>
-			<baseBodySize>0.6</baseBodySize>
+			<baseBodySize>0.5</baseBodySize>
 			<baseHungerRate>0.5</baseHungerRate>
-			<baseHealthScale>0.6</baseHealthScale>
+			<baseHealthScale>0.5</baseHealthScale>
 		</race>
 		<recipes>
 		</recipes>
@@ -143,7 +143,7 @@
 		<description>A cleaning robot.</description>
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
-			<MarketValue>700</MarketValue>
+			<MarketValue>10</MarketValue>
 			<MoveSpeed>0.95</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -153,9 +153,9 @@
 		</statBases>
 		<race>
 			<body>AIRobot</body>
-			<baseBodySize>0.6</baseBodySize>
+			<baseBodySize>0.5</baseBodySize>
 			<baseHungerRate>0.5</baseHungerRate>
-			<baseHealthScale>0.6</baseHealthScale>
+			<baseHealthScale>0.5</baseHealthScale>
 		</race>
 		<recipes>
 		</recipes>
