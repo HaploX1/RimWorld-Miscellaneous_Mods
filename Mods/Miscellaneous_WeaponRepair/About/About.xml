@@ -3,7 +3,7 @@
 	<name>Misc. Weapon Repair</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>0.19.1998</targetVersion>
+	<targetVersion>0.19.2009</targetVersion>
 	<description>
    Are your best weapons always in an awful condition, with no way to repair them?
    Do you have multiple less quality weapons of the same kind just laying around, doing nothing for you?
@@ -11,7 +11,7 @@
    --- Needed machining table and skills not included ---
 
    
-(Version: 0.19.0)
+(Version: 0.19.1)
 Language: English, German, Chinese
 
 Thanks to duduluu and Biscuit now with a translation for Chinese (both)

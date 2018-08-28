@@ -3,7 +3,7 @@
 	<name>Misc. Bees'n'HoneyX 'Urban'</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>0.19.1998</targetVersion>
+	<targetVersion>0.19.2009</targetVersion>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 	*** You must load Miscellaneous MapGenerator + MapGenerator 'Urban' first for this to work without errors! ***
 	*** You must load Miscellaneous Bees'n'Honey first for this to work without errors! ***
@@ -20,6 +20,6 @@
 	
    This mod adds the hollow trees to the 'urban' biomes
 
-(Version: 0.19.0)
+(Version: 0.19.1)
 	</description>
 </ModMetaData>
