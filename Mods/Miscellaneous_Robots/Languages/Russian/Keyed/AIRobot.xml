@@ -25,6 +25,7 @@
 	<AIRobot_RobotIsDestroyed>Дрон уничтожен!</AIRobot_RobotIsDestroyed>
 	<AIRobot_Label_FindRobot>Найти дрона</AIRobot_Label_FindRobot>
 	<AIRobot_FindRobot>Показывает положение дрона.</AIRobot_FindRobot>
+	<AIRobot_Disabled_OnlyStartOnHomeMap>Only start on your home map. Mod will throw errors when leaving here with an active robot!</AIRobot_Disabled_OnlyStartOnHomeMap>
 
 	<!-- AIRobot_MainButton -->
 	<AIRobot_MainTab_SendRobotToRecharge>Нажмите, чтобы отправить этого дрона на перезарядку.</AIRobot_MainTab_SendRobotToRecharge>

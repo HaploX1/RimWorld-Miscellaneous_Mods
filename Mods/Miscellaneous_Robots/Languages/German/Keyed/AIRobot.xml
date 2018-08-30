@@ -22,6 +22,7 @@
 	<AIRobot_RobotIsDestroyed>Roboter wurde zerstört!</AIRobot_RobotIsDestroyed>
 	<AIRobot_Label_FindRobot>Finde Roboter</AIRobot_Label_FindRobot>
 	<AIRobot_FindRobot>Zeigt die Position des Roboters.</AIRobot_FindRobot>
+	<AIRobot_Disabled_OnlyStartOnHomeMap>Nur auf Deiner Heimat-Karte aktivieren. Die Mod wird Fehler verursachen, wenn Du diese Karte mit einem aktiven Roboter verläßt!</AIRobot_Disabled_OnlyStartOnHomeMap>
 	
 	<!-- AIRobot_MainButton -->
 	<AIRobot_MainTab_SendRobotToRecharge>Klicken um den Roboter zum Aufladen zu schicken.</AIRobot_MainTab_SendRobotToRecharge>

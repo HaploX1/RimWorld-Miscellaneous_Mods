@@ -22,6 +22,7 @@
 	<AIRobot_RobotIsDestroyed>機器人被摧毀了！</AIRobot_RobotIsDestroyed>
 	<AIRobot_Label_FindRobot>Find Robot</AIRobot_Label_FindRobot>
 	<AIRobot_FindRobot>Shows the position of the robot.</AIRobot_FindRobot>
+	<AIRobot_Disabled_OnlyStartOnHomeMap>Only start on your home map. Mod will throw errors when leaving here with an active robot!</AIRobot_Disabled_OnlyStartOnHomeMap>
 	
 	<!-- AIRobot_MainButton -->
 	<AIRobot_MainTab_SendRobotToRecharge>Click to recharge this robot.</AIRobot_MainTab_SendRobotToRecharge>
