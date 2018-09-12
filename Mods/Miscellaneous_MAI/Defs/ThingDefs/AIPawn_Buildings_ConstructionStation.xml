@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" Name="BuildingConstructorBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+  </ThingDef>
 
-	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingBase">
-
-		<category>Building</category>
+	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingConstructorBase">
 		<defName>AIPawn_ConstructionStation</defName>
 		<label>Automatic Assembler AI</label>
 		<description>This is an automatic assembler to build ai constructs.</description>
@@ -15,12 +24,16 @@
 			<drawSize>(4,2)</drawSize>
 		</graphicData>
 		<minifiedDef>AIPawn_MinifiedRechargeStation</minifiedDef>
+			<thingCategories>
+			<li>BuildingsFurniture</li>
+			</thingCategories>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<MarketValue>2000</MarketValue>
+			<Mass>10</Mass>
 		</statBases>
 		<costList>
 			<Silver>100</Silver>
@@ -37,7 +50,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<constructEffect>ConstructMetal</constructEffect>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>True</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -61,7 +74,6 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>false</startElectricalFires>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
 		</comps>

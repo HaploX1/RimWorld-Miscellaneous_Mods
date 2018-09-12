@@ -45,15 +45,16 @@
     <costList>
       <Steel>1</Steel>
     </costList>
-    <tradeability>Never</tradeability>
+
+    <tradeability>None</tradeability>
     <statBases>
+		<Mass>1</Mass>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>5000</WorkToMake>
       <MarketValue>10000</MarketValue>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
       <ArmorRating_Heat>0.10</ArmorRating_Heat>
-	  <ArmorRating_Electric>0.05</ArmorRating_Electric>
       <Insulation_Cold>-0</Insulation_Cold>
 	  <Insulation_Heat>-0</Insulation_Heat>
     </statBases>

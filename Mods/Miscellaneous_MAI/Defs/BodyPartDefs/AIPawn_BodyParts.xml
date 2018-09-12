@@ -7,25 +7,27 @@
     <defName>AIPawn_Thorax</defName>
     <label>Thorax</label>
 	<hitPoints>40</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>true</skinCovered>
-	<isSolid>true</isSolid>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
   <BodyPartDef>
     <defName>AIPawn_Neck</defName>
     <label>Neck</label>
 	<hitPoints>30</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>TalkingPathway</li>
 		<li>BreathingPathway</li>
 		<li>EatingPathway</li>
 	</tags>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
   <!--
@@ -33,9 +35,9 @@
     <defName>AIPawn_Head</defName>
     <label>Head</label>
 	<hitPoints>30</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>true</skinCovered>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
     <bleedingRateMultiplier>2</bleedingRateMultiplier>
   </BodyPartDef>
   -->
@@ -44,38 +46,41 @@
 	<defName>AIPawn_ArtificialBrain</defName>
 	<label>Central Processing Unit</label>
 	<hitPoints>10</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>ConsciousnessSource</li>
 		<li>SightSource</li>
 		<li>HearingSource</li>
 	</tags>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
     <BodyPartDef>
 	<defName>AIPawn_UnneededData</defName>
 	<label>Central Memory Unit</label>
 	<hitPoints>3</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>BreathingSource</li>
 		<li>BreathingPathway</li>
 	</tags>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
   <BodyPartDef>
 	<defName>AIPawn_SpeakerDevice</defName>
 	<label>Speaker</label>
 	<hitPoints>10</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>EatingSource</li>
 		<li>TalkingSource</li>
@@ -86,7 +91,7 @@
     <defName>AIPawn_BatteryLeft</defName>
     <label>Left battery</label>
 	<hitPoints>20</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
 	<tags>
       <li>BreathingPathway</li>
@@ -97,7 +102,7 @@
     <defName>AIPawn_BatteryRight</defName>
     <label>Right battery</label>
 	<hitPoints>20</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
 	<tags>
       <li>BreathingPathway</li>
@@ -108,37 +113,36 @@
     <defName>AIPawn_MaterialAnalyzer</defName>
     <label>Material analyzer</label>
 	<hitPoints>10</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<tags>
-		<li>EatingDigestion</li>
-	</tags>
   </BodyPartDef>
   
   <BodyPartDef>
     <defName>AIPawn_Spine</defName>
     <label>Spine</label>
 	<hitPoints>35</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>Spine</li>
 	</tags>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
   <BodyPartDef>
     <defName>AIPawn_Abdomen</defName>
     <label>Abdomen</label>
 	<hitPoints>40</hitPoints>
-	<oldInjuryBaseChance>0</oldInjuryBaseChance>
+	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>true</skinCovered>
-	<isSolid>true</isSolid>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
 	<tags>
 		<li>Pelvis</li>
 	</tags>
-	<dontSuggestAmputation>true</dontSuggestAmputation>
+	<canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
   
 </Defs>

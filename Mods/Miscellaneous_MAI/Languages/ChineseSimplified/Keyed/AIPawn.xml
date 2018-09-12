@@ -21,7 +21,7 @@
   <AIPawn_MustPlaceNextToAIPawnRechargeStation>需要放置于充电站旁。</AIPawn_MustPlaceNextToAIPawnRechargeStation>
 
   <AIPawn_LetterLabel_BuildRechargeStationSoon>人工智能激活</AIPawn_LetterLabel_BuildRechargeStationSoon>
-  <AIPawn_LetterText_BuildRechargeStationSoon>你激活了移动人工智能。不要忘了给HIM准备一个充电站。</AIPawn_LetterText_BuildRechargeStationSoon>
+  <AIPawn_LetterText_BuildRechargeStationSoon>你激活了移动人工智能。不要忘了给[PAWN_objective]准备一个充电站。</AIPawn_LetterText_BuildRechargeStationSoon>
 
   <!-- AIPawn Float Menu -->
   <AIPawn_FloatMenu_GotoBed>休息中。</AIPawn_FloatMenu_GotoBed>

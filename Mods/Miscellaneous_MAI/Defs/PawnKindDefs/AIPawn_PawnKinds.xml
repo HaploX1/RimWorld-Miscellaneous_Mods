@@ -6,23 +6,24 @@
 		<label>Mobile AI</label>
 		<race>AIPawn</race>
 		<combatPower>999999</combatPower>
-		<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
-		<backstoryCategory>Civil</backstoryCategory>
-		<defaultFactionType>PlayerColony</defaultFactionType>
-		<isFighter>false</isFighter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Naked_Mia</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>3</drawSize>
+					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.8, 0.4)</volume>
-						<offset>(0,0,0)</offset>
 					</shadowData>
 				</bodyGraphicData>
 			</li>
 		</lifeStages>
+		<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<isFighter>false</isFighter>
 		<weaponMoney>
 			<min>5000</min>
 			<max>5000</max>
@@ -38,7 +39,7 @@
 			<max>0</max>
 		</apparelMoney>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 	</PawnKindDef>
@@ -48,23 +49,24 @@
 		<label>Mobile AI</label>
 		<race>AIPawnE</race>
 		<combatPower>999999</combatPower>
-		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
-		<backstoryCategory>Civil</backstoryCategory>
-		<defaultFactionType>PlayerColony</defaultFactionType>
-		<isFighter>false</isFighter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Naked_Mia</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>3</drawSize>
+					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.8, 0.4)</volume>
-						<offset>(0,0,0)</offset>
 					</shadowData>
 				</bodyGraphicData>
 			</li>
 		</lifeStages>
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<isFighter>false</isFighter>
 		<weaponMoney>
 			<min>5000</min>
 			<max>5000</max>
@@ -80,10 +82,10 @@
 			<max>0</max>
 		</apparelMoney>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 	</PawnKindDef>
-	
+
 
 </Defs>

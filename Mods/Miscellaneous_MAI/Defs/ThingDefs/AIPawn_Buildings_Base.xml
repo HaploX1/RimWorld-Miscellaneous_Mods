@@ -3,13 +3,13 @@
 
 	<ThingDef Name="BuildingCreatorBase" Abstract="True">
 		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<description>This creates the AI-Pawn and destroys itself.</description>
 		<graphicData>
 			<texPath>Things/Building/AIPawnCreator_Alpha</texPath>

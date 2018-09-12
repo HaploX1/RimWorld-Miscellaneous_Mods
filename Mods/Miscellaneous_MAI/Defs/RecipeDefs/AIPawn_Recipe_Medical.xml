@@ -14,7 +14,6 @@
 		<effectWorking>ButcherMechanoid</effectWorking>
 		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
 		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
-		<addsHediff>ShutDown</addsHediff>
 	</RecipeDef>
 
 </Defs>

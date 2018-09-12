@@ -9,17 +9,18 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<useHitPoints>false</useHitPoints>
 		<hasTooltip>true</hasTooltip>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<inspectorTabs>
 			<li>ITab_Pawn_Health</li>
 			<li>ITab_Pawn_Needs</li>
 			<li>ITab_Pawn_Character</li>
 			<li>ITab_Pawn_Training</li>
-			<li>ITab_Pawn_Gear</li>
+			<li>ITab_Pawn_Social</li>
 			<li>ITab_Pawn_Guest</li>
 			<li>ITab_Pawn_Prisoner</li>
-			<li>ITab_Pawn_Social</li>
-			<li>ITab_Pawn_Combat</li>
+			<li>ITab_Pawn_FormingCaravan</li>
+			<li>ITab_Pawn_Gear</li>
+			<li>ITab_Pawn_Log</li>
 		</inspectorTabs>
 		<comps>
 			<li>
@@ -40,21 +41,17 @@
 					<li>
 						<resourceDef>Comfort</resourceDef>
 					</li>
-					<li>
-						<resourceDef>Space</resourceDef>
-					</li>
 				</needDefs>
 			</li>
 		</comps>
 		<drawGUIOverlay>true</drawGUIOverlay>
-
 		<tools>
 			<li>
 				<label>left fist</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>9.2</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -71,7 +68,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>9.2</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 				<surpriseAttack>
@@ -91,15 +88,16 @@
 				<power>5</power>
 				<cooldownTime>1.9</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<commonality>0.2</commonality>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-
 		<race>
 			<fleshType>Normal</fleshType>
 			<needsRest>true</needsRest>
 			<hasGenders>true</hasGenders>
-			<foodType>OmnivoreHuman</foodType>
+			<foodType>None</foodType>
+			<lifeExpectancy>500</lifeExpectancy>
 			<ageGenerationCurve>
 				<points>
 					<li>(0,0)</li>
@@ -117,7 +115,6 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>500</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>MechanoidFullyFormed</def>
@@ -129,6 +126,11 @@
 				<offset>(0,0,-0.3)</offset>
 			</specialShadowData>
 		</race>
+		<butcherProducts>
+			<Steel>20</Steel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</butcherProducts>
 	</ThingDef>
 
 	<!-- 
@@ -150,27 +152,11 @@
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
-			<ArmorRating_Blunt>0.0</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.95</defaultCooldownTime>
-				<meleeDamageBaseAmount>14</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.95</defaultCooldownTime>
-				<meleeDamageBaseAmount>14</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-			</li>
-		</verbs>
 		<race>
 			<thinkTreeMain>AIPawn</thinkTreeMain>
 			<thinkTreeConstant>AIPawnConstant</thinkTreeConstant>
@@ -191,6 +177,7 @@
 
 		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
 		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
 		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
 		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
 		<refreshQuickMax>25</refreshQuickMax>
@@ -214,26 +201,10 @@
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
 		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.75</defaultCooldownTime>
-				<meleeDamageBaseAmount>16</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-			</li>
-			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.75</defaultCooldownTime>
-				<meleeDamageBaseAmount>16</meleeDamageBaseAmount>
-				<meleeDamageDef>Blunt</meleeDamageDef>
-				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-			</li>
-		</verbs>
 		<race>
 			<thinkTreeMain>AIPawn</thinkTreeMain>
 			<thinkTreeConstant>AIPawnConstant</thinkTreeConstant>
@@ -254,6 +225,7 @@
 
 		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
 		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
 		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
 		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
 		<refreshQuickMax>25</refreshQuickMax>

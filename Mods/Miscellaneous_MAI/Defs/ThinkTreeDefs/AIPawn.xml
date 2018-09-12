@@ -72,11 +72,20 @@
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>DraftedOrder</tagToGive>
 							<subNodes>
+								<li Class="JobGiver_MoveToStandable" />
 								<li Class="JobGiver_Orders" />
 							</subNodes>
 						</li>
 					</subNodes>
 				</li>
+
+				<!-- Self-tend if you're an NPC -->
+				<li Class="ThinkNode_ConditionalNPCCanSelfTendNow">
+					<subNodes>
+						<li Class="JobGiver_SelfTend" />
+					</subNodes>
+				</li>
+
 				<!-- Lord directives (high priority) -->
 				<li Class="ThinkNode_JoinVoluntarilyJoinableLord">
 					<dutyHook>HighPriority</dutyHook>
@@ -153,20 +162,17 @@
 							<subNodes>
 								<li Class="ThinkNode_PrioritySorter">
 									<subNodes>
-										<li Class="JobGiver_GetFood"/>
+										<!-- <li Class="JobGiver_GetFood"/> -->
 										<li Class="AIPawn.JobGiver_RechargeEnergy"/>
 										<li Class="ThinkNode_Priority_GetJoy">
 											<subNodes>
 												<li Class="JobGiver_GetJoy"/>
+												<li Class="JobGiver_GetJoyInBed"/>
 											</subNodes>
 										</li>
 									</subNodes>
 								</li>
 							</subNodes>
-						</li>
-						<!-- Join auto joinable caravan -->
-						<li Class="ThinkNode_Subtree">
-							<treeDef>JoinAutoJoinableCaravan</treeDef>
 						</li>
 						<!-- If in non-PlayerHomeMap -->
 						<li Class="ThinkNode_ConditionalInNonPlayerHomeMap">
@@ -220,7 +226,13 @@
 						<!-- Drop unnused inventory -->
 						<li Class="JobGiver_DropUnusedInventory" />
 
-						<!-- Get food (only if starving) -->
+						<!-- Emergency work -->
+						<li Class="JobGiver_Work">
+							<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+							<emergency>true</emergency>
+						</li>
+
+						<!-- Get food (only if starving) 
 						<li Class="ThinkNode_ConditionalStarving">
 							<subNodes>
 								<li Class="ThinkNode_Tagger">
@@ -232,13 +244,7 @@
 									</subNodes>
 								</li>
 							</subNodes>
-						</li>
-
-						<!-- Emergency work -->
-						<li Class="JobGiver_Work">
-							<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
-							<emergency>true</emergency>
-						</li>
+						</li> -->
 
 						<!-- Lord directives (medium priority) -->
 						<li Class="ThinkNode_JoinVoluntarilyJoinableLord">
@@ -251,14 +257,14 @@
 						</li>
 
 						<!-- Optimize apparel 
-						<li Class="ThinkNode_Tagger">
-							<tagToGive>ChangingApparel</tagToGive>
-							<subNodes>
-								<li Class="JobGiver_OptimizeApparel">
-									<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
-								</li>
-							</subNodes>
-						</li>
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>ChangingApparel</tagToGive>
+              <subNodes>
+                <li Class="JobGiver_OptimizeApparel">
+                  <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+                </li>
+              </subNodes>
+            </li>
 						-->
 
 						<!-- Unload your inventory -->
@@ -269,7 +275,7 @@
 							</subNodes>
 						</li>
 
-						<!-- Pack food if not hungry-->
+						<!-- Pack food if not hungry
 						<li Class="ThinkNode_ConditionalNeedPercentageAbove">
 							<need>Food</need>
 							<threshold>0.6</threshold>
@@ -278,7 +284,7 @@
 									<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
 								</li>
 							</subNodes>
-						</li>
+						</li> -->
 					</subNodes>
 				</li>
 
@@ -363,7 +369,7 @@
 				<!-- If you're a neutral guest, if you're not hurt exit the map, otherwise use a medical bed -->
 				<li Class="ThinkNode_ConditionalGuest">
 					<subNodes>
-						<li Class="ThinkNode_ConditionalNeutralFaction">
+						<li Class="ThinkNode_ConditionalNonPlayerNonHostileFactionOrFactionless">
 							<subNodes>
 								<li Class="ThinkNode_Tagger">
 									<tagToGive>RestingForMedicalReasons</tagToGive>

@@ -21,7 +21,7 @@
 	<AIPawn_MustPlaceNextToAIPawnRechargeStation>Muss neben einer Ladestation plaziert werden.</AIPawn_MustPlaceNextToAIPawnRechargeStation>
 	
 	<AIPawn_LetterLabel_BuildRechargeStationSoon>Mai aktiv</AIPawn_LetterLabel_BuildRechargeStationSoon>
-	<AIPawn_LetterText_BuildRechargeStationSoon>Nun da du Mai aktiviert hast, vergiss nicht HIM auch eine Ladestation zu geben.</AIPawn_LetterText_BuildRechargeStationSoon>
+	<AIPawn_LetterText_BuildRechargeStationSoon>Nun da du Mai aktiviert hast, vergiss nicht, dass [PAWN_objective] auch eine Ladestation benötigt.</AIPawn_LetterText_BuildRechargeStationSoon>
 	
 	<!-- AIPawn Float Menu -->
 	<AIPawn_FloatMenu_GotoBed>Gehe schlafen</AIPawn_FloatMenu_GotoBed>

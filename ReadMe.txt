@@ -14,8 +14,8 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [x] Miscellaneous_Core                        -->   B19 
 - [x] Miscellaneous_BeeAndHoney                 -->   B19
 - [x] Miscellaneous_BeeAndHoney 'Urban'         -->   B19
-- [ ] Miscellaneous_Incidents                   -->   B19
-- [ ] Miscellaneous_MAI                         -->   B18
+- [x] Miscellaneous_Incidents                   -->   B19
+- [x] Miscellaneous_MAI                         -->   B19
 - [x] Miscellaneous_MapGenerator                -->   B19 
 - [x] Miscellaneous_MapGenerator 'Urban'        -->   B19
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   B19 

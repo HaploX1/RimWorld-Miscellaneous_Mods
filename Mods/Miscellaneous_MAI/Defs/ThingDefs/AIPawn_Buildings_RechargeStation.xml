@@ -7,6 +7,9 @@
 		<description>A recharge station for mobile AIs</description>
 		<thingClass>AIPawn.Building_AIPawnRechargeStation</thingClass>
 		<minifiedDef>AIPawn_MinifiedRechargeStation</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Building/AIPawn_RechargeStation/AIPawnRechargeStation_Green</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -23,11 +26,12 @@
 			<BedRestEffectiveness>2.2</BedRestEffectiveness>
 			<Comfort>0.55</Comfort>
 			<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+			<Mass>10</Mass>
 		</statBases>
 		<size>(1,2)</size>
 		<constructEffect>ConstructMetal</constructEffect>
 		<costList>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 			<Steel>55</Steel>
 		</costList>
 		<killedLeavings>
@@ -78,7 +82,7 @@
 		<uiIconPath>Things/Building/AIPawn_RechargeStation/AIPawnRechargeStation2x_GreenIcon</uiIconPath>
 		<size>(2,2)</size>
 		<costList>
-			<Component>5</Component>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<Steel>100</Steel>
 		</costList>
 		<secondaryGraphicPath>Things/Building/AIPawn_RechargeStation_ForPrisoner/AIPawnRechargeStation2x_ForPrisoner</secondaryGraphicPath>
@@ -92,6 +96,9 @@
 		<description>Provides repair nanites.</description>
 		<thingClass>Building_Storage</thingClass>
 		<minifiedDef>AIPawn_MinifiedRechargeStation</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Building/AIPawn_NaniteAssembler</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -125,6 +132,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Beauty>3</Beauty>
+			<Mass>10</Mass>
 		</statBases>
 		<costList>
 			<Steel>50</Steel>

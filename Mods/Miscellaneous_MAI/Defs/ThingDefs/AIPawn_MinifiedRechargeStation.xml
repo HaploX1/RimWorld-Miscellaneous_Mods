@@ -7,6 +7,9 @@
 		<defName>AIPawn_MinifiedRechargeStation</defName>
 		<thingClass>MinifiedThing</thingClass>
 		<label>Recharge Station</label>
+		<statBases>
+			<Mass>10</Mass>
+		</statBases>
 		<category>Item</category>
 		<useHitPoints>true</useHitPoints>
 		<selectable>true</selectable>

@@ -2,6 +2,12 @@
 <Defs>
 
 	<JobDef>
+		<defName>AIPawn_FillConstructor</defName>
+		<driverClass>AIPawn.JobDriver_FillConstructor</driverClass>
+		<reportString>Filling TargetB.</reportString>
+	</JobDef>
+
+	<JobDef>
 		<defName>AIPawn_Goto</defName>
 		<driverClass>JobDriver_Goto</driverClass>
 		<reportString>Moving.</reportString>

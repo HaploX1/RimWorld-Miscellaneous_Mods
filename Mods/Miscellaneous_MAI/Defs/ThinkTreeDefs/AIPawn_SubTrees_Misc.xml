@@ -122,7 +122,7 @@
 			<subNodes>
 				<!-- Various wanders  -->
 				<li Class="ThinkNode_ConditionalMentalState">
-					<state>WanderPsychotic</state>
+					<state>Wander_Psychotic</state>
 					<subNodes>
 						<li Class="JobGiver_WanderAnywhere">
 							<maxDanger>Deadly</maxDanger>
@@ -130,17 +130,9 @@
 					</subNodes>
 				</li>
 				<li Class="ThinkNode_ConditionalMentalState">
-					<state>WanderSad</state>
+					<state>Wander_Sad</state>
 					<subNodes>
 						<li Class="JobGiver_WanderColony">
-							<maxDanger>Deadly</maxDanger>
-						</li>
-					</subNodes>
-				</li>
-				<li Class="ThinkNode_ConditionalMentalState">
-					<state>WanderConfused</state>
-					<subNodes>
-						<li Class="JobGiver_WanderAnywhere">
 							<maxDanger>Deadly</maxDanger>
 						</li>
 					</subNodes>
@@ -148,7 +140,7 @@
 
 				<!-- Hide in room -->
 				<li Class="ThinkNode_ConditionalMentalState">
-					<state>WanderOwnRoom</state>
+					<state>Wander_OwnRoom</state>
 					<subNodes>
 						<li Class="JobGiver_WanderOwnRoom">
 							<maxDanger>Deadly</maxDanger>
@@ -197,12 +189,39 @@
 						</li>
 					</subNodes>
 				</li>
-
+				
 				<!-- Fire starting spree -->
 				<li Class="ThinkNode_ConditionalMentalState">
 					<state>FireStartingSpree</state>
 					<subNodes>
 						<li Class="JobGiver_FireStartingSpree"/>
+					</subNodes>
+				</li>
+				
+				<!-- Insulting spree -->
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_InsultingSpree</stateClass>
+					<subNodes>
+						<li Class="JobGiver_InsultingSpree" />
+						<li Class="JobGiver_WanderColony" />
+					</subNodes>
+				</li>
+				
+				<!-- Tantrum -->
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_Tantrum</stateClass>
+					<subNodes>
+						<li Class="JobGiver_Tantrum" />
+						<li Class="JobGiver_WanderColony" />
+					</subNodes>
+				</li>
+				
+				<!-- Corpse obsession -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>CorpseObsession</state>
+					<subNodes>
+						<li Class="JobGiver_HaulCorpseToPublicPlace" />
+						<li Class="JobGiver_WanderColony" />
 					</subNodes>
 				</li>
 			</subNodes>
