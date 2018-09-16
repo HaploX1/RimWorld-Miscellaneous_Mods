@@ -2,7 +2,6 @@
 <LanguageData>
   
 	<Beekeeping.label>beekeeping</Beekeeping.label>
-	<Beekeeping.description>Allows you to build a bee hive where you can harvest honey.</Beekeeping.description>
-	<Beekeeping.descriptionDiscovered>You can now build bee hives and start your honey production.\n\nNote: You'll need a queen bee to build a beehive. You can find them in hollowed trees or buy them from traders.</Beekeeping.descriptionDiscovered>
-	
+	<Beekeeping.description>Allows you to build a bee hive where you can harvest honey.\n\nNote: You'll need a queen bee to build a beehive. You can find them in hollowed trees or buy them from traders.</Beekeeping.description>
+
 </LanguageData>

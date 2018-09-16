@@ -5,7 +5,6 @@
 		<defName>AIPawnBaseResearch</defName>
 		<label>Mobile AI</label>
 		<description>Researches the basics needed to build yourself a mobile artificial intelligence. This unit can support you and your colony.</description>
-		<discoveredLetterText>Now you can build a basic mobile AI (MAI).</discoveredLetterText>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -21,7 +20,6 @@
 		<defName>AIPawnAdvResearchConstruction</defName>
 		<label>AI: Construction</label>
 		<description>Researches how an artificial intelligence can construct buildings.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where construction is needed.</discoveredLetterText>
 		<baseCost>250</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -35,7 +33,6 @@
 		<defName>AIPawnAdvResearchCooking</defName>
 		<label>AI: Cooking</label>
 		<description>Researches how an artificial intelligence can cook.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where cooking is needed.</discoveredLetterText>
 		<baseCost>250</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -49,7 +46,6 @@
 		<defName>AIPawnAdvResearchIntellectual</defName>
 		<label>AI: Intellectual</label>
 		<description>Researches how an artificial intelligence can research.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where research is needed.</discoveredLetterText>
 		<baseCost>700</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -63,7 +59,6 @@
 		<defName>AIPawnAdvResearchCaring</defName>
 		<label>AI: Caring</label>
 		<description>Researches how an artificial intelligence can care for colonists.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where caring is needed.</discoveredLetterText>
 		<baseCost>450</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -77,7 +72,6 @@
 		<defName>AIPawnAdvResearchCombat</defName>
 		<label>AI: Combat Tactics</label>
 		<description>Researches how an artificial intelligence can use combat tactics.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you in combat situations.</discoveredLetterText>
 		<baseCost>550</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -91,7 +85,6 @@
 		<defName>AIPawnAdvResearchSocial</defName>
 		<label>AI: Social</label>
 		<description>Researches how an artificial intelligence can be social with human beings.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where social interactions are needed.</discoveredLetterText>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -105,7 +98,6 @@
 		<defName>AIPawnAdvResearchAnimals</defName>
 		<label>AI: Handling</label>
 		<description>Researches how an artificial intelligence can handle animals.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where animal handling is needed.</discoveredLetterText>
 		<baseCost>350</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -119,7 +111,6 @@
 		<defName>AIPawnAdvResearchMining</defName>
 		<label>AI: Mining</label>
 		<description>Researches how an artificial intelligence can mine.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where mining is needed.</discoveredLetterText>
 		<baseCost>250</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -133,7 +124,6 @@
 		<defName>AIPawnAdvResearchCrafting</defName>
 		<label>AI: Crafting</label>
 		<description>Researches how an artificial intelligence can craft.</description>
-		<discoveredLetterText>Your next generation of mobile AIs have the ability to support you where crafting is needed.</discoveredLetterText>
 		<baseCost>550</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>

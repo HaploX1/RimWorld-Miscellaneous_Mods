@@ -9,6 +9,5 @@
 	
 	<ResearchTurretWeaponBaseAlternateCooldown.label>Weapon Base Reload</ResearchTurretWeaponBaseAlternateCooldown.label>
 	<ResearchTurretWeaponBaseAlternateCooldown.description>Research how to decrease the reload time of the turret base.</ResearchTurretWeaponBaseAlternateCooldown.description>
-	<ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>You have successfully redesigned your turret base, so that the reloading is a bit faster.</ResearchTurretWeaponBaseAlternateCooldown.descriptionDiscovered>
-	
+
 </LanguageData>
