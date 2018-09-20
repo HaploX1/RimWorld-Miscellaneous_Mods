@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple"]/text()</xpath>
+		<value>ScatterRuinsSimple_new</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value><li>ScatterBlueprintSimple_normal</li></value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value><li>ScatterBlueprintVillage_normal</li></value>
+	</Operation> 
+	
+</Patch>
+

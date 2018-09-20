@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value>
+			<li>ScatterBlueprintSimple_urban</li>
+			<li>ScatterBlueprintVillage_urban</li>
+		</value>
+	</Operation> 
+
+	
+</Patch>
+

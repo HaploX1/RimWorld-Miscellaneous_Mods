@@ -59,9 +59,6 @@
 				<li>
 					<def>MechanoidFullyFormed</def>
 					<minAge>0</minAge>
-          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-          <soundCall>Pawn_Mech_Centipede_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
