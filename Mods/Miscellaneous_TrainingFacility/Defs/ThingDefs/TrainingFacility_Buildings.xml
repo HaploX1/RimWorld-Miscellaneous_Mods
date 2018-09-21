@@ -16,16 +16,18 @@
 		<uiIconPath>Things/Building/TrainingFacility/ShootingRangeTarget_south</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>1000</MaxHitPoints>
-			<WorkToBuild>6500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-5</Beauty>
 			<Mass>35</Mass>
-			<JoyGainFactor>1</JoyGainFactor>
+			<JoyGainFactor>1.0</JoyGainFactor>
 		</statBases>
 		<building>
+			<joyKind>Gaming_Shooting</joyKind>
 			<watchBuildingStandDistanceRange>
 				<min>8</min>
 				<max>10</max>
@@ -39,7 +41,6 @@
 		</costList>
 		<pathCost>120</pathCost>
 		<designationCategory>Joy</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsJoy</li>
 		</thingCategories>
@@ -63,16 +64,18 @@
 		<uiIconPath>Things/Building/TrainingFacility/MartialArtsTarget_south</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
+			<WorkToBuild>4000</WorkToBuild>
 			<MaxHitPoints>1000</MaxHitPoints>
-			<WorkToBuild>6500</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>2</Beauty>
 			<Mass>45</Mass>
-			<JoyGainFactor>1</JoyGainFactor>
+			<JoyGainFactor>1.0</JoyGainFactor>
 		</statBases>
 		<building>
+			<joyKind>Gaming_MartialArts</joyKind>
 			<watchBuildingStandDistanceRange>
 				<min>1</min>
 				<max>1</max>
@@ -86,7 +89,6 @@
 		</costList>
 		<pathCost>120</pathCost>
 		<designationCategory>Joy</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsJoy</li>
 		</thingCategories>

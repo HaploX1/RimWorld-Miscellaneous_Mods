@@ -3,7 +3,7 @@
 
 	<MapGenerator_ModOptions_Category>Miscellaneous - Map Generator</MapGenerator_ModOptions_Category>
 	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>Versuche immer Löcher zu erzeugen</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>
-	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>Der Generator wird versuchen in jedem Gebäude Löcher zu generieren. \nHinweis: Ausnahmen hierbei sind Gebäude, in denen Gegner sind..</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>Der Generator wird versuchen in jedes Gebäude als Ruine mit Löchern in der Wand zu generieren. \nHinweis: Ausnahmen hierbei sind Gebäude, in denen Gegner sind..</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>
 	<MapGenerator_ModOptions_HoleChancePercent>Chance pro Feld ein Loch zu erzeugen: </MapGenerator_ModOptions_HoleChancePercent>
 	<MapGenerator_ModOptions_HoleChanceOnWaterPercent>Chance pro Wasser-Feld ein Loch zu erzeugen: </MapGenerator_ModOptions_HoleChanceOnWaterPercent>
 

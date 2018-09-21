@@ -31,16 +31,18 @@
 		<uiIconPath>Things/Building/Archery/ArcheryStand_south</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>750</WorkToBuild>
+			<WorkToBuild>1200</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Beauty>-2</Beauty>
 			<Mass>25</Mass>
 			<JoyGainFactor>1</JoyGainFactor>
 		</statBases>
 		<building>
+			<joyKind>Gaming_Shooting</joyKind>
 			<watchBuildingStandDistanceRange>
 				<min>5</min>
 				<max>8</max>
@@ -59,7 +61,6 @@
 		</costList>
 		<pathCost>10</pathCost>
 		<designationCategory>Joy</designationCategory>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsJoy</li>
 		</thingCategories>

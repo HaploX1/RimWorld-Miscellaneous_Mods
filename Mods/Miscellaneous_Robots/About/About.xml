@@ -11,7 +11,25 @@
 - Cleaningbot
      A small robot to help keeping your home clean  
 	
+
+Hints:
+- The robots here can only be bought, not crafted.
+- You can assign them to an area by clicking on the area name in the robot info panel. (Animal zone!)
+- Before a fight you are encouraged to recall the robots so they don't accidently wander into the fight area.
+
 	
+Hint for the load order:
+1st: Try the defined load order. 
+--> If robots still make problems, move Misc. Robots and Misc. Robots++ at the END of your mod list
+Core
+...
+Misc. Core (Not needed if you only use Misc. Robots)
+Misc. ... (--> other Miscellaneous Mods)
+Misc. Robots
+Misc. Robots++ / other mod depending on Misc. Robots
+...
+
+
 Special thanks to mrofa and Vas for the graphics.
 (Version: 0.19.3)
 Language: English, German, Chinese, Russian
