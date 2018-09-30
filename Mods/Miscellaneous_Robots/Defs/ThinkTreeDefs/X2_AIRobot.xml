@@ -58,6 +58,8 @@
 
 				<!-- Idle wander for colonists -->
 				<li Class="AIRobot.X2_JobGiver_Return2BaseRoom" />
+				<li Class="AIRobot.X2_JobGiver_RechargeEnergyIdle" />
+				
 				<li Class="ThinkNode_Tagger">
 					<tagToGive>Idle</tagToGive>
 					<subNodes>

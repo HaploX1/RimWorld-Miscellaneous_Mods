@@ -96,13 +96,13 @@
 			<fleshType>Normal</fleshType>
 			<needsRest>true</needsRest>
 			<hasGenders>true</hasGenders>
-			<foodType>None</foodType>
+			<foodType>Liquor</foodType>
 			<lifeExpectancy>500</lifeExpectancy>
 			<ageGenerationCurve>
 				<points>
 					<li>(0,0)</li>
-					<li>(1,100)</li>
-					<li>(5,80)</li>
+					<li>(1,80)</li>
+					<li>(5,20)</li>
 					<li>(20,0)</li>
 				</points>
 			</ageGenerationCurve>
@@ -171,10 +171,12 @@
 			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
+		<!--
 		<recipes>
 			<li>EuthanizeAIPawn</li>
 		</recipes>
-
+		-->
+		
 		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
 		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
 		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
@@ -219,9 +221,11 @@
 			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
 		</race>
+		<!--
 		<recipes>
 			<li>EuthanizeAIPawn</li>
 		</recipes>
+		-->
 
 		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
 		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>

@@ -9,7 +9,6 @@
 		<hitPoints>40</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<solid>true</solid>
 		<bleedRate>0</bleedRate>
 		<canSuggestAmputation>false</canSuggestAmputation>
 	</BodyPartDef>
