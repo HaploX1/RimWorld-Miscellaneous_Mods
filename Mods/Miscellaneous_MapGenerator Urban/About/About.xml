@@ -3,7 +3,7 @@
 	<name>Misc. MapGen Xtension 'Urban Biome'</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>0.19.2009</targetVersion>
+	<targetVersion>1.0.2044</targetVersion>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 *** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	
@@ -21,6 +21,6 @@ This will provide biomes with an urban like map from the blueprints provided in 
 Because of how it works, it sometimes may happen that you get attacked by Mechanoids or Insects shortly after the start!
 
 
-(Version: 0.19.2)
+(Version: 1.0.0)
 	</description>
 </ModMetaData>
