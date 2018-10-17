@@ -33,7 +33,7 @@
 			<MaxHitPoints>300</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<MarketValue>2000</MarketValue>
-			<Mass>10</Mass>
+			<Mass>60</Mass>
 		</statBases>
 		<costList>
 			<Silver>100</Silver>

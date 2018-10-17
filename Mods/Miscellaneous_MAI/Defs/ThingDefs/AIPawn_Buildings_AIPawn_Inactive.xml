@@ -44,7 +44,7 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<MarketValue>3000</MarketValue>
-			<Mass>10</Mass>
+			<Mass>40</Mass>
 		</statBases>
 		<size>(1,2)</size>
 		<passability>PassThroughOnly</passability>

@@ -96,7 +96,7 @@
 			<fleshType>Normal</fleshType>
 			<needsRest>true</needsRest>
 			<hasGenders>true</hasGenders>
-			<foodType>Liquor</foodType>
+			<foodType>None</foodType>
 			<lifeExpectancy>500</lifeExpectancy>
 			<ageGenerationCurve>
 				<points>
