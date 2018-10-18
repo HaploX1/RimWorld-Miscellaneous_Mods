@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Misc_TurretBase</identifier>
+    <version>1.0.0</version>
+    <dependencies>
+        <li>Misc_Core</li>
+    </dependencies>
+    <loadAfter>
+        <li>Misc_Core</li>
+    </loadAfter>
+</Manifest>

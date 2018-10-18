@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Misc_MapGenX_Urban</identifier>
+    <version>1.0.0</version>
+    <dependencies>
+        <li>Misc_Core</li>
+        <li>Misc_MapGen</li>
+    </dependencies>
+    <loadAfter>
+        <li>Misc_Core</li>
+        <li>Misc_MapGen</li>
+    </loadAfter>
+</Manifest>
