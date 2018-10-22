@@ -48,8 +48,8 @@
 			<mateMtbHours>0</mateMtbHours>
 			<ageGenerationCurve>
 				<points>
-					<li>(0,100)</li>
-					<li>(1,50)</li>
+					<li>(0,0)</li>
+					<li>(1,100)</li>
 					<li>(5,50)</li>
 					<li>(20,0)</li>
 				</points>
