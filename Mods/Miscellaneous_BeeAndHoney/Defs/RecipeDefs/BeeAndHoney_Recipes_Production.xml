@@ -9,8 +9,7 @@
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>35000</workAmount>
-		<unfinishedThingDef>UnfinishedHoneycomb</unfinishedThingDef>
+		<workAmount>6000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -18,7 +17,7 @@
 						<li>Honey</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>12</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
