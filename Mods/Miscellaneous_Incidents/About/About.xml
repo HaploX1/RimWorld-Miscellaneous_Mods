@@ -10,13 +10,15 @@
    Your colonist stumbles over an ancient artefact. What might happen if you activate it?
 -Crashed escape capsule
    An escape capsule of unknown design crashed nearby. Do you want to take a look?
+-Battlefield
+   You are informed about a big battle close to you. Do you want to help out, or just watch?
 -Tactical Computer + Computer Terminal + Anomaly
    The tactical computer and it's incident: the nearby anomaly
    
 
 Special thanks to mrofa for the graphics.
 
-(Version: 1.0.0)
+(Version: 1.0.1)
 Language: English, German, Chinese
 
 Thanks to duduluu and Biscuit now with a translation for Chinese (both)
