@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>Misc_MapGen</identifier>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <dependencies>
         <li>Misc_Core</li>
     </dependencies>
