@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="ApparelShieldingBase" Abstract="True">
+  <ThingDef Name="ApparelShieldingBase_MiscMAI" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
@@ -34,7 +34,7 @@
   </ThingDef>
   
   
-  <ThingDef ParentName="ApparelShieldingBase">
+  <ThingDef ParentName="ApparelShieldingBase_MiscMAI">
     <defName>AIPawn_Apparel_BaseShielding</defName>
     <label>Energy field</label>
     <description>An energy field that has some defensive characteristics.\nCaution: Manipulation attempts may destroy it.</description>

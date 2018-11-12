@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BuildingTurretBase" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+	<ThingDef Name="BuildingTurretBase_MiscTurret" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -18,7 +18,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+	<ThingDef ParentName="BuildingTurretBase_MiscTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<defName>TurretWeaponBaseAutomatic</defName>
 		<label>Turret Base Automatic</label>
 		<thingClass>TurretWeaponBase.Building_TurretWeaponBase</thingClass>
@@ -93,7 +93,7 @@
 		<cooldownResearchAddition>250</cooldownResearchAddition>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+	<ThingDef ParentName="BuildingTurretBase_MiscTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<defName>TurretWeaponBaseAutomaticPlasteel</defName>
 		<label>Turret Base Automatic</label>
 		<thingClass>TurretWeaponBase.Building_TurretWeaponBase</thingClass>

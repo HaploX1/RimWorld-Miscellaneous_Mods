@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BuildingBase" Abstract="True">
+  <ThingDef Name="BuildingBase_MiscMAI" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -13,7 +13,7 @@
     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
   </ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_MiscMAI">
 		<defName>AIPawn_Inactive</defName>
 		<label>Mobile AI (inactive)</label>
 		<description>This mobile ai still needs a few final updates until it's ready to go.</description>

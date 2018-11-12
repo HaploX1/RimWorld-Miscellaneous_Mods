@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="ResourceHoneyBase" Abstract="True">
+	<ThingDef Name="ResourceHoneyBase_MiscBees" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -25,7 +25,7 @@
 	</ThingDef>
 
 
-	<ThingDef Name="ResourceHoneycombBase" ParentName="ResourceHoneyBase" Abstract="True">
+	<ThingDef Name="ResourceHoneycombBase_MiscBees" ParentName="ResourceHoneyBase_MiscBees" Abstract="True">
 		<stackLimit>5</stackLimit>
 		<tickerType>Rare</tickerType>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -36,7 +36,7 @@
 	</ThingDef>
 
 
-	<ThingDef Name="UnfinishedBeeBase" ParentName="ResourceHoneyBase" Abstract="True">
+	<ThingDef Name="UnfinishedBeeBase_MiscBees" ParentName="ResourceHoneyBase_MiscBees" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/Unfinished/UnfinishedHoneycomb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -66,7 +66,7 @@
 	</ThingDef>
 
 
-	<ThingDef Name="BuildingBeeHiveBase" Abstract="True">
+	<ThingDef Name="BuildingBeeHiveBase_MiscBees" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

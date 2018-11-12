@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingTCBase">
+	<ThingDef ParentName="BuildingTCBase_MiscIncidents">
 		<defName>TacticalComputerExtension</defName>
 		<label>Computer Terminal</label>
 		<description>This computer terminal provides remote access to some options of the tactical computer.\nNote: A Tactical Computer is needed!</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" Name="BuildingConstructorBase" Abstract="True">
+  <ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" Name="BuildingConstructorBase_MiscMAI" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -13,7 +13,7 @@
     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
   </ThingDef>
 
-	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingConstructorBase">
+	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingConstructorBase_MiscMAI">
 		<defName>AIPawn_ConstructionStation</defName>
 		<label>Automatic Assembler AI</label>
 		<description>This is an automatic assembler to build ai constructs.</description>

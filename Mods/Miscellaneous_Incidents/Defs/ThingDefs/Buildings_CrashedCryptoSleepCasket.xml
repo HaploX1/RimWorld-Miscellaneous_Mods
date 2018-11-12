@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="CrashedCryptoSleepCasketBase" Abstract="True">
+	<ThingDef Name="CrashedCryptoSleepCasketBase_MiscIncidents" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -13,7 +13,7 @@
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	</ThingDef>
 
-	<ThingDef ParentName="CrashedCryptoSleepCasketBase">
+	<ThingDef ParentName="CrashedCryptoSleepCasketBase_MiscIncidents">
 		<defName>CrashedCryptoSleepCasket</defName>
 		<label>rescue pod</label>
 		<description>This is a rescue pod of an unknown design. Do you want to take a look into it?</description>

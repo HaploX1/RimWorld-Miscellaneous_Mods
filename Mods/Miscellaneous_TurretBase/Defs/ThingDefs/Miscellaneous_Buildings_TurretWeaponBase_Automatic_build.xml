@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingTurretBase" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+	<ThingDef ParentName="BuildingTurretBase_MiscTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
 		<defName>TurretWeaponBaseAutomatic_Buildable</defName>
 		<label>Turret Base Automatic</label>
 		<thingClass>TurretWeaponBase.Building_TurretWeaponBase</thingClass>

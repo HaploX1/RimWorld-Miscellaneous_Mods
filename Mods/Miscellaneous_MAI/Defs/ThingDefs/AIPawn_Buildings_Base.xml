@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BuildingCreatorBase" Abstract="True">
+	<ThingDef Name="BuildingCreatorBase_MiscMAI" Abstract="True">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>

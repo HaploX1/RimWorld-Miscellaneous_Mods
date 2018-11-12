@@ -2,7 +2,7 @@
 <Defs>
 
 
-	<ThingDef Name="BuildingBaseArtefact" Abstract="True">
+	<ThingDef Name="BuildingBaseArtefact_MiscIncidents" Abstract="True">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -13,7 +13,7 @@
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBaseArtefact">
+	<ThingDef ParentName="BuildingBaseArtefact_MiscIncidents">
 		<defName>ArtefactFound_Artefact</defName>
 		<label>Mysterious Artefact</label>
 		<description>This is an object of an ancient civilisation. What might happen, if you activate it?</description>

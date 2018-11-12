@@ -2,7 +2,7 @@
 <Defs>
 
 	<!--=============== Micro turret ===============-->
-	<ThingDef Name="BuildingMicroTurretBase" Abstract="True">
+	<ThingDef Name="BuildingMicroTurretBase_MiscTurret" Abstract="True">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -16,7 +16,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef Name="BaseMicroTurretGun" Abstract="True">
+	<ThingDef Name="BaseMicroTurretGun_MiscTurret" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -50,7 +50,7 @@
 		</graphicData>
 	</ThingDef>
 
-	<ThingDef Name="BaseMicroTurretBullet" Abstract="True">
+	<ThingDef Name="BaseMicroTurretBullet_MiscTurret" Abstract="True">
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Projectile</altitudeLayer>
@@ -67,7 +67,7 @@
 
 
 
-	<ThingDef ParentName="BuildingMicroTurretBase">
+	<ThingDef ParentName="BuildingMicroTurretBase_MiscTurret">
 		<defName>MicroTurretMKI</defName>
 		<label>Micro turret</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -111,12 +111,12 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_MicroTurretMKI</turretGunDef>
-			<turretBurstCooldownTime>2.5</turretBurstCooldownTime>
+			<turretBurstCooldownTime>1.8</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Building/Turret/MicroTurretWeapon_Top</turretTopGraphicPath>
 		</building>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMicroTurretBullet">
+	<ThingDef ParentName="BaseMicroTurretBullet_MiscTurret">
 		<defName>Bullet_MicroTurretMKI</defName>
 		<label>Micro turret bullet</label>
 		<graphicData>
@@ -125,12 +125,12 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>4</damageAmountBase>
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMicroTurretGun">
+	<ThingDef ParentName="BaseMicroTurretGun_MiscTurret">
 		<defName>Gun_MicroTurretMKI</defName>
 		<label>Micro turret gun</label>
 		<graphicData>
@@ -149,7 +149,7 @@
 			<AccuracyMedium>0.43</AccuracyMedium>
 			<AccuracyLong>0.20</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
-			<DeteriorationRate>0</DeteriorationRate>
+			<DeteriorationRate>5</DeteriorationRate>
 		</statBases>
 		<weaponTags>
 			<li>TurretGun</li>
@@ -159,7 +159,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_MicroTurretMKI</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
+				<warmupTime>0.8</warmupTime>
 				<range>7.3</range>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
@@ -170,7 +170,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMicroTurretBullet" Class="WeaponBase.ThingDef_ThingSpawner">
+	<ThingDef ParentName="BaseMicroTurretBullet_MiscTurret" Class="WeaponBase.ThingDef_ThingSpawner">
 		<defName>Bullet_MicroThingSpawnerMKI</defName>
 		<label>Micro turret creator</label>
 		<thingClass>WeaponBase.Projectile_ThingSpawner</thingClass>
@@ -186,7 +186,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseMicroTurretGun">
+	<ThingDef ParentName="BaseMicroTurretGun_MiscTurret">
 		<defName>Gun_MicroTurretLauncher</defName>
 		<label>Micro turret launcher</label>
 		<description>A launcher for micro turrets.</description>
@@ -203,7 +203,7 @@
 			<AccuracyShort>0.50</AccuracyShort>
 			<AccuracyMedium>0.50</AccuracyMedium>
 			<AccuracyLong>0.35</AccuracyLong>
-			<RangedWeapon_Cooldown>4.45</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>4.35</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -214,7 +214,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_MicroThingSpawnerMKI</defaultProjectile>
-				<warmupTime>2.5</warmupTime>
+				<warmupTime>2.3</warmupTime>
 				<range>26.9</range>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>

@@ -3,7 +3,7 @@
 
 	<!-- ========================= Work tables ==========================-->
 
-	<ThingDef ParentName="BuildingBeeHiveBase">
+	<ThingDef ParentName="BuildingBeeHiveBase_MiscBees">
 		<defName>Beehive</defName>
 		<label>beehive</label>
 		<description>This is an enclosed structure where some honey bees live and raise their young. Your colonists can harvest their honey.</description>

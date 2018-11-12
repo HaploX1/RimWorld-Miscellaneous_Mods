@@ -3,7 +3,7 @@
 
 	<!--=============== Luxury ====================-->
 
-	<ThingDef ParentName="ResourceHoneyBase">
+	<ThingDef ParentName="ResourceHoneyBase_MiscBees">
 		<defName>Honey</defName>
 		<label>honey</label>
 		<description>A delicious sweet from our friend the bee.</description>

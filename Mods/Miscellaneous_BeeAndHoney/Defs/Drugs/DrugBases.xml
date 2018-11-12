@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="DrugBase" Abstract="True">
+  <ThingDef Name="DrugBase_MiscBees" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
@@ -32,7 +32,7 @@
     <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
   </ThingDef>
   
-  <ThingDef Name="MakeableDrugBase" ParentName="DrugBase" Abstract="True">
+  <ThingDef Name="MakeableDrugBase_MiscBees" ParentName="DrugBase_MiscBees" Abstract="True">
     <recipeMaker>
       <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
@@ -41,14 +41,14 @@
     </recipeMaker>
   </ThingDef>
   
-  <HediffDef Name="AddictionBase" Abstract="True">
+  <HediffDef Name="AddictionBase_MiscBees" Abstract="True">
     <defaultLabelColor>(255,0,127)</defaultLabelColor>
     <initialSeverity>0.5</initialSeverity>
     <maxSeverity>1.0</maxSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
   </HediffDef>
   
-  <NeedDef Name="DrugAddictionNeedBase" Abstract="True">
+  <NeedDef Name="DrugAddictionNeedBase_MiscBees" Abstract="True">
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <tutorHighlightTag>NeedAddiction</tutorHighlightTag>
     <showForCaravanMembers>true</showForCaravanMembers>

@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <ThingDef ParentName="UnfinishedBeeBase">
+  <ThingDef ParentName="UnfinishedBeeBase_MiscBees">
     <defName>UnfinishedHoneycomb</defName>
     <label>unfinished honeycomb</label>
     <graphicData>

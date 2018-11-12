@@ -3,7 +3,7 @@
 
 	<!--=============== Luxury ====================-->
 
-	<ThingDef ParentName="ResourceHoneycombBase">
+	<ThingDef ParentName="ResourceHoneycombBase_MiscBees">
 		<defName>HoneycombWithQueen</defName>
 		<label>Honeycomb w. Queen</label>
 		<thingClass>ThingWithComps</thingClass>

@@ -2,7 +2,7 @@
 <Defs>
 
 
-	<ThingDef Name="BuildingTCBase" Abstract="True">
+	<ThingDef Name="BuildingTCBase_MiscIncidents" Abstract="True">
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -18,7 +18,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingTCBase">
+	<ThingDef ParentName="BuildingTCBase_MiscIncidents">
 		<defName>TacticalComputer</defName>
 		<label>Tactical Computer</label>
 		<description>This computer provides various informations and options.</description>

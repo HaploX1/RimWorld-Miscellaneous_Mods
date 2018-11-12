@@ -3,7 +3,7 @@
 
 	<!-- =========== Bases =========== -->
 
-	<ThingDef Name="DisabledBase" Abstract="True">
+	<ThingDef Name="DisabledBase_MiscRobots" Abstract="True">
 		<thingClass>AIRobot.X2_AIRobot_disabled</thingClass>
 		<techLevel>Industrial</techLevel>
 		<category>Item</category>
@@ -36,8 +36,12 @@
 			<li>Robots</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef Name="DisabledBase" ParentName="DisabledBase_MiscRobots" Abstract="True">
+		<selectable>true</selectable>
+	</ThingDef>
 
-	<ThingDef ParentName="DisabledBase">
+	<ThingDef ParentName="DisabledBase_MiscRobots">
 		<defName>AIRobot_Hauler_disabled</defName>
 		<label>HaulingBot (disabled)</label>
 		<description>This is the sad end of a home bot. It's no longer useful and needs heavy repairs or dismantling.</description>
@@ -60,7 +64,7 @@
 		</costList>
 	</ThingDef>
 
-	<ThingDef ParentName="DisabledBase">
+	<ThingDef ParentName="DisabledBase_MiscRobots">
 		<defName>AIRobot_Cleaner_disabled</defName>
 		<label>CleaningBot (disabled)</label>
 		<description>This is the sad end of a home bot. It's no longer useful and needs heavy repairs or dismantling.</description>

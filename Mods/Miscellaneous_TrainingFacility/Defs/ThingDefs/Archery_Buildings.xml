@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BuildingBase" Abstract="True">
+	<ThingDef Name="BuildingBase_MiscTraining" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
@@ -17,7 +17,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_MiscTraining">
 		<defName>ArcheryTarget</defName>
 		<label>archery target</label>
 		<description>The bow is an ancient hunting weapon that is nowadays mostly used for fun. It's relaxing and trains hand-eye coordination.</description>

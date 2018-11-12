@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="MoteBase" Abstract="True">
+  <ThingDef Name="MoteBase_MiscTraining" Abstract="True">
     <thingClass>MoteThrown</thingClass>
     <label>Mote</label>
     <category>Mote</category>
@@ -15,7 +15,7 @@
     <rotatable>false</rotatable>
   </ThingDef>
 
-  <ThingDef ParentName="MoteBase">
+  <ThingDef ParentName="MoteBase_MiscTraining">
     <defName>Mote_ArcheryArrow</defName>
     <graphicData>
       <texPath>Things/Building/Archery/Motes/Arrow</texPath>

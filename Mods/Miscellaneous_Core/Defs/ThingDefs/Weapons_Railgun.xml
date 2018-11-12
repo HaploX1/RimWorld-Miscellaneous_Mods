@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseWeapon">
+	<ThingDef Abstract="True" Name="BaseWeapon_MiscCore">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -30,7 +30,7 @@
 		</graphicData>
 	</ThingDef>
 
-	<ThingDef Name="BaseGun" Abstract="True" ParentName="BaseWeapon">
+	<ThingDef Name="BaseGun_MiscCore" Abstract="True" ParentName="BaseWeapon_MiscCore">
 		<techLevel>Industrial</techLevel>
 		<smeltable>true</smeltable>
 		<thingCategories>
@@ -54,7 +54,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Name="BaseMakeableGun" ParentName="BaseGun" Abstract="True">
+	<ThingDef Name="BaseMakeableGun_MiscCore" ParentName="BaseGun_MiscCore" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -68,19 +68,19 @@
 		</recipeMaker>
 	</ThingDef>
 
-	<ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
+	<ThingDef Name="BaseHumanGun_MiscCore" ParentName="BaseGun_MiscCore" Abstract="True">
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
 	</ThingDef>
 
-	<ThingDef Name="BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+	<ThingDef Name="BaseHumanMakeableGun_MiscCore" ParentName="BaseMakeableGun_MiscCore" Abstract="True">
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
 	</ThingDef>
 
-	<ThingDef Name="BaseBullet" Abstract="True">
+	<ThingDef Name="BaseBullet_MiscCore" Abstract="True">
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Projectile</altitudeLayer>
@@ -95,7 +95,7 @@
 
 	<!-- ============================================== -->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_MiscCore">
 		<defName>Bullet_RailgunMKI</defName>
 		<label>railgun bullet</label>
 		<graphicData>
@@ -111,7 +111,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseHumanGun">
+	<ThingDef ParentName="BaseHumanGun_MiscCore">
 		<defName>Gun_RailgunMKI</defName>
 		<label>railgun</label>
 		<description>An electrical charged electromagnetic projectile launcher.</description>

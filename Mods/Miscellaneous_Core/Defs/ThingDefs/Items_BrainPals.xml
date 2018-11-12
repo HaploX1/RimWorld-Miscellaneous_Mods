@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BodyPartBase" Abstract="True">
+	<ThingDef Name="BodyPartBase_MiscCore" Abstract="True">
 		<label>implant</label>
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
@@ -35,7 +35,7 @@
 
 	<!-- artificial - bionics -->
 
-	<ThingDef ParentName="BodyPartBase">
+	<ThingDef ParentName="BodyPartBase_MiscCore">
 		<defName>BionicTacticalImplant</defName>
 		<label>bionic brainPal</label>
 		<description>Advanced bionic computer flawlessly integrated into the human brain.</description>
@@ -53,7 +53,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBase">
+	<ThingDef ParentName="BodyPartBase_MiscCore">
 		<defName>ElectronicTacticalImplant</defName>
 		<label>electronic brainPal</label>
 		<description>Advanced computer with a direct brain interface.</description>

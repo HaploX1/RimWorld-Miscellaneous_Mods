@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="AIPawn.ThingDef_Building_RechargeStation" ParentName="BuildingBase" Name="AIRechargeStationBase">
+	<ThingDef Class="AIPawn.ThingDef_Building_RechargeStation" ParentName="BuildingBase_MiscMAI" Name="AIRechargeStationBase_MiscMAI">
 		<defName>AIPawn_RechargeStation</defName>
 		<label>Recharge Station</label>
 		<description>A recharge station for mobile AIs</description>
@@ -69,7 +69,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef Class="AIPawn.ThingDef_Building_RechargeStation" ParentName="AIRechargeStationBase">
+	<ThingDef Class="AIPawn.ThingDef_Building_RechargeStation" ParentName="AIRechargeStationBase_MiscMAI">
 		<defName>AIPawn_RechargeStation2x</defName>
 		<label>Large Recharge Station</label>
 		<description>A recharge station for mobile AIs big enough for two</description>
@@ -90,7 +90,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_MiscMAI">
 		<defName>AIPawn_NaniteAssembler</defName>
 		<label>Nanite assembler</label>
 		<description>Provides repair nanites.</description>

@@ -3,7 +3,7 @@
 
 	<!--========= Joy giving jobs ============-->
 
-	<JobDef Name="UseShootingRangeBase">
+	<JobDef Name="UseShootingRangeBase_MiscTraining">
 		<defName>UseShootingRange</defName>
 		<driverClass>TrainingFacility.JobDriver_ShootingRange</driverClass>
 		<reportString>Shooting a few bullets.</reportString>
@@ -15,14 +15,14 @@
 		<joyKind>Gaming_Shooting</joyKind>
 	</JobDef>
 
-	<JobDef ParentName="UseShootingRangeBase">
+	<JobDef ParentName="UseShootingRangeBase_MiscTraining">
 		<defName>UseShootingRange_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
 		<joyDuration>15500</joyDuration>
 		<joyXpPerTick>0.024</joyXpPerTick>
 	</JobDef>
 	
-	<JobDef Name="UseMartialArtsBase">
+	<JobDef Name="UseMartialArtsBase_MiscTraining">
 		<defName>UseMartialArtsTarget</defName>
 		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget</driverClass>
 		<reportString>Practising martial arts.</reportString>
@@ -34,7 +34,7 @@
 		<joyKind>Gaming_MartialArts</joyKind>
 	</JobDef>
 
-	<JobDef ParentName="UseMartialArtsBase">
+	<JobDef ParentName="UseMartialArtsBase_MiscTraining">
 		<defName>UseMartialArtsTarget_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget_NonJoy</driverClass>
 		<joyDuration>15500</joyDuration>

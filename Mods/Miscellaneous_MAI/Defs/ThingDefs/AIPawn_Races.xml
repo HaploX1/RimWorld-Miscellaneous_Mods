@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="AIPawn.ThingDef_AIPawn" Name="BaseAIPawn" Abstract="True">
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" Name="BaseAIPawn_MiscMAI" Abstract="True">
 		<thingClass>AIPawn.AIPawn</thingClass>
 		<category>Pawn</category>
 		<selectable>true</selectable>
@@ -141,7 +141,7 @@
 	<!-- ============================ Humanlike ========================== -->
 
 
-	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn">
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn_MiscMAI">
 		<defName>AIPawn</defName>
 		<label>AI Pawn</label>
 		<description>An AI in a metal body.</description>
@@ -191,7 +191,7 @@
 
 	</ThingDef>
 
-	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn">
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn_MiscMAI">
 		<defName>AIPawnE</defName>
 		<label>AI Pawn E</label>
 		<description>An enhanced AI in a metal body.</description>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="TreeBeehiveBase" Abstract="True">
+	<ThingDef Name="TreeBeehiveBase_MiscBees" Abstract="True">
 		<description>A tree.</description>
 		<category>Plant</category>
 		<thingClass>Plant</thingClass>
@@ -52,7 +52,7 @@
 
 	<!--============================ Wild - Trees ============================-->
 
-	<ThingDef ParentName="TreeBeehiveBase">
+	<ThingDef ParentName="TreeBeehiveBase_MiscBees">
 		<defName>TreeBeeHive</defName>
 		<label>hollow tree</label>
 		<description>An old hollow tree. You can find a wild beehive inside.</description>
