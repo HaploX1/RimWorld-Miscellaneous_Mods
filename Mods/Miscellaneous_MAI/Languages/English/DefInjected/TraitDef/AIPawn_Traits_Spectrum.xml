@@ -7,7 +7,7 @@
   </rep>
   <rep>
     <path>AIPawn_BaseTrait.degreeDatas[0].description</path>
-    <trans>NAME is an android. As an andoroid HE is a bit faster and not really sensible for psychic phaenomena.</trans>
+    <trans>[PAWN_nameDef] is an android. As an android [PAWN_pronoun] is a bit faster and not really sensible for psychic phenomena.</trans>
   </rep>
 	
 </LanguageData>

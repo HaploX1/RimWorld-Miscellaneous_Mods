@@ -2,7 +2,7 @@
 <LanguageData>
 
   <AIPawn_BaseTrait.degreeDatas.0.label>人形機器人</AIPawn_BaseTrait.degreeDatas.0.label>
-  <AIPawn_BaseTrait.degreeDatas.0.description>NAME是一個機器人。作為一個機器人HE移動較快而且幾乎沒有心理活動。</AIPawn_BaseTrait.degreeDatas.0.description>
+  <AIPawn_BaseTrait.degreeDatas.0.description>[PAWN_nameDef]是一個機器人。作為一個機器人[PAWN_pronoun]移動較快而且幾乎沒有心理活動。</AIPawn_BaseTrait.degreeDatas.0.description>
 
 
 </LanguageData>
