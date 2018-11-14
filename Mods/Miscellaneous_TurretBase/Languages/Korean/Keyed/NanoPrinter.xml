@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Nano Printer -->
+	<NanoPrinter_Error>오류</NanoPrinter_Error>
+	<NanoPrinter_ErrorDescr>오류가 발생했습니다. 클릭하여 초기화 하십시오.</NanoPrinter_ErrorDescr>
+	<NanoPrinter_Start>시작</NanoPrinter_Start>
+	<NanoPrinter_Stop>중지</NanoPrinter_Stop>
+	<NanoPrinter_ScanningNoHoppersFound>주위에 스캐너 없음</NanoPrinter_ScanningNoHoppersFound>
+	<NanoPrinter_ScanningNoItemsFound>스캐너에 물체 없음</NanoPrinter_ScanningNoItemsFound>
+	<NanoPrinter_ActiveBlueprint>입력된 물체:</NanoPrinter_ActiveBlueprint>
+	<NanoPrinter_ActiveStatus>상태:</NanoPrinter_ActiveStatus>
+	
+	<NanoPrinterStatus_Idle>대기</NanoPrinterStatus_Idle>
+	<NanoPrinterStatus_Paused>일시중지</NanoPrinterStatus_Paused>
+	<NanoPrinterStatus_Scanning>스캔 중</NanoPrinterStatus_Scanning>
+	<NanoPrinterStatus_Gathering>재료 필요</NanoPrinterStatus_Gathering>
+	<NanoPrinterStatus_Printing>출력 중</NanoPrinterStatus_Printing>
+	<NanoPrinterStatus_Error>오류!</NanoPrinterStatus_Error>
+
+	<!-- Nano Scanner -->
+	<NanoScanner_MustPlaceNextToNanoPrinter>나노 출력기와 붙여서 지어야 합니다..</NanoScanner_MustPlaceNextToNanoPrinter>
+	
+</LanguageData>
