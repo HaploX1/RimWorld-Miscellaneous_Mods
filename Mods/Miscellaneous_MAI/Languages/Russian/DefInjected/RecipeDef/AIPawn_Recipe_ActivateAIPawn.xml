@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawn_ActivateAIPawn.label>Активировать MAI, женский</AIPawn_ActivateAIPawn.label>
+	<AIPawn_ActivateAIPawn.description>Активирует женскую версию MAI.</AIPawn_ActivateAIPawn.description>
+	<AIPawn_ActivateAIPawn.jobString>Активирует MAI</AIPawn_ActivateAIPawn.jobString>
+
+	<AIPawn_ActivateAIPawnMale.label>Активировать MAI, мужской</AIPawn_ActivateAIPawnMale.label>
+	<AIPawn_ActivateAIPawnMale.description>Активирует мужскую версию MAI.</AIPawn_ActivateAIPawnMale.description>
+	<AIPawn_ActivateAIPawnMale.jobString>Активирует MAI</AIPawn_ActivateAIPawnMale.jobString>
+
+</LanguageData>

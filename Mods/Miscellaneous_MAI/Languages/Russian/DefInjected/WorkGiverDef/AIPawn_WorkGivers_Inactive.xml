@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<DoBillsAIPawnConstructor.label>Создать MAI</DoBillsAIPawnConstructor.label>
+	<DoBillsAIPawnConstructor.verb>создать MAI</DoBillsAIPawnConstructor.verb>
+	<DoBillsAIPawnConstructor.gerund>создает MAI</DoBillsAIPawnConstructor.gerund>
+
+	<DoBillsAIPawnInactive.label>Активировать MAI</DoBillsAIPawnInactive.label>
+	<DoBillsAIPawnInactive.verb>активировать MAI</DoBillsAIPawnInactive.verb>
+	<DoBillsAIPawnInactive.gerund>активирует MAI</DoBillsAIPawnInactive.gerund>
+
+</LanguageData>
