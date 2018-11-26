@@ -4,11 +4,11 @@
 
 <LanguageData>
 
-	<AIPawn_Inactive.label>MAI (неактивный)</AIPawn_Inactive.label>
+	<AIPawn_Inactive.label>MAI (неактивированный)</AIPawn_Inactive.label>
 	<AIPawn_Inactive.description>Этот MAI нуждается в небольших финальных настройках, прежде чем будет готов к работе.</AIPawn_Inactive.description>
 
-	<AIPawn_ConstructionStation.label>Автоматический сборщик MAI</AIPawn_ConstructionStation.label>
-	<AIPawn_ConstructionStation.description>Автоматический сборочный автомат для производства MAI.</AIPawn_ConstructionStation.description>
+	<AIPawn_ConstructionStation.label>Станция сборки MAI</AIPawn_ConstructionStation.label>
+	<AIPawn_ConstructionStation.description>Автоматическая сборочная станция для производства MAI.</AIPawn_ConstructionStation.description>
 
 	<AIPawn_RechargeStation.label>Станция подзарядки</AIPawn_RechargeStation.label>
 	<AIPawn_RechargeStation.description>Станция подзарядки для MAI.</AIPawn_RechargeStation.description>
@@ -22,17 +22,17 @@
 	<AIPawn.description>MAI в металлическом корпусе.</AIPawn.description>
 	<AIPawnE.description>Улучшенный MAI в металлическом корпусе</AIPawnE.description>
 
-	<AIPawn_MinifiedInactiveAIPawn.label>Неактивный MAI</AIPawn_MinifiedInactiveAIPawn.label>
+	<AIPawn_MinifiedInactiveAIPawn.label>Неактивированный MAI</AIPawn_MinifiedInactiveAIPawn.label>
 	<AIPawn_MinifiedRechargeStation.label>Станция подзарядки</AIPawn_MinifiedRechargeStation.label>
 
 	<AIPawn_Apparel_BaseShielding.label>Силовое поле</AIPawn_Apparel_BaseShielding.label>
 	<AIPawn_Apparel_BaseShielding.description>Силовое поле, с защитными характеристикаи. \nВнимание: попытки манипулирования им могут привести к саморазрушению.</AIPawn_Apparel_BaseShielding.description>
 
-	<AIPawn_AIPawnCreator.label>Создатель женского MAI</AIPawn_AIPawnCreator.label>
-	<AIPawn_AIPawnCreatorE.label>Создатель женского MAI (Улучшенного)</AIPawn_AIPawnCreatorE.label>
+	<AIPawn_AIPawnCreator.label>женский MAI</AIPawn_AIPawnCreator.label>
+	<AIPawn_AIPawnCreatorE.label>женский MAI (улучшенный)</AIPawn_AIPawnCreatorE.label>
 
-	<AIPawn_AIPawnCreatorMale.label>Создатель мужского MAI</AIPawn_AIPawnCreatorMale.label>
-	<AIPawn_AIPawnCreatorMaleE.label>Создатель мужского MAI (Улучшенного)</AIPawn_AIPawnCreatorMaleE.label>
+	<AIPawn_AIPawnCreatorMale.label>мужской MAI</AIPawn_AIPawnCreatorMale.label>
+	<AIPawn_AIPawnCreatorMaleE.label>мужской MAI (улучшенный)</AIPawn_AIPawnCreatorMaleE.label>
 
 	<!--  AIPawn_Buildings_Base.xml.    ??Def??  <description>This creates the AI-Pawn and destroys itself.</description>  -->
 

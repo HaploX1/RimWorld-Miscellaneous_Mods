@@ -15,7 +15,7 @@
 
 	<!-- AIPawnGenerator -->
 	<AIPawn_Basename_first>MAI</AIPawn_Basename_first>
-	<AIPawn_Basename_last>Мобильный ИИ</AIPawn_Basename_last>
+	<AIPawn_Basename_last>андроид</AIPawn_Basename_last>
 	<AIPawn_Basename_nick>MAI</AIPawn_Basename_nick>
 
 	<!-- AIPawnRechargeStation -->
