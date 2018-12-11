@@ -20,7 +20,7 @@
 						<li>Honey</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -29,7 +29,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Mead>3</Mead>
+			<Mead>2</Mead>
 		</products>
 		<skillRequirements>
 			<Cooking>6</Cooking>

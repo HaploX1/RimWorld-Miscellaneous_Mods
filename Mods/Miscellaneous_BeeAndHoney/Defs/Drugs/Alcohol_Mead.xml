@@ -13,11 +13,11 @@
     <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
     <costList>
-      <Honey>2</Honey>
+      <Honey>1</Honey>
     </costList>
     <statBases>
       <DeteriorationRate>0.3</DeteriorationRate>
-      <MarketValue>16</MarketValue>
+      <MarketValue>18</MarketValue>
       <Mass>0.3</Mass>
       <Flammability>0.5</Flammability>
       <Nutrition>0.13</Nutrition>

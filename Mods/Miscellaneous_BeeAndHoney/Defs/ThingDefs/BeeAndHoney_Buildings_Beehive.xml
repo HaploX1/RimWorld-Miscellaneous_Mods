@@ -23,8 +23,8 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<HoneycombWithQueen>1</HoneycombWithQueen>
 			<WoodLog>30</WoodLog>
+			<HoneycombWithQueen>1</HoneycombWithQueen>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
