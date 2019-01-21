@@ -25,4 +25,10 @@
 		<reportString>Repairing TargetB.</reportString>
 	</JobDef>
   
+	<JobDef>
+		<defName>AIRobot_RepairStationRobot</defName>
+		<driverClass>AIRobot.X2_JobDriver_RepairStationRobot</driverClass>
+		<reportString>Repairing at TargetA.</reportString>
+	</JobDef>
+  
 </Defs>

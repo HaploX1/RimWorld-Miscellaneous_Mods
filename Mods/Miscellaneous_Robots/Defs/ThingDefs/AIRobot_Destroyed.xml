@@ -6,7 +6,8 @@
 	<ThingDef Name="DisabledBase_MiscRobots" Abstract="True">
 		<thingClass>AIRobot.X2_AIRobot_disabled</thingClass>
 		<techLevel>Industrial</techLevel>
-		<category>Item</category>
+		<category>Building</category>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Item</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<tradeability>Sellable</tradeability>
@@ -17,7 +18,6 @@
 			<MarketValue>25</MarketValue>
 			<Flammability>1</Flammability>
 			<Beauty>-10</Beauty>
-			<DeteriorationRate>0.5</DeteriorationRate>
 			<SellPriceFactor>0.30</SellPriceFactor>
 		</statBases>
 		<selectable>true</selectable>
@@ -29,6 +29,9 @@
 		<useHitPoints>true</useHitPoints>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<!-- for CompForbiddable -->
+		<drawerType>RealtimeOnly</drawerType>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>
@@ -44,7 +47,7 @@
 	<ThingDef ParentName="DisabledBase_MiscRobots">
 		<defName>AIRobot_Hauler_disabled</defName>
 		<label>HaulingBot (disabled)</label>
-		<description>This is the sad end of a home bot. It's no longer useful and needs heavy repairs or dismantling.</description>
+		<description>This is the sad end of a home bot. It's no longer useful and can only be dismantled.</description>
 		<graphicData>
 			<texPath>Things/AIRobot/HoverBot_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -55,11 +58,10 @@
 			<Mass>12</Mass>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
-		<butcherProducts>
-			<Steel>25</Steel>
-		</butcherProducts>
 		<costList>
 			<Steel>35</Steel>
+			<Silver>25</Silver>
+			<Gold>3</Gold>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 	</ThingDef>
@@ -67,7 +69,7 @@
 	<ThingDef ParentName="DisabledBase_MiscRobots">
 		<defName>AIRobot_Cleaner_disabled</defName>
 		<label>CleaningBot (disabled)</label>
-		<description>This is the sad end of a home bot. It's no longer useful and needs heavy repairs or dismantling.</description>
+		<description>This is the sad end of a home bot. It's no longer useful and can only be dismantled.</description>
 		<graphicData>
 			<texPath>Things/AIRobot/CleaningBot_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -78,11 +80,10 @@
 			<Mass>20</Mass>
 		</statBases>
 		<soundDrop>ChunkRock_Drop</soundDrop>
-		<butcherProducts>
-			<Steel>25</Steel>
-		</butcherProducts>
 		<costList>
 			<Steel>35</Steel>
+			<Silver>25</Silver>
+			<Gold>3</Gold>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 	</ThingDef>

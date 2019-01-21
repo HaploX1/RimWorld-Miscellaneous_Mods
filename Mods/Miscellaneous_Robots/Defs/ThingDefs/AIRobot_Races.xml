@@ -124,6 +124,10 @@
 		</race>
 		<recipes>
 		</recipes>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
 		<robotWorkTypes>
 			<li>
 				<workTypeDef>Hauling</workTypeDef>
@@ -156,6 +160,10 @@
 		</race>
 		<recipes>
 		</recipes>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
 		<robotWorkTypes>
 			<li>
 				<workTypeDef>Cleaning</workTypeDef>

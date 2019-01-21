@@ -37,6 +37,10 @@
 	
 	<!-- AIRobot_destroyed -->
 	<AIRobot_RepairRobot>Repair robot</AIRobot_RepairRobot>
+	<AIRobot_RepairRobot_hint>Your robot is damaged. Repairing will cost you:</AIRobot_RepairRobot_hint>
+	<AIRobot_RepairRobotInProgress>Repair is in progress..</AIRobot_RepairRobotInProgress>
 	<AIRobot_DismantleRobot>Dismantle robot and station</AIRobot_DismantleRobot>
+	
+	<AIRobot_CannotRepairRobotIsActive>Robot is active -> Please deactivate to repair it.</AIRobot_CannotRepairRobotIsActive>
 	
 </LanguageData>

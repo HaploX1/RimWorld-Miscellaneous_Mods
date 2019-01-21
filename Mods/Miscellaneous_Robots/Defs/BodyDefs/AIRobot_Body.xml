@@ -14,7 +14,7 @@
 			<parts>
 				<li>
 					<def>MechanicalNeck</def>
-					<coverage>0.08</coverage>
+					<coverage>0.075</coverage>
 					<height>Top</height>
 					<groups>
 						<li>Torso</li>
@@ -31,7 +31,7 @@
 							<parts>
 								<li>
 									<def>AIRobot_ArtificialBrain</def>
-									<coverage>0.25</coverage>
+									<coverage>0.14</coverage>
 									<depth>Inside</depth>
 									<groups>
 										<li>UpperHead</li>
@@ -105,7 +105,7 @@
 				<li>
 					<def>MechanicalShoulder</def>
 					<customLabel>left shoulder</customLabel>
-					<coverage>0.1</coverage>
+					<coverage>0.12</coverage>
 					<groups>
 						<li>Shoulders</li>
 					</groups>
@@ -163,7 +163,7 @@
 				<li>
 					<def>MechanicalShoulder</def>
 					<customLabel>right mechanical shoulder</customLabel>
-					<coverage>0.1</coverage>
+					<coverage>0.12</coverage>
 					<groups>
 						<li>Shoulders</li>
 					</groups>
@@ -228,7 +228,7 @@
 				</li>
 				<li>
 					<def>AIRobot_BatteryLeft</def>
-					<coverage>0.2</coverage>
+					<coverage>0.15</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
@@ -236,7 +236,7 @@
 				</li>
 				<li>
 					<def>AIRobot_BatteryRight</def>
-					<coverage>0.2</coverage>
+					<coverage>0.15</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
@@ -244,7 +244,7 @@
 				</li>
 				<li>
 					<def>AIRobot_MaterialAnalyzer</def>
-					<coverage>0.1</coverage>
+					<coverage>0.05</coverage>
 					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>

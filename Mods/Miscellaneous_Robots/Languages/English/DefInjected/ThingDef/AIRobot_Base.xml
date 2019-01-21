@@ -13,10 +13,10 @@
 	<AIRobot_Cleaner.description>A cleaning robot. Cleans your room while you're away. CAUTION: Don't let your pets come near it!</AIRobot_Cleaner.description>
 	
 	<AIRobot_Hauler_disabled.label>HaulingBot (disabled)</AIRobot_Hauler_disabled.label>
-	<AIRobot_Hauler_disabled.description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</AIRobot_Hauler_disabled.description>
+	<AIRobot_Hauler_disabled.description>This is the sad end of a bot. It's no longer useful and can only be dismantled.</AIRobot_Hauler_disabled.description>
 	
 	<AIRobot_Cleaner_disabled.label>CleaningBot (disabled)</AIRobot_Cleaner_disabled.label>
-	<AIRobot_Cleaner_disabled.description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</AIRobot_Cleaner_disabled.description>
+	<AIRobot_Cleaner_disabled.description>This is the sad end of a bot. It's no longer useful and can only be dismantled.</AIRobot_Cleaner_disabled.description>
 	
 	<AIRobot_Hauler.tools.0.label>left manipulator</AIRobot_Hauler.tools.0.label>
 	<AIRobot_Hauler.tools.1.label>right manipulator</AIRobot_Hauler.tools.1.label>

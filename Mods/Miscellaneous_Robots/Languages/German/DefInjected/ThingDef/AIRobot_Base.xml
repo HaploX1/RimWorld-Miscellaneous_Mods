@@ -14,10 +14,10 @@
 	<AIRobot_Cleaner.description>Ein Reinigungsroboter. Reinigt deinen Raum während du weg bist. VORSICHT: Nicht in die Nähe von Kleintieren bringen!</AIRobot_Cleaner.description>
 	
 	<AIRobot_Hauler_disabled.label>Transportbot (disabled)</AIRobot_Hauler_disabled.label>
-	<AIRobot_Hauler_disabled.description>Dies ist der traurige Rest eines Roboters. Er ist nicht länger nützlich und benötigt größere Reparaturen oder muss zerlegt werden.</AIRobot_Hauler_disabled.description>
+	<AIRobot_Hauler_disabled.description>Dies ist der traurige Rest eines Roboters. Er ist nicht länger brauchbar und kann nur noch zerlegt werden.</AIRobot_Hauler_disabled.description>
 	
 	<AIRobot_Cleaner_disabled.label>Reinigungsbot (disabled)</AIRobot_Cleaner_disabled.label>
-	<AIRobot_Cleaner_disabled.description>Dies ist der traurige Rest eines Roboters. Er ist nicht länger nützlich und benötigt größere Reparaturen oder muss zerlegt werden.</AIRobot_Cleaner_disabled.description>
+	<AIRobot_Cleaner_disabled.description>Dies ist der traurige Rest eines Roboters. Er ist nicht länger brauchbar und kann nur noch zerlegt werden.</AIRobot_Cleaner_disabled.description>
 	
 	<AIRobot_Hauler.tools.0.label>linker Manipulator</AIRobot_Hauler.tools.0.label>
 	<AIRobot_Hauler.tools.1.label>rechter Manipulator</AIRobot_Hauler.tools.1.label>

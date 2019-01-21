@@ -3,7 +3,9 @@
 	<name>Misc. MapGen Xtension 'Urban Biome'</name>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
-	<targetVersion>1.0.2059</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 *** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	

@@ -5,6 +5,7 @@
 	<!--================================ Abstract bases ======================================-->
 
 	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation" Name="Base_X2_Building_RechargeStation" Abstract="True">
+		<thingClass>AIRobot.X2_Building_AIRobotRechargeStation</thingClass>
 		<category>Building</category>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
@@ -65,14 +66,22 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
-			<WorkToMake>3000</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MarketValue>1600</MarketValue>
-			<Mass>10</Mass>
+			<Mass>9</Mass>
 		</statBases>
 		<costList>
-			<Steel>50</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>60</Steel>
+			<Silver>40</Silver>
+			<Gold>4</Gold>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
+		<robotRepairCosts>
+			<Steel>35</Steel>
+			<Silver>25</Silver>
+			<Gold>3</Gold>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</robotRepairCosts>
 
 		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
 		<spawnThingDef>AIRobot_Hauler</spawnThingDef>
@@ -100,14 +109,22 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
-			<WorkToMake>3000</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MarketValue>950</MarketValue>
 			<Mass>13</Mass>
 		</statBases>
 		<costList>
-			<Steel>50</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>60</Steel>
+			<Silver>40</Silver>
+			<Gold>4</Gold>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
+		<robotRepairCosts>
+			<Steel>35</Steel>
+			<Silver>25</Silver>
+			<Gold>3</Gold>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</robotRepairCosts>
 
 		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
 		<spawnThingDef>AIRobot_Cleaner</spawnThingDef>
