@@ -67,7 +67,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
 			<WorkToMake>5000</WorkToMake>
-			<MarketValue>1600</MarketValue>
+			<MarketValue>1750</MarketValue>
 			<Mass>9</Mass>
 		</statBases>
 		<costList>
@@ -110,7 +110,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
 			<WorkToMake>5000</WorkToMake>
-			<MarketValue>950</MarketValue>
+			<MarketValue>1150</MarketValue>
 			<Mass>13</Mass>
 		</statBases>
 		<costList>
