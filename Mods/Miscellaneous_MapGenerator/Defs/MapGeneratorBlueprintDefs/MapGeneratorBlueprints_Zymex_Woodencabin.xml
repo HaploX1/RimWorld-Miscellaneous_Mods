@@ -10,7 +10,7 @@
 		<buildingData>
 .a........a.
 aaaaaaaaaaaa
-.a....f...a.
+.a........a.
 .a........a.
 .a........a.
 .a........a.
@@ -41,10 +41,6 @@ aaaaaaeaaaaa
 			<li>
 				<key>e</key>
 				<value>Door</value>
-			</li>
-			<li>
-				<key>f</key>
-				<value>AnimalSleepingBox</value>
 			</li>
 		</buildingLegend>
 		<rotationLegend>
