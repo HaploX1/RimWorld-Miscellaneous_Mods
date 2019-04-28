@@ -64,5 +64,8 @@
 		<thingCategories>
 			<li>BuildingsJoy</li>
 		</thingCategories>
+		<placeWorkers>
+			<li>TrainingFacility.PlaceWorker_ShootingRange</li>
+		</placeWorkers>
 	</ThingDef>
 </Defs>
