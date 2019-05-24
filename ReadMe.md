@@ -13,7 +13,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 - [x] Miscellaneous_Core                        -->   1.0 
 - [x] Miscellaneous_BeeAndHoney                 -->   1.0
-- [x] Miscellaneous_BeeAndHoney 'Urban'         -->   1.0
+- [x] Miscellaneous_EndGame                     -->   1.0 *NEW*
 - [x] Miscellaneous_Incidents                   -->   1.0
 - [x] Miscellaneous_MAI                         -->   1.0
 - [x] Miscellaneous_MapGenerator                -->   1.0 
