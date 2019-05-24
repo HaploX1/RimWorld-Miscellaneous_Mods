@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EndGameWarning>And if thy survive\nThe onslaught by a pair of moon,\nThis will be your price\nOl' civic right in thee harvest soon..\n\nA while ago you found this old scroll describing the process to receive international accepted town rights by martial law. Now here you are: Fully prepared to fight for your right to officially be a town.\n\nYou are so close, just a few more month and everything you struggled for will finally have a real meaning..\n\n\nCaution --> This will attract all your enemies to prevent you from reaching your goal!\n\n\nDo you want to start the transmission?</EndGameWarning>
+	<EndGame_RemainingTime>Remaining time {0}</EndGame_RemainingTime>
+	
+	<CommandStartEndGame>Activate</CommandStartEndGame>
+	<CommandStartEndGameDesc>And if thy survive\nThe onslaught by a pair of moon,\nThis will be your price\nOl' civic right in thee harvest soon..</CommandStartEndGameDesc>
+	<CommandStartEndGame_DisabledReason>The Annunciator can not start.</CommandStartEndGame_DisabledReason>
+	
+	<EndGame_Victory>And if thy survive\nThe onslaught by a pair of moon,\nThis will be your price\nOl' civic right in thee harvest soon..\n\nVictory! \n\nYou have survived the onslaught over the required time and can claim your price: Your little outpost has finally won the right to officially be a town!\nSoon the caravans will arrive, bringing new settlers and traders, and your city will flourish and grow even more!\n\nThese colonists, by right of contest, are now fully fledged citizens:\n\n{0}\n\nAnd they lived happily.. ever.. ... after.. .. .. ?!?\n\n\n**SCREEEEEEEEEEEEEEEEE**</EndGame_Victory>
+	
+</LanguageData>
+

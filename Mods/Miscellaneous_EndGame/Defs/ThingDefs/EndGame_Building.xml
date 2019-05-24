@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="EndGame_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EndGame_BuildingBase">
+    <defName>EndGame_Annunciator</defName>
+    <label>Town Charter Annunciator</label>
+    <description>..And if thy survive\nthe onslaught by a pair of moon,\nthis will be your price\nol' civic right in thee harvest soon.</description>
+    <thingClass>Building</thingClass>
+    <uiIconPath>Things/Building/EndGame_Annunciator_MenuIcon</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/EndGame_Annunciator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.3, 3.0)</drawSize>
+      <shadowData>
+        <volume>(2.6, 1.5, 2.4)</volume>
+        <offset>(0.0, 0.0, -0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>5500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(3,3)</size>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="EndGame.CompProperties_EndGame">
+        <compClass>EndGame.CompEndGame</compClass>
+		<maxDaysActive>30</maxDaysActive>
+		<ticksBetweenIncidents>
+			<min>12500</min>
+			<max>50000</max>
+		</ticksBetweenIncidents>
+		<raidPointsFactorRange>
+			<min>0.8</min>
+			<max>3.5</max>
+		</raidPointsFactorRange>
+		<possibleIncidents>
+			<li>RaidEnemy</li>
+		</possibleIncidents>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(150,150,250,0)</glowColor>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>EndGame_Requirements</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+  
+</Defs>
