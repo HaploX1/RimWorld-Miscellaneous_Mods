@@ -150,12 +150,12 @@
 							</subNodes>
 						</li>
 
-						<li Class="ThinkNode_Tagger">
+						<!-- <li Class="ThinkNode_Tagger">
 							<tagToGive>ChangingApparel</tagToGive>
 							<subNodes>
 								<li Class="JobGiver_PrisonerGetDressed" />
 							</subNodes>
-						</li>
+						</li> -->
 
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>SatisfyingNeeds</tagToGive>
@@ -256,7 +256,7 @@
 							</subNodes>
 						</li>
 
-						<!-- Optimize apparel -->
+						<!-- Optimize apparel 
 						<li Class="ThinkNode_Tagger">
 							<tagToGive>ChangingApparel</tagToGive>
 							<subNodes>
@@ -264,8 +264,8 @@
 									<leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
 								</li>
 							</subNodes>
-						</li>
-
+						</li> -->
+	
 
 						<!-- Unload your inventory -->
 						<li Class="ThinkNode_Tagger">
