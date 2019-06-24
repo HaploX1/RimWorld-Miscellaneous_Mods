@@ -6,7 +6,7 @@
 	<JoyGiverDef>
 		<defName>ShootSomeArrows</defName>
 		<giverClass>JoyGiver_WatchBuilding</giverClass>
-		<baseChance>2.1</baseChance>
+		<baseChance>2.3</baseChance>
 		<thingDefs>
 			<li>ArcheryTarget</li>
 		</thingDefs>

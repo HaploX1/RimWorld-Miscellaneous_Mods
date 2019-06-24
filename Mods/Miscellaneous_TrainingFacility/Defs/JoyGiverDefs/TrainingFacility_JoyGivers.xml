@@ -6,7 +6,7 @@
 	<JoyGiverDef>
 		<defName>PracticeShooting</defName>
 		<giverClass>TrainingFacility.JoyGiver_PracticeShooting</giverClass>
-		<baseChance>2.5</baseChance>
+		<baseChance>3</baseChance>
 		<thingDefs>
 			<li>ShootingRangeTarget</li>
 		</thingDefs>
@@ -22,7 +22,7 @@
 	<JoyGiverDef>
 		<defName>PracticeMartialArts</defName>
 		<giverClass>TrainingFacility.JoyGiver_PracticeMartialArts</giverClass>
-		<baseChance>2.5</baseChance>
+		<baseChance>4</baseChance>
 		<thingDefs>
 			<li>MartialArtsTarget</li>
 		</thingDefs>
