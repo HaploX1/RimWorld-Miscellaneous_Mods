@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-	<Beehive.label>beehive</Beehive.label>
-	<Beehive.description>This is an enclosed structure where some honey bees live and raise their young. Your colonists can harvest their honey.</Beehive.description>
+	<Misc_Beehive.label>beehive</Misc_Beehive.label>
+	<Misc_Beehive.description>This is an enclosed structure where some honey bees live and raise their young. Your colonists can harvest their honey.</Misc_Beehive.description>
 	
 	<Honey.label>honey</Honey.label>
 	<Honey.description>A delicious sweet from our friend the bee.</Honey.description>

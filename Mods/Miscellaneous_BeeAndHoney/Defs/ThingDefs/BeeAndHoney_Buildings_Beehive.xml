@@ -3,8 +3,7 @@
 
 	<!-- ========================= Work tables ==========================-->
 
-	<ThingDef ParentName="BuildingBeeHiveBase_MiscBees">
-		<defName>Beehive</defName>
+	<ThingDef ParentName="BuildingBeeHiveBase_MiscBees" Name="Misc_BeehiveBase" Abstract="True">
 		<label>beehive</label>
 		<description>This is an enclosed structure where some honey bees live and raise their young. Your colonists can harvest their honey.</description>
 		<thingClass>Building_WorkTable</thingClass>
@@ -45,7 +44,6 @@
 			<Mass>25</Mass>
 		</statBases>
 		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
 		<pathCost>80</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -83,5 +81,15 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<ThingDef ParentName="Misc_BeehiveBase">
+		<defName>Misc_Beehive</defName>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+
+	<!-- For backward compatibility -->
+	<ThingDef ParentName="Misc_BeehiveBase">
+		<defName>Beehive</defName>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
 
 </Defs>

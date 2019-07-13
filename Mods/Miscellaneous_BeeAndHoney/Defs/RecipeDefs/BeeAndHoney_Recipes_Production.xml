@@ -39,7 +39,7 @@
 		<workSkill>Crafting</workSkill>
 		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
 		<recipeUsers>
-			<li>Beehive</li>
+			<li>Misc_Beehive</li>
 		</recipeUsers>
 	</RecipeDef>
 

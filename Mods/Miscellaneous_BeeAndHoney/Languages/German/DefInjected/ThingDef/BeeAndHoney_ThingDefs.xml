@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-	<Beehive.label>Bienenstock</Beehive.label>
-	<Beehive.description>Dieses ist eine geschlossene Struktur, in der einige Bienen leben und ihre Jungtiere aufziehen. Deine Kolonisten können ihren Honig ernten.</Beehive.description>
+	<Misc_Beehive.label>Bienenstock</Misc_Beehive.label>
+	<Misc_Beehive.description>Dieses ist eine geschlossene Struktur, in der einige Bienen leben und ihre Jungtiere aufziehen. Deine Kolonisten können ihren Honig ernten.</Misc_Beehive.description>
 	
 	<Honey.label>Honig</Honey.label>
 	<Honey.description>Eine köstliche Süßigkeit von unseren Freunden den Bienen.</Honey.description>

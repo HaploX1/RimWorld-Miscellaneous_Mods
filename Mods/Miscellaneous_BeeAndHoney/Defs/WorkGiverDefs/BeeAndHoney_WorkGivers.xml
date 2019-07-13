@@ -21,7 +21,7 @@
     <workType>Crafting</workType>
     <priorityInType>88</priorityInType>
     <fixedBillGiverDefs>
-      <li>Beehive</li>
+      <li>Misc_Beehive</li>
     </fixedBillGiverDefs>
     <verb>raise queen bee</verb>
     <gerund>raising queen bee</gerund>

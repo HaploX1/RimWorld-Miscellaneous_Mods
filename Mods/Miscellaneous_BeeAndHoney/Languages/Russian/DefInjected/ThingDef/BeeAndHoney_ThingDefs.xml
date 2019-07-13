@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
-	<Beehive.label>пчелиный улей</Beehive.label>
-	<Beehive.description>Это закрытая структура, в которой живут пчёлы и растят своё потомство. Ваши колонисты могут собирать их мёд.</Beehive.description>
+	<Misc_Beehive.label>пчелиный улей</Misc_Beehive.label>
+	<Misc_Beehive.description>Это закрытая структура, в которой живут пчёлы и растят своё потомство. Ваши колонисты могут собирать их мёд.</Misc_Beehive.description>
 	
 	<Honey.label>мёд</Honey.label>
 	<Honey.description>Вкусная конфета от нашей подруги пчелы.</Honey.description>
