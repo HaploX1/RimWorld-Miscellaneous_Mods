@@ -63,6 +63,7 @@
         <compClass>EndGame.CompEndGame</compClass>
 		<maxDaysActive>30</maxDaysActive>
 		<dangerIncreaseOnDay>24</dangerIncreaseOnDay>
+		<dangerLowUntilDay>8</dangerLowUntilDay>
 		<ticksBetweenIncidents>
 			<min>20000</min>
 			<max>70000</max>
