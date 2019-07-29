@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Misc. XPatches CE</name>
+	<author>Haplo</author>
+	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>Load this AFTER Combat Extended and Miscellaneous Mods
+	
+This mod makes the following Miscellaneous Mods compatible to Combat Extended:
+	
+- Miscellaneous 'CORE'
+
+- Misc. TurretBase, Objects
+--- Note: Because of some incompatibilities the turret bases are currently disabled. 
+          The remaining objects are working.
+	
+The following Miscellaneous Mods can be used in CE without patching:
+
+- Misc. Bees and Honey
+
+- Misc. TrainingFacility
+
+- Misc. Robots
+
+- Misc. WeaponRepair
+
+- Misc. MapGenerator / Urban / Factionbases
+
+- Misc. Incidents
+	
+- Misc. EndGame
+	
+	</description>
+</ModMetaData>
