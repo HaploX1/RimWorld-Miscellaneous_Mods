@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Misc. XPatches CE only 'CORE'</name>
+	<author>Haplo</author>
+	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>Load this AFTER Miscellaneous 'CORE' and Combat Extended!
+	
+!!! Use Misc. XPatches instead if you also have Misc. Turrets, Objects active !!!
+	
+This mod makes the following Miscellaneous Mods compatible to Combat Extended:
+	
+- Miscellaneous 'CORE'
+
+	
+The following Miscellaneous Mods can be used in CE without patching:
+
+- Misc. Bees and Honey
+
+- Misc. TrainingFacility
+
+- Misc. Robots
+
+- Misc. WeaponRepair
+
+- Misc. MapGenerator / Urban / Factionbases
+
+- Misc. Incidents
+	
+- Misc. EndGame
+	
+	</description>
+</ModMetaData>

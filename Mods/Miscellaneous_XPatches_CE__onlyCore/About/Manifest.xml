@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>Misc_XPatch_CE</identifier>
-    <version>1.0.1</version>
+    <identifier>Misc_XPatch_CE_Core</identifier>
+    <version>1.0.0</version>
     <dependencies>
         <li>Misc_Core</li>
-		<li>Misc_TurretBase</li>
 		<li>CombatExtended</li>
     </dependencies>
     <loadAfter>
         <li>Misc_Core</li>
-		<li>Misc_TurretBase</li>
 		<li>CombatExtended</li>
     </loadAfter>
 </Manifest>
