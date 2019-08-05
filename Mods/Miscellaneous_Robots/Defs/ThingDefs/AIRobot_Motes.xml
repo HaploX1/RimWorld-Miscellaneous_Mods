@@ -68,6 +68,20 @@
       <fadeOutTime>1</fadeOutTime>
     </mote>
   </ThingDef>
+  
+  
+  <ThingDef ParentName="MoteBase_MiscRobots">
+    <defName>Mote_NoRobotSign</defName>
+    <graphicData>
+      <texPath>Things/Mote/NoRobotSign</texPath>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.5</fadeInTime>
+      <solidTime>1.75</solidTime>
+      <fadeOutTime>1</fadeOutTime>
+    </mote>
+  </ThingDef>
 
 
 
