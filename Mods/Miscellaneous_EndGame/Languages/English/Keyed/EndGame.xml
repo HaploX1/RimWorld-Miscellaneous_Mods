@@ -10,5 +10,25 @@
 	
 	<EndGame_Victory>And if thy survive\nThe onslaught by a pair of moon,\nThis will be your price\nOl' civic right in thee harvest soon..\n\nVictory! \n\nYou have survived the onslaught over the required time and can claim your price: Your little outpost has finally won the right to officially be a town!\nSoon the caravans will arrive, bringing new settlers and traders, and your city will flourish and grow even more!\n\nThese colonists, by right of contest, are now fully fledged citizens:\n\n{0}\n\nAnd they lived happily.. ever.. ... after.. .. .. ?!?\n\n\n**SCREEEEEEEEEEEEEEEEE**</EndGame_Victory>
 	
+	<!-- MOD OPTIONS -->
+	<EndGame_ModOptions_Category>Miscellaneous - EndGame</EndGame_ModOptions_Category>
+	<EndGame_ModOptions_DaysActive>Days To Survive (Default: 30)</EndGame_ModOptions_DaysActive>
+	<EndGame_ModOptions_DaysActive_hint>This is the number of days you must survive until victory.</EndGame_ModOptions_DaysActive_hint>
+	<EndGame_ModOptions_TicksBetweenIncidents>Ticks Between Incidents (Default: 30000 - 120000)</EndGame_ModOptions_TicksBetweenIncidents>
+	<EndGame_ModOptions_TicksBetweenIncidents_hint>These are the possible ticks between incidents. For your info: {0} ticks are one hour and {1} ticks are one day.</EndGame_ModOptions_TicksBetweenIncidents_hint>
+	<EndGame_ModOptions_RaidPointsFactorRangePercent>Raid-Points Factor (Default: 50% - 300%)</EndGame_ModOptions_RaidPointsFactorRangePercent>
+	<EndGame_ModOptions_RaidPointsFactorRangePercent_hint>This is the possible range for a raid point factor. This affects the strength of enemy groups. (Raid Points = Vanilla Raid Points * Random Factor in this Range)</EndGame_ModOptions_RaidPointsFactorRangePercent_hint>
+	<EndGame_ModOptions_DangerLowUntilDay>Lower Danger Until Day X (Default: 7)</EndGame_ModOptions_DangerLowUntilDay>
+	<EndGame_ModOptions_DangerHighFromDay>Highest Danger From Day X (Default: 24)</EndGame_ModOptions_DangerHighFromDay>
+	<EndGame_ModOptions_DangerLowHighDay_hint>These settings define the three stages of danger: Low Danger at the beginning, Normal Danger in between and High Danger close to the end.</EndGame_ModOptions_DangerLowHighDay_hint>
+	<EndGame_ModOptions_DangerLowTimeFactor>Time Factor: Low Danger (Default: 2.0)</EndGame_ModOptions_DangerLowTimeFactor>
+	<EndGame_ModOptions_DangerMidTimeFactor>Time Factor: Medium Danger (Default: 1.0)</EndGame_ModOptions_DangerMidTimeFactor>
+	<EndGame_ModOptions_DangerHighTimeFactor>Time Factor: High Danger (Default: 0.5)</EndGame_ModOptions_DangerHighTimeFactor>
+	<EndGame_ModOptions_DangerTimeFactor_hint>The time factor is a factor to the calculated time until the next raid occurs. (Time = Original Time * Factor)</EndGame_ModOptions_DangerTimeFactor_hint>
+	<EndGame_ModOptions_DangerLowRaidPointFactor>Raid-Point Factor: Low Danger (Default: 0.65)</EndGame_ModOptions_DangerLowRaidPointFactor>
+	<EndGame_ModOptions_DangerMidRaidPointFactor>Raid-Point Factor: Medium Danger (Default: 1.0)</EndGame_ModOptions_DangerMidRaidPointFactor>
+	<EndGame_ModOptions_DangerHighRaidPointFactor>Raid-Point Factor: High Danger (Default: 1.35)</EndGame_ModOptions_DangerHighRaidPointFactor>
+	<EndGame_ModOptions_DangerRaidPointFactor_hint>The raid point factor is a factor to the calculated raid points for buying enemies. (Raid Points = Previously selected Raid Points * Factor)</EndGame_ModOptions_DangerRaidPointFactor_hint>
+	
 </LanguageData>
 

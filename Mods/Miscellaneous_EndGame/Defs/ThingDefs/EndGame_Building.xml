@@ -59,22 +59,8 @@
         <shortCircuitInRain>false</shortCircuitInRain>
         <basePowerConsumption>500</basePowerConsumption>
       </li>
-      <li Class="EndGame.CompProperties_EndGame">
+      <li>
         <compClass>EndGame.CompEndGame</compClass>
-		<maxDaysActive>30</maxDaysActive>
-		<dangerIncreaseOnDay>24</dangerIncreaseOnDay>
-		<dangerLowUntilDay>8</dangerLowUntilDay>
-		<ticksBetweenIncidents>
-			<min>20000</min>
-			<max>70000</max>
-		</ticksBetweenIncidents>
-		<raidPointsFactorRange>
-			<min>0.5</min>
-			<max>3.0</max>
-		</raidPointsFactorRange>
-		<possibleIncidents>
-			<li>RaidEnemy</li>
-		</possibleIncidents>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
