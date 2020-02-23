@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Blueprint ruins (single buildings) -->
+	<GenStepDef>
+		<defName>ScatterBlueprintSimple_urban</defName>
+		<order>332</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle_urban">
+			<allowInWaterBiome>true</allowInWaterBiome>
+			<countPer10kCellsRange>
+				<min>15.00</min>
+				<max>32.00</max>
+			</countPer10kCellsRange>
+		</genStep>
+	</GenStepDef>
+
+	<!-- Blueprint ruins (village) -->
+	<GenStepDef>
+		<defName>ScatterBlueprintVillage_urban</defName>
+		<order>342</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage_urban">
+			<allowInWaterBiome>false</allowInWaterBiome>
+			<countPer10kCellsRange>
+				<min>0.40</min>
+				<max>2.50</max>
+			</countPer10kCellsRange>
+			<ruinCountRange>
+				<min>2</min>
+				<max>5</max>
+			</ruinCountRange>
+			<ruinDistanceRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinDistanceRange>
+			<ruinOffsetHorizontalRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinOffsetHorizontalRange>
+			<ruinOffsetVerticalRange>
+				<min>5</min>
+				<max>15</max>
+			</ruinOffsetVerticalRange>
+		</genStep>
+	</GenStepDef>
+
+
+</Defs>

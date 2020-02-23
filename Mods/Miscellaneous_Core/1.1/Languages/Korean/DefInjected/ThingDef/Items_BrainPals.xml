@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<BionicTacticalImplant.label>생체공학 뇌도우미</BionicTacticalImplant.label>
+	<BionicTacticalImplant.description>발달한 생체공학 컴퓨터로 인간의 뇌와 완벽하게 합쳐졌습니다.</BionicTacticalImplant.description>
+	
+	<ElectronicTacticalImplant.label>전자공학 뇌도우미</ElectronicTacticalImplant.label>
+	<ElectronicTacticalImplant.description>직접적인 뇌-컴퓨터 인터페이스를 제공하는 고급 컴퓨터입니다.</ElectronicTacticalImplant.description>	
+	
+</LanguageData>

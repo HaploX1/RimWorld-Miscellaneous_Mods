@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- new body parts - bionic -->
+
+  <InstallBionicTacticalImplant.label>安装仿生大脑芯片</InstallBionicTacticalImplant.label>
+  <InstallBionicTacticalImplant.description>安装仿生大脑芯片。</InstallBionicTacticalImplant.description>
+  <InstallBionicTacticalImplant.jobString>正在安装仿生大脑芯片。</InstallBionicTacticalImplant.jobString>
+
+  <InstallElectronicTacticalImplant.label>安装电子大脑芯片</InstallElectronicTacticalImplant.label>
+  <InstallElectronicTacticalImplant.description>安装电子大脑芯片。</InstallElectronicTacticalImplant.description>
+  <InstallElectronicTacticalImplant.jobString>正在安装电子大脑芯片。</InstallElectronicTacticalImplant.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 1: pre-electricity -->
+
+  <Beekeeping.label>养蜂</Beekeeping.label>
+  <Beekeeping.description>解锁建造「蜂箱」，可从中收获蜂蜜。\n\n注意：你需要一只蜂后以建造蜂箱。你可以在空心树中寻找蜂后或者从商人处购买。</Beekeeping.description>
+
+</LanguageData>

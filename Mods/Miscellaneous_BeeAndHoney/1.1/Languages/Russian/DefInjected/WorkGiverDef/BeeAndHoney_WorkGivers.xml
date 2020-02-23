@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<GetHoney.label>сбор мёда</GetHoney.label>
+	<GetHoney.verb>собирать</GetHoney.verb>
+	<GetHoney.gerund>сбор</GetHoney.gerund>
+	
+	<DoBillsRaiseNewQueen.label>вырастить новую пчелиную королеву</DoBillsRaiseNewQueen.label>
+	<DoBillsRaiseNewQueen.verb>вырастить пчелиную королеву</DoBillsRaiseNewQueen.verb>
+	<DoBillsRaiseNewQueen.gerund>выращивание пчелиной королевы</DoBillsRaiseNewQueen.gerund>
+	
+</LanguageData>

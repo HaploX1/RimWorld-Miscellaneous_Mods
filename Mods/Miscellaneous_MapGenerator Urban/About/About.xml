@@ -1,11 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. MapGen Xtension 'Urban Biome'</name>
+	<packageId>Haplo.Miscellaneous.MapGenerator.Urban</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Haplo.Miscellaneous.Core</packageId>
+			<displayName>Miscellaneous 'CORE'</displayName>
+			<downloadUrl>https://github.com/HaploX1/RimWorld-Miscellaneous_Mods/</downloadUrl>
+			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704181221</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
+			<displayName>Miscellaneous MapGenerator</displayName>
+			<downloadUrl>https://github.com/HaploX1/RimWorld-Miscellaneous_Mods/</downloadUrl>
+			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704182588</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+		<li>Haplo.Miscellaneous.MapGenerator</li>
+	</loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 *** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	
@@ -23,6 +45,6 @@ This will provide biomes with an urban like map from the blueprints provided in 
 Because of how it works, it sometimes may happen that you get attacked by Mechanoids or Insects shortly after the start!
 
 
-(Version: 1.0.0)
+(Version: 1.1.0)
 	</description>
 </ModMetaData>

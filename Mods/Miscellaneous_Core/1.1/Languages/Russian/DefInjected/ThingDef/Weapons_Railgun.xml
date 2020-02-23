@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<Bullet_RailgunMKI.label>Снаряд Гаусса</Bullet_RailgunMKI.label>
+
+	<Gun_RailgunMKI.label>Пушка Гаусса</Gun_RailgunMKI.label>
+	<Gun_RailgunMKI.description>Пусковая установка, предназначенная для электромагнитного ускорения массивного металического снаряда</Gun_RailgunMKI.description>
+
+	<Gun_RailgunMKI.tools.0.label>stock</Gun_RailgunMKI.tools.0.label> <!-- шток ? -->
+	<Gun_RailgunMKI.tools.1.label>barrel</Gun_RailgunMKI.tools.1.label> <!-- ствол ? -->
+
+</LanguageData>

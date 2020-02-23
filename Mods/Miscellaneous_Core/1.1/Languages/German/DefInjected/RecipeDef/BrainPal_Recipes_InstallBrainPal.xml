@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<InstallBionicTacticalImplant.label>Implantiere bionischen BrainPal</InstallBionicTacticalImplant.label>
+	<InstallBionicTacticalImplant.description>Implantiert einen bionischen BrainPal.</InstallBionicTacticalImplant.description>
+	<InstallBionicTacticalImplant.jobString>Implantiert bionischen BrainPal.</InstallBionicTacticalImplant.jobString>
+	
+	<InstallElectronicTacticalImplant.label>Implantiere elektr. BrainPal</InstallElectronicTacticalImplant.label>
+	<InstallElectronicTacticalImplant.description>Implantiert einen elektronischen BrainPal.</InstallElectronicTacticalImplant.description>
+	<InstallElectronicTacticalImplant.jobString>Implantiert elektronischen BrainPal.</InstallElectronicTacticalImplant.jobString>
+	
+</LanguageData>

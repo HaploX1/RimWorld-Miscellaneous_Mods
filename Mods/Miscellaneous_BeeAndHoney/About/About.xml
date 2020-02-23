@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. Bees'n'Honey</name>
+	<packageId>Haplo.Miscellaneous.BeesNHoney</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies></modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+	</loadAfter>
 	<description>
 	
    This mod adds the option to build beehives where you can harvest your very own honey.
@@ -22,7 +29,7 @@ Hints:
 - Mead (honey-wine) can be produced at the brewery
 
    
-(Version: 1.0.4)
+(Version: 1.1.0)
 Special Thanks to thedee05 for some graphics
 
 Languages: English, German, Chinese, Russian

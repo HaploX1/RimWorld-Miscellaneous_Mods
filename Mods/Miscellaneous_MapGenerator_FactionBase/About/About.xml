@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. MapGen FactionBase</name>
+	<packageId>Haplo.Miscellaneous.MapGenFactionbase</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies></modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+		<li>Haplo.Miscellaneous.MapGenerator</li>
+	</loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>-Blueprint MapGenerator for Faction Bases
    This will sometimes create faction bases from the available blueprints.
    To make it not too predictable there are chances based on the count of blueprints 
@@ -16,7 +25,7 @@
    https://github.com/HaploX1/RimWorld-MapGenBaseBlueprints
 
 
-(Version: 1.0.1)
+(Version: 1.1.0)
 Language: English, German
 	</description>
 </ModMetaData>

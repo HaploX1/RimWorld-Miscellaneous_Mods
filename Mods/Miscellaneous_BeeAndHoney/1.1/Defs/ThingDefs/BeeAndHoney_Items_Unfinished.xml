@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="UnfinishedBeeBase_MiscBees">
+    <defName>UnfinishedHoneycomb</defName>
+    <label>unfinished honeycomb</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedHoneycomb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories />
+  </ThingDef>
+
+
+</Defs>

@@ -1,11 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. MapGenerator</name>
+	<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Haplo.Miscellaneous.Core</packageId>
+			<displayName>Miscellaneous 'CORE'</displayName>
+			<downloadUrl>https://github.com/HaploX1/RimWorld-Miscellaneous_Mods/</downloadUrl>
+			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704181221</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+	</loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
 	
 -Blueprint MapGenerator
@@ -16,7 +31,7 @@
 (Note: This mod only works when you start a new colony!)
 
 
-(Version: 1.0.5)
+(Version: 1.1.0)
 Language: English, German
 	</description>
 </ModMetaData>

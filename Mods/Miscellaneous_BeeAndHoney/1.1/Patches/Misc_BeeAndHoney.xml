@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Check if an urban biome is available -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/BiomeDef[defName = "BorealForest_UrbanRuins"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "TreeBeeHive"]/plant/wildBiomes</xpath>
+				<value>
+					<BorealForest_UrbanRuins>0.010</BorealForest_UrbanRuins>
+					<TemperateForest_UrbanRuins>0.015</TemperateForest_UrbanRuins>
+					<TemperateSwamp_UrbanRuins>0.013</TemperateSwamp_UrbanRuins>
+					<TropicalRainforest_UrbanRuins>0.015</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.015</TropicalSwamp_UrbanRuins>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+

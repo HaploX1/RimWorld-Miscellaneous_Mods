@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MapGenerator_ModOptions_Category>Miscellaneous - Map Generator</MapGenerator_ModOptions_Category>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>Try to always spawn with holes</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>Will spawn nearly all blueprints as ruins with holes in their walls. \nHint: Exceptions are buildings containing enemies.</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>
+	<MapGenerator_ModOptions_HoleChancePercent>Chance per cell to generate a hole: </MapGenerator_ModOptions_HoleChancePercent>
+	<MapGenerator_ModOptions_HoleChanceOnWaterPercent>Chance per water-cell to generate a hole: </MapGenerator_ModOptions_HoleChanceOnWaterPercent>
+	
+	<MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension>For the Urban City Extension only:</MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension>
+	<MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension_hint>This part is only active when you also have the extension for urban cities running.</MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension_hint>
+	<MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier>Multiplicator for the urban city biome generation: </MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier>
+	<MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier_hint>With this you can increase/reduce the chance to get an urban city biome when the map is generated.</MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier_hint>
+	
+</LanguageData>

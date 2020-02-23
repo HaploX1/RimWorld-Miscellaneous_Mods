@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Colonist Groups -->
+	<ColonistGroups_GroupSaved>Gruppe {0} mit {1} Kolonisten gespeichert.</ColonistGroups_GroupSaved>
+	<ColonistGroups_GroupNotSet_PositionMode>Gruppe {0} nicht gesetzt. Benutze Shift+{1} zum Speichern kampfbereiter Kolonisten.</ColonistGroups_GroupNotSet_PositionMode>
+	<ColonistGroups_GroupInvalid_PositionMode>Gruppe {0} nicht gesetzt. Es wurden keine kampfbereiten Kolonisten gefunden.</ColonistGroups_GroupInvalid_PositionMode>
+	<ColonistGroups_GroupNotSet_SelectionMode>Gruppe {0} nicht gesetzt. Benutze Shift+{1} zum Speichern ausgewählter Kolonisten.</ColonistGroups_GroupNotSet_SelectionMode>
+	<ColonistGroups_GroupInvalid_SelectionMode>Gruppe {0} nicht gesetzt. Es wurden keine ausgewählten Kolonisten gefunden.</ColonistGroups_GroupInvalid_SelectionMode>
+	<ColonistGroups_GroupPositioned>Gruppe {0} ist auf dem Weg.</ColonistGroups_GroupPositioned>
+	<ColonistGroups_GroupSelected>Gruppe {0} ist ausgewählt.</ColonistGroups_GroupSelected>
+	<ColonistGroups_PawnsUndrafted>Alle Kolonisten ohne aktive Aufgabe freigegeben.</ColonistGroups_PawnsUndrafted>
+	<ColonistGroups_GroupSelectionActive>Gruppen-Modus ist aktiv.</ColonistGroups_GroupSelectionActive>
+	<ColonistGroups_GroupPositioningActive>Positionier-Modus ist aktiv.</ColonistGroups_GroupPositioningActive>
+
+	<!-- Colonist Groups: Help Screen -->
+	<ColonistGroups_GameStartHelp_prt1>Miscellaneous: Kolonisten Gruppierung</ColonistGroups_GameStartHelp_prt1>
+	<ColonistGroups_GameStartHelp_prt2>Benutze die Tasten 6, 7, 8, 9 um festzulegen, wo die Kolonisten sich positionieren sollen.\nDu kannst sie wie folgt verwenden:\nVersetze die Kolonisten, denen du eine Position zuweisen willst in den Kampfmodus, und positioniere sie an der gewünschten Position. Danach selektiere die Kolonisten, die in der Gruppe sein sollen und speichere ihre Position mit SHIFT+6 (für Gruppe 1).\nUm sie wieder an ihre Positionen zu rufen, drücke nur die 6.\nFür die Gruppen können die Tasten 6, 7, 8 und 9 verwendet werden.\n\nHinweis: Wenn der Modus GRUPPE (Wechseln: SHIFT+0) aktiv ist, werden die Kolonisten nur ausgewählt. Sie laufen dann nicht an ihre Position.</ColonistGroups_GameStartHelp_prt2>
+	<ColonistGroups_GameStartHelp_prt3>Die Taste 0 hat zwei Funktionen:\nWenn du sie einmal drückst, werden alle Kolonisten, die keinen aktiven Job haben, aus dem Kampfmodus entlassen.\nWeiterhin kannst du SHIFT+0 drücken, um den Gruppenmodus (für 6..9) zwischen POSITION und GRUPPE zu wechseln.\n\nAbschließend ist auch BACKSPACE belegt. Beim drücken dieser Taste springt die Kamera an einen zufälligen Ort innerhalb der Heimzone.\n\nAlle Tasten können in der Tastenzuweisungen bei den Optionen umdefiniert werden.</ColonistGroups_GameStartHelp_prt3>
+	<ColonistGroups_GameStartHelp_openHelp>Diese Hilfe kannst du jederzeit mit SHIFT+K einblenden.</ColonistGroups_GameStartHelp_openHelp>
+	<ColonistGroups_Letter_InfoOpenHelp>Information</ColonistGroups_Letter_InfoOpenHelp>
+	<ColonistGroups_Message_InfoOpenHelp>Du kannst die Hilfe von Miscellaneous: Kolonisten Gruppierung jederzeit aufrufen.\n\nZum Lesen drücke einfach die Tasten SHIFT+K.\n\n</ColonistGroups_Message_InfoOpenHelp>
+
+	<!-- Colonist Groups: Mod Options -->
+	<ColonistSelections_ModOptions_Category>Miscellaneous Core: Kolonisten Gruppierung</ColonistSelections_ModOptions_Category>
+	<ColonistSelections_ModOptions_ShowGroupIcons>Icons sind aktiv</ColonistSelections_ModOptions_ShowGroupIcons>
+	<ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>Wenn das deaktiviert ist, werden ALLE Icons von Kolonisten Gruppierung deaktiviert.</ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>
+	<ColonistSelections_ModOptions_SizeGroupIconsPercent>Icon-Größe relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_SizeGroupIconsPercent>
+	<ColonistSelections_ModOptions_StartPosGroupIconsX>Icon-Position X relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_StartPosGroupIconsX>
+	<ColonistSelections_ModOptions_StartPosGroupIconsY>Icon-Position Y relativ zur Bildschirmauflösung</ColonistSelections_ModOptions_StartPosGroupIconsY>
+	
+	<!-- Colonist Groups: Icon Texts -->
+	<ColonistSelection_Icon_ToggleGroupIcons>Schalte Gruppierungs-Icons Ein/Aus</ColonistSelection_Icon_ToggleGroupIcons>
+	<ColonistSelection_Icon_Click2CallGroupX>Klicke um Gruppe {0} zu rufen. ({1} Pers.)\nShift+Klick um Gruppe {0} festzulegen.\nTaste: {2} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2CallGroupX>
+	<ColonistSelection_Icon_Click2ReleaseAll>Klicke um alle wartenden Kolonisten freizugeben.\nShift+Klick: Wechsle Gruppierungsmodus.\nTaste: {0} / Shift+K: Öffnet Hilfe.</ColonistSelection_Icon_Click2ReleaseAll>
+	
+
+</LanguageData>

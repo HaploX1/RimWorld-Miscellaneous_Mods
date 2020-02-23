@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_Bunker10x6Base1">
+		<defName>Zymex_Bunker10x6_w_holes</defName>
+		<chance>15</chance>
+		<size>(10, 6)</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>false</createTrigger>
+		<buildingData>
+aaaa.aaaaa
+a..a..c..a
+a..abba..a
+a........a
+a........a
+abbbaabbba
+</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>Door</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>1</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+		</floorLegend>
+		<itemData>
+aaaa.aaaaa
+a..a..c..a
+a..abba..a
+a........a
+a........a
+abbbaabbba
+</itemData>
+		<itemLegend>
+			<li>
+				<key>s</key>
+				<value>Silver</value>
+			</li>
+		</itemLegend>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="Zymex_Bunker10x6Base1">
+		<defName>Zymex_Bunker10x6_wo_holes</defName>
+		<chance>7</chance>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+</Defs>
