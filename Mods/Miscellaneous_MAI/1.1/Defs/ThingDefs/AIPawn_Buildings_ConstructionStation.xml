@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" Name="BuildingConstructorBase_MiscMAI" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+  </ThingDef>
+
+	<ThingDef Class="AIPawn.ThingDef_Building_AIPawnConstructionStation" ParentName="BuildingConstructorBase_MiscMAI">
+		<defName>AIPawn_ConstructionStation</defName>
+		<label>Automatic Assembler AI</label>
+		<description>This is an automatic assembler to build ai constructs.</description>
+		<thingClass>AIPawn.Building_AIPawnConstructionStation</thingClass>
+		<graphicData>
+			<texPath>Things/Building/AIPawn_Assembler/Assembler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+		</graphicData>
+		<minifiedDef>AIPawn_MinifiedRechargeStation</minifiedDef>
+			<thingCategories>
+			<li>BuildingsFurniture</li>
+			</thingCategories>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MarketValue>2000</MarketValue>
+			<Mass>60</Mass>
+		</statBases>
+		<costList>
+			<Silver>100</Silver>
+			<Steel>250</Steel>
+			<Uranium>25</Uranium>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(4,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>200</pathCost>
+		<castEdgeShadows>False</castEdgeShadows>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructEffect>ConstructMetal</constructEffect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>True</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<tickerType>Normal</tickerType>
+		<building>
+			<fixedStorageSettings>
+				<priority>Critical</priority>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Uranium>10</Uranium>
+		</killedLeavings>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>550</basePowerConsumption>
+			</li>
+		</comps>
+		<researchPrerequisites><li>AIPawnBaseResearch</li></researchPrerequisites>
+		<!--<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>-->
+		<tradeTags>
+			<li>Robots</li>
+		</tradeTags>
+
+		<maxSteelCount>350</maxSteelCount>
+		<maxSilverCount>500</maxSilverCount>
+		<counterUsingResources>325</counterUsingResources>
+		<UI_StartProduction_Path>UI/Commands/AIPawn/UI_StartProduction</UI_StartProduction_Path>
+		<UI_StopProduction_Path>UI/Commands/AIPawn/UI_StopProduction</UI_StopProduction_Path>
+
+	</ThingDef>
+
+</Defs>

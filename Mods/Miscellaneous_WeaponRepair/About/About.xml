@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. Weapon Repair</name>
+	<packageId>Haplo.Miscellaneous.WeaponRepair</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies></modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+	</loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>
    Are your best weapons always in an awful condition, with no way to repair them?
    Do you have multiple less quality weapons of the same kind just laying around, doing nothing for you?
@@ -13,7 +21,7 @@
    --- Needed machining table and skills not included ---
 
    
-(Version: 1.0.0)
+(Version: 1.1.0)
 Language: English, German, Chinese
 
 Thanks to duduluu and Biscuit now with a translation for Chinese (both)

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawnBaseResearch.label>Мобильный ИИ</AIPawnBaseResearch.label>
+	<AIPawnBaseResearch.description>Основные исследования, необходимые для создания MAI, который окажет неоценимую помощь в развитии колонии.\n\nПримечание: После постройки, вы не сможете улучшать ваш MAI, т.к. доступ к его базовым программам будет заблокирован.</AIPawnBaseResearch.description>
+
+	<AIPawnAdvResearchConstruction.label>ИИ: Строительство</AIPawnAdvResearchConstruction.label>
+	<AIPawnAdvResearchConstruction.description>Исследование, дающее MAI навыки строительства.</AIPawnAdvResearchConstruction.description>
+
+	<AIPawnAdvResearchCooking.label>ИИ: Кулинария</AIPawnAdvResearchCooking.label>
+	<AIPawnAdvResearchCooking.description>Исследование, дающее MAI навыки приготовления пищи.</AIPawnAdvResearchCooking.description>
+
+	<AIPawnAdvResearchIntellectual.label>ИИ: Исследования</AIPawnAdvResearchIntellectual.label>
+	<AIPawnAdvResearchIntellectual.description>Исследование, дающее MAI навыки исследования.</AIPawnAdvResearchIntellectual.description>
+
+	<AIPawnAdvResearchCaring.label>ИИ: Медицина</AIPawnAdvResearchCaring.label>
+	<AIPawnAdvResearchCaring.description>Исследование, дающее MAI навыки заботы о колонистах.</AIPawnAdvResearchCaring.description>
+
+	<AIPawnAdvResearchCombat.label>ИИ: Боевая тактика</AIPawnAdvResearchCombat.label>
+	<AIPawnAdvResearchCombat.description>Исследование, дающее MAI навыки боевых действий.</AIPawnAdvResearchCombat.description>
+
+	<AIPawnAdvResearchSocial.label>ИИ: Социальные навыки</AIPawnAdvResearchSocial.label>
+	<AIPawnAdvResearchSocial.description>Исследование, дающее MAI навыки эмоционального общения с людьми.</AIPawnAdvResearchSocial.description>
+
+	<AIPawnAdvResearchAnimals.label>ИИ: Животноводство</AIPawnAdvResearchAnimals.label>
+	<AIPawnAdvResearchAnimals.description>Исследование, дающее MAI навыки животноводства.</AIPawnAdvResearchAnimals.description>
+
+	<AIPawnAdvResearchMining.label>ИИ: Горное дело</AIPawnAdvResearchMining.label>
+	<AIPawnAdvResearchMining.description>Исследование, дающее MAI навыки горнодобычи.</AIPawnAdvResearchMining.description>
+
+	<AIPawnAdvResearchCrafting.label>ИИ: Производство</AIPawnAdvResearchCrafting.label>
+	<AIPawnAdvResearchCrafting.description>Исследование, дающее MAI навыки производства предметов.</AIPawnAdvResearchCrafting.description>
+
+</LanguageData>

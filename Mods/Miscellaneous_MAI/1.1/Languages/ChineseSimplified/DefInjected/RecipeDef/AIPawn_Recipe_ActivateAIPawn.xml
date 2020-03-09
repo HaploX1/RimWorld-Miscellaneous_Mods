@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawn_ActivateAIPawn.label>激活移动人工智能（女性）</AIPawn_ActivateAIPawn.label>
+  <AIPawn_ActivateAIPawn.description>激活移动人工智能。</AIPawn_ActivateAIPawn.description>
+  <AIPawn_ActivateAIPawn.jobString>操作中。</AIPawn_ActivateAIPawn.jobString>
+
+  <AIPawn_ActivateAIPawnMale.label>激活移动人工智能（男性）</AIPawn_ActivateAIPawnMale.label>
+  <AIPawn_ActivateAIPawnMale.description>激活移动人工智能。</AIPawn_ActivateAIPawnMale.description>
+  <AIPawn_ActivateAIPawnMale.jobString>操作中。</AIPawn_ActivateAIPawnMale.jobString>
+
+
+</LanguageData>

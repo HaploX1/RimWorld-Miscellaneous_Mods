@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Misc. Endgame</name>
+	<packageId>Haplo.Miscellaneous.Endgame</packageId>
 	<author>Haplo</author>
 	<url>https://ludeon.com/forums/index.php?topic=3612.0</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies></modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.Core</li>
+	</loadAfter>
+	<incompatibleWith></incompatibleWith>
 	<description>And if thy survive 
 the onslaught by a pair of moon,
 this will be your price
@@ -20,8 +28,10 @@ You have nothing more to do, but you don't really want to leave the planet?
 Why not try to get your own town charter via martial law instead? 
 Here is your option for it...
 
+
+Note: This mod can be added anytime.
    
-(Version: 1.0.7)
+(Version: 1.1.0)
 Languages: English, German
 
 	

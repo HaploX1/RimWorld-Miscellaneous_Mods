@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<BuildAIPawnBaseTime.label>Скорость активации MAI</BuildAIPawnBaseTime.label>
+	<BuildAIPawnBaseTime.description>Скорость активации MAI этим колонистом.</BuildAIPawnBaseTime.description>
+
+	<BuildAIPawnBaseEfficiency.label>Эффективность активации MAI</BuildAIPawnBaseEfficiency.label>
+	<BuildAIPawnBaseEfficiency.description>Множитель, зависящий от количества активированных MAI.</BuildAIPawnBaseEfficiency.description>
+
+</LanguageData>

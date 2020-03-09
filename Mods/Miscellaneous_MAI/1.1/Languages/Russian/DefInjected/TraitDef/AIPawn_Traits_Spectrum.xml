@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawn_BaseTrait.label>Андроид</AIPawn_BaseTrait.label>
+	<AIPawn_BaseTrait.description>[PAWN_nameDef] - это андроид. Поэтому, он несколько быстрее, выносливее человека и не очень подвержен психологическим растройствам.</AIPawn_BaseTrait.description>
+
+</LanguageData>

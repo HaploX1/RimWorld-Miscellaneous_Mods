@@ -9,7 +9,10 @@
 		<li>1.1</li>
 	</supportedVersions>
 	<modDependencies></modDependencies>
-	<loadBefore></loadBefore>
+	<loadBefore>
+		<li>Alaestor.MiscRobots.PlusPlus</li>
+		<li>eion247658.MiscVHCraftableHRobots</li>
+	</loadBefore>
 	<loadAfter>
 		<li>Haplo.Miscellaneous.Core</li>
 	</loadAfter>
@@ -41,7 +44,7 @@ Misc. Robots++ / other mod depending on Misc. Robots
 
 
 Special thanks to mrofa and Vas for the graphics.
-(Version: 1.1.0)
+(Version: 1.1.1)
 Language: English, German, Chinese, Russian
 
 Thanks to duduluu and Biscuit for the Chinese translation

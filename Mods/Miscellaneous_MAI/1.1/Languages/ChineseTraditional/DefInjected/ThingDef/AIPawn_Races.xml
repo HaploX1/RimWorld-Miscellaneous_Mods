@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Humanlike -->
+
+  <AIPawn.label>人工智能</AIPawn.label>
+  <AIPawn.description>擁有合金軀體的人工智能。</AIPawn.description>
+  <!-- Leather Amount: 0 -->
+  <!-- Meat Amount: 0 -->
+  <AIPawn_Corpse.label>人工智能屍體</AIPawn_Corpse.label>
+  <AIPawn_Corpse.description>人工智能屍體</AIPawn_Corpse.description>
+
+
+  <!-- Humanlike -->
+
+  <AIPawnE.label>增強型人工智能</AIPawnE.label>
+  <AIPawnE.description>擁有合金軀體的增強型人工智能。</AIPawnE.description>
+  <!-- Leather Amount: 0 -->
+  <!-- Meat Amount: 0 -->
+  <AIPawnE_Corpse.label>增強型人工智能屍體</AIPawnE_Corpse.label>
+  <AIPawnE_Corpse.description>增強型人工智能屍體</AIPawnE_Corpse.description>
+
+
+</LanguageData>

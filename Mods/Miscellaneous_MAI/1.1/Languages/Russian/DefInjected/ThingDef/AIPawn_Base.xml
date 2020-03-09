@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawn_Inactive.label>MAI (неактивированный)</AIPawn_Inactive.label>
+	<AIPawn_Inactive.description>Этот MAI нуждается в небольших финальных настройках, прежде чем будет готов к работе.</AIPawn_Inactive.description>
+
+	<AIPawn_ConstructionStation.label>Станция сборки MAI</AIPawn_ConstructionStation.label>
+	<AIPawn_ConstructionStation.description>Автоматическая сборочная станция для производства MAI.</AIPawn_ConstructionStation.description>
+
+	<AIPawn_RechargeStation.label>Станция подзарядки</AIPawn_RechargeStation.label>
+	<AIPawn_RechargeStation.description>Станция подзарядки для MAI.</AIPawn_RechargeStation.description>
+
+	<AIPawn_RechargeStation2x.label>Большая станция подзарядки</AIPawn_RechargeStation2x.label>
+	<AIPawn_RechargeStation2x.description>Станция подзарядки для двух MAI.</AIPawn_RechargeStation2x.description>
+
+	<AIPawn_NaniteAssembler.label>Станция сборки нанитов</AIPawn_NaniteAssembler.label>
+	<AIPawn_NaniteAssembler.description>Сборочный автомат, который производит ремонтные наниты. Эти микро роботы могут восстанавливать поврежденные части MAI во время его подзарядки.</AIPawn_NaniteAssembler.description>
+
+	<AIPawn.description>MAI в металлическом корпусе.</AIPawn.description>
+	<AIPawnE.description>Улучшенный MAI в металлическом корпусе</AIPawnE.description>
+
+	<AIPawn_MinifiedInactiveAIPawn.label>Неактивированный MAI</AIPawn_MinifiedInactiveAIPawn.label>
+	<AIPawn_MinifiedRechargeStation.label>Станция подзарядки</AIPawn_MinifiedRechargeStation.label>
+
+	<AIPawn_Apparel_BaseShielding.label>Силовое поле</AIPawn_Apparel_BaseShielding.label>
+	<AIPawn_Apparel_BaseShielding.description>Силовое поле, с защитными характеристикаи. \nВнимание: попытки манипулирования им могут привести к саморазрушению.</AIPawn_Apparel_BaseShielding.description>
+
+	<AIPawn_AIPawnCreator.label>женский MAI</AIPawn_AIPawnCreator.label>
+	<AIPawn_AIPawnCreatorE.label>женский MAI (улучшенный)</AIPawn_AIPawnCreatorE.label>
+
+	<AIPawn_AIPawnCreatorMale.label>мужской MAI</AIPawn_AIPawnCreatorMale.label>
+	<AIPawn_AIPawnCreatorMaleE.label>мужской MAI (улучшенный)</AIPawn_AIPawnCreatorMaleE.label>
+
+	<!--  AIPawn_Buildings_Base.xml.    ??Def??  <description>This creates the AI-Pawn and destroys itself.</description>  -->
+
+</LanguageData>

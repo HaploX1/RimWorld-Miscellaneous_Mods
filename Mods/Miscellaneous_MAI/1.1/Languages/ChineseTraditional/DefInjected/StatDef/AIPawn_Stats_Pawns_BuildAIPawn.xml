@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BuildAIPawnBaseTime.label>激活人工智能速度</BuildAIPawnBaseTime.label>
+  <BuildAIPawnBaseTime.description>此人激活人工智能的速度。</BuildAIPawnBaseTime.description>
+
+  <BuildAIPawnBaseEfficiency.label>激活人工智能效率</BuildAIPawnBaseEfficiency.label>
+  <BuildAIPawnBaseEfficiency.description>人工智能激活數量的倍率。</BuildAIPawnBaseEfficiency.description>
+
+
+</LanguageData>

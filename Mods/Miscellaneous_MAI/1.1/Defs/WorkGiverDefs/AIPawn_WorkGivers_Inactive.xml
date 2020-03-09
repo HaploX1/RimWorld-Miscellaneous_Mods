@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>DoBillsAIPawnConstructor</defName>
+		<label>Constructing Mai</label>
+		<giverClass>AIPawn.WorkGiver_AIPawn_FillConstructor</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>6</priorityInType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DoBillsAIPawnInactive</defName>
+		<label>Activating Mai</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>111</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AIPawn_Inactive</li>
+		</fixedBillGiverDefs>
+		<verb>activate</verb>
+		<gerund>activating</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

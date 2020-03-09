@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<AIPawnBaseResearch.label>Mobile KI</AIPawnBaseResearch.label>
+	<AIPawnBaseResearch.description>Erforscht die Voraussetzungen, um eine mobile künstliche Intelligenz erstellen zu können. Diese Einheit kann dich und deine Kolonie unterstützen.\n\nHinweis: Eine einmal hergestellte Künstliche Intelligenz kann nicht aufgerüstet werden, da sie einen Eingriff in ihr Programm nicht zulassen wird.</AIPawnBaseResearch.description>
+
+	<AIPawnAdvResearchConstruction.label>KI: Konstruktion</AIPawnAdvResearchConstruction.label>
+	<AIPawnAdvResearchConstruction.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz Gebäude errichten kann.</AIPawnAdvResearchConstruction.description>
+
+	<AIPawnAdvResearchMining.label>KI: Abbauen</AIPawnAdvResearchMining.label>
+	<AIPawnAdvResearchMining.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz Erz abbauen kann.</AIPawnAdvResearchMining.description>
+
+	<AIPawnAdvResearchCombat.label>KI: Kampftaktiken</AIPawnAdvResearchCombat.label>
+	<AIPawnAdvResearchCombat.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz kämpfen kann.</AIPawnAdvResearchCombat.description>
+
+	<AIPawnAdvResearchCooking.label>KI: Kochen</AIPawnAdvResearchCooking.label>
+	<AIPawnAdvResearchCooking.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz kochen kann.</AIPawnAdvResearchCooking.description>
+
+	<AIPawnAdvResearchCaring.label>KI: Führsorge</AIPawnAdvResearchCaring.label>
+	<AIPawnAdvResearchCaring.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz ein Arzt sein kann.</AIPawnAdvResearchCaring.description>
+
+	<AIPawnAdvResearchCrafting.label>KI: Herstellung</AIPawnAdvResearchCrafting.label>
+	<AIPawnAdvResearchCrafting.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz etwas herstellen kann.</AIPawnAdvResearchCrafting.description>
+
+	<AIPawnAdvResearchIntellectual.label>KI: Forschung</AIPawnAdvResearchIntellectual.label>
+	<AIPawnAdvResearchIntellectual.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz selber forschen kann.</AIPawnAdvResearchIntellectual.description>
+
+	<AIPawnAdvResearchAnimals.label>KI: Tiere</AIPawnAdvResearchAnimals.label>
+	<AIPawnAdvResearchAnimals.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz mit Tieren umgehen kann.</AIPawnAdvResearchAnimals.description>
+
+	<AIPawnAdvResearchSocial.label>KI: Sozial</AIPawnAdvResearchSocial.label>
+	<AIPawnAdvResearchSocial.description>Erforscht einen neuen Programmteil, so dass eine künstliche Intelligenz mit Menschen umgehen kann.</AIPawnAdvResearchSocial.description>
+	
+</LanguageData>

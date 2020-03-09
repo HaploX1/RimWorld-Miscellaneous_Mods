@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>EuthanizeAIPawn</defName>
+		<label>Deactivate</label>
+		<description>Deactivate.</description>
+		<workerClass>Recipe_ExecuteByCut</workerClass>
+		<jobString>Deactivating.</jobString>
+		<workAmount>500</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<isViolation>true</isViolation>
+		<targetsBodyPart>false</targetsBodyPart>
+		<effectWorking>ButcherMechanoid</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+	</RecipeDef>
+
+</Defs>
