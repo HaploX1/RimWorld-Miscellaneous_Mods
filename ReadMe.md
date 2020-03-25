@@ -20,7 +20,7 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [x] Miscellaneous_MapGenerator 'Urban'        -->   1.1 *Updated*
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.1 *Updated*
 - [x] Miscellaneous_Robots                      -->   1.1 *Updated* 
-- [x] Miscellaneous_TurretBase + Objects        -->   1.0
+- [x] Miscellaneous_TurretBase + Objects        -->   1.1 *Updated*
 - [x] Miscellaneous_TrainingFacility            -->   1.1 *Updated*
 - [x] Miscellaneous_WeaponRepair                -->   1.1 *Updated*
 

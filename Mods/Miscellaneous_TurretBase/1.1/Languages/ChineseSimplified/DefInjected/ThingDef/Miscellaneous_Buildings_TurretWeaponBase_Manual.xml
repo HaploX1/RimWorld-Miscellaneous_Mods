@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TurretWeaponBaseMannable.label>炮台基座</TurretWeaponBaseMannable.label>
+  <TurretWeaponBaseMannable.description>控制所安装武器的手动炮台。</TurretWeaponBaseMannable.description>
+  <TurretWeaponBaseMannable_Blueprint.label>炮台基座（蓝图）</TurretWeaponBaseMannable_Blueprint.label>
+  <TurretWeaponBaseMannable_Frame.label>炮台基座（建造中）</TurretWeaponBaseMannable_Frame.label>
+  <TurretWeaponBaseMannable_Frame.description>控制所安装武器的手动炮台。</TurretWeaponBaseMannable_Frame.description>
+
+
+</LanguageData>

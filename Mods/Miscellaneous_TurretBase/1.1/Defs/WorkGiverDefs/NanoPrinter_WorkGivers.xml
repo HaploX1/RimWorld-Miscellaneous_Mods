@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>FillNanoPrinter</defName>
+		<label>Filling NanoPrinter</label>
+		<giverClass>NanoPrinter.WorkGiver_FillNanoPrinter</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>6</priorityInType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+	</WorkGiverDef>
+
+</Defs>
