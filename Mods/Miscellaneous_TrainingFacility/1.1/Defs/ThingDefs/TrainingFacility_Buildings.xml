@@ -20,8 +20,8 @@
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<WorkToBuild>2500</WorkToBuild>
-			<MaxHitPoints>99999</MaxHitPoints>
-			<Flammability>100.0</Flammability>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>1.0</Flammability>
 			<Beauty>-5</Beauty>
 			<Mass>35</Mass>
 			<JoyGainFactor>1.0</JoyGainFactor>
@@ -30,7 +30,7 @@
 			<joyKind>Gaming_Shooting</joyKind>
 			<watchBuildingStandDistanceRange>
 				<min>8</min>
-				<max>10</max>
+				<max>11</max>
 			</watchBuildingStandDistanceRange>
 			<watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
 		</building>

@@ -19,6 +19,7 @@
 
 	<ThingDef ParentName="BuildingBase_MiscTraining">
 		<defName>ArcheryTarget</defName>
+		<thingClass>TrainingFacility.Building_ShootingRange</thingClass>
 		<label>archery target</label>
 		<description>The bow is an ancient hunting weapon that is nowadays mostly used for fun. It's relaxing and trains hand-eye coordination.</description>
 		<graphicData>
@@ -34,18 +35,18 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
-			<WorkToBuild>1200</WorkToBuild>
-			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Beauty>-2</Beauty>
+			<Beauty>-3</Beauty>
 			<Mass>25</Mass>
-			<JoyGainFactor>1</JoyGainFactor>
+			<JoyGainFactor>1.0</JoyGainFactor>
 		</statBases>
 		<building>
 			<joyKind>Gaming_Shooting</joyKind>
 			<watchBuildingStandDistanceRange>
-				<min>5</min>
-				<max>8</max>
+				<min>8</min>
+				<max>11</max>
 			</watchBuildingStandDistanceRange>
 			<watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
 		</building>
@@ -55,11 +56,8 @@
 			<li>Woody</li>
 			<li>Stony</li>
 		</stuffCategories>
-		<costStuffCount>35</costStuffCount>
-		<costList>
-			<Bow_Short>1</Bow_Short>
-		</costList>
-		<pathCost>10</pathCost>
+		<costStuffCount>70</costStuffCount>
+		<pathCost>60</pathCost>
 		<designationCategory>Joy</designationCategory>
 		<thingCategories>
 			<li>BuildingsJoy</li>

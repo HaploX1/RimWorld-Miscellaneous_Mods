@@ -18,8 +18,8 @@
 	<JobDef ParentName="UseShootingRangeBase_MiscTraining">
 		<defName>UseShootingRange_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
-		<joyDuration>15500</joyDuration>
-		<joyXpPerTick>0.062</joyXpPerTick>
+		<joyDuration>17000</joyDuration>
+		<joyXpPerTick>0.072</joyXpPerTick>
 	</JobDef>
 	
 	<JobDef Name="UseMartialArtsBase_MiscTraining">
@@ -37,8 +37,8 @@
 	<JobDef ParentName="UseMartialArtsBase_MiscTraining">
 		<defName>UseMartialArtsTarget_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget_NonJoy</driverClass>
-		<joyDuration>15500</joyDuration>
-		<joyXpPerTick>0.062</joyXpPerTick>
+		<joyDuration>17000</joyDuration>
+		<joyXpPerTick>0.072</joyXpPerTick>
 	</JobDef>
 	
 </Defs>
