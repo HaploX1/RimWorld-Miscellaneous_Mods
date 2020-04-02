@@ -5,8 +5,8 @@
 		<defName>DoBillAIRobotRepairAtStation</defName>
 		<label>Repairing Robot</label>
 		<giverClass>AIRobot.X2_WorkGiver_AIRobot_RepairRobot</giverClass>
-		<workType>Construction</workType>
-		<priorityInType>50</priorityInType>
+		<workType>Crafting</workType>
+		<priorityInType>101</priorityInType>
 		<verb>repair</verb>
 		<gerund>repairing</gerund>
 		<requiredCapacities>
