@@ -32,6 +32,8 @@
 *** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	
 This will provide biomes with an urban like map from the blueprints provided in Misc MapGenerator.
+
+Note: You can increase the occurence of urban ruins in the mod settings of Misc. MapGenerator. For example set it from 1 to 2..
 	
 ### Recommended Mod sequence ###
 - Core
@@ -45,6 +47,6 @@ This will provide biomes with an urban like map from the blueprints provided in 
 Because of how it works, it sometimes may happen that you get attacked by Mechanoids or Insects shortly after the start!
 
 
-(Version: 1.1.0)
+(Version: 1.1.2)
 	</description>
 </ModMetaData>

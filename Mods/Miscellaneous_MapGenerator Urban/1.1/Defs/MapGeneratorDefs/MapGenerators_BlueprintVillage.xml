@@ -22,23 +22,23 @@
 			<allowInWaterBiome>false</allowInWaterBiome>
 			<countPer10kCellsRange>
 				<min>0.40</min>
-				<max>2.50</max>
+				<max>2.70</max>
 			</countPer10kCellsRange>
 			<ruinCountRange>
 				<min>2</min>
 				<max>5</max>
 			</ruinCountRange>
 			<ruinDistanceRange>
-				<min>5</min>
-				<max>15</max>
+				<min>3</min>
+				<max>13</max>
 			</ruinDistanceRange>
 			<ruinOffsetHorizontalRange>
-				<min>5</min>
-				<max>15</max>
+				<min>3</min>
+				<max>13</max>
 			</ruinOffsetHorizontalRange>
 			<ruinOffsetVerticalRange>
-				<min>5</min>
-				<max>15</max>
+				<min>3</min>
+				<max>13</max>
 			</ruinOffsetVerticalRange>
 		</genStep>
 	</GenStepDef>
