@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingTCBase_MiscIncidents">
+		<defName>TacticalComputerExtension</defName>
+		<label>Computer Terminal</label>
+		<description>This computer terminal provides remote access to some options of the tactical computer.\nNote: A Tactical Computer is needed!</description>
+		<thingClass>TacticalComputer.Building_TacticalComputerExtensionTerminal</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/TacticalComputer/Terminal_On</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>3500</WorkToBuild>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<Beauty>12</Beauty>
+			<MarketValue>250</MarketValue>
+			<Mass>7</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(30,140,165,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<designationCategory>Misc</designationCategory>
+		<researchPrerequisites>
+			<li>ResearchSatelliteComputerTerminal</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>TacticalComputer.PlaceWorker_NeedTacticalComputerToBeBuilt</li>
+		</placeWorkers>
+
+	</ThingDef>
+
+</Defs>

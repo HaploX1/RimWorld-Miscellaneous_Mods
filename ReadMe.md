@@ -11,18 +11,18 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 **These mods are available here:**
 **==============================**
-- [x] Miscellaneous_Core                        -->   1.1 *Updated*
-- [x] Miscellaneous_BeeAndHoney                 -->   1.1 *Updated*
-- [x] Miscellaneous_EndGame                     -->   1.1 *Updated*
-- [x] Miscellaneous_Incidents                   -->   1.0
-- [x] Miscellaneous_MAI                         -->   1.1 *Updated*
-- [x] Miscellaneous_MapGenerator                -->   1.1 *Updated* 
-- [x] Miscellaneous_MapGenerator 'Urban'        -->   1.1 *Updated*
-- [x] Miscellaneous_MapGenerator_FactionBase    -->   1.1 *Updated*
-- [x] Miscellaneous_Robots                      -->   1.1 *Updated* 
-- [x] Miscellaneous_TurretBase + Objects        -->   1.1 *Updated*
-- [x] Miscellaneous_TrainingFacility            -->   1.1 *Updated*
-- [x] Miscellaneous_WeaponRepair                -->   1.1 *Updated*
+- [x] Miscellaneous_Core                        -->   1.1
+- [x] Miscellaneous_BeeAndHoney                 -->   1.1
+- [x] Miscellaneous_EndGame                     -->   1.1
+- [x] Miscellaneous_Incidents                   -->   1.1
+- [x] Miscellaneous_MAI                         -->   1.1
+- [x] Miscellaneous_MapGenerator                -->   1.1
+- [x] Miscellaneous_MapGenerator 'Urban'        -->   1.1
+- [x] Miscellaneous_MapGenerator_FactionBase    -->   1.1
+- [x] Miscellaneous_Robots                      -->   1.1
+- [x] Miscellaneous_TurretBase + Objects        -->   1.1
+- [x] Miscellaneous_TrainingFacility            -->   1.1
+- [x] Miscellaneous_WeaponRepair                -->   1.1
 
 
 
