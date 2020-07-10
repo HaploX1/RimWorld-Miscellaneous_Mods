@@ -8,5 +8,8 @@
 	
 	<ResearchTurretWeaponBaseAlternateCooldown.label>Waffenpl. Nachladen</ResearchTurretWeaponBaseAlternateCooldown.label>
 	<ResearchTurretWeaponBaseAlternateCooldown.description>Erforsche wie man die benötigte Zeit zum Nachladen der Waffenplattformen verbessern kann.</ResearchTurretWeaponBaseAlternateCooldown.description>
+	
+	<ResearchTurretWeaponBaseHighTechTargeting.label>Waffenpl. Zielsystem</ResearchTurretWeaponBaseHighTechTargeting.label>
+	<ResearchTurretWeaponBaseHighTechTargeting.description>Erforsche ein High-Tech Zielsystem für die Waffenplattformen.</ResearchTurretWeaponBaseHighTechTargeting.description>
 
 </LanguageData>

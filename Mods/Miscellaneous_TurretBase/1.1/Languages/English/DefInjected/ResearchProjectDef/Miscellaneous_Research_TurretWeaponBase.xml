@@ -9,5 +9,8 @@
 	
 	<ResearchTurretWeaponBaseAlternateCooldown.label>Weapon Base Reload</ResearchTurretWeaponBaseAlternateCooldown.label>
 	<ResearchTurretWeaponBaseAlternateCooldown.description>Research how to decrease the reload time of the turret base.</ResearchTurretWeaponBaseAlternateCooldown.description>
+	
+	<ResearchTurretWeaponBaseHighTechTargeting.label>Weapon Base High-Tech Targeting</ResearchTurretWeaponBaseHighTechTargeting.label>
+	<ResearchTurretWeaponBaseHighTechTargeting.description>Research how to build a turret base with an high-tech targeting system.</ResearchTurretWeaponBaseHighTechTargeting.description>
 
 </LanguageData>

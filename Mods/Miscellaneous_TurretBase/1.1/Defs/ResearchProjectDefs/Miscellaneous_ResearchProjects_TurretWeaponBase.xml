@@ -27,4 +27,19 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>ResearchTurretWeaponBaseHighTechTargeting</defName>
+		<label>Turret: High-Tech Targeting</label>
+		<description>Research how to build a turret base with an high-tech targeting system.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+    	<prerequisites>
+    		<li>MultiAnalyzer</li>
+    	</prerequisites>
+		<tab>Miscellaneous</tab>
+    	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
 </Defs>

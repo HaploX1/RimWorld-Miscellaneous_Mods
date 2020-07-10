@@ -89,19 +89,16 @@
 		<costList>
 			<Steel>120</Steel>
 			<Plasteel>20</Plasteel>
-			<Gold>5</Gold>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<robotRepairCosts>
-			<Steel>35</Steel>
-			<Plasteel>5</Plasteel>
-			<Gold>3</Gold>
+			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</robotRepairCosts>
 
 		<secondaryGraphicPath>Things/Building/AIRobot_RechargeStation/AIRobotRechargeStation_Empty1</secondaryGraphicPath>
 		<spawnThingDef>AIRobot_Hauler</spawnThingDef>
-		<rechargeEfficiency>1.0</rechargeEfficiency>
+		<rechargeEfficiency>1.1</rechargeEfficiency>
 	</ThingDef>
 
 	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot_Building_RechargeStation" ParentName="Base_X2_AIRobotRechargeStation">
@@ -133,13 +130,10 @@
 		<costList>
 			<Steel>100</Steel>
 			<Plasteel>20</Plasteel>
-			<Gold>5</Gold>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<robotRepairCosts>
-			<Steel>35</Steel>
-			<Plasteel>5</Plasteel>
-			<Gold>3</Gold>
+			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</robotRepairCosts>
 

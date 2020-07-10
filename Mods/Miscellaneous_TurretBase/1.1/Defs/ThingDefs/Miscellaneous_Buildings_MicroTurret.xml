@@ -93,7 +93,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="WeaponBase.CompProperties_RemainingLifetime">
-				<lifetime>56</lifetime>
+				<lifetime>47</lifetime>
 			</li>
 		</comps>
 		<description>A miniature turret that automatically fires at nearby enemies. Its Micro AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
@@ -112,7 +112,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_MicroTurretMKI</turretGunDef>
-			<turretBurstCooldownTime>1.8</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.3</turretBurstCooldownTime>
 		</building>
 	</ThingDef>
 
@@ -125,7 +125,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
@@ -181,7 +181,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>3</damageAmountBase>
 			<speed>100</speed>
 		</projectile>
 	</ThingDef>
@@ -215,7 +215,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_MicroThingSpawnerMKI</defaultProjectile>
 				<warmupTime>2.3</warmupTime>
-				<range>26.9</range>
+				<range>25.9</range>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>6</muzzleFlashScale>

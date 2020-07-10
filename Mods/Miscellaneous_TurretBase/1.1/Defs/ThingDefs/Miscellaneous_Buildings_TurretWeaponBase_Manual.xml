@@ -13,6 +13,10 @@
 		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>3200</WorkToBuild>
+			<Beauty>-10</Beauty>
+			<Mass>40</Mass>
 		</statBases>
 	</ThingDef>
 
@@ -35,11 +39,8 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<WorkToBuild>3200</WorkToBuild>
-			<Beauty>-10</Beauty>
-			<Mass>50</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ShootingAccuracyTurret>0.975</ShootingAccuracyTurret>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>

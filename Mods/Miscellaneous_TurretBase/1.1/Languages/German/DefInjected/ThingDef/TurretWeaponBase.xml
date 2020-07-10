@@ -10,7 +10,13 @@
 	<TurretWeaponBaseAutomatic_Buildable.label>Waffen Plattform A</TurretWeaponBaseAutomatic_Buildable.label>
 	<TurretWeaponBaseAutomatic_Buildable.description>Ein automatisches Geschütz. Diese Geschützbasis kommt ohne Waffe. Du musst erst eine Waffe ausrüsten, bevor du es benutzen kannst.</TurretWeaponBaseAutomatic_Buildable.description>
 
-	<TurretWeaponBaseAutomaticPlasteel.label>Waffen Plattform A v2</TurretWeaponBaseAutomaticPlasteel.label>
+	<TurretWeaponBaseAutomaticPlasteel.label>Waffen Plattform A MK-II</TurretWeaponBaseAutomaticPlasteel.label>
 	<TurretWeaponBaseAutomaticPlasteel.description>Ein automatisches Geschütz mit leichten Panzerplatten. Diese Geschützbasis kommt ohne Waffe. Du musst erst eine Waffe ausrüsten, bevor du es benutzen kannst.</TurretWeaponBaseAutomaticPlasteel.description>
+
+	<TurretWeaponBaseAutomaticHighTechTargeting.label>Waffen Plattform A MK-III</TurretWeaponBaseAutomaticHighTechTargeting.label>
+	<TurretWeaponBaseAutomaticHighTechTargeting.description>Ein automatisches Geschütz mit einem High-Tech Zielsystem. Diese Geschützbasis kommt ohne Waffe. Du musst erst eine Waffe ausrüsten, bevor du es benutzen kannst.</TurretWeaponBaseAutomaticHighTechTargeting.description>
+
+	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>Waffen Plattform A MK-III</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>
+	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>Ein automatisches Geschütz mit einem High-Tech Zielsystem. Diese Geschützbasis kommt ohne Waffe. Du musst erst eine Waffe ausrüsten, bevor du es benutzen kannst.</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>
 	
 </LanguageData>
