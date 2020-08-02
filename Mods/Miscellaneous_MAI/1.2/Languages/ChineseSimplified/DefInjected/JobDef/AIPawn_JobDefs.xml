@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawn_Goto.reportString>走动中。</AIPawn_Goto.reportString>
+  <AIPawn_Sedate.reportString>正在稳定。</AIPawn_Sedate.reportString>
+  <AIPawn_SedateAndRescue.reportString>走动中。</AIPawn_SedateAndRescue.reportString>
+
+
+</LanguageData>

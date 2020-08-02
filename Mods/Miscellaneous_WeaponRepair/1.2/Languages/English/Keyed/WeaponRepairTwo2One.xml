@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<WeaponRepair_NotAssignedToWorkType>Not possible (not assigned {0})</WeaponRepair_NotAssignedToWorkType>
+	<WeaponRepair_NoRepairTableFound>No machining table available</WeaponRepair_NoRepairTableFound>
+	<WeaponRepair_NoWeaponTwinFound>No second weapon found</WeaponRepair_NoWeaponTwinFound>
+	<WeaponRepair_RepairWeapon>Repair with parts from other weapon</WeaponRepair_RepairWeapon>
+	
+</LanguageData>

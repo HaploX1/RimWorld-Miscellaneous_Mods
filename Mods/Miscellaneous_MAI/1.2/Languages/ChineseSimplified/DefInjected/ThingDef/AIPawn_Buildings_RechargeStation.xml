@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawn_RechargeStation.label>充电站</AIPawn_RechargeStation.label>
+  <AIPawn_RechargeStation.description>移动人工智能的充电站。</AIPawn_RechargeStation.description>
+  <AIPawn_RechargeStation_Blueprint.label>充电站（蓝图）</AIPawn_RechargeStation_Blueprint.label>
+  <AIPawn_RechargeStation_Blueprint_Install.label>充电站（蓝图）</AIPawn_RechargeStation_Blueprint_Install.label>
+  <AIPawn_RechargeStation_Frame.label>充电站（建造中）</AIPawn_RechargeStation_Frame.label>
+  <AIPawn_RechargeStation_Frame.description>移动人工智能的充电站。</AIPawn_RechargeStation_Frame.description>
+
+  <AIPawn_RechargeStation2x.label>充电站（大）</AIPawn_RechargeStation2x.label>
+  <AIPawn_RechargeStation2x.description>移动人工智能的充电站。</AIPawn_RechargeStation2x.description>
+  <AIPawn_RechargeStation2x_Blueprint.label>充电站（大）（蓝图）</AIPawn_RechargeStation2x_Blueprint.label>
+  <AIPawn_RechargeStation2x_Blueprint_Install.label>充电站（大）（蓝图）</AIPawn_RechargeStation2x_Blueprint_Install.label>
+  <AIPawn_RechargeStation2x_Frame.label>充电站（大）（建造中）</AIPawn_RechargeStation2x_Frame.label>
+  <AIPawn_RechargeStation2x_Frame.description>移动人工智能的充电站。</AIPawn_RechargeStation2x_Frame.description>
+
+  <AIPawn_NaniteAssembler.label>纳米修复仪</AIPawn_NaniteAssembler.label>
+  <AIPawn_NaniteAssembler.description>提供纳米修复机器人，修复人工智能的损伤。</AIPawn_NaniteAssembler.description>
+  <AIPawn_NaniteAssembler_Blueprint.label>纳米修复仪（蓝图）</AIPawn_NaniteAssembler_Blueprint.label>
+  <AIPawn_NaniteAssembler_Blueprint_Install.label>纳米修复仪（蓝图）</AIPawn_NaniteAssembler_Blueprint_Install.label>
+  <AIPawn_NaniteAssembler_Frame.label>纳米修复仪（建造中）</AIPawn_NaniteAssembler_Frame.label>
+  <AIPawn_NaniteAssembler_Frame.description>提供纳米修复机器人，修复人工智能的损伤。</AIPawn_NaniteAssembler_Frame.description>
+
+
+</LanguageData>

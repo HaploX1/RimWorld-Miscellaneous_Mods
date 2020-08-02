@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawn_ConstructionStation.label>人工智能自动装配器</AIPawn_ConstructionStation.label>
+  <AIPawn_ConstructionStation.description>生产人工智能的自动装配器。</AIPawn_ConstructionStation.description>
+  <AIPawn_ConstructionStation_Blueprint.label>人工智能自动装配器（蓝图）</AIPawn_ConstructionStation_Blueprint.label>
+  <AIPawn_ConstructionStation_Blueprint_Install.label>人工智能自动装配器（蓝图）</AIPawn_ConstructionStation_Blueprint_Install.label>
+  <AIPawn_ConstructionStation_Frame.label>人工智能自动装配器（建造中）</AIPawn_ConstructionStation_Frame.label>
+  <AIPawn_ConstructionStation_Frame.description>生产人工智能的自动装配器。</AIPawn_ConstructionStation_Frame.description>
+
+
+</LanguageData>

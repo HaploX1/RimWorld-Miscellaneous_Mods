@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--============= Main colonist behavior core ============-->
+
+	<ThinkTreeDef>
+		<defName>MainAIRobotBehaviorCore</defName>
+		<thinkRoot Class="ThinkNode_Tagger">
+			<tagToGive>SatisfyingNeeds</tagToGive>
+			<!-- note that JobGiver_Work will assign its own tag -->
+			<subNodes>
+				<li Class="ThinkNode_PrioritySorter">
+					<subNodes>
+						<li Class="JobGiver_GetFood"/>
+						<li Class="AIPawn.JobGiver_RechargeEnergy"/>
+
+						<li Class="JobGiver_Work"/>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<!--============= Main wild man behavior core ============-->
+
+	<ThinkTreeDef>
+		<defName>MainWildAIBehaviorCore</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<!-- Leave the colony -->
+				<li Class="ThinkNode_ConditionalWildManNeedsToReachOutside">
+					<subNodes>
+						<li Class="JobGiver_ReachOutside" />
+					</subNodes>
+				</li>
+
+				<!-- Drop random gear or apparel -->
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>10</mtbHours>
+					<subNodes>
+						<li Class="JobGiver_DropRandomGearOrApparel"/>
+					</subNodes>
+				</li>
+
+				<!-- Satisfy needs -->
+				<li Class="ThinkNode_Tagger">
+					<tagToGive>SatisfyingNeeds</tagToGive>
+					<subNodes>
+						<li Class="ThinkNode_PrioritySorter">
+							<subNodes>
+								<li Class="JobGiver_GetFood"/>
+								<li Class="AIPawn.JobGiver_RechargeEnergy"/>
+								<li Class="ThinkNode_Priority_GetJoy">
+									<subNodes>
+										<li Class="JobGiver_GetJoy"/>
+									</subNodes>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	<!--============= Burning Response ============-->
+
+	<ThinkTreeDef>
+		<defName>AIPawn_BurningResponse</defName>
+		<thinkRoot Class="ThinkNode_ConditionalBurning">
+			<subNodes>
+				<li Class="ThinkNode_Priority">
+					<subNodes>
+						<li Class="JobGiver_JumpInWater" />
+						<li Class="JobGiver_ExtinguishSelf" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+	<!--============= Mental state ============-->
+	<ThinkTreeDef>
+		<defName>AIPawn_MentalStateCritical</defName>
+		<thinkRoot Class="ThinkNode_Tagger">
+			<tagToGive>InMentalState</tagToGive>
+			<subNodes>
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>Berserk</state>
+					<subNodes>
+						<li Class="ThinkNode_Priority">
+							<subNodes>
+								<li Class="JobGiver_Berserk" />
+								<li Class="JobGiver_WanderAnywhere">
+									<maxDanger>Deadly</maxDanger>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>SocialFighting</state>
+					<subNodes>
+						<li Class="ThinkNode_Priority">
+							<subNodes>
+								<li Class="JobGiver_SocialFighting" />
+								<li Class="JobGiver_WanderAnywhere">
+									<maxDanger>Deadly</maxDanger>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<ThinkTreeDef>
+		<defName>AIPawn_MentalStateNonCritical</defName>
+		<thinkRoot Class="ThinkNode_Tagger">
+			<tagToGive>InMentalState</tagToGive>
+			<subNodes>
+				<!-- Various wanders  -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>Wander_Psychotic</state>
+					<subNodes>
+						<li Class="JobGiver_WanderAnywhere">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+					</subNodes>
+				</li>
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>Wander_Sad</state>
+					<subNodes>
+						<li Class="JobGiver_WanderColony">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+					</subNodes>
+				</li>
+
+				<!-- Hide in room -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>Wander_OwnRoom</state>
+					<subNodes>
+						<li Class="JobGiver_WanderOwnRoom">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+					</subNodes>
+				</li>
+
+
+				<!-- Manhunter -->
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_Manhunter</stateClass>
+					<subNodes>
+						<li Class="ThinkNode_Priority">
+							<subNodes>
+								<li Class="JobGiver_Manhunter" />
+								<li Class="JobGiver_WanderAnywhere">
+									<maxDanger>Deadly</maxDanger>
+								</li>
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+
+				<!-- Panic flee -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>PanicFlee</state>
+					<subNodes>
+						<li Class="JobGiver_ExitMapPanic" />
+						<li Class="JobGiver_WanderAnywhere">
+							<!-- Can happen if there is no way to exit the map -->
+							<maxDanger>Some</maxDanger>
+							<locomotionUrgency>Jog</locomotionUrgency>
+						</li>
+					</subNodes>
+				</li>
+
+				<!-- Give up and leave -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>GiveUpExit</state>
+					<subNodes>
+						<li Class="JobGiver_ExitMapRandom">
+							<defaultLocomotion>Walk</defaultLocomotion>
+						</li>
+						<li Class="JobGiver_WanderAnywhere">
+							<maxDanger>Deadly</maxDanger>
+						</li>
+					</subNodes>
+				</li>
+				
+				<!-- Fire starting spree -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>FireStartingSpree</state>
+					<subNodes>
+						<li Class="JobGiver_FireStartingSpree"/>
+					</subNodes>
+				</li>
+				
+				<!-- Insulting spree -->
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_InsultingSpree</stateClass>
+					<subNodes>
+						<li Class="JobGiver_InsultingSpree" />
+						<li Class="JobGiver_WanderColony" />
+					</subNodes>
+				</li>
+				
+				<!-- Tantrum -->
+				<li Class="ThinkNode_ConditionalMentalStateClass">
+					<stateClass>MentalState_Tantrum</stateClass>
+					<subNodes>
+						<li Class="JobGiver_Tantrum" />
+						<li Class="JobGiver_WanderColony" />
+					</subNodes>
+				</li>
+				
+				<!-- Corpse obsession -->
+				<li Class="ThinkNode_ConditionalMentalState">
+					<state>CorpseObsession</state>
+					<subNodes>
+						<li Class="JobGiver_HaulCorpseToPublicPlace" />
+						<li Class="JobGiver_WanderColony" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--========= repairing weapon ============-->
+
+	<JobDef>
+		<defName>WeaponRepairTwo2One</defName>
+		<driverClass>WeaponRepair.JobDriver_WeaponRepairTwo2One</driverClass>
+		<reportString>Repairing TargetB with parts from TargetC.</reportString>
+	</JobDef>
+
+
+</Defs>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<InstallBionicTacticalImplant.label>생체공학 뇌도우미 설치</InstallBionicTacticalImplant.label>
+	<InstallBionicTacticalImplant.description>생체공학 뇌도우미를 설치합니다.</InstallBionicTacticalImplant.description>
+	<InstallBionicTacticalImplant.jobString>생체공학 뇌도우미 설치 중.</InstallBionicTacticalImplant.jobString>
+	
+	<InstallElectronicTacticalImplant.label>전자공학 뇌도우미 설치</InstallElectronicTacticalImplant.label>
+	<InstallElectronicTacticalImplant.description>전자공학 뇌도우미를 설치합니다.</InstallElectronicTacticalImplant.description>
+	<InstallElectronicTacticalImplant.jobString>전자공학 뇌도우미 설치 중.</InstallElectronicTacticalImplant.jobString>
+	
+</LanguageData>

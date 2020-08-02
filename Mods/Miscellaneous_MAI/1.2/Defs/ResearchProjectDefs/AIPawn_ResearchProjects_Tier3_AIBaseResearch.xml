@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>AIPawnBaseResearch</defName>
+		<label>Mobile AI</label>
+		<description>Researches the basics needed to build yourself a mobile artificial intelligence. This unit can support you and your colony.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchConstruction</defName>
+		<label>AI: Construction</label>
+		<description>Researches how an artificial intelligence can construct buildings.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchCooking</defName>
+		<label>AI: Cooking</label>
+		<description>Researches how an artificial intelligence can cook.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchIntellectual</defName>
+		<label>AI: Intellectual</label>
+		<description>Researches how an artificial intelligence can research.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchCaring</defName>
+		<label>AI: Caring</label>
+		<description>Researches how an artificial intelligence can care for colonists.</description>
+		<baseCost>450</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchCombat</defName>
+		<label>AI: Combat Tactics</label>
+		<description>Researches how an artificial intelligence can use combat tactics.</description>
+		<baseCost>550</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchSocial</defName>
+		<label>AI: Social</label>
+		<description>Researches how an artificial intelligence can be social with human beings.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchAnimals</defName>
+		<label>AI: Handling</label>
+		<description>Researches how an artificial intelligence can handle animals.</description>
+		<baseCost>350</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnBaseResearch</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchMining</defName>
+		<label>AI: Mining</label>
+		<description>Researches how an artificial intelligence can mine.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnAdvResearchConstruction</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AIPawnAdvResearchCrafting</defName>
+		<label>AI: Crafting</label>
+		<description>Researches how an artificial intelligence can craft.</description>
+		<baseCost>550</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites><li>AIPawnAdvResearchConstruction</li></prerequisites>
+		<tab>Miscellaneous</tab>
+		<researchViewX>4</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

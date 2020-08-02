@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<TurretWeaponBaseMannable.label>수동 무기 거치대</TurretWeaponBaseMannable.label>
+	<TurretWeaponBaseMannable.description>수동으로 조작하는 무기 거치대입니다. 이 포탑은 총이 달려있지 않습니다. 사용하려면 우선 하나 장착해야 합니다.</TurretWeaponBaseMannable.description>
+
+	<TurretWeaponBaseAutomatic.label>자동 무기 거치대</TurretWeaponBaseAutomatic.label>
+	<TurretWeaponBaseAutomatic.description>자동으로 발사하는 무기 거치대입니다. 이 포탑은 총이 달려있지 않습니다. 사용하려면 우선 하나 장착해야 합니다.</TurretWeaponBaseAutomatic.description>
+
+	<TurretWeaponBaseAutomatic_Buildable.label>자동 무기 거치대</TurretWeaponBaseAutomatic_Buildable.label>
+	<TurretWeaponBaseAutomatic_Buildable.description>자동으로 발사하는 무기 거치대입니다. 이 포탑은 총이 달려있지 않습니다. 사용하려면 우선 하나 장착해야 합니다.</TurretWeaponBaseAutomatic_Buildable.description>
+
+	<TurretWeaponBaseAutomaticPlasteel.label>자동 무기 거치대 v2</TurretWeaponBaseAutomaticPlasteel.label>
+	<TurretWeaponBaseAutomaticPlasteel.description>자동으로 발사하는 무기 거치대입니다 (with light armor). 이 포탑은 총이 달려있지 않습니다. 사용하려면 우선 하나 장착해야 합니다.</TurretWeaponBaseAutomaticPlasteel.description>
+	
+</LanguageData>

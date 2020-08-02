@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawnBaseResearch.label>Misc.MAI：移动人工智能</AIPawnBaseResearch.label>
+  <AIPawnBaseResearch.description>研究自主制作移动人工智能（MAI）的基础。这种单位会是你和你的殖民地的助手。</AIPawnBaseResearch.description>
+
+  <AIPawnAdvResearchMining.label>Misc.MAI：采矿</AIPawnAdvResearchMining.label>
+  <AIPawnAdvResearchMining.description>研究人工智能如何采矿。</AIPawnAdvResearchMining.description>
+
+  <AIPawnAdvResearchConstruction.label>Misc.MAI：建造</AIPawnAdvResearchConstruction.label>
+  <AIPawnAdvResearchConstruction.description>研究人工智能如何建造建筑。</AIPawnAdvResearchConstruction.description>
+
+  <AIPawnAdvResearchCooking.label>Misc.MAI：烹饪</AIPawnAdvResearchCooking.label>
+  <AIPawnAdvResearchCooking.description>研究人工智能如何烹饪。</AIPawnAdvResearchCooking.description>
+
+  <AIPawnAdvResearchIntellectual.label>Misc.MAI：研究</AIPawnAdvResearchIntellectual.label>
+  <AIPawnAdvResearchIntellectual.description>研究人工智能如何从事研究工作。</AIPawnAdvResearchIntellectual.description>
+
+  <AIPawnAdvResearchCaring.label>Misc.MAI：医疗</AIPawnAdvResearchCaring.label>
+  <AIPawnAdvResearchCaring.description>研究人工智能如何为你的殖民者提供医疗照顾。</AIPawnAdvResearchCaring.description>
+
+  <AIPawnAdvResearchCrafting.label>Misc.MAI：手工</AIPawnAdvResearchCrafting.label>
+  <AIPawnAdvResearchCrafting.description>研究人工智能如何进行手工制作。</AIPawnAdvResearchCrafting.description>
+
+  <AIPawnAdvResearchCombat.label>Misc.MAI：作战</AIPawnAdvResearchCombat.label>
+  <AIPawnAdvResearchCombat.description>研究人工智能如何作战。</AIPawnAdvResearchCombat.description>
+
+  <AIPawnAdvResearchSocial.label>Misc.MAI：社交</AIPawnAdvResearchSocial.label>
+  <AIPawnAdvResearchSocial.description>研究人工智能如何与人类进行社交。</AIPawnAdvResearchSocial.description>
+
+  <AIPawnAdvResearchAnimals.label>Misc.MAI：驯兽</AIPawnAdvResearchAnimals.label>
+  <AIPawnAdvResearchAnimals.description>研究人工智能如何进行动物的驯服和训练。</AIPawnAdvResearchAnimals.description>
+
+
+</LanguageData>

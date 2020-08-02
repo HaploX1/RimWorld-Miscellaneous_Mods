@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Micro turret -->
+
+  <MicroTurretMKI.label>微型炮台炮台</MicroTurretMKI.label>
+  <MicroTurretMKI.description>自動對附近敵人開火的微型炮台。他的微型AI大腦不是很聰明，也沒法被直接控制，因此要當心誤傷。</MicroTurretMKI.description>
+
+  <Bullet_MicroTurretMKI.label>微型炮台子彈</Bullet_MicroTurretMKI.label>
+
+  <Gun_MicroTurretMKI.label>微型炮台用槍</Gun_MicroTurretMKI.label>
+  <Gun_MicroTurretMKI.description>微型炮台用槍</Gun_MicroTurretMKI.description>
+
+  <Bullet_MicroThingSpawnerMKI.label>微型炮台建造器</Bullet_MicroThingSpawnerMKI.label>
+
+  <Gun_MicroTurretLauncher.label>微型炮台發射器</Gun_MicroTurretLauncher.label>
+  <Gun_MicroTurretLauncher.description>用於微型炮台的發射器。</Gun_MicroTurretLauncher.description>
+
+
+</LanguageData>

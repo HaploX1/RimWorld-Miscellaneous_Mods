@@ -7,6 +7,7 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -34,7 +35,7 @@
 
    
 Special thanks to mrofa for the graphics.
-(Version: 1.1.2)
+(Version: 1.2.0)
 Language: English, German, Russian, Chinese, Korean
 
 Thanks to duduluu and Biscuit for the Chinese translation 

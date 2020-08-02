@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" Name="BaseAIPawn_MiscMAI" Abstract="True">
+		<thingClass>AIPawn.AIPawn</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<inspectorTabs>
+			<li>ITab_Pawn_Health</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Character</li>
+			<li>ITab_Pawn_Training</li>
+			<li>ITab_Pawn_Social</li>
+			<li>ITab_Pawn_Guest</li>
+			<li>ITab_Pawn_Prisoner</li>
+			<li>ITab_Pawn_FormingCaravan</li>
+			<li>ITab_Pawn_Gear</li>
+			<li>ITab_Pawn_Log</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+			<li Class="AIPawn.CompProperties_NeedMaximizing">
+				<compClass>AIPawn.CompNeedMaximizing</compClass>
+				<needDefs>
+					<li>
+						<resourceDef>Food</resourceDef>
+					</li>
+					<li>
+						<resourceDef>Joy</resourceDef>
+					</li>
+					<li>
+						<resourceDef>Beauty</resourceDef>
+					</li>
+					<li>
+						<resourceDef>Comfort</resourceDef>
+					</li>
+				</needDefs>
+			</li>
+		</comps>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9.2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9.2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.9</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<fleshType>Normal</fleshType>
+			<needsRest>true</needsRest>
+			<hasGenders>true</hasGenders>
+			<foodType>Liquor</foodType>
+			<lifeExpectancy>500</lifeExpectancy>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,80)</li>
+					<li>(5,20)</li>
+					<li>(20,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<gestationPeriodDays>99999</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+		</race>
+		<butcherProducts>
+			<Steel>20</Steel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</butcherProducts>
+	</ThingDef>
+
+	<!-- 
+	
+	-->
+
+
+	<!-- ============================ Humanlike ========================== -->
+
+
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn_MiscMAI">
+		<defName>AIPawn</defName>
+		<label>AI Pawn</label>
+		<description>An AI in a metal body.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<MoveSpeed>4.80</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<MeatAmount>0</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<race>
+			<thinkTreeMain>AIPawn</thinkTreeMain>
+			<thinkTreeConstant>AIPawnConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>false</makesFootprints>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>AIPawn</body>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>1.4</baseHealthScale>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<!--
+		<recipes>
+			<li>EuthanizeAIPawn</li>
+		</recipes>
+		-->
+		
+		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
+		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
+		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
+		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
+		<refreshQuickMax>25</refreshQuickMax>
+		<incapToExplosionCounter>1000</incapToExplosionCounter>
+
+		<passionLevel>0</passionLevel>
+		<startingSkillLevel>5</startingSkillLevel>
+		<enhancedAI>false</enhancedAI>
+
+	</ThingDef>
+
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BaseAIPawn_MiscMAI">
+		<defName>AIPawnE</defName>
+		<label>AI Pawn E</label>
+		<description>An enhanced AI in a metal body.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+		<statBases>
+			<MarketValue>6500</MarketValue>
+			<MoveSpeed>4.95</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<MeatAmount>0</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<race>
+			<thinkTreeMain>AIPawn</thinkTreeMain>
+			<thinkTreeConstant>AIPawnConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>false</makesFootprints>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>AIPawn</body>
+			<baseBodySize>0.9</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>1.8</baseHealthScale>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<!--
+		<recipes>
+			<li>EuthanizeAIPawn</li>
+		</recipes>
+		-->
+
+		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
+		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
+		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
+		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
+		<refreshQuickMax>25</refreshQuickMax>
+		<incapToExplosionCounter>1500</incapToExplosionCounter>
+
+		<passionLevel>2</passionLevel>
+		<startingSkillLevel>7</startingSkillLevel>
+		<enhancedAI>true</enhancedAI>
+
+	</ThingDef>
+
+
+</Defs>

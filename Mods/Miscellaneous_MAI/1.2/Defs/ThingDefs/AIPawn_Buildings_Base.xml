@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="BuildingCreatorBase_MiscMAI" Abstract="True">
+		<category>Building</category>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<description>This creates the AI-Pawn and destroys itself.</description>
+		<graphicData>
+			<texPath>Things/Building/AIPawnCreator_Alpha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Silver>1</Silver>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>550</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<passability>Standable</passability>
+		<pathCost>200</pathCost>
+		<hasInteractionCell>false</hasInteractionCell>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+
+		<!-- TESTING  
+		<DesignationCategory>Production</DesignationCategory> -->
+	</ThingDef>
+
+</Defs>

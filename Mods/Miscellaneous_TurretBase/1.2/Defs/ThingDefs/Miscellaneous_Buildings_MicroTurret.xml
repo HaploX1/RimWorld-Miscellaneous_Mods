@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Micro turret ===============-->
+	<ThingDef Name="BuildingMicroTurretBase_MiscTurret" Abstract="True">
+		<category>Building</category>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="BaseMicroTurretGun_MiscTurret" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>true</useHitPoints>
+		<pathCost>10</pathCost>
+		<selectable>true</selectable>
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-3</Beauty>
+			<SellPriceFactor>0.20</SellPriceFactor>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="BaseMicroTurretBullet_MiscTurret" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>bullet</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef ParentName="BuildingMicroTurretBase_MiscTurret">
+		<defName>MicroTurretMKI</defName>
+		<label>Micro turret</label>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Turret/MicroTurretBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rect>(0.3,0.3,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>300</WorkToBuild>
+			<Mass>0.05</Mass>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="WeaponBase.CompProperties_RemainingLifetime">
+				<lifetime>47</lifetime>
+			</li>
+		</comps>
+		<description>A miniature turret that automatically fires at nearby enemies. Its Micro AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
+		<passability>PassThroughOnly</passability>
+		<pathCost>10</pathCost>
+		<fillPercent>0.1</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<hasTooltip>true</hasTooltip>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<specialDisplayRadius>7.3</specialDisplayRadius>
+		<building>
+			<combatPower>15</combatPower>
+			<ai_chillDestination>false</ai_chillDestination>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>Gun_MicroTurretMKI</turretGunDef>
+			<turretBurstCooldownTime>2.3</turretBurstCooldownTime>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMicroTurretBullet_MiscTurret">
+		<defName>Bullet_MicroTurretMKI</defName>
+		<label>Micro turret bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Micro</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMicroTurretGun_MiscTurret">
+		<defName>Gun_MicroTurretMKI</defName>
+		<label>Micro turret gun</label>
+		<graphicData>
+			<texPath>Things/Building/Turret/MicroTurretWeapon_Right</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<menuHidden>true</menuHidden>
+		<description>A micro gun working in a micro turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<statBases>
+			<Mass>0.5</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.66</AccuracyShort>
+			<AccuracyMedium>0.43</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+			<DeteriorationRate>5</DeteriorationRate>
+		</statBases>
+		<weaponTags>
+			<li>TurretGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_MicroTurretMKI</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>7.3</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>2</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMicroTurretBullet_MiscTurret" Class="WeaponBase.ThingDef_ThingSpawner">
+		<defName>Bullet_MicroThingSpawnerMKI</defName>
+		<label>Micro turret creator</label>
+		<thingClass>WeaponBase.Projectile_ThingSpawner</thingClass>
+		<spawnDef>MicroTurretMKI</spawnDef>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Micro</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+			<speed>100</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMicroTurretGun_MiscTurret">
+		<defName>Gun_MicroTurretLauncher</defName>
+		<label>Micro turret launcher</label>
+		<description>A launcher for micro turrets.</description>
+		<graphicData>
+			<texPath>Things/Weapons/MicroTurretLauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<Mass>8</Mass>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>4.45</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_MicroThingSpawnerMKI</defaultProjectile>
+				<warmupTime>2.3</warmupTime>
+				<range>25.9</range>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>6</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.2</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

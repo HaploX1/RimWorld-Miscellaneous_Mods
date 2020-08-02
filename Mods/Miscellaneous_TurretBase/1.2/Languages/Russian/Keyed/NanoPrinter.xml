@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<!-- Nano Printer -->
+	<NanoPrinter_Error>Ошибка</NanoPrinter_Error>
+	<NanoPrinter_ErrorDescr>Произошла ошибка. Нажмите для сброса.</NanoPrinter_ErrorDescr>
+	<NanoPrinter_Start>Запуск</NanoPrinter_Start>
+	<NanoPrinter_Stop>Стоп</NanoPrinter_Stop>
+	<NanoPrinter_ScanningNoHoppersFound>Не найден примыкающий сканер</NanoPrinter_ScanningNoHoppersFound>
+	<NanoPrinter_ScanningNoItemsFound>В сканере нет предметов</NanoPrinter_ScanningNoItemsFound>
+	<NanoPrinter_ActiveBlueprint>Сканируемый объект:</NanoPrinter_ActiveBlueprint>
+	<NanoPrinter_ActiveStatus>Статус:</NanoPrinter_ActiveStatus>
+
+	<NanoPrinterStatus_Idle>Простаивает</NanoPrinterStatus_Idle>
+	<NanoPrinterStatus_Paused>На паузе</NanoPrinterStatus_Paused>
+	<NanoPrinterStatus_Scanning>Сканирует</NanoPrinterStatus_Scanning>
+	<NanoPrinterStatus_Gathering>Нужны материалы</NanoPrinterStatus_Gathering>
+	<NanoPrinterStatus_Printing>Распечатка</NanoPrinterStatus_Printing>
+	<NanoPrinterStatus_Error>Ошибка!</NanoPrinterStatus_Error>
+
+	<!-- Nano Scanner -->
+	<NanoScanner_MustPlaceNextToNanoPrinter>Должно быть размещено рядом с нано-принтером.</NanoScanner_MustPlaceNextToNanoPrinter>
+
+</LanguageData>

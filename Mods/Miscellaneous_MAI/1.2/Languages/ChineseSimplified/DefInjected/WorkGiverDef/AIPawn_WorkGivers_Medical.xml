@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsMedicalOperationAIPawn.label>操作移动人工智能</DoBillsMedicalOperationAIPawn.label>
+  <DoBillsMedicalOperationAIPawn.verb>操作</DoBillsMedicalOperationAIPawn.verb>
+  <DoBillsMedicalOperationAIPawn.gerund>操作</DoBillsMedicalOperationAIPawn.gerund>
+
+  <DoBillsMedicalOperationAIPawnE.label>操作移动人工智能</DoBillsMedicalOperationAIPawnE.label>
+  <DoBillsMedicalOperationAIPawnE.verb>操作</DoBillsMedicalOperationAIPawnE.verb>
+  <DoBillsMedicalOperationAIPawnE.gerund>操作</DoBillsMedicalOperationAIPawnE.gerund>
+
+
+</LanguageData>

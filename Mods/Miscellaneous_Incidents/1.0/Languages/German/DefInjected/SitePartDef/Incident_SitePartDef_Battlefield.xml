@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Misc_Battlefield.label>Schlachtfeld</Misc_Battlefield.label>
+  <Misc_Battlefield.description>Zwei erbitterte Feinde stehen sich auf dem Schlachtfeld gegenüber.</Misc_Battlefield.description>
+  <Misc_Battlefield.descriptionDialogue>Es sind {0} Kämpfer im Gebiet</Misc_Battlefield.descriptionDialogue>
+  <Misc_Battlefield.arrivedLetter>Hier sind einige Krieger die sich ihren erbitterten Feinden stellen.\n\nAber Vorsicht, die feindlichen Krieger können auch Dich angreifen, wenn Du Dich ihnen zu weit näherst.</Misc_Battlefield.arrivedLetter>
+
+
+</LanguageData>

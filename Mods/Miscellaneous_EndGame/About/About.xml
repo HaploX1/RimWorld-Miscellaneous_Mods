@@ -7,6 +7,7 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<modDependencies></modDependencies>
 	<loadBefore></loadBefore>
@@ -31,7 +32,7 @@ Here is your option for it...
 
 Note: This mod can be added anytime.
    
-(Version: 1.1.0)
+(Version: 1.2.0)
 Languages: English, German
 
 	

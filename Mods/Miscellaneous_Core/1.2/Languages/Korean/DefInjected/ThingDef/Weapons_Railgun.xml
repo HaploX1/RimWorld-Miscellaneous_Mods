@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<Bullet_RailgunMKI.label>railgun bullet</Bullet_RailgunMKI.label>
+	
+	<Gun_RailgunMKI.label>railgun</Gun_RailgunMKI.label>
+	<Gun_RailgunMKI.description>With an elektro-magnetic rail system the weapon accelerates its projectile to extreme high speeds of up to 35 kilometres per second.</Gun_RailgunMKI.description>
+	<Gun_RailgunMKI.tools.0.label>stock</Gun_RailgunMKI.tools.0.label>
+	<Gun_RailgunMKI.tools.1.label>barrel</Gun_RailgunMKI.tools.1.label>
+	
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MapGenerator_ModOptions_Category>Miscellaneous - Map Generator</MapGenerator_ModOptions_Category>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>Versuche immer Löcher zu erzeugen</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles>
+	<MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>Der Generator wird versuchen in jedes Gebäude als Ruine mit Löchern in der Wand zu generieren. \nHinweis: Ausnahmen hierbei sind Gebäude, in denen Gegner sind..</MapGenerator_ModOptions_TryAlwaysSpawnWithHoles_hint>
+	<MapGenerator_ModOptions_HoleChancePercent>Chance pro Feld ein Loch zu erzeugen: </MapGenerator_ModOptions_HoleChancePercent>
+	<MapGenerator_ModOptions_HoleChanceOnWaterPercent>Chance pro Wasser-Feld ein Loch zu erzeugen: </MapGenerator_ModOptions_HoleChanceOnWaterPercent>
+	
+	<MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension>Nur für die Urban City Erweiterung:</MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension>
+	<MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension_hint>Dieser Teil ist nur für aktiv, wenn Du die Erweiterung 'Urban Cities' laufen hast.</MapGenerator_ModOptions_UrbanCity_OnlyForUrbanCityExtension_hint>
+	<MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier>Multiplikator für die Generierung eines Stadtbioms: </MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier>
+	<MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier_hint>Hiermit kannst Du die Chance erhöhen/reduzieren, dass bei der Generierung ein Feld auf der Karte ein Stadtbiom wird.</MapGenerator_ModOptions_UrbanCity_SpawnChanceMultiplier_hint>
+	
+
+</LanguageData>

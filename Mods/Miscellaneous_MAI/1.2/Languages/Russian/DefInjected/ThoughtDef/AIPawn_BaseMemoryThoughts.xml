@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIBaseThought.stages.0.label>...</AIBaseThought.stages.0.label>
+	<AIBaseThought.stages.0.description>Я ничего не чувствую..</AIBaseThought.stages.0.description>
+
+	<AIShieldingError.stages.0.label>Повреждение силового поля</AIShieldingError.stages.0.label>
+	<AIShieldingError.stages.0.description>Повреждения в силовом поле. Активировать ремонтных нанитов.</AIShieldingError.stages.0.description>
+
+	<AIBatteriesRefilled.stages.0.label>Батарея заряжена</AIBatteriesRefilled.stages.0.label>
+	<AIBatteriesRefilled.stages.0.description>Батареи полностью заряжены. Вернуться к работе.</AIBatteriesRefilled.stages.0.description>
+
+	<AILowBattery.stages.0.label>Батарея разаряжена</AILowBattery.stages.0.label>
+	<AILowBattery.stages.0.description>Батареи разряжены. Нужна подзарядка.</AILowBattery.stages.0.description>
+
+	<AILowCriticalBattery.stages.0.label>Нехватка энергии</AILowCriticalBattery.stages.0.label>
+	<AILowCriticalBattery.stages.0.description>Критический заряд батареи. В случае выхода из строя источника питания, будет инициирован протокол самоуничтожения.</AILowCriticalBattery.stages.0.description>
+
+</LanguageData>
