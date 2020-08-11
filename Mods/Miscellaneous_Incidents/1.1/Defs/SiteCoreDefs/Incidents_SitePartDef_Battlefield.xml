@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<SitePartDef>
+		<defName>Misc_Battlefield</defName>
+		<label>battlefield</label>
+		<description>Two enemy factions fight against each other.</description>
+		<workerClass>Incidents.SitePartWorker_Battlefield</workerClass>
+		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+		<expandingIconTexture>World/WorldObjects/Expanding/Sites/Ambush</expandingIconTexture>
+		<arrivedLetter>There are some friendly and enemy warriors in this area.\n\nBeware, the enemies may engage you if you approach.</arrivedLetter>
+		<arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+		<wantsThreatPoints>true</wantsThreatPoints>
+		<tags>
+			<li>MineralScannerPreciousLumpThreat</li>
+			<li>ItemStashQuestThreat</li>
+		</tags>
+	</SitePartDef>
+
+	<GenStepDef>
+		<defName>Misc_Battlefield</defName>
+		<linkWithSite>Misc_Battlefield</linkWithSite>
+		<order>1600</order>
+		<genStep Class="Incidents.GenStep_Battlefield" />
+	</GenStepDef>
+
+</Defs>

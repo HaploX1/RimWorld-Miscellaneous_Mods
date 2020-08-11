@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ArtefactFound_LabelLetterArtefact>Artefakt</ArtefactFound_LabelLetterArtefact>
+	<ArtefactFound_ArtefactWasFound>{0} hat ein mysteriöses Artefact gefunden.</ArtefactFound_ArtefactWasFound>
+
+	<ArtefactFound_ActivateArtefact>Aktiviere Artefakt</ArtefactFound_ActivateArtefact>
+	<ArtefactFound_ActivatedArtefactMechanoids>Du hast das Artefakt aktiviert.\nEs sendete ein kurzes Signal aus und zerstörte sich dann selbst..\n\nOh, sh**.. Das Signal hat einige Wächterdroiden aktiviert!</ArtefactFound_ActivatedArtefactMechanoids>
+	<ArtefactFound_ActivatedArtefactRaiders>Du hast das Artefakt aktiviert.\nEs sendete ein kurzes Signal aus und zerstörte sich dann selbst..\n\nOh, oh, nicht gut... Eine Gruppe Raider hat das Signal abgefangen und ist auf dem Weg hier her!</ArtefactFound_ActivatedArtefactRaiders>
+	<ArtefactFound_ActivatedArtefactResources>Du hast das Artefakt aktiviert.\nEs sendete ein kurzes Signal aus und zerstörte sich dann selbst..\n\nDas Signal hat ein antikes Lager geöffnet. Die Rohstoffe stehen dir jetzt zur Verfügung.</ArtefactFound_ActivatedArtefactResources>
+	<ArtefactFound_ActivatedArtefactPawnReleased>Du hast das Artefakt aktiviert.\nEs sendete ein kurzes Signal aus und zerstörte sich dann selbst..\n\nDas Signal hat eine Kryoschlafkapsel aktiviert. Der Schläfer tritt der Kolonie bei.</ArtefactFound_ActivatedArtefactPawnReleased>
+	<ArtefactFound_ActivatedArtefactNothing>Du hast das Artefakt aktiviert.\nEs zerstörte sich selbst, aber sonst passierte nichts..\n\nEs sieht so aus, als ob das Ding tatsächlich nur ein Stück Schrott war..</ArtefactFound_ActivatedArtefactNothing>
+
+	
+
+</LanguageData>

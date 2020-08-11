@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TacticalComputer.label>战术计算机</TacticalComputer.label>
+  <TacticalComputer.description>这种计算机提供各种信息和选项。</TacticalComputer.description>
+  <TacticalComputer_Blueprint.label>战术计算机（蓝图）</TacticalComputer_Blueprint.label>
+  <TacticalComputer_Blueprint_Install.label>战术计算机（蓝图）</TacticalComputer_Blueprint_Install.label>
+  <TacticalComputer_Frame.label>战术计算机（建造中）</TacticalComputer_Frame.label>
+  <TacticalComputer_Frame.description>这种计算机提供各种信息和选项。</TacticalComputer_Frame.description>
+
+
+</LanguageData>

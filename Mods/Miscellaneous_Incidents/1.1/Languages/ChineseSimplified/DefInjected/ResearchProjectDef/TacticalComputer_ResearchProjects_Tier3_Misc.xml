@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 3: Hi-tech research bench -->
+
+  <ResearchTacticalComputer.label>战术计算机</ResearchTacticalComputer.label>
+  <ResearchTacticalComputer.description>解锁「战术计算机」的建造，提供各种信息，还能自动扫描附近区域寻找可供调查的有趣的地方\n\n另外，也可以用来玩游戏。</ResearchTacticalComputer.description>
+
+  <ResearchSatelliteComputerTerminal.label>计算机终端</ResearchSatelliteComputerTerminal.label>
+  <ResearchSatelliteComputerTerminal.description>解锁「计算机终端」的建造，提供附加功能，但需要战术计算机的支持。\n\n另外，也可以用来玩游戏。</ResearchSatelliteComputerTerminal.description>
+
+  <ResearchTacticalComputerImprovedSensors.label>改进计算机传感器</ResearchTacticalComputerImprovedSensors.label>
+  <ResearchTacticalComputerImprovedSensors.description>改进战术计算机的传感器。\n用以获取异常现象的更多细节。</ResearchTacticalComputerImprovedSensors.description>
+
+
+</LanguageData>

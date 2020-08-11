@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical Computer -->
+  <TacticalComputer_Offline>-= 離線 =-</TacticalComputer_Offline>
+  <TacticalComputer_Colonist>殖民者</TacticalComputer_Colonist>
+  <TacticalComputer_Prisoner>囚犯</TacticalComputer_Prisoner>
+  <TacticalComputer_Enemy>敵人</TacticalComputer_Enemy>
+  <TacticalComputer_Friendly>盟友</TacticalComputer_Friendly>
+  <TacticalComputer_Animal>動物</TacticalComputer_Animal>
+  <TacticalComputer_SwitchToNextColonist>切換至下一位殖民者。</TacticalComputer_SwitchToNextColonist>
+  <TacticalComputer_SwitchToNextPrisoner>切換至下一位囚犯。</TacticalComputer_SwitchToNextPrisoner>
+  <TacticalComputer_SwitchToNextEnemy>切換至下一位敵人</TacticalComputer_SwitchToNextEnemy>
+  <TacticalComputer_SwitchToNextFriendly>切換至下一位盟友。</TacticalComputer_SwitchToNextFriendly>
+  <TacticalComputer_SwitchToNextColonyAnimal>切換至下一個殖民地動物。</TacticalComputer_SwitchToNextColonyAnimal>
+  <TacticalComputer_CallColonistsToArms>召集已武裝的殖民者。</TacticalComputer_CallColonistsToArms>
+  <TacticalComputer_MessageCalledColonists>{0}位殖民者正在路上。</TacticalComputer_MessageCalledColonists>
+
+  <!-- Tactical Computer - Incident Anomaly -->
+  <TacticalComputer_Message_AnomalyFound>你的戰術電腦的掃描器在幾天前檢測到一起異常現象。\n\n如果你想，你可以派遣一個調查小組前往。</TacticalComputer_Message_AnomalyFound>
+  <TacticalComputer_LetterLabel_AnomalyFound>異常現象</TacticalComputer_LetterLabel_AnomalyFound>
+  <TacticalComputer_LongRangeAnomalyScannerEfficiency>效率：{0}</TacticalComputer_LongRangeAnomalyScannerEfficiency>
+
+  <TacticalComputer_PlacementRestricter_NoTacticalComputerFound>缺少戰術電腦</TacticalComputer_PlacementRestricter_NoTacticalComputerFound>
+
+  <!-- Tactical Computer External Terminal -->
+  <TacticalComputer_CallColonistsToArmsToMe>召集已武裝的殖民者。\n目標：此處</TacticalComputer_CallColonistsToArmsToMe>
+  <TacticalComputer_CallColonistsToArmsToMainComputer>召集已武裝的殖民者。\n目標：戰術電腦</TacticalComputer_CallColonistsToArmsToMainComputer>
+  <TacticalComputer_CallColonistsNotArmedToMe>召集未武裝的殖民者。\n目標：此處</TacticalComputer_CallColonistsNotArmedToMe>
+  <TacticalComputer_CallColonistsNotArmedToMainComputer>召集未武裝的殖民者。\n目標：戰術電腦</TacticalComputer_CallColonistsNotArmedToMainComputer>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<ResearchTacticalComputer.label>Taktischer Computer</ResearchTacticalComputer.label>
+	<ResearchTacticalComputer.description>Erlaubt die Konstruktion des Taktischen Computers. Er stellt verschiedene Informationen zur Verfügung und scannt nebenbei die nähere Umgebung nach interessanten Orten, die anschließend erkundet werden können.\nWeiterhin kann man auch Spiele spielen.</ResearchTacticalComputer.description>
+
+	<ResearchSatelliteComputerTerminal.label>Computer Terminal</ResearchSatelliteComputerTerminal.label>
+	<ResearchSatelliteComputerTerminal.description>Erlaubt die Konstruktion von Sateliten Computer Terminals. Sie stellen zusätzliche Funktionen bereit, benötigen aber einen Taktischen Computer zu dem sie sich verbinden können.\nWeiterhin kann man auch hier Spiele spielen.</ResearchSatelliteComputerTerminal.description>
+	
+	<ResearchTacticalComputerImprovedSensors.label>Verbesserte Computer Sensoren</ResearchTacticalComputerImprovedSensors.label>
+	<ResearchTacticalComputerImprovedSensors.description>Verbesserte Sensoren zusammen mit einer höheren Auflösung ergeben detailliertere Informationen vom Taktischen Computer.\nDie verbesserten Daten geben dir oft zusätzliche Informationen über gefundene Anomalien.</ResearchTacticalComputerImprovedSensors.description>
+	
+</LanguageData>
