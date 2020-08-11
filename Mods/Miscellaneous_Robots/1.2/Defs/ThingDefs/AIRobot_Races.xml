@@ -110,7 +110,7 @@
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
 			<MarketValue>10</MarketValue>
-			<MoveSpeed>5.25</MoveSpeed>
+			<MoveSpeed>4.9</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
@@ -145,7 +145,7 @@
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
 			<MarketValue>10</MarketValue>
-			<MoveSpeed>0.95</MoveSpeed>
+			<MoveSpeed>0.90</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
