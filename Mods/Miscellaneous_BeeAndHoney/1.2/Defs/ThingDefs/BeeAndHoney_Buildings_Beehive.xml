@@ -86,11 +86,4 @@
 		<designationCategory>Production</designationCategory>
 	</ThingDef>
 
-	<!-- For backward compatibility
-	<ThingDef ParentName="Misc_BeehiveBase">
-		<defName>Beehive</defName>
-		<tradeability>Sellable</tradeability>
-	</ThingDef>
-	 -->
-
 </Defs>

@@ -6,10 +6,10 @@
 		<label>grow a new queen</label>
 		<description>Grow a queen to start a new hive.</description>
 		<jobString>growing a new queen.</jobString>
-		<workSpeedStat>CookSpeed</workSpeedStat>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>6000</workAmount>
+		<workSpeedStat>PlantWorkSpeed</workSpeedStat>
+		<effectWorking>Harvest</effectWorking>
+		<soundWorking>Harvest_Standard</soundWorking>
+		<workAmount>3300</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -17,7 +17,7 @@
 						<li>Honey</li>
 					</thingDefs>
 				</filter>
-				<count>12</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -25,19 +25,13 @@
 				<li>Honey</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>Honey</li>
-			</thingDefs>
-		</defaultIngredientFilter>
 		<products>
 			<HoneycombWithQueen>1</HoneycombWithQueen>
 		</products>
 		<skillRequirements>
-			<Crafting>7</Crafting>
+			<Plants>7</Plants>
 		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
+		<workSkill>Plants</workSkill>
 		<recipeUsers>
 			<li>Misc_Beehive</li>
 		</recipeUsers>

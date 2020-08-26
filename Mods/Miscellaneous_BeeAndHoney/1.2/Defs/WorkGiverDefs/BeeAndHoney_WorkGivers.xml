@@ -18,7 +18,7 @@
     <defName>DoBillsRaiseNewQueen</defName>
     <label>raise a new queen bee</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>Growing</workType>
     <priorityInType>88</priorityInType>
     <fixedBillGiverDefs>
       <li>Misc_Beehive</li>
