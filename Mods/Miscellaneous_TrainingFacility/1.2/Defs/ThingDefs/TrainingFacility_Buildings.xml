@@ -22,7 +22,7 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Beauty>-5</Beauty>
+			<Beauty>-2</Beauty>
 			<Mass>35</Mass>
 			<JoyGainFactor>1.0</JoyGainFactor>
 		</statBases>
@@ -36,9 +36,13 @@
 		</building>
 		<size>(1,1)</size>
 		<costList>
-			<Steel>35</Steel>
-			<Cloth>20</Cloth>
+			<Steel>40</Steel>
 		</costList>
+		<costStuffCount>55</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 		<pathCost>120</pathCost>
 		<designationCategory>Joy</designationCategory>
 		<thingCategories>
@@ -71,7 +75,7 @@
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<Beauty>2</Beauty>
-			<Mass>45</Mass>
+			<Mass>35</Mass>
 			<JoyGainFactor>1.0</JoyGainFactor>
 		</statBases>
 		<building>
@@ -84,9 +88,13 @@
 		</building>
 		<size>(1,1)</size>
 		<costList>
-			<WoodLog>35</WoodLog>
-			<Cloth>20</Cloth>
+			<WoodLog>55</WoodLog>
 		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
 		<pathCost>120</pathCost>
 		<designationCategory>Joy</designationCategory>
 		<thingCategories>
