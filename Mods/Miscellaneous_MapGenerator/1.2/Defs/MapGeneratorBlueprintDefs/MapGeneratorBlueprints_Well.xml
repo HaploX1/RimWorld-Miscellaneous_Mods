@@ -4,7 +4,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef>
 		<defName>Blueprint_WellA_5x5</defName>
 		<size>5,5</size>
-		<chance>15</chance>
+		<chance>10</chance>
 		<floorData>
 			.111.
 			11011
@@ -28,7 +28,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef>
 		<defName>Blueprint_WellB_5x5</defName>
 		<size>5,5</size>
-		<chance>15</chance>
+		<chance>10</chance>
 		<floorData>
 			.111.
 			11011
@@ -52,7 +52,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef>
 		<defName>Blueprint_WellA_3x3</defName>
 		<size>3,3</size>
-		<chance>15</chance>
+		<chance>10</chance>
 		<floorData>
 			111
 			101
@@ -74,7 +74,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef>
 		<defName>Blueprint_WellB_3x3</defName>
 		<size>3,3</size>
-		<chance>15</chance>
+		<chance>10</chance>
 		<floorData>
 			111
 			101

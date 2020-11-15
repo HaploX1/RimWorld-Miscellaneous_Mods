@@ -3,7 +3,7 @@
 
 	<MapGenerator.MapGeneratorBlueprintDef Name="TepeeABase">
 		<defName>TepeeA_w_holes</defName>
-		<chance>15</chance>
+		<chance>13</chance>
 		<size>7,7</size>
 		<canHaveHoles>false</canHaveHoles>
 		<buildingMaterial>Leather_Plain</buildingMaterial>
@@ -45,7 +45,7 @@
 
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="TepeeABase">
 		<defName>TepeeA_wo_holes</defName>
-		<chance>15</chance>
+		<chance>13</chance>
 		<createTrigger>true</createTrigger>
 		<canHaveHoles>false</canHaveHoles>
 	</MapGenerator.MapGeneratorBlueprintDef>
@@ -53,7 +53,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="TepeeABase">
 		<defName>TepeeA_wo_holes_w_items</defName>
-		<chance>13</chance>
+		<chance>11</chance>
 		<createTrigger>true</createTrigger>
 		<canHaveHoles>false</canHaveHoles>
 		<itemData>

@@ -3,7 +3,7 @@
 
 	<MapGenerator.MapGeneratorBlueprintDef Name="Hospital1Base">
 		<defName>HospitalRoom1_w_holes</defName>
-		<chance>20</chance>
+		<chance>15</chance>
 		<size>7,7</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>

@@ -3,7 +3,7 @@
 
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple6x7Base">
 		<defName>SimpleRoom6x7_w_holes</defName>
-		<chance>70</chance>
+		<chance>30</chance>
 		<size>6,7</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -26,7 +26,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple6x7Base">
 		<defName>SimpleRoom6x7_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>30</chance>
+		<chance>20</chance>
 		<floorData>
 			wwwwwww
 			w.....w
@@ -50,7 +50,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple7x6Base">
 		<defName>SimpleRoom7x6_w_holes</defName>
-		<chance>70</chance>
+		<chance>30</chance>
 		<size>7,6</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -72,7 +72,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple7x6Base">
 		<defName>SimpleRoom7x6_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>50</chance>
+		<chance>20</chance>
 		<floorData>
 			wwwwwww
 			w.....w
@@ -96,7 +96,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple9x6Base">
 		<defName>SimpleRoom9x6_w_holes</defName>
-		<chance>70</chance>
+		<chance>30</chance>
 		<size>9,6</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -118,7 +118,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple9x6Base">
 		<defName>SimpleRoom9x6_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>50</chance>
+		<chance>20</chance>
 		<floorData>
 			wwwwwwwww
 			w.......w
@@ -142,7 +142,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple9x6Base">
 		<defName>SimpleRoom9x6_wo_holes</defName>
 		<canHaveHoles>false</canHaveHoles>
-		<chance>20</chance>
+		<chance>15</chance>
 		<floorData>
 			wwwwwwwww
 			w.......w
@@ -167,7 +167,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple13x8Base">
 		<defName>SimpleRoom13x8_w_holes</defName>
-		<chance>50</chance>
+		<chance>20</chance>
 		<size>13,8</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -191,7 +191,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple13x8Base">
 		<defName>SimpleRoom13x8_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>30</chance>
+		<chance>15</chance>
 		<floorData>
 			wwwwwwwwwwwww
 			w...........w
@@ -217,7 +217,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple8x13Base">
 		<defName>SimpleRoom8x13_w_holes</defName>
-		<chance>50</chance>
+		<chance>20</chance>
 		<size>8,13</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -246,7 +246,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple8x13Base">
 		<defName>SimpleRoom8x13_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>40</chance>
+		<chance>15</chance>
 		<floorData>
 			wwwwwwww
 			w......w
@@ -277,7 +277,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple12x6Base">
 		<defName>SimpleRoom12x6_w_holes</defName>
-		<chance>50</chance>
+		<chance>20</chance>
 		<size>12,6</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -299,7 +299,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple12x6Base">
 		<defName>SimpleRoom12x6_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>30</chance>
+		<chance>15</chance>
 		<floorData>
 			wwwwwwwwwwww
 			w..........w
@@ -323,7 +323,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple12x6Base">
 		<defName>SimpleRoom12x6_wo_holes</defName>
 		<canHaveHoles>false</canHaveHoles>
-		<chance>15</chance>
+		<chance>13</chance>
 		<floorData>
 			wwwwwwwwwwww
 			w..........w
@@ -347,7 +347,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple10x4Base">
 		<defName>SimpleRoom10x4_w_holes</defName>
-		<chance>50</chance>
+		<chance>20</chance>
 		<size>10,4</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -367,7 +367,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple10x4Base">
 		<defName>SimpleRoom10x4_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>20</chance>
+		<chance>13</chance>
 		<floorData>
 			wwwwwwwwwwww
 			w..........w
@@ -391,7 +391,7 @@
 	
 	<MapGenerator.MapGeneratorBlueprintDef Name="Simple6x11Base">
 		<defName>SimpleRoom6x11_w_holes</defName>
-		<chance>50</chance>
+		<chance>20</chance>
 		<size>6,11</size>
 		<canHaveHoles>true</canHaveHoles>
 		<buildingData>
@@ -418,7 +418,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple6x11Base">
 		<defName>SimpleRoom6x11_w_holes2</defName>
 		<canHaveHoles>true</canHaveHoles>
-		<chance>15</chance>
+		<chance>13</chance>
 		<floorData>
 			wwwwww
 			w....w
@@ -447,7 +447,7 @@
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="Simple6x11Base">
 		<defName>SimpleRoom6x11_wo_holes</defName>
 		<canHaveHoles>false</canHaveHoles>
-		<chance>15</chance>
+		<chance>13</chance>
 		<floorData>
 			wwwwww
 			w....w

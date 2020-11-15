@@ -3,7 +3,7 @@
 
 	<MapGenerator.MapGeneratorBlueprintDef Name="MiniBase1Base">
 		<defName>MiniBase1_w_holes</defName>
-		<chance>15</chance>
+		<chance>13</chance>
 		<size>23,24</size>
 		<canHaveHoles>true</canHaveHoles>
 		<createTrigger>true</createTrigger>
@@ -91,13 +91,13 @@
 		
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="MiniBase1Base">
 		<defName>MiniBase1_wo_holes</defName>
-		<chance>15</chance>
+		<chance>13</chance>
 		<canHaveHoles>false</canHaveHoles>
 	</MapGenerator.MapGeneratorBlueprintDef>
 	
 	<MapGenerator.MapGeneratorBlueprintDef ParentName="MiniBase1Base" Name="MiniBase2Base">
 		<defName>MiniBase2_wo_holes</defName>
-		<chance>15</chance>
+		<chance>13</chance>
 		<canHaveHoles>false</canHaveHoles>
 		<createTrigger>true</createTrigger>
 		<itemData>

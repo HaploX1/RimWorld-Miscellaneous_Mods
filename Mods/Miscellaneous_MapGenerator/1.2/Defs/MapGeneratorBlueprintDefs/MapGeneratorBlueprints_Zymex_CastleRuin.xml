@@ -2,7 +2,7 @@
 <Defs>
 	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_CastleRuin1Base1">
 		<defName>Zymex_CastleRuin1_w_holes</defName>
-		<chance>12</chance>
+		<chance>10</chance>
 		<size>(27, 27)</size>
 		<canHaveHoles>true</canHaveHoles>
 		<createTrigger>false</createTrigger>
