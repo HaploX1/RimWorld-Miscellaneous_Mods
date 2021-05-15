@@ -39,6 +39,22 @@
 			</li>
 		</operations>
 	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/GenStepDef[defName="ScatterRealRuins"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple_new"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+				<value><li>ScatterRuinsSimple_new</li></value>
+			</li>
+		</operations>
+	</Operation>
 	
 </Patch>
 

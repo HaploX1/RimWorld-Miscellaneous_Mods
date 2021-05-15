@@ -17,7 +17,9 @@
 			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704181221</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<loadBefore></loadBefore>
+	<loadBefore>
+		<li>Woolstrand.RealRuins</li>
+	</loadBefore>
 	<loadAfter>
 		<li>Haplo.Miscellaneous.Core</li>
 	</loadAfter>
@@ -32,7 +34,7 @@
 (Note: This mod only works when you start a new colony!)
 
 
-(Version: 1.2.1)
+(Version: 1.2.2)
 Language: English, German
 	</description>
 </ModMetaData>
