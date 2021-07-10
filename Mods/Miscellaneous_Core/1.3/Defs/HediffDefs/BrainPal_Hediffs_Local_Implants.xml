@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Added body parts -->
+
+  <HediffDef Name="ImplantHediffBase_MiscCore" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase_MiscCore">
+    <defName>BionicTacticalImplant</defName>
+    <label>bionic BrainPal</label>
+    <labelNoun>a bionic BrainPal</labelNoun>
+    <description>Advanced bionic computer flawlessly integrated into the human brain.</description>
+    <descriptionHyperlinks><ThingDef>BionicTacticalImplant</ThingDef></descriptionHyperlinks>
+      <spawnThingOnRemoved>BionicTacticalImplant</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+		<capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>0.2</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.2</offset>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.15</offset>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>0.1</offset>
+			</li>
+		</capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="ImplantHediffBase_MiscCore">
+    <defName>ElectronicTacticalImplant</defName>
+    <label>electronic BrainPal</label>
+    <labelNoun>an electronic BrainPal</labelNoun>
+    <description>Advanced computer with a direct brain interface.</description>
+    <descriptionHyperlinks><ThingDef>ElectronicTacticalImplant</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>ElectronicTacticalImplant</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+		<capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>0.1</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>0.15</offset>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

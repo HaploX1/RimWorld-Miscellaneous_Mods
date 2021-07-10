@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BiomeDef ParentName="BorealForest">
+		<defName>BorealForest_UrbanRuins</defName>
+		<label>urban ruins in boreal forest</label>
+		<description>Forests of coniferous trees surround the ruins of an ancient dwelling. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. Snow makes it extremely slow to travel in winter.</description>
+		<workerClass>MapGenerator.BiomeWorker_BorealForest_UrbanRuins</workerClass>
+		<forageability>0.25</forageability>
+		<texture>World/Biomes/BorealForest_UrbanRuins</texture>
+	</BiomeDef>
+
+</Defs>

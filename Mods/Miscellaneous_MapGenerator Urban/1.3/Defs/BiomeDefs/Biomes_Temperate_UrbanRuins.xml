@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BiomeDef ParentName="TemperateForest">
+		<defName>TemperateForest_UrbanRuins</defName>
+		<label>urban ruins in temperate forest</label>
+		<description>Forests of deciduous trees surround the ruins of an ancient dwelling. Ancient structures that survived the forces of nature.</description>
+		<workerClass>MapGenerator.BiomeWorker_TemperateForest_UrbanRuins</workerClass>
+		<movementDifficulty>0.75</movementDifficulty>
+		<texture>World/Biomes/TemperateForest_UrbanRuins</texture>
+		<forageability>1</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="TemperateSwamp">
+		<defName>TemperateSwamp_UrbanRuins</defName>
+		<label>urban ruins in temperate swamp</label>
+		<description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures.</description>
+		<workerClass>MapGenerator.BiomeWorker_TemperateSwamp_UrbanRuins</workerClass>
+		<movementDifficulty>3</movementDifficulty>
+		<texture>World/Biomes/TemperateSwamp_UrbanRuins</texture>
+		<forageability>0.75</forageability>
+	</BiomeDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_Bunker5x4Base1">
+		<defName>Zymex_Bunker5x4_w_holes</defName>
+		<chance>13</chance>
+		<size>(5, 4)</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>false</createTrigger>
+		<buildingData>
+aacaa
+a...a
+a...a
+abbba
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>Door</value>
+			</li>
+		</buildingLegend>
+		<floorData>
+aaaaa
+aaaaa
+aaaaa
+aaaaa
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+		</floorLegend>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="Zymex_Bunker5x4Base1">
+		<defName>Zymex_Bunker5x4_wo_holes</defName>
+		<chance>7</chance>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+</Defs>

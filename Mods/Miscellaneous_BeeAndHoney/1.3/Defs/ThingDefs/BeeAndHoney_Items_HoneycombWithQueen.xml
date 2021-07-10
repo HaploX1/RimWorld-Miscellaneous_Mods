@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Luxury ====================-->
+
+	<ThingDef ParentName="ResourceHoneycombBase_MiscBees">
+		<defName>HoneycombWithQueen</defName>
+		<label>Honeycomb w. Queen</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>A honeycomb with a living queen bee. You can place it inside a bee house and she will build up her beehive.\n\nCaution:\n-You only have a limited time to build a hive for your queen or she'll vanish.\n-The queen will die if the outside temperature is too hot or too cold.</description>
+		<graphicData>
+			<texPath>Things/Item/Honeycomb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<tradeNeverStack>true</tradeNeverStack>
+		<useHitPoints>true</useHitPoints>
+		<stealable>false</stealable>
+		<statBases>
+			<WorkToBuild>35000</WorkToBuild>
+			<MarketValue>350</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>5</DeteriorationRate>
+			<Nutrition>0.10</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+			<Mass>0.3</Mass>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteHoney</tasteThought>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>AnimalProduct</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="BeeAndHoney.CompProperties_TimedRespawn">
+				<compClass>BeeAndHoney.CompTimedRespawn</compClass>
+				<daysUntilRespawn>1</daysUntilRespawn>
+				<useTempRange>true</useTempRange>
+				<goodTempRange><min>-5</min><max>45</max></goodTempRange>
+				<changeDef>Honey</changeDef>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

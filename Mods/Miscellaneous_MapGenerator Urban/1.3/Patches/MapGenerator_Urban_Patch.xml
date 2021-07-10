@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value>
+			<li>ScatterBlueprintSimple_urban</li>
+			<li>ScatterBlueprintVillage_urban</li>
+		</value>
+	</Operation>
+
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/BiomeDef[defName="BorealForest"]</xpath>
+		<attribute>Name</attribute>
+		<value>BorealForest</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TemperateForest"]</xpath>
+		<attribute>Name</attribute>
+		<value>TemperateForest</value>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TemperateSwamp"]</xpath>
+		<attribute>Name</attribute>
+		<value>TemperateSwamp</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TropicalRainforest"]</xpath>
+		<attribute>Name</attribute>
+		<value>TropicalRainforest</value>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TropicalSwamp"]</xpath>
+		<attribute>Name</attribute>
+		<value>TropicalSwamp</value>
+	</Operation>
+
+
+</Patch>
+

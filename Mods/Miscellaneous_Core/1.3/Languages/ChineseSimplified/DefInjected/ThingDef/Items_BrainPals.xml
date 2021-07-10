@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- artificial - bionics -->
+
+  <BionicTacticalImplant.label>仿生大脑芯片</BionicTacticalImplant.label>
+  <BionicTacticalImplant.description>将先进的仿生计算机完美地植入人类的大脑中。</BionicTacticalImplant.description>
+
+  <ElectronicTacticalImplant.label>电子大脑芯片</ElectronicTacticalImplant.label>
+  <ElectronicTacticalImplant.description>带有与大脑间接口的先进计算机。</ElectronicTacticalImplant.description>
+
+
+</LanguageData>

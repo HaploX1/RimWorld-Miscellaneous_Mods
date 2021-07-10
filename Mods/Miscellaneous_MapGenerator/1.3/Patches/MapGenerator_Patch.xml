@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple"]/text()</xpath>
+				<value>ScatterRuinsSimple_new</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value><li>ScatterBlueprintSimple_normal</li></value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value><li>ScatterBlueprintVillage_normal</li></value>
+	</Operation> 
+	
+	<!-- Compatibility for the mod 'Real Ruins' -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/GenStepDef[defName="ScatterRealRuins"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple_new"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple_new"]/text()</xpath>
+				<value>ScatterRuinsSimple</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/GenStepDef[defName="ScatterRealRuins"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps/li[text() = "ScatterRuinsSimple_new"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+				<value><li>ScatterRuinsSimple_new</li></value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>
+

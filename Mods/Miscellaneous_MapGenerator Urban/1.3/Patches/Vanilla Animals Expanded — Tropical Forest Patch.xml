@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Tropical Rainforest</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Gorilla"]/race/wildBiomes</xpath>
+				<value>
+					<TropicalRainforest_UrbanRuins>0.01</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.01</TropicalSwamp_UrbanRuins>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Jaguar"]/race/wildBiomes</xpath>
+				<value>					
+					<TropicalRainforest_UrbanRuins>0.05</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.01</TropicalSwamp_UrbanRuins>	
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Lemur"]/race/wildBiomes</xpath>
+				<value>
+
+					<TropicalRainforest_UrbanRuins>0.2</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.1</TropicalSwamp_UrbanRuins>	
+
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Mandrill"]/race/wildBiomes</xpath>
+				<value>					
+					<TropicalRainforest_UrbanRuins>0.07</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.01</TropicalSwamp_UrbanRuins>	
+				</value>
+			</li>		
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Tapir"]/race/wildBiomes</xpath>
+				<value>
+					<TropicalRainforest_UrbanRuins>0.2</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.15</TropicalSwamp_UrbanRuins>	
+				</value>
+			</li>			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Tiger"]/race/wildBiomes</xpath>
+				<value>
+					<TropicalRainforest_UrbanRuins>0.07</TropicalRainforest_UrbanRuins>
+					<TropicalSwamp_UrbanRuins>0.07</TropicalSwamp_UrbanRuins>	
+				</value>
+			</li>	
+		</operations>
+		</match>
+	</Operation>
+</Patch>
+
