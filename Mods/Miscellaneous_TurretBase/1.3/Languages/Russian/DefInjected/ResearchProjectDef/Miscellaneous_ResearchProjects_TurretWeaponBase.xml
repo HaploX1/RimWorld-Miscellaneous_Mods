@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+<!-- <ResearchTurretWeaponBaseA.label>Weapon Base A</ResearchTurretWeaponBaseA.label>
+	<ResearchTurretWeaponBaseA.description>Research how to fit hand weapons into an automatic firing turret base.</ResearchTurretWeaponBaseA.description> -->
+
+	<ResearchTurretWeaponBaseAlternateCooldown.label>Турель: быстрая перезарядка</ResearchTurretWeaponBaseAlternateCooldown.label>
+	<ResearchTurretWeaponBaseAlternateCooldown.description>Исследование, позволяющее увеличить скорость перезарядки турели.</ResearchTurretWeaponBaseAlternateCooldown.description>
+
+</LanguageData>

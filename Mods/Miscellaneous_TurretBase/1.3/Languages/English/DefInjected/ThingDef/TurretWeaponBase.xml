@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<TurretWeaponBaseMannable.label>Turret Base M</TurretWeaponBaseMannable.label>
+	<TurretWeaponBaseMannable.description>A mannable weapon base. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseMannable.description>
+
+	<TurretWeaponBaseAutomatic.label>Turret Base A</TurretWeaponBaseAutomatic.label>
+	<TurretWeaponBaseAutomatic.description>An automatic weapon base. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomatic.description>
+
+	<TurretWeaponBaseAutomatic_Buildable.label>Turret Base A</TurretWeaponBaseAutomatic_Buildable.label>
+	<TurretWeaponBaseAutomatic_Buildable.description>An automatic weapon base. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomatic_Buildable.description>
+
+	<TurretWeaponBaseAutomaticPlasteel.label>Turret Base A MK-II</TurretWeaponBaseAutomaticPlasteel.label>
+	<TurretWeaponBaseAutomaticPlasteel.description>An automatic weapon base with a light armor plating. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticPlasteel.description>
+
+	<TurretWeaponBaseAutomaticHighTechTargeting.label>Turret Base A MK-III</TurretWeaponBaseAutomaticHighTechTargeting.label>
+	<TurretWeaponBaseAutomaticHighTechTargeting.description>An automatic weapon base. This turret comes with an high-tech targeting system, but without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticHighTechTargeting.description>
+
+	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>Turret Base A MK-III</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>
+	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>An automatic weapon base. This turret comes with an high-tech targeting system, but without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>
+	
+</LanguageData>

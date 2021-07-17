@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<MicroTurretMKI.label>Micro turret</MicroTurretMKI.label>
+	<MicroTurretMKI.description>A miniature turret that automatically fires at nearby enemies. Its Micro AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</MicroTurretMKI.description>
+	
+	<Bullet_MicroTurretMKI.label>Micro turret bullet</Bullet_MicroTurretMKI.label>
+	
+	<Gun_MicroTurretMKI.label>Micro turret gun</Gun_MicroTurretMKI.label>
+	<Gun_MicroTurretMKI.description>A micro gun working in a micro turret.</Gun_MicroTurretMKI.description>
+	
+	<Bullet_MicroThingSpawnerMKI.label>Micro turret creator</Bullet_MicroThingSpawnerMKI.label>
+	
+	<Gun_MicroTurretLauncher.label>Micro turret launcher</Gun_MicroTurretLauncher.label>
+	<Gun_MicroTurretLauncher.description>A launcher for micro turrets. The projectile itself will do virtually no damage, but its nanobots will create a micro turret near the place of impact.</Gun_MicroTurretLauncher.description>
+	
+</LanguageData>

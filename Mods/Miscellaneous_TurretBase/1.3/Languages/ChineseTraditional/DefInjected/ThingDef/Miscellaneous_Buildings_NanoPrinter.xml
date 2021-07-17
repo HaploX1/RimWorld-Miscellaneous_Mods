@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NanoPrinter.label>納米印表機</NanoPrinter.label>
+  <NanoPrinter.description>納米印表機可以對武器進行複製。注意：複製品的品質可能不是最好的。</NanoPrinter.description>
+  <NanoPrinter_Blueprint.label>納米印表機（藍圖）</NanoPrinter_Blueprint.label>
+  <NanoPrinter_Blueprint_Install.label>納米印表機（藍圖）</NanoPrinter_Blueprint_Install.label>
+  <NanoPrinter_Frame.label>納米印表機（建造中）</NanoPrinter_Frame.label>
+  <NanoPrinter_Frame.description>納米印表機可以對武器進行複製。注意：複製品的品質可能不是最好的。</NanoPrinter_Frame.description>
+
+  <NanoScanner.label>納米掃描儀</NanoScanner.label>
+  <NanoScanner.description>協同納米印表機，對武器的內部結構進行掃描。</NanoScanner.description>
+  <NanoScanner_Blueprint.label>納米掃描儀（藍圖）</NanoScanner_Blueprint.label>
+  <NanoScanner_Blueprint_Install.label>納米掃描儀（藍圖）</NanoScanner_Blueprint_Install.label>
+  <NanoScanner_Frame.label>納米掃描儀（建造中）</NanoScanner_Frame.label>
+  <NanoScanner_Frame.description>協同納米印表機，對武器的內部結構進行掃描。</NanoScanner_Frame.description>
+
+
+</LanguageData>

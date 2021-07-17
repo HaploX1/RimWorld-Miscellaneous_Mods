@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Turret WeaponBase -->
+  <Install>安装</Install>
+  <NoWeaponFoundForTurretBase>没有可用的武器</NoWeaponFoundForTurretBase>
+
+</LanguageData>

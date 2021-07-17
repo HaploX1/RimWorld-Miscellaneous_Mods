@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>FillNanoPrinter</defName>
+		<driverClass>NanoPrinter.JobDriver_FillingNanoPrinter</driverClass>
+		<reportString>Filling TargetB.</reportString>
+	</JobDef>
+
+</Defs>
