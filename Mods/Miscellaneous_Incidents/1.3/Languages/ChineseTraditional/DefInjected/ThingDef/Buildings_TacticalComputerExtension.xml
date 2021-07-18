@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TacticalComputerExtension.label>電腦終端</TacticalComputerExtension.label>
+  <TacticalComputerExtension.description>這種電腦提供遠程操作戰術電腦上部分選項的功能。\n注意：必須要有一台戰術電腦！</TacticalComputerExtension.description>
+  <TacticalComputerExtension_Blueprint.label>電腦終端（藍圖）</TacticalComputerExtension_Blueprint.label>
+  <TacticalComputerExtension_Blueprint_Install.label>電腦終端（藍圖）</TacticalComputerExtension_Blueprint_Install.label>
+  <TacticalComputerExtension_Frame.label>電腦終端（建造中）</TacticalComputerExtension_Frame.label>
+  <TacticalComputerExtension_Frame.description>這種電腦提供遠程操作戰術電腦上部分選項的功能。\n注意：必須要有一台戰術電腦！</TacticalComputerExtension_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="CrashedCryptoSleepCasketBase_MiscIncidents" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	</ThingDef>
+
+	<ThingDef ParentName="CrashedCryptoSleepCasketBase_MiscIncidents">
+		<defName>CrashedCryptoSleepCasket</defName>
+		<label>rescue pod</label>
+		<description>This is a rescue pod of an unknown design. Do you want to take a look into it?</description>
+		<thingClass>Building_CryptosleepCasket</thingClass>
+		<graphicData>
+			<texPath>Things/Building/CrashedCryptosleepCasket/CrashedRescuePod</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<WorkToBuild>8000</WorkToBuild>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<Mass>150</Mass>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(2,0,0)</interactionCellOffset>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>60</Plasteel>
+			<Uranium>5</Uranium>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+			<Steel>15</Steel>
+			<Plasteel>20</Plasteel>
+			<Uranium>5</Uranium>
+		</killedLeavings>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<staticSunShadowHeight>0.4</staticSunShadowHeight>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<ResearchTacticalComputer.label>Tactical Computer</ResearchTacticalComputer.label>
+	<ResearchTacticalComputer.description>Allows the construction of tactical computers which provides various informations and also automatically scans the nearby areas for interesting places which then can be investigated.\nAdditionally you can also play games on it.</ResearchTacticalComputer.description>
+
+	<ResearchSatelliteComputerTerminal.label>Computer Terminal</ResearchSatelliteComputerTerminal.label>
+	<ResearchSatelliteComputerTerminal.description>Allows the construction of satellite computer terminals which provides additional functions but need a tactical computer to connect to.\nAdditionally you can play games on it, too.</ResearchSatelliteComputerTerminal.description>
+
+	<ResearchTacticalComputerImprovedSensors.label>Improved Computer Sensors</ResearchTacticalComputerImprovedSensors.label>
+	<ResearchTacticalComputerImprovedSensors.description>Improved sensors in combination with a higher resolution will improve the anomaly sensors of your tactical computer.\nThe improved data provides you often with more informations to the anomalies.</ResearchTacticalComputerImprovedSensors.description>
+
+</LanguageData>

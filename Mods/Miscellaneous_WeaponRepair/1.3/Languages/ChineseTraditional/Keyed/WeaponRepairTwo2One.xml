@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WeaponRepair_NotAssignedToWorkType>無法進行（未分配{0}工作）</WeaponRepair_NotAssignedToWorkType>
+  <WeaponRepair_NoRepairTableFound>沒有可用的機械加工臺</WeaponRepair_NoRepairTableFound>
+  <WeaponRepair_NoWeaponTwinFound>缺少第二把武器</WeaponRepair_NoWeaponTwinFound>
+  <WeaponRepair_RepairWeapon>使用其他武器的部件修理</WeaponRepair_RepairWeapon>
+
+</LanguageData>
