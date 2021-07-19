@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBaseBlueprintDef Name="SmallOutpostABase">
+		<defName>SmallOutpost_A</defName>
+		<createdBy>Haplo</createdBy>
+		<techLevelRequired>Neolithic</techLevelRequired>
+		<chance>10</chance>
+		<size>(29, 22)</size>
+		<canHaveHoles>False</canHaveHoles>
+		<createTrigger>False</createTrigger>
+		<buildingData>
+aaaa...aaaaaaaaaaa.aaaaaa.bbb
+a..a...aj...a....a.a....a...b
+b..a...a....a....a.a..l.a...b
+b..g...a....a....a.a....a...b
+a..a...ah...a....a.a....a....
+aaaa...g....aafaaa.aafaaa....
+.......a........ha...........
+.......aj........a.....aaaaaa
+aaaa...aaaaaaafaaa.....am..ea
+ae.a...................g....a
+a......................ah...a
+ae.a...................ae..ea
+a..aa..................a....a
+ae.ea..................aaaaaa
+a...a........................
+aaaaa.aaafaaaaaaaa...........
+b.....ah.........a.......aaaa
+b.....a.........ka.......a..a
+aafa..a.i.i......a.......g..b
+ad.a..a.........ka.......a..b
+acca..a..........a.......a..a
+aaaabbaaaaaaaaaaaabbb..bbaaaa
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>TorchLamp</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>PlantPot</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>RoyalBed</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>Bed</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>1</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+aaaa........ffffff.gggggg....
+aaaa....ddddffffff.gggggg....
+aaaa....ddddffffff.gggggg....
+aaaaaa..ddddffffff.gggggg....
+aaaa.a..ddddffffff.gggggg....
+aaaa.aadddddffffff.gggggg....
+.....a..ddddddddd....a.......
+.....a..ddddddddd...aa.gggggg
+bbbb.a........d.....a..gggggg
+bbbb.a........a.....aaagggggg
+bbbbaaa.......a....aa..gggggg
+bbbb..aaaaaaaaaaaaaa...gggggg
+bbbbb..aaaaaaaaaaaaaa..gggggg
+bbbbb.a..a........aaaa.gggggg
+bbbbba...a.........aaa.......
+bbbbba...c..........aaa......
+...aaa.cccccccccc...aaa..aaaa
+..aa...cccccecccc...aaaa.aaaa
+aaaa...cccceeeccc....aa.aaaaa
+aaaa...cccccecccc....aa..aaaa
+aaaa...cccccccccc....aa..aaaa
+aaaa..................a..aaaa
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>CarpetCream</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>SterileTile</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>WoodPlankFloor</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>CarpetRed</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>CarpetDark</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>CarpetBlue</value>
+			</li>
+		</floorLegend>
+		<itemData>
+aaaa...aaaaaaaaaaa.aaaaaa.bbb
+a..a...aj.11a2828a.at45ta...b
+b..a...a..11a3572a.a..l.a...b
+b..g...a..11a9237a.a....a...b
+a..a...ah...a5.39a.a....a....
+aaaa...g....aafaaa.aafaaa....
+.......a........ha...........
+.......aj.......6a.....aaaaaa
+aaaa...aaaaaaafaaa.....am..ea
+ae.a...................g....a
+a......................ah...a
+ae.a...................ae..ea
+a..aa..................a.00.a
+ae.ea..................aaaaaa
+a...a........................
+aaaaa.aaafaaaaaaaa...........
+b.....ah.........a.......aaaa
+b.....a.........ka.......a..a
+aafa..a.i.i......a.......g..b
+ausa..as........ka.......a..b
+acca..ass........a.......a..a
+aaaabbaaaaaaaaaaaabbb..bbaaaa
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>c</key>
+				<value>Milk</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>EggChickenFertilized</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>Silver</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>Gold</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>MealSurvivalPack</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>MealFine</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>Pemmican</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>MechSerumNeurotrainer</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>ElephantTusk</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>Joywire</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>Chocolate</value>
+			</li>
+			<li>
+				<key>8</key>
+				<value>Jade</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>DevilstrandCloth</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>Apparel_PowerArmor</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>65</itemSpawnChance>
+		<pawnData>
+aaaa...aaaaaaaaaaa.aaaaaa.bbb
+a..a...aj...a....a.a....a...b
+b..a...a....a....a.a..l.a...b
+b..g...a....a....a.a....a...b
+a..a...ah...a....a.a..x.a....
+aaaa...g....aafaaa.aafaaa....
+.......a........ha...........
+.......aj........a.....aaaaaa
+aaaa...aaaaaaafaaa.....am..ea
+ae.a...................g....a
+a......................ah...a
+ae.a...................ae.xea
+a..aa..................a....a
+ae.ea..................aaaaaa
+a...a........................
+aaaaa.aaafaaaaaaaa...........
+b.....ah.........a.......aaaa
+b.....a.........ka.......a..a
+aafa..a.i.i.....xa.......g..b
+ad.a..a.........ka.......a..b
+acca..a..........a.......a..a
+aaaabbaaaaaaaaaaaabbb..bbaaaa
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>x</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>35</pawnSpawnChance>
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+</Defs>

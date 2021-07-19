@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBaseBlueprintDef>
+		<defName>BoxBase1_A</defName>
+		<createdBy>Box</createdBy>
+		<techLevelRequired>Industrial</techLevelRequired>
+		<chance>35</chance>
+		<size>(54, 44)</size>
+		<canHaveHoles>false</canHaveHoles>
+		<createTrigger>true</createTrigger>
+		<buildingData>
+......................................................
+......................................................
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+..a..b.b.b..................................b.b.b..a..
+..a..c...b........c.q...q...q...q..c........b...c..a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a......bbbbbmbbbbdddddbbdddddbbbbbbbbmbbbbb......a..
+..ab.....ee.........d............b.........mm.....ba..
+..a......bb..c......b............b......c..bb......a..
+..abbbbbbbb.........m............m.........bbbbbbbba..
+.....bbbbbbb........b............b........dbbbbbb.....
+.....bb....bf.......b............b.......fb....bb.....
+..a..bb....bbbmbbbbbbbbbbbbmbbbbbbbbbbbmbbb....bb.....
+..a..bb...fh.......pb............dk.......y...fbb..a..
+..a..ee....m.......lb............bl.......m....ee..a..
+..a..bb....dk......pb............dk......pd....bbb.a..
+..abbbbbmbbbl......chf..........fyc.......dbbmbbbbba..
+..a.bb.....dk......pbbbbbbbmbbbbbdk......pd.....bb.a..
+..a.bb.....bf............................fb.....bb.a..
+..abbb.....dk.......c............c.......pb.....bbba..
+..abbb.....b..............................b.....bbba..
+..a.bb.....bk............................pd.....bb.a..
+..a.bb.....e..............................e.....bb.a..
+..abbb.....bl............................lb.....bbba..
+..abbb.....dk.......c............c.......pb.....bbba..
+..a.bb.....bf............................fb.....bb.a..
+..a.bb.....dk......pbbbmbbbmbbbbbdk......pb.....bb.a..
+..abbbbbmbbbl......lr...rfc.....frl......lbbbmbbbbba..
+..a.bbb....dk......pds..b........dk......pb....bbb.a..
+..a..ee....m........ds..b........b........m....ee..a..
+..a..bbf...h........ds.fb........dk.......yf...bb..a..
+..a..bb....bddmbbbbdddddbbbmdddbbbbbbbbmddb....bb..a..
+.....bb....bf.......d............b.......fb....bb.....
+.....bbbbbbd........b............b........dbbbbbb.....
+..abbbbbbbb....c....m............m....c....bbbbbbbba..
+..a......bb..c......d............d......c..bb......a..
+..ab.....ee.........d............d.........ee.....ba..
+..a......bbbbbmbbbddddddddddddddddbbbbbmbbbbb......a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a..c...b........c................c........b...c..a..
+..a..b.b.b..........q...q...q...q...........b.b.b..a..
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+......................................................
+......................................................
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>FirefoamPopper</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>StandingLamp</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>Heater</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>PlantPot</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>OrbitalTradeBeacon</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>SolarGenerator</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Vent</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>Armchair</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Table2x2c</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Turret_MiniTurret</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>Ship_Reactor</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+
+		<nonbuildingData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..sttwtwtw..................................wtwtwtts..
+		..st.i...w........i................i........w...i.ts..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..sw.....d9.........9r....yyr....9.........9d.....ws..
+		..st.....w9f.i......9............9......if.9w.....ts..
+		..sww999999..l......9.....yy.....9......l..999999wws..
+		.....wwwww99f.......9............9......f.99wwwww.....
+		.....wwm.m.9...o....9............9....o...9m.m.ww.....
+		..s..ww....99999999999999999999999999999999....ww.....
+		..s..ww...l9h.....b.9.....o......9c......h9...lww..s..
+		..s..dd....9.......z9............9z.......9....dd..s..
+		..s.www....9c.....b.9............9c.....b.9....www.s..
+		..swwwwwwww9z......z9l..........l9z......z9wwwwwwwws..
+		..s.wwr....9c.....b.99999999999999c.....b.9r....ww.s..
+		..stww.....9l......l9l..........l9l......l9.....wwts..
+		..swww.....9c.......9............9......b.9.....wwws..
+		..swww.....9........9............9........9.....wwws..
+		..s.ww.....9c.....b.955.55...55..9c.....b.9.....ww.s..
+		..stwwr....9........96..6....6...9........9r....wwts..
+		..swww.....9z......z9............9z......z9.....wwws..
+		..swww.....9c.....b.944.44...44..9c.....b.9.....wwws..
+		..s.ww.....9l......l9l..........l9l......l9.....ww.s..
+		..stww.....9c.....b.99999999999999c.....b.9.....wwts..
+		..swwwwwwww9z......z9a..vli.....l9z......z9wwwwwwwws..
+		..s.www....9c.....m.9a..w........9c.....b.9....www.s..
+		..s..dd....9........9a..w........9........9....dd..s..
+		..s..wwl...9h.......9a.lwo.......9c......h9l...ww..s..
+		..s..wwn.n.99999999999999999999999999999999n.n.ww..s..
+		.....ww....9f..o....9r......r....9....o.f.9....ww.....
+		.....wwwww99........9.....yy.....9........99wwwww.....
+		..sww999999f.l......9............9......lf.999999wws..
+		..st.....w9..i......9.....yy.....9......i..9w.....ts..
+		..sw.....d9.........9............9.........9d.....ws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..st.i...w........i................i........w...i.ts..
+		..sttwtwtw..................................wtwtwtts..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>9</key>
+				<value>PowerConduit</value>
+			</li>
+		</nonbuildingLegend>
+
+		<floorData>
+......................................................
+......................................................
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+......................................................
+......................................................
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>SterileTile</value>
+			</li>
+		</floorLegend>
+
+		<itemData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..s..w.w.w..................................w.w.w..s..
+		..s..i...w........i................i........w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..sw.....dd......tttw............wttt......dd.....ws..
+		..s......wwf.i...uuuw............wuuu...if.ww......s..
+		..swwwwwwww..l...yztw............wtzy...l..wwwwwwwws..
+		.....wwwwwwwf....uuuw............wuuu...f.wwwwwww.....
+		.....wwm.m.w.....tttw............wttt.....wm.m.ww.....
+		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
+		..s..ww...l.h.....b.w456666..3333wc......h....lww..s..
+		..s..dd....e........w777777..0000w........e....dd..s..
+		..s.www....wc.....b.w456666..1111wc.....b.w....www.s..
+		..swwwwwwwww.........456666..999+.........wwwwwwwwws..
+		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..swww.....wc.......e............e......b.w.....wwws..
+		..swww.....d........w............w........d.....wwws..
+		..s.ww.....wc.....b.w............wc.....b.w.....ww.s..
+		..s.ww.....w........w............w........w.....ww.s..
+		..swww.....w........w............w........w.....wwws..
+		..swww.....wc.....b.w............wc.....b.w.....wwws..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
+		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
+		..s.www....wc.....m.w...wgg.88888wc.....b.w....www.s..
+		..s..dd....e........w...w...aaaaaw........e....dd..s..
+		..s..wwl....h.......w..lw........wc......h.l...ww..s..
+		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
+		.....ww....wf....tttw............wttt...f.w....ww.....
+		.....wwwwwww.....uuuw............wuuu.....wwwwwww.....
+		..swwwwwwwwf.l...yztw............wtxy...lf.wwwwwwwws..
+		..s......ww..i...uuuw............wuuu...i..ww......s..
+		..sw.....dd......tttw............wttttt....dd.....ws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w........i................i........w...i..s..
+		..s..w.w.w..................................w.w.w..s..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</itemData>
+		<itemLegend>
+
+			<li>
+				<key>0</key>
+				<value>RawRice</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>Hay</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>RawHops</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>RawPotatoes</value>
+
+			</li>
+			<li>
+				<key>4</key>
+				<value>MealSurvivalPack</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>MealFine</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>MealSimple</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>Kibble</value>
+			</li>
+			<li>
+				<key>8</key>
+				<value>Silver</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>MedicineHerbal</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>MedicineIndustrial</value>
+			</li>
+
+			<li>
+				<key>g</key>
+				<value>Gold</value>
+			</li>
+			<li>
+				<key>a</key>
+				<value>Cloth</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>Synthread</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Hyperweave</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>WoodLog</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Steel</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Plasteel</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Shell_HighExplosive</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>ComponentIndustrial</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Chemfuel</value>
+			</li>
+
+		</itemLegend>
+		<itemSpawnChance>50</itemSpawnChance>
+
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+
+
+ 
+	<MapGenerator.MapGeneratorBaseBlueprintDef>
+		<defName>BoxBase1_B</defName>
+		<createdBy>Box</createdBy>
+		<techLevelRequired>Industrial</techLevelRequired>
+		<techLevelMax>Industrial</techLevelMax>
+		<chance>12</chance>
+		<size>(54, 44)</size>
+		<canHaveHoles>false</canHaveHoles>
+		<createTrigger>true</createTrigger>
+		<buildingData>
+......................................................
+......................................................
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+..a..b.bzb..................................bzb.b..a..
+..a..c...b........c.q...q...q...q..c........b...c..a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a......bbbbbmbbbbdddddbbdddddbbbbbbbbmbbbbb......a..
+..ab.....ee.........d............b.........mm.....ba..
+..az.....bb..c...c..b.wwc....c...b..c...c..bb.....za..
+..abbbbbbbb.........b............b.........bbbbbbbba..
+.....bbbbbbb........b.c..........b........dbbbbbb.....
+.....bb....bf..o....b............b....o..fb....bb.....
+..a..bb....bbbnbbbbbbbbbbbxmbbbbbbbbbbbnbbb....bb.....
+..a..bb...fhj......pb.....o......dk......jy...fbb..a..
+..a..ee....i.......lb............bl.......i....ee..a..
+..a..bb....d.......pb............dk.......d....bbb.a..
+..abbbbbbnbb.......chf..........fyc.......dbnbbbbbba..
+..a.bbk....d.......pbvbbbbbnbbbbvdk.......d....pbb.a..
+..a.bbk...cbf............................fbc...pbb.a..
+..abbbk...fd........c............c........bf...pbbba..
+..abbbk....b..............................b....pbbba..
+..a.bbk....b..............................d....pbb.a..
+..a.bbk....e..............................e....pbb.a..
+..abbbk....b..............................b....pbbba..
+..abbbk...fd........c............c........bf...pbbba..
+..a.bbk...cbf............................fbc...pbb.a..
+..a.bbk....d.......pbbbnbbbnbbbbbdk.......b....pbb.a..
+..abbbbbbnbb.......crs..rfc.....frc.......bbnbbbbbba..
+..a.bbb....d.......pds..b........dk.......b....bbb.a..
+..a..ee....i........ds..b........b........i....ee..a..
+..a..bbf...hj.......ds.fbo.......dk......jyf...bb..a..
+..a..bb....bddnbbbbdddddbbbmdddbbbbbbbbnddb....bb..a..
+.....bb....bf..o....d............b....o..fb....bb.....
+.....bbbbbbd........b.....c......b........dbbbbbb.....
+..abbbbbbbb....c....b............b....c....bbbbbbbba..
+..az.....bb..c......d...c...c....d......c..bb.....za..
+..ab.....ee.........d....www.....d.........ee.....ba..
+..a......bbbbbmbbbddddddddddddddddbbbbbmbbbbb......a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a..c...b........c................c........b...c..a..
+..a..b.bzb..........q...q...q...q...........bzb.b..a..
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+......................................................
+......................................................
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>FirefoamPopper</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>StandingLamp</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>Heater</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>PlantPot</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>OrbitalTradeBeacon</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>SolarGenerator</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Vent</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>Armchair</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Table2x2c</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Turret_MiniTurret</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>Ship_Reactor</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<nonbuildingData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..sttwtwtw..................................wtwtwtts..
+		..st.i...w........i................i........w...i.ts..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..sw.....d9.........9r....yyr....9.........9d.....ws..
+		..st.....w9f.i......9............9......if.9w.....ts..
+		..sww999999..l......9.....yy.....9......l..999999wws..
+		.....wwwww99f.......9............9......f.99wwwww.....
+		.....wwm.m.9...o....9............9....o...9m.m.ww.....
+		..s..ww....99999999999999999999999999999999....ww.....
+		..s..ww...l9h.....b.9.....o......9c......h9...lww..s..
+		..s..dd....9.......z9............9z.......9....dd..s..
+		..s.www....9c.....b.9............9c.....b.9....www.s..
+		..swwwwwwww9z......z9l..........l9z......z9wwwwwwwws..
+		..s.wwr....9c.....b.99999999999999c.....b.9r....ww.s..
+		..stww.....9l......l9l..........l9l......l9.....wwts..
+		..swww.....9c.......9............9......b.9.....wwws..
+		..swww.....9........9............9........9.....wwws..
+		..s.ww.....9c.....b.955.55...55..9c.....b.9.....ww.s..
+		..stwwr....9........96..6....6...9........9r....wwts..
+		..swww.....9z......z9............9z......z9.....wwws..
+		..swww.....9c.....b.944.44...44..9c.....b.9.....wwws..
+		..s.ww.....9l......l9l..........l9l......l9.....ww.s..
+		..stww.....9c.....b.99999999999999c.....b.9.....wwts..
+		..swwwwwwww9z......z9a..vli.....l9z......z9wwwwwwwws..
+		..s.www....9c.....m.9a..w........9c.....b.9....www.s..
+		..s..dd....9........9a..w........9........9....dd..s..
+		..s..wwl...9h.......9a.lwo.......9c......h9l...ww..s..
+		..s..wwn.n.99999999999999999999999999999999n.n.ww..s..
+		.....ww....9f..o....9r......r....9....o.f.9....ww.....
+		.....wwwww99........9.....yy.....9........99wwwww.....
+		..sww999999f.l......9............9......lf.999999wws..
+		..st.....w9..i......9.....yy.....9......i..9w.....ts..
+		..sw.....d9.........9............9.........9d.....ws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..st.i...w........i................i........w...i.ts..
+		..sttwtwtw..................................wtwtwtts..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>9</key>
+				<value>PowerConduit</value>
+			</li>
+		</nonbuildingLegend>
+
+		<floorData>
+......................................................
+......................................................
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+......................................................
+......................................................
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>SterileTile</value>
+			</li>
+		</floorLegend>
+		
+		<itemData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..s..w.w.w..................................w.w.w..s..
+		..s..i...w........i................i........w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..sw.....dd.....ttttw............wtttt.....dd.....ws..
+		..s......wwf.i..uuuuw............wuuuu..if.ww......s..
+		..swwwwwwww..l..yzutw............wtuzx..l..wwwwwwwws..
+		.....wwwwwwwf...yuuuw............wuuuv..f.wwwwwww.....
+		.....wwm.m.w....ttttw............wtttt....wm.m.ww.....
+		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
+		..s..ww...l.h.....b.w777776.33333wc......h....lww..s..
+		..s..dd....e........w777776.00000w........e....dd..s..
+		..s.www....wc.....b.w456666.11112wc.....b.w....www.s..
+		..swwwwwwwww.........456666.9999+.........wwwwwwwwws..
+		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..swww.....wc.......e............e......b.w.....wwws..
+		..swww.....d........w............w........d.....wwws..
+		..s.ww.....wc.....b.w............wc.....b.w.....ww.s..
+		..s.ww.....w........w............w........w.....ww.s..
+		..swww.....w........w............w........w.....wwws..
+		..swww.....wc.....b.w............wc.....b.w.....wwws..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
+		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
+		..s.www....wc.....m.w...wgg.88888wc.....b.w....www.s..
+		..s..dd....e........w...waa.aaaaaw........e....dd..s..
+		..s..wwl....h.......w..lwqq.aaaaawc......h.l...ww..s..
+		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
+		.....ww....wf...ttttw............wtttt..f.w....ww.....
+		.....wwwwwww....uuuuw............wuuuu....wwwwwww.....
+		..swwwwwwwwf.l..xzutw............wtuzy..lf.wwwwwwwws..
+		..s......ww..i..xuuuw............wuuuy..i..ww......s..
+		..sw.....dd.....ttttw............wtttt.....dd.....ws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w........i................i........w...i..s..
+		..s..w.w.w..................................w.w.w..s..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>0</key>
+				<value>RawRice</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>Hay</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>RawHops</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>RawPotatoes</value>
+
+			</li>
+			<li>
+				<key>4</key>
+				<value>MealSurvivalPack</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>MealFine</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>MealSimple</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>Kibble</value>
+			</li>
+
+			<li>
+				<key>8</key>
+				<value>Silver</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>MedicineHerbal</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>MedicineIndustrial</value>
+			</li>
+
+			<li>
+				<key>g</key>
+				<value>Gold</value>
+			</li>
+			<li>
+				<key>a</key>
+				<value>Cloth</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>Synthread</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Hyperweave</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>WoodLog</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Steel</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Plasteel</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Shell_HighExplosive</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>ComponentIndustrial</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Chemfuel</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>60</itemSpawnChance>
+
+		<pawnData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p....+sssss..ssssssss..
+		..s..w.w.w..+............................+..w.w.w..s..
+		..s..i...w........i................i......x.w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..sw.....dd...xtttttw............wttttt.+..dd.....ws..
+		..s......wwf.i.uuuuuw............wuuuuu.if.ww......s..
+		..swwwwwwww..l.y...tw............wt...y.l..wwwwwwwws..
+		..x..wwwwwwwf..vuuuuw............wuuuuv.f.wwwwwww.....
+		.....wwm.m.w..+tttttw............wttttt...wm.m.ww.x...
+		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
+		..s+.ww...l.h.....b.w777777.33333wc......h....lww..s..
+		..s..dd....e........w777777.00000w........e..+.dd..s..
+		..s.www....wc...x.b.w456666.11122wc.....b.w....www.s..
+		..swwwwwwwww.........456666.999......x....wwwwwwwwws..
+		..s.ww.....wc..+..b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww.....wl......l.l..........l.l+.....lw.....ww.s..
+		..swww.....wc.......e..r......r..e......b.w.....wwws..
+		..swww.....d...r....w............w...r....d.....wwws..
+		..s.ww.....wc.....b.w...z....z...wc.....b.w.....ww.s..
+		..s.ww.....w........w............w........w.....ww.s..
+		..swww.....w........w............w........w.....wwws..
+		..swww.....wc..+..b.w..r......r..wc.....b.w.....wwws..
+		..s.ww.....wl......l.l..........l.l...+..lw.....ww.s..
+		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
+		..swwwwwwwww.............gg.88888.........wwwwwwwwws..
+		..s.www.+..wc...x.m.w...wgg.88888wc.....b.w....www.s..
+		..s..dd....e....x...w...wgg.aaaaaw...x....e..+.ddx.s..
+		..s..wwl....h.......w..lw...aaaaawc......h.l...ww..s..
+		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
+		.....ww....wf..tttttw............wttttt.f.w....ww.....
+		...x.wwwwwww...uuuuuw............wuuuuu...wwwwwww.....
+		..swwwwwwwwf.l+y...tw............wt...y.lf.wwwwwwwws..
+		..s......ww..i.vuuuuw............wuuuuv.i..ww.+....s..
+		..sw.....dd....tttttw............wttttt.+x.dd.....ws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w.....+..i................i.....+..w...i..s..
+		..s..w.w.w......x.........................+.w.w.w..s..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>r</key>
+				<value>Mercenary_Slasher</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>Scavenger</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Pirate</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>65</pawnSpawnChance>
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+
+
+	<MapGenerator.MapGeneratorBaseBlueprintDef>
+		<defName>BoxBase1_C</defName>
+		<createdBy>Box</createdBy>
+		<techLevelRequired>Spacer</techLevelRequired>
+		<chance>30</chance>
+		<size>(54, 44)</size>
+		<canHaveHoles>false</canHaveHoles>
+		<createTrigger>true</createTrigger>
+		<buildingData>
+......................................................
+...........+.....+........................+...........
+..aaaaaaaa..aaaaa..................o.aaaaa..aaaaaaaa..
+..a..bzbzb..................................bzbzb..a..
+..a..c...b........c.q...q...q...q..c........b...c..a..
+..abc....bbbbbmbb....................bbmbbbbb....cba..
+..az.....bbbbbmbbxxxd............bxxxbbmbbbbb.....za..
+..ab.....ee.........d............b.........mm.....ba..
+..az.....bb..c......b............b......c..bb.....za..
+..abbbbbbbb.........b..i.....i...b.........bbbbbbbba..
+.....bbbbbbb........b............b........dbbbbbb.....
+.+...bb....df..o....b............b....o..fd....bb...+.
+..a..bb....bbbnbbbxxbbbbbbbbbbbbbbxxbbnbbbb....bb..a..
+..a..bb...fdj......pb.....o......dk......jd...fbb..a..
+..a..ee....n.......lb............bl.......n....ee..a..
+..a..bb....dk......ph............yk......pd....bbb.a..
+..abbbbbbnbbl......chf..........fyc.......dbnbbbbbba..
+..azbbk...jdk......pbbbbbbbnbbbbbdk......pdj...pbbza..
+..a.bbk...fbf............................fbf...pbb.a..
+..abbbk...cdk.......c............c.......pbc...pbbba..
+..abbbk....b..............................b....pbbba..
+..a.bbk....bk............................pd....pbb.a..
+..azbbk....n..............................n....pbbza..
+..abbbk....bl............................lb....pbbba..
+..abbbk...cdk.......c............c.......pbc...pbbba..
+..a.bbk...fbf............................fbf...pbb.a..
+..azbbk...jdk......pbbbnbbbnbbbbbdk......pbj...pbbza..
+..abbbbbbnbbl......crs..rf......frc......lbbnbbbbbba..
+..a.bbb....dk......pds..b........dk......pb....bbb.a..
+..a..ee....n........ds..b........b........n....ee..a..
+..a..bbf...bj......pds.fbo.......dk......jbf...bb..a..
+..a..bb....bddnbbbvvdddvbvbmdddbbbvvbbbnddb....bb..a..
+.+...bb....bf..o....y............h....o..fb....bb...+.
+.....bbbbbbd........y00000..00000h........dbbbbbb.....
+..abbbbbbbb....c....b..zc....cz..b....c....bbbbbbbba..
+..az.....bb..c......d............d......c..bb.....za..
+..ab.....ee.........dw0000..0000wd.........ee.....ba..
+..az.....bbbbbmbbbdvddddvvvvvvddddvbbbbmbbbbb.....za..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a..c...b........c................c........b...c..a..
+..a..bzbzb..........q...q...q...q...........bzbzb..a..
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+...........+.....+..................+.....+...........
+......................................................
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>FirefoamPopper</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>StandingLamp</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>GeothermalGenerator</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>Heater</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>PlantPot</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>OrbitalTradeBeacon</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>SolarGenerator</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Vent</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>Armchair</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Table2x2c</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Turret_MiniTurret</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>VanometricPowerCell</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>TrapIED_HighExplosive</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<nonbuildingData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..sttwtwtw..................................wtwtwtts..
+		..st.i...w........i................i........w...i.ts..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..sw.....d9.........9r....yyr....9.........9d.....ws..
+		..st.....w9f.i......9............9......if.9w.....ts..
+		..sww999999..l......9.....yy.....9......l..999999wws..
+		.....9wwww99f.......9............9......f.99wwww9.....
+		.....9wm.m.9...o....9............9....o...9m.m.w9.....
+		..s..9w....99999999999999999999999999999999....w9.....
+		..s..9w...l9h.....b.9.....o......9c......h9...lw9..s..
+		..s..9d....9.......z9............9z.......9....d9..s..
+		..s.w9w....9c.....b.9............9c.....b.9....w9w.s..
+		..sww9wwwww9z......z9l..........l9z......z9wwwww9wws..
+		..s.w9r....9c.....b.99999999999999c.....b.9r....9w.s..
+		..stw9.....9l......l9l..........l9l......l9.....9wts..
+		..sww9.....9c.......9............9......b.9.....9wws..
+		..sww9.....9........9............9........9.....9wws..
+		..s.w9.....9c.....b.955.55...55..9c.....b.9.....9w.s..
+		..stw9r....9........96..6....6...9........9r....9wts..
+		..sww9.....9z......z9............9z......z9.....9wws..
+		..sww9.....9c.....b.944.44...44..9c.....b.9.....9wws..
+		..s.w9.....9l......l9l..........l9l......l9.....9w.s..
+		..stw9.....9c.....b.99999999999999c.....b.9.....9wts..
+		..sww9wwwww9z......z9a..vli.....l9z......z9wwwww9wws..
+		..s.w9w....9c.....m.9a..w........9c.....b.9....w9w.s..
+		..s..9d....9........9a..w........9........9....d9..s..
+		..s..9wl...9h.......9a.lwo.......9c......h9l...w9..s..
+		..s..9wn.n.99999999999999999999999999999999n.n.w9..s..
+		.....9w....9f..o....9r......r....9....o.f.9....w9.....
+		.....9wwww99........9.....yy.....9........99wwww9.....
+		..sww999999f.l......9............9......lf.999999wws..
+		..st.....w9..i......9.....yy.....9......i..9w.....ts..
+		..sw.....d9.........9............9.........9d.....ws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..st.i...w........i................i........w...i.ts..
+		..sttwtwtw..................................wtwtwtts..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>9</key>
+				<value>PowerConduit</value>
+			</li>
+		</nonbuildingLegend>
+
+		<floorData>
+......................................................
+......................................................
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+......................................................
+......................................................
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>SterileTile</value>
+			</li>
+		</floorLegend>
+		
+		<itemData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..s..w.w.w..................................w.w.w..s..
+		..s..i...w........i................i........w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..sw.....dd....tttttw............wttttt....dd.....ws..
+		..s......wwf.i.yuuuuw............wuuuux.if.ww......s..
+		..swwwwwwww..l.yxzztw............wtzzxy.l..wwwwwwwws..
+		.....wwwwwwwf..vuuuuw............wuuuuv.f.wwwwwww.....
+		.....wwm.m.w...tttttw............wttttt...wm.m.ww.....
+		..s..ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
+		..s..ww...l.h.....b.w454666.11+++wc......h....lww..s..
+		..s..dd....e........w454666.99999w........e....dd..s..
+		..s.www....wc.....b.w454666.2233awc.....b.w....www.s..
+		..swwwwwwwww.........454666.77777.........wwwwwwwwws..
+		..s.ww.....wc.....b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..swww.....wc.......e............e......b.w.....wwws..
+		..swww.....d........w............w........d.....wwws..
+		..s.ww.....wc.....b.w............wc.....b.w.....ww.s..
+		..s.ww.....w........w............w........w.....ww.s..
+		..swww.....w........w............w........w.....wwws..
+		..swww.....wc.....b.w............wc.....b.w.....wwws..
+		..s.ww.....wl......l.l..........l.l......lw.....ww.s..
+		..s.ww.....wc.....b.w.wewwwewwwwwwc.....b.w.....ww.s..
+		..swwwwwwwww.............gg.8gggg.........wwwwwwwwws..
+		..s.www....wc.....m.w...wgg.gggggwc.....b.w....www.s..
+		..s..dd....e........w...wrr.qqqqqw........e....dd..s..
+		..s..wwl....h.......w..lwrr.qqqqqwc......h.l...ww..s..
+		..s..wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww..s..
+		.....ww....wf..tttttw............wttttt.f.w....ww.....
+		.....wwwwwww...vuuuuw............wuuuux...wwwwwww.....
+		..swwwwwwwwf.l.yxzztw............wtzzxy.lf.wwwwwwwws..
+		..s......ww..i.vuuuuw............wuuuuv.i..ww......s..
+		..sw.....dd....tttttw............wttttt....dd.....ws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w........i................i........w...i..s..
+		..s..w.w.w..................................w.w.w..s..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>0</key>
+				<value>RawRice</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>GoJuice</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>WakeUp</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>Penoxycyline</value>
+
+			</li>
+			<li>
+				<key>4</key>
+				<value>MealSurvivalPack</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>MealFine</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>MealSimple</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>SmokeleafJoint</value>
+			</li>
+
+			<li>
+				<key>8</key>
+				<value>ComponentSpacer</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>MedicineHerbal</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>MedicineIndustrial</value>
+			</li>
+
+			<li>
+				<key>g</key>
+				<value>Gold</value>
+			</li>
+			<li>
+				<key>a</key>
+				<value>MechSerumHealer</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>Synthread</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>ElephantTusk</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>WoodLog</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Steel</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Plasteel</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Shell_HighExplosive</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>ComponentIndustrial</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Chemfuel</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>70</itemSpawnChance>
+
+		<pawnData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p....+sssss..ssssssss..
+		..sr.w.wrw..+.r.......................r..+..wrw.w.rs..
+		..s..i...w........i................i......x.w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..sy.....wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww.....ys..
+		..sw.....dd...xtttttw............wttttt.+..dd.....ws..
+		..s......wwf.i.uuuuuw............wuuuuu.if.ww.....rs..
+		..swwwwwwww..l.....tw............wt.....l..wwwwwwwws..
+		..x..wwwwwwwf..vuuuuw............wuuuuv.f.wwwwwww.r...
+		.....wwm.m.w..+tttttw............wttttt...wm.m.ww.x...
+		..sr.ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww.....
+		..s+.ww...l.h.....b.w777777.33333wc......h....lww..s..
+		..s..dd....e........w777777.00000w........e..+.dd..s..
+		..s.www....wc.r.x.b.w456666.11122wc...r.b.w....wwwrs..
+		..swwwwwwwww.........456666.999.....xx....wwwwwwwwws..
+		..s.ww.....wc..+..b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww..y..wl......l.l..........l.l+.y...lw..y..ww.s..
+		..swww.....wc...z...e..r.z..z.r..e......b.w.....wwws..
+		..swww.....d..r.....w............w....r...d..z..wwws..
+		..s.ww..z..wc.r...b.w...-....-...wc...r.b.w.....ww.s..
+		..srww.....w..r.....w............w....r...w..y..ww.s..
+		..swww.....w..r.....w....z..z....w....r...w.....wwws..
+		..swww..y..wc..+..b.w..r......r..wc.....b.w.....wwws..
+		..s.ww.....wl......l.l..........l.l...+..lw.....ww.s..
+		..s.ww.....wc..y..b.w.wewwwewwwwwwc..z..b.w.....wwrs..
+		..swwwwwwwww.............gg.88888...x.....wwwwwwwwws..
+		..s.www.+..wc.r.x.m.w...wgg.88888wc...r.b.w....www.s..
+		..s..dd....e....x...w...wgg.aaaaaw...x....e..+.ddx.s..
+		..s..wwl....h.......w..lw...aaaaawc......h.l...ww..s..
+		..sr.wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww.rs..
+		.....ww....wf..tttttw............wttttt.f.w....ww.r...
+		...x.wwwwwww...uuuuuw............wuuuuu...wwwwwww.....
+		..swwwwwwwwfxl+....tw............wt.....lf.wwwwwwwws..
+		..s......ww..i.vuuuuw............wuuuuv.i..ww.+...ys..
+		..sw.....dd...ztttttw............wttttt.+x.dd.....ws..
+		..sy.....wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w.....+..i................i.....+..w...i..s..
+		..sr.wrw.w...r..x.....................r.x.+.w.wrw.rs..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>r</key>
+				<value>Mercenary_Gunner</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Mercenary_Elite</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Mercenary_Slasher</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>-</key>
+				<value>PirateBoss</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>75</pawnSpawnChance>
+
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+
+
+	<MapGenerator.MapGeneratorBaseBlueprintDef>
+		<defName>BoxBase1_D_Goldfortress</defName>
+		<createdBy>Box</createdBy>
+		<techLevelRequired>Spacer</techLevelRequired>
+		<chance>8</chance>
+		<size>(54, 44)</size>
+		<canHaveHoles>false</canHaveHoles>
+		<createTrigger>true</createTrigger>
+		<buildingMaterial>Gold</buildingMaterial>
+		<buildingData>
+......................................................
+......................................................
+..aaaaaaaa..aaaaa..................o.aaaaa..aaaaaaaa..
+..a..b.b.b..................................b.b.b..a..
+..a..c...b........c.q...q...q...q..c........b...c..a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a......bbbbbmbbbbxdddxxxxxxxxbbbxbbbbmbbbbb......a..
+..ab.....ee........zd............bz........mm.....ba..
+..a......bb..c......b00000ww00000b......c..bb......a..
+..abbbbbbbb.........b.zc......cz.b.........bbbbbbbba..
+.....bbbbbbb........y............h........dbbbbbb.....
+.....bbz...bfz.o...zy00000..00000hz...o.zfb...zbb.....
+..a..bb....bbbnbbbxxbbbbbxxmxbbbbbxxbbbnbbb....bb.....
+..a..bb...fbjz.....pb.....o......dk.....zjb...fbb..a..
+..a..ee....n.......pb............bk.......n....ee..a..
+..a..bb...zdk......pb............dk......pdz...bbb.a..
+..abbbbbbnbbk......cbf..........fdc......pdbnbbbbbba..
+..a.bbk...jyk......pbbbbbbbnbbbbbdk......phj...pbb.a..
+..a.bbk...fbfz....z................z....zfbf...pbb.a..
+..abbbk...cdk.......cf..........fc.......pbc...pbbba..
+..abbbk...zbk............................pbz...pbbba..
+..a.bbk....bk............................pd....pbb.a..
+..a.bbk....n..............................n....pbb.a..
+..abbbk...zbk............................pbz...pbbba..
+..abbbk...cdk.......cf..........fc.......pbc...pbbba..
+..a.bbk...fbfz....z................z....zfbf...pbb.a..
+..a.bbk...jyk......pbbbnbbbnbbbbbdk......phj...pbb.a..
+..abbbbbbnbbk......crs..rf......frc......pbbnbbbbbba..
+..a.bbb...zdk......pds..b........dk......pbz...bbb.a..
+..a..ee....n.......pds..b.z....z.bk.......n....ee..a..
+..a..bbf...bjz.....pds.fbo.......dk.....zjbf...bb..a..
+..a..bb....bddnbbbvvddddbbbmdddbbbvvbbbnddb....bb..a..
+.....bbz...bfz.o...zy............hz...o.zfb...zbb.....
+.....bbbbbbd........y00000..00000h........dbbbbbb.....
+..abbbbbbbbz...c....b.zc......cz.b....c...zbbbbbbbba..
+..a......bb..c......d............d......c..bb......a..
+..ab.....ee........zd00000ww00000dz........ee.....ba..
+..a......bbbbbmbbbdvddddvvvvvvddddvbbbbmbbbbb......a..
+..abc....bbbbbmbbbb................bbbbmbbbbb....cba..
+..a..c...b........c................c........b...c..a..
+..a..b.b.b..........q...q...q...q...........b.b.b..a..
+..aaaaaaaa..aaaaa....................aaaaa..aaaaaaaa..
+......................................................
+......................................................
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>FirefoamPopper</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>StandingLamp</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>Heater</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>PlantPot</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>Autodoor</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>OrbitalTradeBeacon</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>SolarGenerator</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Vent</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>HospitalBed</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>Armchair</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Table2x2c</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Cooler</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Turret_MiniTurret</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>VanometricPowerCell</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>0</value>
+			</li>
+
+			<li>
+				<key>h</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<nonbuildingData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..sttwtwtw..................................wtwtwtts..
+		..st.i...w........i................i........w...i.ts..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..sw.....d9.........9r....yyr....9.........9d.....ws..
+		..st.....w9f.i......9............9......if.9w.....ts..
+		..sww999999..l......9.....yy.....9......l..999999wws..
+		.....wwwww99f.......9............9......f.99wwwww.....
+		.....wwm.m.9...o....9............9....o...9m.m.ww.....
+		..s..ww....99999999999999999999999999999999....ww.....
+		..s..ww...l9h.....b.9.....o......9c......h9...lww..s..
+		..s..dd....9.......z9............9z.......9....dd..s..
+		..s.www....9c.....b.9............9c.....b.9....www.s..
+		..swwwwwwww9z......z9l..........l9z......z9wwwwwwwws..
+		..s.wwr....9c.....b.99999999999999c.....b.9r....ww.s..
+		..stww.....9l......l9l..........l9l......l9.....wwts..
+		..swww.....9c.......9............9......b.9.....wwws..
+		..swww.....9........9............9........9.....wwws..
+		..s.ww.....9c.....b.955.55...55..9c.....b.9.....ww.s..
+		..stwwr....9........96..6....6...9........9r....wwts..
+		..swww.....9z......z9............9z......z9.....wwws..
+		..swww.....9c.....b.944.44...44..9c.....b.9.....wwws..
+		..s.ww.....9l......l9l..........l9l......l9.....ww.s..
+		..stww.....9c.....b.99999999999999c.....b.9.....wwts..
+		..swwwwwwww9z......z9a..vli.....l9z......z9wwwwwwwws..
+		..s.www....9c.....m.9a..w........9c.....b.9....www.s..
+		..s..dd....9........9a..w........9........9....dd..s..
+		..s..wwl...9h.......9a.lwo.......9c......h9l...ww..s..
+		..s..wwn.n.99999999999999999999999999999999n.n.ww..s..
+		.....ww....9f..o....9r......r....9....o.f.9....ww.....
+		.....wwwww99........9.....yy.....9........99wwwww.....
+		..sww999999f.l......9............9......lf.999999wws..
+		..st.....w9..i......9.....yy.....9......i..9w.....ts..
+		..sw.....d9.........9............9.........9d.....ws..
+		..st.....999999999999999999999999999999999999.....ts..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..st.i...w........i................i........w...i.ts..
+		..sttwtwtw..................................wtwtwtts..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</nonbuildingData>
+		<nonbuildingLegend>
+			<li>
+				<key>9</key>
+				<value>PowerConduit</value>
+			</li>
+		</nonbuildingLegend>
+		
+		<floorData>
+......................................................
+......................................................
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbbbbbbbbbbfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbbbbbbbbbbfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbbbbbbbbbbfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbbbbbbbbbbfffffffffaaaaaaaaa..
+..aaaacccccfffffffffbbbbbbbbbbbbbbfffffffffcccccaaaa..
+..aaaacccccfffffffffbbbbbbbbbbbbbbfffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccffffffffffffffffffffffffffffffffcccccaaaa..
+..aaaacccccfffffffffbbbbbgggggggggfffffffffcccccaaaa..
+..aaaacccccfffffffffbbbbbgggggggggfffffffffcccccaaaa..
+..aaaaaaaaafffffffffbbbbbgggggggggfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbgggggggggfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbgggggggggfffffffffaaaaaaaaa..
+..aaaaaaaaafffffffffbbbbbgggggggggfffffffffaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+..aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa..
+......................................................
+......................................................
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>SterileTile</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>CarpetGreen</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>CarpetCream</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>GoldTile</value>
+			</li>
+		</floorLegend>
+
+		<itemData>
+		......................................................
+		......................................................
+		..ssssssss..sssss..p...p...p...p.....sssss..ssssssss..
+		..s..w.w.w..................................w.w.w..s..
+		..s..i...w........i................i........w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..sw.....dd....tttttw............wttttt....dd.....ws..
+		..s......wwuuu.uuuuuw............wuuuuu.uuuww......s..
+		..swwwwwwwwzzz.yxxztw............wvvvvv.vvvwwwwwwwws..
+		.....wwwwwwwzz.yyyyyw............wvvvvv.vvwwwwwww.....
+		.....wwzzzzwtt.tttttw............wttttt.ttwzzzzww.....
+		..s..wwzzzzwwwewwwwwwwwwww.dwwwwwwwwwwwewwwzzzzww.....
+		..s..ww...l.h..444b.w666666613333wc.444..h....lww..s..
+		..s..dd....e........w666666600000w........e....dd..s..
+		..s.www8888wc.....b.w5555555222aawc.....b.w8888www.s..
+		..swwwwwwwww.........4444444999++.........wwwwwwwwws..
+		..s.ww....8wc.....b.w.wwwwwewwww.wc.....b.w8....ww.s..
+		..s.ww....8wl......l.l..........l.l......lw8....ww.s..
+		..swww....8wc.......e............e......b.w8....wwws..
+		..swww.....d........w............w........d.....wwws..
+		..s.ww....8wc.....b.w............wc.....b.w8....ww.s..
+		..s.ww....8w........w............w........w8....ww.s..
+		..swww....8w........w............w........w8....wwws..
+		..swww....8wc.....b.w............wc.....b.w8....wwws..
+		..s.ww....8wl......l.l..........l.l......lw8....ww.s..
+		..s.ww....8wc.....b.w.wewwwewwwwwwc.....b.w8....ww.s..
+		..swwwwwwwww.............7rrrrrr7.........wwwwwwwwws..
+		..s.www8888wc.....m.w...wrrrrrrrrwc.....b.w8888www.s..
+		..s..dd....e........w...wrrrrrrrrw........e....dd..s..
+		..s..wwl....h..444..w..lwggqqqqqqwc.444..h.l...ww..s..
+		..s..wwzzzzwwwewwwwwwwwwwwwdwwwwwwwwwwwewwwzzzzww..s..
+		.....wwzzzzwtt.tttttw............wttttt.ttwzzzzww.....
+		.....wwwwwwwuu.uuuuuw............wuuuuu.uuwwwwwww.....
+		..swwwwwwwwzzz.yyyyyw............wxxxxx.xxxwwwwwwwws..
+		..s......wwvvv.vuuuuw............wxxxxx.xxxww......s..
+		..sw.....dd....zzzzzw............wzzzzz....dd.....ws..
+		..s......wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww......s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww....iws..
+		..s..i...w........i................i........w...i..s..
+		..s..w.w.w..................................w.w.w..s..
+		..ssssssss..sssss....................sssss..ssssssss..
+		......................................................
+		......................................................
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>0</key>
+				<value>EggChickenUnfertilized</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>MechSerumResurrector</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>WakeUp</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>Penoxycyline</value>
+
+			</li>
+			<li>
+				<key>4</key>
+				<value>MealSurvivalPack</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>MealLavish</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>Milk</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>OrbitalTargeterBombardment</value>
+			</li>
+
+			<li>
+				<key>8</key>
+				<value>Beer</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>MedicineIndustrial</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>MedicineUltratech</value>
+			</li>
+
+			<li>
+				<key>g</key>
+				<value>ComponentSpacer</value>
+			</li>
+			<li>
+				<key>a</key>
+				<value>MechSerumHealer</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>ElephantTusk</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>Hyperweave</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>WoodLog</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>Steel</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Plasteel</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Uranium</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>ComponentIndustrial</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>Chemfuel</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>80</itemSpawnChance>
+
+		<pawnData>
+		......................................................
+		......................................................
+		..ssssssss0.sssss.3p...p...p...p....+sssss.0ssssssss..
+		..sr.w.wrw..+.r.0..................1..r0.+..wrw.w.rs..
+		..s..i...w........i................i......x.w...i..s..
+		..swi....wwwwwdwwww................wwwwdwwwww....iws..
+		..sy..1..wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww..1..ys..
+		..sw.....dd.0.xtttttw............wttttt.+..dd.....ws..
+		..s1...2.wwf.i.uuuuuw............wuuuuu.if.ww.2...rs..
+		..swwwwwwww..l.....tw............wt.....l..wwwwwwwws..
+		..x..wwwwwwwf..vuuuuw......2.....wuuuuv.f.wwwwwww.r...
+		.....wwm.m.w..+tttttw............wttttt...wm.m.ww.x0..
+		..sr.ww....wwwewwwwwwwwwww.dwwwwwwwwwwwewww....ww..3..
+		..s+.ww...l.h...0.b.w............wc..0...h...+lww.1s..
+		..s..dd.+..e........w..1.....1...w........e..+.dd..s..
+		..s1www....wc.r.x.b.w............wc...r.b.w....wwwrs..
+		..swwwwwwwww........................xx....wwwwwwwwws..
+		..s.ww.....wc..+..b.w.wwwwwewwww.wc.....b.w.....ww.s..
+		..s.ww..y..wl.1....l.l..1....1..l.l+.y1..lw..y..ww.s..
+		..swww.....wc.1.0...e..r...z..r..e....1.b.w.....wwws..
+		..swww..1..d..1.0...w............w..0.1...d..10.wwws..
+		..s.ww..z..wc.r..3b.w..z...z...z.wc.3.r.b.w..z..ww.s..
+		..srww...0.w..r.....w............w....r...w..y..ww1s..
+		..swww.....w..r.....w...1....1...w....r...w.....wwws..
+		..swww..y..wc..+.3b.w..r...z..r..wc.3...b.w..0..wwws..
+		..s1ww.....wl......l.l..1....1..l.l...+..lw.....ww.s..
+		..s.ww.....wc..y..b.w.wewwwewwwwwwc.....b.w.....wwrs..
+		..swwwwwwwww.............gg.........x.....wwwwwwwwws..
+		..s.www.+..wc.r.x.m.w..1wgg11....wc...r.b.w....www.s..
+		..s..dd.+..e....x...w...wgg.aaaaaw...x....e..+.ddx.s..
+		..s..wwl....h.......w..lw...aaaaawc......h.l.+.ww..s..
+		..sr.wwn.n.wwwewwwwwwwwwwwwdwwwwwwwwwwwewwwn.n.ww.rs..
+		..3..ww....wf..tttttw............wttttt.f.w....ww.r...
+		...x.wwwwwww...uuuuuw............wuuuuu...wwwwwww0.3..
+		..swwwwwwwwfxl+....tw......2.....wt.....lf.wwwwwwwws..
+		..s1...2.ww..i.vuuuuw............wuuuuv.i..ww.+...ys..
+		..sw.....dd....tttttw............wttttt.+x.dd.....ws..
+		..sy..1..wwwwwdwwwwwwwwwwwwwwwwwwwwwwwwdwwwww..1...s..
+		..swi....wwwwwdwwwwp...p...p...p...wwwwdwwwww2...iws..
+		..s..i...w.....+..i................i.....+..w...i..s..
+		..sr0wrw.w...r11x....................1r1x.+.w.wrw.rs..
+		..ssssssss..sssss.3................3.sssss..ssssssss..
+		......................................................
+		......................................................
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>r</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>PirateBoss</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>Mercenary_Gunner</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>Mercenary_Elite</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>Mercenary_Slasher</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>Mercenary_Elite</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>Mercenary_Sniper</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>8</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>Mercenary_Heavy</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>85</pawnSpawnChance>
+
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+</Defs>
