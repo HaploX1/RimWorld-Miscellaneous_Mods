@@ -6,11 +6,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThingDef[starts-with(defName, 'Bow_')]/comps</xpath>
+				<xpath>*/ThingDef[contains(defName, 'Bow_')]/comps</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[starts-with(defName, 'Bow_')]</xpath>
+				<xpath>*/ThingDef[contains(defName, 'Bow_')]</xpath>
 				<value>
 					<comps />
 				</value>
@@ -20,7 +20,7 @@
 	
 	<!-- Find entries and add the new comp -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[starts-with(defName, 'Bow_')]/comps</xpath>
+		<xpath>*/ThingDef[contains(defName, 'Bow_')]/comps</xpath>
 		<value>
 			<li Class="WeaponRepair.CompProperties_WeaponRepairTwo2One">
 				<worktableDefs>
@@ -39,6 +39,7 @@
 	<!--  ###### SNIPPETS: Various working XPath calls #######
 	<xpath>*/ThingDef[statBases/AccuracyLong > 0.05]/comps</xpath>
 	<xpath>*/ThingDef[starts-with(defName, 'Gun_')]/comps</xpath>
+	<xpath>*/ThingDef[contains(defName, 'Gun_')]/comps</xpath>
 	-->
 
 </Patch>

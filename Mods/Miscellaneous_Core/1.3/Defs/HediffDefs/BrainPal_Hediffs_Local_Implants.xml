@@ -6,6 +6,7 @@
     <hediffClass>Hediff_Implant</hediffClass>
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <isBad>false</isBad>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
   </HediffDef>
 
   <HediffDef ParentName="ImplantHediffBase_MiscCore">
