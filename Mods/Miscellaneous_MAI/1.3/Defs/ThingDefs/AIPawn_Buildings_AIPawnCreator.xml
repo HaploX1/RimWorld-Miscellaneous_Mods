@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingCreatorBase_MiscMAI">
+		<defName>AIPawn_AIPawnCreator</defName>
+		<label>Mai Creator, female</label>
+		<thingClass>AIPawn.Building_AIPawnCreator</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingCreatorBase_MiscMAI">
+		<defName>AIPawn_AIPawnCreatorE</defName>
+		<label>MAI Creator, female (Enhanced)</label>
+		<thingClass>AIPawn.Building_AIPawnCreatorEnhanced</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingCreatorBase_MiscMAI">
+		<defName>AIPawn_AIPawnCreatorMale</defName>
+		<label>Mai Creator, male</label>
+		<thingClass>AIPawn.Building_AIPawnCreator_male</thingClass>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingCreatorBase_MiscMAI">
+		<defName>AIPawn_AIPawnCreatorMaleE</defName>
+		<label>MAI Creator, male (Enhanced)</label>
+		<thingClass>AIPawn.Building_AIPawnCreatorEnhanced_male</thingClass>
+	</ThingDef>
+
+</Defs>

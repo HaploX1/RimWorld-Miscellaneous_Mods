@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIBaseThought.stages.0.label>……</AIBaseThought.stages.0.label>
+  <AIBaseThought.stages.0.description>我没有任何感觉……</AIBaseThought.stages.0.description>
+
+  <AIShieldingError.stages.0.label>护盾错误</AIShieldingError.stages.0.label>
+  <AIShieldingError.stages.0.description>我的护盾破了个洞。已激活纳米修复机器人。</AIShieldingError.stages.0.description>
+
+  <AIBatteriesRefilled.stages.0.label>电池充满</AIBatteriesRefilled.stages.0.label>
+  <AIBatteriesRefilled.stages.0.description>我的电池已再次充满。回到工作中。</AIBatteriesRefilled.stages.0.description>
+
+  <AILowBattery.stages.0.label>电量过低</AILowBattery.stages.0.label>
+  <AILowBattery.stages.0.description>我的电量真的太低了。我需要马上充电。</AILowBattery.stages.0.description>
+
+  <AILowCriticalBattery.stages.0.label>电量危急</AILowCriticalBattery.stages.0.label>
+  <AILowCriticalBattery.stages.0.description>我的电量真的太低了。电量耗光后我将启动自毁程序。</AILowCriticalBattery.stages.0.description>
+
+
+</LanguageData>

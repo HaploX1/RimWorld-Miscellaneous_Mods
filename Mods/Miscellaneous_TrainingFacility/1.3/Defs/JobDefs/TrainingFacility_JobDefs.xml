@@ -19,7 +19,7 @@
 		<defName>UseShootingRange_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
 		<joyDuration>17000</joyDuration>
-		<joyXpPerTick>0.072</joyXpPerTick>
+		<joyXpPerTick>0.092</joyXpPerTick>
 	</JobDef>
 	
 	<JobDef Name="UseMartialArtsBase_MiscTraining">
@@ -30,7 +30,7 @@
 		<joyMaxParticipants>2</joyMaxParticipants>
 		<joyGainRate>1.1</joyGainRate>
 		<joySkill>Melee</joySkill>
-		<joyXpPerTick>0.037</joyXpPerTick>
+		<joyXpPerTick>0.057</joyXpPerTick>
 		<joyKind>Gaming_MartialArts</joyKind>
 	</JobDef>
 
@@ -38,7 +38,7 @@
 		<defName>UseMartialArtsTarget_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget_NonJoy</driverClass>
 		<joyDuration>17000</joyDuration>
-		<joyXpPerTick>0.072</joyXpPerTick>
+		<joyXpPerTick>0.092</joyXpPerTick>
 	</JobDef>
 	
 </Defs>

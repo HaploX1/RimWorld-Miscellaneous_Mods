@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AIPawn_AIPawnCreator.label>移动人工智能创建器（女性）</AIPawn_AIPawnCreator.label>
+  <AIPawn_AIPawnCreator.description>创建单位人工智能并自毁。</AIPawn_AIPawnCreator.description>
+
+  <AIPawn_AIPawnCreatorE.label>移动人工智能创建器（女性，增强）</AIPawn_AIPawnCreatorE.label>
+  <AIPawn_AIPawnCreatorE.description>创建单位人工智能并自毁。</AIPawn_AIPawnCreatorE.description>
+
+  <AIPawn_AIPawnCreatorMale.label>移动人工智能创建器（男性）</AIPawn_AIPawnCreatorMale.label>
+  <AIPawn_AIPawnCreatorMale.description>创建单位人工智能并自毁。</AIPawn_AIPawnCreatorMale.description>
+
+  <AIPawn_AIPawnCreatorMaleE.label>移动人工智能创建器（男性，增强）</AIPawn_AIPawnCreatorMaleE.label>
+  <AIPawn_AIPawnCreatorMaleE.description>创建单位人工智能并自毁。</AIPawn_AIPawnCreatorMaleE.description>
+
+
+</LanguageData>

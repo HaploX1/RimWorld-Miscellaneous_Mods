@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<!-- Construction Station -->
+	<AIPawn_ResourceMetal>Металл:</AIPawn_ResourceMetal>
+	<AIPawn_ResourceSilver>Серебро:</AIPawn_ResourceSilver>
+	<AIPawn_StartProduction>Начать производство.</AIPawn_StartProduction>
+	<AIPawn_StopProduction>Остановить производство.</AIPawn_StopProduction>
+	<AIPawn_ProductionRunning>Производство запущено...</AIPawn_ProductionRunning>
+	<AIPawn_ProductionRunningSign>-></AIPawn_ProductionRunningSign>
+	<AIPawn_OutputBlocked>Выход заблокирован. Производство невозможно.</AIPawn_OutputBlocked>
+
+	<!-- AIPawnGenerator -->
+	<AIPawn_Basename_first>MAI</AIPawn_Basename_first>
+	<AIPawn_Basename_last>андроид</AIPawn_Basename_last>
+	<AIPawn_Basename_nick>MAI</AIPawn_Basename_nick>
+
+	<!-- AIPawnRechargeStation -->
+	<AIPawn_NoOwner>Владелец не назначен</AIPawn_NoOwner>
+	<AIPawn_SendOwnerToSleep>Отправить владельца спать</AIPawn_SendOwnerToSleep>
+	<AIPawn_MustPlaceNextToAIPawnRechargeStation>Необходимо разместить рядом со станцией подзарядки.</AIPawn_MustPlaceNextToAIPawnRechargeStation>
+
+	<AIPawn_LetterLabel_BuildRechargeStationSoon>MAI активирована</AIPawn_LetterLabel_BuildRechargeStationSoon>
+	<AIPawn_LetterText_BuildRechargeStationSoon>Теперь, после активации MAI, постарайтесь не забыть, что ему (или ей... смотря, что у вас получилось) необходима станция подзарядки.</AIPawn_LetterText_BuildRechargeStationSoon>
+
+	<!-- AIPawn Float Menu -->
+	<AIPawn_FloatMenu_GotoBed>Отправить спать</AIPawn_FloatMenu_GotoBed>
+	<AIPawn_FloatMenu_SedateAndRescueAIPawn>Усыпить и спасти {0}</AIPawn_FloatMenu_SedateAndRescueAIPawn>
+	<AIPawn_FloatMenu_SedateAIPawn>Усыпить {0}</AIPawn_FloatMenu_SedateAIPawn>
+
+</LanguageData>

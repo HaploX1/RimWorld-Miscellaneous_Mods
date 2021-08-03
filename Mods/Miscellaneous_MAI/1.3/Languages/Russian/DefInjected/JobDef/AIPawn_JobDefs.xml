@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawn_FillConstructor.reportString>Пополняет запасы</AIPawn_FillConstructor.reportString>
+	<AIPawn_Goto.reportString>Перемещается</AIPawn_Goto.reportString>
+	<AIPawn_Sedate.reportString>Отключает</AIPawn_Sedate.reportString>
+	<AIPawn_SedateAndRescue.reportString>Перемещается</AIPawn_SedateAndRescue.reportString>
+
+</LanguageData>

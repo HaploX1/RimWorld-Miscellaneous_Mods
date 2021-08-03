@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<DoBillsMedicalOperationAIPawn.label>Работа над MAI</DoBillsMedicalOperationAIPawn.label>
+	<DoBillsMedicalOperationAIPawn.verb>работа над MAI</DoBillsMedicalOperationAIPawn.verb>
+	<DoBillsMedicalOperationAIPawn.gerund>работает над MAI</DoBillsMedicalOperationAIPawn.gerund>
+
+	<DoBillsMedicalOperationAIPawnE.label>Работа над MAI</DoBillsMedicalOperationAIPawnE.label>
+	<DoBillsMedicalOperationAIPawnE.verb>работа над MAI</DoBillsMedicalOperationAIPawnE.verb>
+	<DoBillsMedicalOperationAIPawnE.gerund>работает над MAI</DoBillsMedicalOperationAIPawnE.gerund>
+
+</LanguageData>

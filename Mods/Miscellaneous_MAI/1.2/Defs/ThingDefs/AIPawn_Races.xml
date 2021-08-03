@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="AIPawn.ThingDef_AIPawn" Name="BaseAIPawn_MiscMAI" Abstract="True">
+	<ThingDef Class="AIPawn.ThingDef_AIPawn" ParentName="BasePawn" Name="BaseAIPawn_MiscMAI" Abstract="True">
 		<thingClass>AIPawn.AIPawn</thingClass>
 		<category>Pawn</category>
 		<selectable>true</selectable>
@@ -147,15 +147,17 @@
 		<description>An AI in a metal body.</description>
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
+			<Mass>120</Mass>
 			<MarketValue>4500</MarketValue>
 			<MoveSpeed>4.80</MoveSpeed>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.6</Flammability>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
+			<RoyalFavorValue>5</RoyalFavorValue>
 		</statBases>
 		<race>
 			<thinkTreeMain>AIPawn</thinkTreeMain>
@@ -163,6 +165,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>false</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
+			<wildness>0.1</wildness>
 			<body>AIPawn</body>
 			<baseBodySize>1.0</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
@@ -170,6 +173,7 @@
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
 		</race>
 		<!--
 		<recipes>
@@ -197,15 +201,17 @@
 		<description>An enhanced AI in a metal body.</description>
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<statBases>
+			<Mass>100</Mass>
 			<MarketValue>6500</MarketValue>
 			<MoveSpeed>4.95</MoveSpeed>
-			<Flammability>1.0</Flammability>
+			<Flammability>0.7</Flammability>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
+			<RoyalFavorValue>7</RoyalFavorValue>
 		</statBases>
 		<race>
 			<thinkTreeMain>AIPawn</thinkTreeMain>
@@ -213,6 +219,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>false</makesFootprints>
 			<nameCategory>HumanStandard</nameCategory>
+			<wildness>0.1</wildness>
 			<body>AIPawn</body>
 			<baseBodySize>0.9</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
@@ -220,6 +227,7 @@
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
 		</race>
 		<!--
 		<recipes>

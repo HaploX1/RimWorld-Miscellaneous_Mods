@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Class="AIPawn.PawnKindDef_AIPawn" Name="AIPawnBase">
+		<defName>AIPawn</defName>
+		<label>Mobile AI</label>
+		<race>AIPawn</race>
+		<combatPower>999999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Naked_Mia</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<isFighter>false</isFighter>
+		<weaponMoney>5000~5000</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelTags>
+			<li>Spacer</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<chemicalAddictionChance>0.001</chemicalAddictionChance>
+		<invNutrition>0.0</invNutrition>
+		<biocodeWeaponChance>0.001</biocodeWeaponChance>
+		<initialWillRange>3~8</initialWillRange>
+		<initialResistanceRange>20~45</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef Class="AIPawn.PawnKindDef_AIPawn" ParentName="AIPawnBase">
+		<defName>AIPawnE</defName>
+		<label>Mobile AI</label>
+		<race>AIPawnE</race>
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<weaponMoney>5000~5000</weaponMoney>
+		<gearHealthRange>0.9~1</gearHealthRange>
+		<apparelMoney>0~10</apparelMoney>
+		<apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryAdvanced</li>
+		</apparelTags>
+		<techHediffsMoney>0~5</techHediffsMoney>
+		<techHediffsChance>0.0015</techHediffsChance>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+
+</Defs>

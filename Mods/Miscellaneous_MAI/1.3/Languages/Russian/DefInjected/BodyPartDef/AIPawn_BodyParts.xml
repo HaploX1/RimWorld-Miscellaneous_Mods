@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<AIPawn_Thorax.label>Грудной отдел</AIPawn_Thorax.label>
+	<AIPawn_Neck.label>Шея</AIPawn_Neck.label>
+	<AIPawn_ArtificialBrain.label>Центральный процессор</AIPawn_ArtificialBrain.label>
+	<AIPawn_UnneededData.label>Устройство памяти</AIPawn_UnneededData.label>
+	<AIPawn_SpeakerDevice.label>Синтезатор речи</AIPawn_SpeakerDevice.label>
+	<AIPawn_BatteryLeft.label>Левая батарея</AIPawn_BatteryLeft.label>
+	<AIPawn_BatteryRight.label>Правая батарея</AIPawn_BatteryRight.label>
+	<AIPawn_MaterialAnalyzer.label>Анализатор материалов</AIPawn_MaterialAnalyzer.label>
+	<AIPawn_Spine.label>Каркас</AIPawn_Spine.label>
+	<AIPawn_Abdomen.label>Живот</AIPawn_Abdomen.label>
+
+</LanguageData>

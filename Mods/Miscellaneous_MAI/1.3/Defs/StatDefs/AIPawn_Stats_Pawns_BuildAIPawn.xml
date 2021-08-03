@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StatDef>
+		<defName>BuildAIPawnBaseTime</defName>
+		<label>activating ai speed</label>
+		<description>Speed at which this person builts an ai.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>0.4</baseValue>
+				<bonusPerLevel>0.2</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.5</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+				<max>1</max>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef>
+		<defName>BuildAIPawnBaseEfficiency</defName>
+		<label>activating ai efficiency</label>
+		<description>Multiplier on the amount of AI Pawns activated.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>1.0</baseValue>
+				<bonusPerLevel>0.0</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.5</weight>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+	
+</Defs>
