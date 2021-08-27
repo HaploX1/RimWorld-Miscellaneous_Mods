@@ -10,4 +10,14 @@
 		<texture>World/Biomes/BorealForest_UrbanRuins</texture>
 	</BiomeDef>
 
+	<BiomeDef ParentName="IceSheet">
+		<defName>IceSheet_UrbanRuins</defName>
+		<label>urban ruins on ice sheets</label>
+		<description>Sheets of ice which can be kilometers thick the ruins of an ancient dwelling. There is no soil for plants to grow in. The only animals here are migrating to somewhere else - or badly lost.</description>
+		<workerClass>MapGenerator.BiomeWorker_IceSheet_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<forageability>0.05</forageability>
+		<texture>World/Biomes/IceSheet_UrbanRuins</texture>
+	</BiomeDef>
+
 </Defs>

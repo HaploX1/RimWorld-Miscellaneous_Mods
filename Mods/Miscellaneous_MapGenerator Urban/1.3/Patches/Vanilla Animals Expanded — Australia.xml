@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Australia</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Boombat"]/race/wildBiomes</xpath>
+				<value>
+					<Desert_UrbanRuins>0.07</Desert_UrbanRuins>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Kangaroo"]/race/wildBiomes</xpath>
+				<value>					
+					<Desert_UrbanRuins>0.25</Desert_UrbanRuins>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Koala"]/race/wildBiomes</xpath>
+				<value>
+					<Desert_UrbanRuins>0.05</Desert_UrbanRuins>	
+				</value>
+			</li>
+			
+		</operations>
+		</match>
+	</Operation>
+</Patch>
+

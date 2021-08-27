@@ -26,7 +26,6 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs/ThingDef[defName="AEXP_IndianElephant"]/race/wildBiomes</xpath>
 				<value>
-
 					<TropicalRainforest_UrbanRuins>0.2</TropicalRainforest_UrbanRuins>
 					<TropicalSwamp_UrbanRuins>0.1</TropicalSwamp_UrbanRuins>	
 				</value>

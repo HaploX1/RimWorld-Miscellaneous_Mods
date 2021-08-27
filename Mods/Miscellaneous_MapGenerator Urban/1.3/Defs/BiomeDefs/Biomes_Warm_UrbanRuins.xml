@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
 	<BiomeDef ParentName="TropicalRainforest">
 		<defName>TropicalRainforest_UrbanRuins</defName>
 		<label>urban ruins in tropical rainforest</label>
@@ -20,6 +19,16 @@
 		<movementDifficulty>3</movementDifficulty>
 		<texture>World/Biomes/TropicalSwamp_UrbanRuins</texture>
 		<forageability>0.75</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="Desert">
+		<defName>Desert_UrbanRuins</defName>
+		<label>urban ruins in the desert</label>
+		<description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</description>
+		<workerClass>MapGenerator.BiomeWorker_Desert_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/Desert_UrbanRuins</texture>
+		<forageability>0.05</forageability>
 	</BiomeDef>
 
 </Defs>

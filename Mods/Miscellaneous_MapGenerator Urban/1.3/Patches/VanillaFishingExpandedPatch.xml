@@ -13,6 +13,7 @@
 				<xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeCold"]/biomes</xpath>
 				<value>
 					<li>BorealForest_UrbanRuins</li>
+					<li>IceSheet_UrbanRuins</li>
 				</value>
 			</li>
 			
@@ -29,6 +30,7 @@
 				<value>
 					<li>TropicalRainforest_UrbanRuins</li>
 					<li>TropicalSwamp_UrbanRuins</li>
+					<li>Desert_UrbanRuins</li>
 				</value>
 			</li>
 		</operations>

@@ -13,6 +13,8 @@
 		<statBases>
 			<Flammability>1.0</Flammability>
 			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<FilthRate>0</FilthRate>
 			<PsychicSensitivity>0</PsychicSensitivity>
 			<ToxicSensitivity>0</ToxicSensitivity>
 			<Mass>15</Mass>
@@ -114,7 +116,6 @@
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
-			<LeatherAmount>0</LeatherAmount>
 		</statBases>
 		<race>
 			<body>AIRobot</body>
@@ -149,8 +150,6 @@
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
-			<MeatAmount>0</MeatAmount>
-			<LeatherAmount>0</LeatherAmount>
 		</statBases>
 		<race>
 			<body>AIRobot</body>
