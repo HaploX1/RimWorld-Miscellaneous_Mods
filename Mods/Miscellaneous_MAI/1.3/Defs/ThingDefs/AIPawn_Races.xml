@@ -168,11 +168,10 @@
 			<li>EuthanizeAIPawn</li>
 		</recipes>
 		-->
-		
-		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
-		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
-		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
-		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
+		<normalHeadGraphicPathMulti>Things/Pawns/Naked/Female_Average_MiaHead</normalHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked/Naked_Mia</normalBodyGraphicPathMulti>
+		<draftedHeadGraphicPathMulti>Things/Pawns/Drafted/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted/Drafted_Mia</draftedBodyGraphicPathMulti>
 		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
 		<refreshQuickMax>25</refreshQuickMax>
 		<incapToExplosionCounter>1000</incapToExplosionCounter>
@@ -222,11 +221,10 @@
 			<li>EuthanizeAIPawn</li>
 		</recipes>
 		-->
-
-		<normalHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHead</normalHeadGraphicPathMulti>
-		<draftedHeadGraphicPathMulti>Things/Pawns/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
-		<normalBodyGraphicPathMulti>Things/Pawns/Naked_Mia</normalBodyGraphicPathMulti>
-		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted_Mia</draftedBodyGraphicPathMulti>
+		<normalHeadGraphicPathMulti>Things/Pawns/Naked/Female_Average_MiaHead</normalHeadGraphicPathMulti>
+		<normalBodyGraphicPathMulti>Things/Pawns/Naked/Naked_Mia</normalBodyGraphicPathMulti>
+		<draftedHeadGraphicPathMulti>Things/Pawns/Drafted/Female_Average_MiaHeadDrafted</draftedHeadGraphicPathMulti>
+		<draftedBodyGraphicPathMulti>Things/Pawns/Drafted/Drafted_Mia</draftedBodyGraphicPathMulti>
 		<refreshBaseInfosMax>2000</refreshBaseInfosMax>
 		<refreshQuickMax>25</refreshQuickMax>
 		<incapToExplosionCounter>1500</incapToExplosionCounter>
