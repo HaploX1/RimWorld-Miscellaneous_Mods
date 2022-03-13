@@ -18,8 +18,17 @@
 	<JobDef ParentName="UseShootingRangeBase_MiscTraining">
 		<defName>UseShootingRange_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
+		<joyGainRate>0.8</joyGainRate>
 		<joyDuration>17000</joyDuration>
-		<joyXpPerTick>0.092</joyXpPerTick>
+		<joyXpPerTick>0.027</joyXpPerTick>
+	</JobDef>
+
+	<JobDef ParentName="UseShootingRangeBase_MiscTraining">
+		<defName>UseShootingRange_NonJoy_Work</defName>
+		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
+		<joyGainRate>0.8</joyGainRate>
+		<joyDuration>2500</joyDuration>
+		<joyXpPerTick>0.017</joyXpPerTick>
 	</JobDef>
 	
 	<JobDef Name="UseMartialArtsBase_MiscTraining">
@@ -37,8 +46,17 @@
 	<JobDef ParentName="UseMartialArtsBase_MiscTraining">
 		<defName>UseMartialArtsTarget_NonJoy</defName>
 		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget_NonJoy</driverClass>
+		<joyGainRate>0.9</joyGainRate>
 		<joyDuration>17000</joyDuration>
-		<joyXpPerTick>0.092</joyXpPerTick>
+		<joyXpPerTick>0.027</joyXpPerTick>
+	</JobDef>
+
+	<JobDef ParentName="UseMartialArtsBase_MiscTraining">
+		<defName>UseMartialArtsTarget_NonJoy_Work</defName>
+		<driverClass>TrainingFacility.JobDriver_MartialArtsTarget_NonJoy</driverClass>
+		<joyGainRate>0.8</joyGainRate>
+		<joyDuration>2500</joyDuration>
+		<joyXpPerTick>0.017</joyXpPerTick>
 	</JobDef>
 	
 </Defs>

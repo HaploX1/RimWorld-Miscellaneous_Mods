@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>MiscTraining_CombatTraining</defName>
+		<label>Training</label>
+		<giverClass>TrainingFacility.WorkGiver_Training</giverClass>
+		<workType>MiscTraining_CombatTraining</workType>
+		<verb>train</verb>
+		<gerund>training</gerund>
+		<priorityInType>50</priorityInType>
+		<directOrderable>true</directOrderable>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+	</WorkGiverDef>
+
+</Defs>

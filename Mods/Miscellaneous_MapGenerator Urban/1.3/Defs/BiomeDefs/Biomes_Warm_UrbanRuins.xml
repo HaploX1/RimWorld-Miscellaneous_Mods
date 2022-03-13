@@ -2,6 +2,7 @@
 <Defs>
 
 	<BiomeDef ParentName="TropicalRainforest">
+		<modExtensions Inherit="false" />
 		<defName>TropicalRainforest_UrbanRuins</defName>
 		<label>urban ruins in tropical rainforest</label>
 		<description>A thick, moist jungle surround the ruins of an ancient dwelling. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant disease are why some explorers call this the "green hell".</description>
@@ -12,6 +13,7 @@
 	</BiomeDef>
 
 	<BiomeDef ParentName="TropicalSwamp">
+		<modExtensions Inherit="false" />
 		<defName>TropicalSwamp_UrbanRuins</defName>
 		<label>urban ruins in tropical swamp</label>
 		<description>A thick jungle with lots of marsh and mud surround the ruins of an ancient dwelling. Difficult movement, little space to build heavy structures, aggresive animals, and constant diseases make living here a nightmare.</description>
@@ -22,6 +24,7 @@
 	</BiomeDef>
 
 	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
 		<defName>Desert_UrbanRuins</defName>
 		<label>urban ruins in the desert</label>
 		<description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</description>

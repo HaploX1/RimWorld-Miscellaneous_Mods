@@ -2,6 +2,7 @@
 <Defs>
 
 	<BiomeDef ParentName="TemperateForest">
+		<modExtensions Inherit="false" />
 		<defName>TemperateForest_UrbanRuins</defName>
 		<label>urban ruins in temperate forest</label>
 		<description>Forests of deciduous trees surround the ruins of an ancient dwelling. Ancient structures that survived the forces of nature.</description>
@@ -12,6 +13,7 @@
 	</BiomeDef>
 
 	<BiomeDef ParentName="TemperateSwamp">
+		<modExtensions Inherit="false" />
 		<defName>TemperateSwamp_UrbanRuins</defName>
 		<label>urban ruins in temperate swamp</label>
 		<description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures.</description>
