@@ -2,6 +2,8 @@
 <LanguageData>
 
 	<!-- FloatMenu -->
+	<TrainingFacility_PracticeArchery>Practice archery</TrainingFacility_PracticeArchery>
+	
 	<TrainingFacility_PracticeShooting>Practice shooting</TrainingFacility_PracticeShooting>
 	<TrainingFacility_RangedWeaponRequired>Ranged weapon required</TrainingFacility_RangedWeaponRequired>
 	

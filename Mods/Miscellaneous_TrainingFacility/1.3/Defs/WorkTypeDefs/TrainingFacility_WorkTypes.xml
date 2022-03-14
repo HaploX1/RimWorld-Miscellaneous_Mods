@@ -8,8 +8,8 @@
 		<gerundLabel>combat training</gerundLabel>
 		<description>Combat Training. Be it martial arts or shooting. The kind depends on the weapon of the user.</description>
 		<verb>combat training</verb>
-		<naturalPriority>460</naturalPriority>
-		<alwaysStartActive>true</alwaysStartActive>
+		<naturalPriority>435</naturalPriority>
+		<alwaysStartActive>false</alwaysStartActive>
 		<relevantSkills>
 			<li>Shooting</li>
 			<li>Melee</li>
