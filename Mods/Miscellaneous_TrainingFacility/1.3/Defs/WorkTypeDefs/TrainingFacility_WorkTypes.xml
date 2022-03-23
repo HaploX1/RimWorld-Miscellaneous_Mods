@@ -10,6 +10,7 @@
 		<verb>combat training</verb>
 		<naturalPriority>435</naturalPriority>
 		<alwaysStartActive>false</alwaysStartActive>
+		<disabledForSlaves>true</disabledForSlaves>
 		<relevantSkills>
 			<li>Shooting</li>
 			<li>Melee</li>
