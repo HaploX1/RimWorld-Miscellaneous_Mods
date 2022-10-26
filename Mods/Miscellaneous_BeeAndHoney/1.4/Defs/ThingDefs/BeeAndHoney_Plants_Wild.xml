@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="TreeBeehiveBase_MiscBees" Abstract="True">
+		<description>A tree.</description>
+		<category>Plant</category>
+		<thingClass>Plant</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<shadowData>
+				<volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Flammability>0.9</Flammability>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<tickerType>Long</tickerType>
+		<selectable>true</selectable>
+		<fillPercent>0.25</fillPercent>
+		<neverMultiSelect>False</neverMultiSelect>
+		<drawerType>RealtimeOnly</drawerType>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<blockWind>true</blockWind>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<lifespanDaysPerGrowDays>30.2</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+			<blockAdjacentSow>true</blockAdjacentSow>
+			<sowWork>18000</sowWork>
+			<harvestWork>800</harvestWork>
+			<interferesWithRoof>true</interferesWithRoof>
+			<treeLoversCareIfChopped>false</treeLoversCareIfChopped>
+			<treeCategory>Full</treeCategory>
+			<visualSizeRange>2.2~4.5</visualSizeRange>
+			<topWindExposure>0.65</topWindExposure>
+			<wildClusterRadius>0</wildClusterRadius>
+			<wildClusterWeight>26</wildClusterWeight>
+			<wildOrder>9</wildOrder>
+		</plant>
+	</ThingDef>
+
+	<!--============================ Wild - Trees ============================-->
+
+	<ThingDef ParentName="TreeBeehiveBase_MiscBees">
+		<defName>TreeBeeHive</defName>
+		<label>hollow tree</label>
+		<description>An old hollow tree. You can find a wild beehive inside.</description>
+		<graphicData>
+			<texPath>Things/Plant/DeadTree4Bees</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.35, 0.13)</volume>
+				<offset>(-0.03,0,-0.44)</offset>
+			</shadowData>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<statBases>
+			<Beauty>-3</Beauty>
+			<BeautyOutdoors>-1</BeautyOutdoors>
+		</statBases>
+		<plant>
+			<growDays>20</growDays>
+			<leaflessGraphicPath>Things/Plant/DeadTree4Bees</leaflessGraphicPath>
+			<harvestMinGrowth>0.10</harvestMinGrowth>
+			<harvestFailable>true</harvestFailable>
+			<harvestTag>Standard</harvestTag>
+			<harvestWork>600</harvestWork>
+			<harvestYield>2</harvestYield>
+			<harvestedThingDef>HoneycombWithQueen</harvestedThingDef>
+			<wildBiomes>
+				<AridShrubland>0.009</AridShrubland>
+				<Tundra>0.009</Tundra>
+				<BorealForest>0.015</BorealForest>
+				<ColdBog>0.018</ColdBog>
+				<TemperateForest>0.025</TemperateForest>
+				<TemperateSwamp>0.023</TemperateSwamp>
+				<TropicalRainforest>0.029</TropicalRainforest>
+				<TropicalSwamp>0.027</TropicalSwamp>
+			</wildBiomes>
+		</plant>
+	</ThingDef>
+
+</Defs>

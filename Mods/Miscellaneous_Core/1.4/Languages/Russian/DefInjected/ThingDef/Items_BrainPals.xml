@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<BionicTacticalImplant.label>Бионический мозговой имплант</BionicTacticalImplant.label>
+	<BionicTacticalImplant.description>Продвинутый бионический компьютер, безупречно интегрированный в человеческий мозг.</BionicTacticalImplant.description>
+
+	<ElectronicTacticalImplant.label>Электронный мозговой имплант</ElectronicTacticalImplant.label>
+	<ElectronicTacticalImplant.description>Продвинутый компьютер с прямым подключением к мозгу.</ElectronicTacticalImplant.description>	
+
+</LanguageData>

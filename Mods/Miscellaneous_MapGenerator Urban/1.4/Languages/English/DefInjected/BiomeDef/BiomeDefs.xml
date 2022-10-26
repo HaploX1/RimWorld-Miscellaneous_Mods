@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<BorealForest_UrbanRuins.label>urban ruins in boreal forest</BorealForest_UrbanRuins.label>
+	<BorealForest_UrbanRuins.description>Forests of coniferous trees surround the ruins of an ancient dwelling. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. Snow makes it extremely slow to travel in winter.</BorealForest_UrbanRuins.description>
+	
+	<IceSheet_UrbanRuins.label>urban ruins on ice sheets</IceSheet_UrbanRuins.label>
+	<IceSheet_UrbanRuins.description>Sheets of ice which can be kilometers thick the ruins of an ancient dwelling. There is no soil for plants to grow in. The only animals here are migrating to somewhere else - or badly lost.</IceSheet_UrbanRuins.description>
+	
+	<TemperateForest_UrbanRuins.label>urban ruins in temperate forest</TemperateForest_UrbanRuins.label>
+	<TemperateForest_UrbanRuins.description>Forests of deciduous trees surround the ruins of an ancient dwelling. Ancient structures that survived the forces of nature.</TemperateForest_UrbanRuins.description>
+	<TemperateSwamp_UrbanRuins.label>urban ruins in temperate swamp</TemperateSwamp_UrbanRuins.label>
+	<TemperateSwamp_UrbanRuins.description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures.</TemperateSwamp_UrbanRuins.description>
+	
+	<TropicalRainforest_UrbanRuins.label>urban ruins in tropical rainforest</TropicalRainforest_UrbanRuins.label>
+	<TropicalRainforest_UrbanRuins.description>A thick, moist jungle surround the ruins of an ancient dwelling. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant disease are why some explorers call this the "green hell".</TropicalRainforest_UrbanRuins.description>
+	<TropicalSwamp_UrbanRuins.label>urban ruins in tropical swamp</TropicalSwamp_UrbanRuins.label>
+	<TropicalSwamp_UrbanRuins.description>A thick jungle with lots of marsh and mud surround the ruins of an ancient dwelling. Difficult movement, little space to build heavy structures, aggresive animals, and constant diseases make living here a nightmare.</TropicalSwamp_UrbanRuins.description>
+	
+	<Desert_UrbanRuins.label>urban ruins in the desert</Desert_UrbanRuins.label>
+	<Desert_UrbanRuins.description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</Desert_UrbanRuins.description>
+	
+</LanguageData>

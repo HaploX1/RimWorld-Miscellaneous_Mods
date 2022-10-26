@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Temperate Forest</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_RedPanda"]/race/wildBiomes</xpath>
+				<value>
+					<TemperateForest_UrbanRuins>0.6</TemperateForest_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Badger"]/race/wildBiomes</xpath>
+				<value>					
+					<TemperateForest_UrbanRuins>0.2</TemperateForest_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_WildGoose"]/race/wildBiomes</xpath>
+				<value>	
+					<TemperateForest_UrbanRuins>0.5</TemperateForest_UrbanRuins>
+					<TemperateSwamp_UrbanRuins>0.1</TemperateSwamp_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Beaver"]/race/wildBiomes</xpath>
+				<value>	
+					<TemperateForest_UrbanRuins>0.2</TemperateForest_UrbanRuins>
+					<TemperateSwamp_UrbanRuins>0.04</TemperateSwamp_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Hedgehog"]/race/wildBiomes</xpath>
+				<value>	
+					<TemperateForest_UrbanRuins>1</TemperateForest_UrbanRuins>
+					<TemperateSwamp_UrbanRuins>0.2</TemperateSwamp_UrbanRuins>
+				</value>
+			</li>
+		</operations>
+		</match>
+	</Operation>
+</Patch>
+

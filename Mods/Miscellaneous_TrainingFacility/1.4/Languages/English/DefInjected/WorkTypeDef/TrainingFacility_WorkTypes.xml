@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MiscTraining_CombatTraining.labelShort>training</MiscTraining_CombatTraining.labelShort>
+	<MiscTraining_CombatTraining.pawnLabel>Trainer</MiscTraining_CombatTraining.pawnLabel>
+	<MiscTraining_CombatTraining.gerundLabel>training</MiscTraining_CombatTraining.gerundLabel>
+	<MiscTraining_CombatTraining.description>Train to fight. Be it martial arts or shooting, the kind of training depends on the weapon of the user and the available targets.</MiscTraining_CombatTraining.description>
+	<MiscTraining_CombatTraining.verb>training</MiscTraining_CombatTraining.verb>
+
+</LanguageData>

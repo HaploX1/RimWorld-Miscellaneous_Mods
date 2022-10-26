@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ResearchNanoReplication</defName>
+		<label>Nano Replication</label>
+		<description>Research how to build and program nano bots to replicate objects.</description>
+		<baseCost>1200</baseCost>
+    <techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>Miscellaneous</tab>
+	<researchViewX>2</researchViewX>
+	<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

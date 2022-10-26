@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Boreal Forest</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_Otter"]/race/wildBiomes</xpath>
+				<value>
+					<BorealForest_UrbanRuins>1</BorealForest_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_ArcticCoyote"]/race/wildBiomes</xpath>
+				<value>					
+					<BorealForest_UrbanRuins>1</BorealForest_UrbanRuins>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs/ThingDef[defName="AEXP_BlackBear"]/race/wildBiomes</xpath>
+				<value>	
+					<BorealForest_UrbanRuins>0.1</BorealForest_UrbanRuins>
+				</value>
+			</li>	
+		</operations>
+		</match>
+	</Operation>
+</Patch>
+

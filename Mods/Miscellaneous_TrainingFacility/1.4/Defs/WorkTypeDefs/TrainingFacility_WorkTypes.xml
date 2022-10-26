@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkTypeDef>
+		<defName>MiscTraining_CombatTraining</defName>
+		<labelShort>Training</labelShort>
+		<pawnLabel>Combat Trainer</pawnLabel>
+		<gerundLabel>combat training</gerundLabel>
+		<description>Combat Training. Be it martial arts or shooting. The kind depends on the weapon of the user.</description>
+		<verb>combat training</verb>
+		<naturalPriority>435</naturalPriority>
+		<alwaysStartActive>false</alwaysStartActive>
+		<disabledForSlaves>true</disabledForSlaves>
+		<relevantSkills>
+			<li>Shooting</li>
+			<li>Melee</li>
+		</relevantSkills>
+		<workTags>
+			<li>Violent</li>
+			<li>AllWork</li>
+		</workTags>
+	</WorkTypeDef>
+
+</Defs>

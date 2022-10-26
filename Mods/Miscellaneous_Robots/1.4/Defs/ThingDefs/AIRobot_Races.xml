@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot" Name="Base_X2_AIRobot" Abstract="True">
+		<thingClass>AIRobot.X2_AIRobot</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<FilthRate>0</FilthRate>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.95</ToxicEnvironmentResistance>
+			<Mass>15</Mass>
+			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+		</statBases>
+		<receivesSignals>false</receivesSignals>
+		<inspectorTabs>
+			<li>ITab_Pawn_Health</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Gear</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+		</comps>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<race>
+			<thinkTreeMain>X2_AIRobot</thinkTreeMain>
+			<thinkTreeConstant>X2_AIRobotConstant</thinkTreeConstant>
+			<fleshType>Mechanoid</fleshType>
+			<foodType>None</foodType>
+			<intelligence>ToolUser</intelligence>
+			<makesFootprints>false</makesFootprints>
+			<nameCategory>HumanStandard</nameCategory>
+			<wildness>0.1</wildness>
+			<mateMtbHours>0</mateMtbHours>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,100)</li>
+					<li>(5,50)</li>
+					<li>(20,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<lifeExpectancy>5</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<tools>
+			<li>
+				<label>left manipulator</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<chanceFactor>1.0</chanceFactor>
+			</li>
+			<li>
+				<label>right manipulator</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<chanceFactor>0.8</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Steel>5</Steel>
+		</butcherProducts>
+	</ThingDef>
+
+
+	<!-- ============================ Robots ========================== -->
+
+	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot" ParentName="Base_X2_AIRobot">
+		<defName>AIRobot_Hauler</defName>
+		<label>HaulingBot</label>
+		<description>A hauling robot.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MoveSpeed>4.75</MoveSpeed>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<race>
+			<body>AIRobot</body>
+			<baseBodySize>0.65</baseBodySize>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<mechEnabledWorkTypes>
+				<li>Hauling</li>
+			</mechEnabledWorkTypes>
+		</race>
+		<recipes>
+		</recipes>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<robotWorkTypes>
+			<li>
+				<workTypeDef>Hauling</workTypeDef>
+				<priority>1</priority>
+			</li>
+		</robotWorkTypes>
+		<allowLearning>false</allowLearning>
+		<butcherProducts>
+			<Steel>5</Steel>
+		</butcherProducts>
+	</ThingDef>
+
+	<ThingDef Class="AIRobot.X2_ThingDef_AIRobot" ParentName="Base_X2_AIRobot">
+		<defName>AIRobot_Cleaner</defName>
+		<label>CleaningBot</label>
+		<description>A cleaning robot.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MoveSpeed>2.0</MoveSpeed>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<race>
+			<body>AIRobot</body>
+			<baseBodySize>0.65</baseBodySize>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<mechEnabledWorkTypes>
+				<li>Cleaning</li>
+			</mechEnabledWorkTypes>
+		</race>
+		<recipes>
+		</recipes>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<robotWorkTypes>
+			<li>
+				<workTypeDef>Cleaning</workTypeDef>
+				<priority>1</priority>
+			</li>
+		</robotWorkTypes>
+		<robotSkills>
+			<li>
+				<skillDef>Plants</skillDef>
+				<level>6</level>
+				<passion>Minor</passion>
+			</li>
+		</robotSkills>
+		<allowLearning>false</allowLearning>
+		<butcherProducts>
+			<Steel>5</Steel>
+		</butcherProducts>
+	</ThingDef>
+
+
+	<!--
+			<robotWorkTypes>
+			<li>
+				<workTypeDef>Cleaning</workTypeDef>
+				<priority>1</priority>
+			</li>
+			<li>
+				<workTypeDef>PlantCutting</workTypeDef>
+				<priority>3</priority>
+			</li>
+			<li>
+				<workTypeDef>Plants</workTypeDef>
+				<priority>2</priority>
+			</li>
+		</robotWorkTypes>
+	-->
+
+</Defs>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<!-- Colonist Groups -->
+	<ColonistGroups_GroupSaved>Группа {0} с {1} колонистами сохранена.</ColonistGroups_GroupSaved>
+	<ColonistGroups_GroupNotSet_PositionMode>Группа {0} не назначена. Используйте Shift+{1} для назначения в неё колонистов.</ColonistGroups_GroupNotSet_PositionMode>
+	<ColonistGroups_GroupInvalid_PositionMode>Группа {0} не назначена. Не обнаружено колонистов в Боевом режиме.</ColonistGroups_GroupInvalid_PositionMode>
+	<ColonistGroups_GroupNotSet_SelectionMode>Группа {0} не назначена. Используй Shift+{1} для назначения выбранных колонистов.</ColonistGroups_GroupNotSet_SelectionMode>
+	<ColonistGroups_GroupInvalid_SelectionMode>Группа {0} не назначена. Не обнаружено выделенных колонистов.</ColonistGroups_GroupInvalid_SelectionMode>
+	<ColonistGroups_GroupPositioned>Группа {0} находится в пути.</ColonistGroups_GroupPositioned>
+	<ColonistGroups_GroupSelected>Выбрана группа {0}.</ColonistGroups_GroupSelected>
+	<ColonistGroups_PawnsUndrafted>Все колонисты без активной работы распущены.</ColonistGroups_PawnsUndrafted>
+	<ColonistGroups_GroupSelectionActive>Активирован Режим Группы.</ColonistGroups_GroupSelectionActive>
+	<ColonistGroups_GroupPositioningActive>Активирован Режим Позиции.</ColonistGroups_GroupPositioningActive>
+
+	<!-- Colonist Groups: Help Screen -->
+	<ColonistGroups_GameStartHelp_prt1>Miscellaneous: Colonist Groups</ColonistGroups_GameStartHelp_prt1>
+	<ColonistGroups_GameStartHelp_prt2>Клавиши 6, 7, 8, 9 используются для назначения колонистов в группы и определения позиций для этих групп.\nИспользование:\nВыбрать нужных колонистов, включить "Боевой режим" и расставить их по позициям. После этого их можно объединить в группу, выделив нужных и нажав клавишу 'SHIFT+6' (для группы 1).\nГруппа выбранных колонистов запомнит эту позицию.\nВ последующем, для быстрого вызова этой группы на позицию, просто нажмите клавишу '6'. Всего можно создать четыре таких группы, на клавишах 6,7,8,9\n\nВнимание: если включен Режим Группы (переключается 'SHIFT+0'), то группа будет только выбрана, но на позицию не пойдет.</ColonistGroups_GameStartHelp_prt2>
+	<ColonistGroups_GameStartHelp_prt3>У клавиши '0' есть две функции:\nНажав '0' , вы распустите всех колонистов, не имеющих активных задач.\nНажав 'SHIFT+0' , вы переключитесь между Режимом Группы и Режимом Позиции.\n\nКроме этого, есть клавиша BACKSPACE.\nОна перемещает камеру в произвольное место домашней зоны.\n\nВсе привязки клавиш можно изменить в соответствующем меню настроек.</ColonistGroups_GameStartHelp_prt3>
+	<ColonistGroups_GameStartHelp_openHelp>Помощь по моду открывается нажатием 'SHIFT+K'.</ColonistGroups_GameStartHelp_openHelp>
+	<ColonistGroups_Letter_InfoOpenHelp>Информация</ColonistGroups_Letter_InfoOpenHelp>
+	<ColonistGroups_Message_InfoOpenHelp>Вы можете открыть помощь в любое время, нажав 'SHIFT+K'\n\n</ColonistGroups_Message_InfoOpenHelp>
+
+	<!-- Colonist Groups: Mod Options -->
+	<ColonistSelections_ModOptions_Category>Misc. Core: Colonist Groups</ColonistSelections_ModOptions_Category>
+	<ColonistSelections_ModOptions_ShowGroupIcons>Показать иконки</ColonistSelections_ModOptions_ShowGroupIcons>
+	<ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>Отключение этой функции скроет все значки групп колонистов.</ColonistSelections_ModOptions_ShowGroupIcons_ToolTip>
+	<ColonistSelections_ModOptions_SizeGroupIconsPercent>Масштаб иконки </ColonistSelections_ModOptions_SizeGroupIconsPercent>
+	<ColonistSelections_ModOptions_StartPosGroupIconsX>Расположение иконки по оси Х </ColonistSelections_ModOptions_StartPosGroupIconsX>
+	<ColonistSelections_ModOptions_StartPosGroupIconsY>Расположение иконки по оси Y </ColonistSelections_ModOptions_StartPosGroupIconsY>
+
+	<!-- Colonist Groups: Icon Texts -->
+	<ColonistSelection_Icon_ToggleGroupIcons>Показ иконок групп колонистов</ColonistSelection_Icon_ToggleGroupIcons>
+	<ColonistSelection_Icon_Click2CallGroupX>Нажмите для призыва группы {0}. ({1} колонистов)\n'Shift+клик' для назначения группы {0}.\n\nКлавиша: {2} \nShift+K - справка.</ColonistSelection_Icon_Click2CallGroupX>
+	<ColonistSelection_Icon_Click2ReleaseAll>Нажмите, чтобы распустить всех колонистов.\n'Shift+клик' для переключения режима.\n\nКлавиша: {0} \nShift+K - справка.</ColonistSelection_Icon_Click2ReleaseAll>
+
+</LanguageData>

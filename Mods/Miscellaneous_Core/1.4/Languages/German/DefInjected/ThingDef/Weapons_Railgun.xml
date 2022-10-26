@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<Bullet_RailgunMKI.label>Railgun Kugel</Bullet_RailgunMKI.label>
+	
+	<Gun_RailgunMKI.label>Railgun</Gun_RailgunMKI.label>
+	<Gun_RailgunMKI.description>Das Gewehr beschleunigt die Projektile mit Hilfe eines elektromagnetischen Schienensystems auf sehr hohe Geschwindigkeiten von mehreren Kilometern pro Sekunde.</Gun_RailgunMKI.description>
+	<Gun_RailgunMKI.tools.0.label>Griff</Gun_RailgunMKI.tools.0.label>
+	<Gun_RailgunMKI.tools.1.label>Lauf</Gun_RailgunMKI.tools.1.label>
+	
+</LanguageData>

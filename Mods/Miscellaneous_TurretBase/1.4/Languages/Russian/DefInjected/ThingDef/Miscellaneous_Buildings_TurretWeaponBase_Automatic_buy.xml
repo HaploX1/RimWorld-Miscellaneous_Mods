@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<TurretWeaponBaseAutomatic.label>Основание автоматической турели</TurretWeaponBaseAutomatic.label>
+	<TurretWeaponBaseAutomatic.description>Автоматическая турель, управляющая установленным оружием. Взрывается при серьезных повреждениях.</TurretWeaponBaseAutomatic.description>
+
+	<TurretWeaponBaseAutomaticPlasteel.label>Основание автоматической турели</TurretWeaponBaseAutomaticPlasteel.label>
+	<TurretWeaponBaseAutomaticPlasteel.description>Легкобронированная автоматическая турель, управляющая установленным оружием. Взрывается при серьезных повреждениях.</TurretWeaponBaseAutomaticPlasteel.description>
+
+</LanguageData>

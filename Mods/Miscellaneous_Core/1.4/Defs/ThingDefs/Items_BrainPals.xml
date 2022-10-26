@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="BodyPartBase_MiscCore" Abstract="True">
+		<label>implant</label>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>1.5</DeteriorationRate>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<isTechHediff>true</isTechHediff>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>TechHediff</li>
+			<li>Bionic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<pathCost>14</pathCost>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- artificial - bionics -->
+
+	<ThingDef ParentName="BodyPartBase_MiscCore">
+		<defName>BionicTacticalImplant</defName>
+		<label>bionic brainPal</label>
+		<description>Advanced bionic computer flawlessly integrated into the human brain.</description>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>0.08</Mass>
+			<WorkToMake>75000</WorkToMake>
+		</statBases>
+		<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBase_MiscCore">
+		<defName>ElectronicTacticalImplant</defName>
+		<label>electronic brainPal</label>
+		<description>Advanced computer with a direct brain interface.</description>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1850</MarketValue>
+			<Mass>0.2</Mass>
+			<WorkToMake>40000</WorkToMake>
+		</statBases>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EndGame_PreRequirements_PartOne.label>Gesetze zum Stadtrecht (Teil 1)</EndGame_PreRequirements_PartOne.label>
+	<EndGame_PreRequirements_PartOne.description>Diese Gesetze sind Teil eines uralten Rituals, mit dem ein Dorf das offiziell zu einer Stadt ernannt werden kann. Es muss noch weitere Teile davon geben..</EndGame_PreRequirements_PartOne.description>
+	
+	<EndGame_PreRequirements_PartTwo.label>Gesetze zum Stadtrecht (Teil 2)</EndGame_PreRequirements_PartTwo.label>
+	<EndGame_PreRequirements_PartTwo.description>Diese Gesetze sind Teil eines uralten Rituals, mit dem ein Dorf das offiziell zu einer Stadt ernannt werden kann. Es muss noch weitere Teile davon geben..</EndGame_PreRequirements_PartTwo.description>
+
+	<EndGame_Requirements.label>Stadtrecht im Ausnahmezustand</EndGame_Requirements.label>
+	<EndGame_Requirements.description>Zwei Monde bringen Angst und Blut,\nZwei Monde zu brechen deinen Mut.\nDenn wenn du bestehest des Krieges Schrei,\nSo sei selbst der ärmste Sklave frei..\n\nDas ist die Einleitung der uralten Schriftrolle die vom Erhalt des Stadtrechtes erzählt. Hier stehen die genauen Anforderungen wie man es durch verkünden eines speziellen Ausnahmezustandes erlangen kann.\nJetzt müssen wir nur einen Weg finden dieses Gekritzel zu entziffern..</EndGame_Requirements.description>
+	
+</LanguageData>
+
+

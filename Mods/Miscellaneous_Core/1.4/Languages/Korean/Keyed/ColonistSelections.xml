@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Colonist Groups -->
+	<ColonistGroups_GroupSaved>{1}명의 거주민으로 이루어진 {0}분대가 저장되었습니다.</ColonistGroups_GroupSaved>
+	<ColonistGroups_GroupNotSet_PositionMode>{0}분대가 지정되지 않았습니다. 징집된 거주민들을 선택하고 Shift+{1}으로 지정하십시오.</ColonistGroups_GroupNotSet_PositionMode>
+	<ColonistGroups_GroupInvalid_PositionMode>{0}분대가 지정되지 못했습니다. 징집된 거주민을 발견하지 못했습니다.</ColonistGroups_GroupInvalid_PositionMode>
+	<ColonistGroups_GroupNotSet_SelectionMode>{0}분대가 지정되지 않았습니다. Shift+{1}으로 선택한 거주민들을 지정하십시오.</ColonistGroups_GroupNotSet_SelectionMode>
+	<ColonistGroups_GroupInvalid_SelectionMode>{0}분대가 지정되지 않았습니다. 선택된 거주민이 없습니다.</ColonistGroups_GroupInvalid_SelectionMode>
+	<ColonistGroups_GroupPositioned>{0}분대가 지정된 위치로 가고 있습니다.</ColonistGroups_GroupPositioned>
+	<ColonistGroups_GroupSelected>{0}분대가 선택되었습니다.</ColonistGroups_GroupSelected>
+	<ColonistGroups_PawnsUndrafted>지정된 임무가 없는 거주민의 징집이 해제되었습니다.</ColonistGroups_PawnsUndrafted>
+	<ColonistGroups_GroupSelectionActive>선택 모드가 활성화 되었습니다.</ColonistGroups_GroupSelectionActive>
+	<ColonistGroups_GroupPositioningActive>위치 모드가 활성화 되었습니다.</ColonistGroups_GroupPositioningActive>
+
+	<!-- Colonist Groups: Help Screen -->
+	<ColonistGroups_GameStartHelp_prt1>Miscellaneous: 거주민 분대</ColonistGroups_GameStartHelp_prt1>
+	<ColonistGroups_GameStartHelp_prt2>숫자키 6, 7, 8, 9로 거주민들이 어디로 가야 하는지 지정할 수 있습니다.
+		\n이렇게 사용하세요: 위치를 지정하고 싶은 거주민들을 선택 후 목표 지점에 세워두십시오. 그 후에 SHIFT+7을 누르면(분대 7) 그 거주민들의 위치가 저장됩니다. 저장한 위치를 불러오려면 7을 누르십시오.
+		\n같은 방법으로 6, 8, 9도 할 수 있습니다.
+		\n참고: 만약 선택 모드(SHIFT+0으로 설정)가 활성화된 경우, 선택만 되고 위치로 이동하지 않습니다.</ColonistGroups_GameStartHelp_prt2>
+	<ColonistGroups_GameStartHelp_prt3>숫자키 0은 다른 기능도 있습니다. 0을 누르면 징집된 거주민들 중 아무 행동도 하지 않는 거주민들의 징집이 풀립니다. SHIFT+0으로 선택 모드와 위치 모드를 설정하십시오.</ColonistGroups_GameStartHelp_prt3>
+	<ColonistGroups_GameStartHelp_openHelp>SHIFT+K로 다시 열 수 있습니다.</ColonistGroups_GameStartHelp_openHelp>
+	<ColonistGroups_Letter_InfoOpenHelp>Information</ColonistGroups_Letter_InfoOpenHelp>
+	<ColonistGroups_Message_InfoOpenHelp>You can open the help for Miscellaneous: Colonist Groups when ever you want.\n\nJust press SHIFT+K and it will show up.</ColonistGroups_Message_InfoOpenHelp>
+
+</LanguageData>

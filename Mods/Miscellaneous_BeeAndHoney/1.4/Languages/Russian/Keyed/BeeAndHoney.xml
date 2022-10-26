@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<BeeAndHoney_RemainingTime>Оставшееся время {0}</BeeAndHoney_RemainingTime>
+	<BeeAndHoney_QueenBeeLostBecauseOfTemperature>Королева погибла из за температуры.</BeeAndHoney_QueenBeeLostBecauseOfTemperature>
+	<BeeAndHoney_QueenBeeLostBecauseOfTime>Королева пропала.</BeeAndHoney_QueenBeeLostBecauseOfTime>
+	
+	<BeeAndHoney_AvailableFlowersInRange>Цветы в диапазоне</BeeAndHoney_AvailableFlowersInRange>
+	<BeeAndHoney_HoneycombsGrowing>Соты выросли</BeeAndHoney_HoneycombsGrowing>
+	
+	
+</LanguageData>

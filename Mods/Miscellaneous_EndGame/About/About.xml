@@ -9,6 +9,7 @@
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<modDependencies></modDependencies>
 	<loadBefore></loadBefore>
@@ -16,6 +17,7 @@
 		<li>Haplo.Miscellaneous.Core</li>
 	</loadAfter>
 	<incompatibleWith></incompatibleWith>
+	<modVersion>1.4.1</modVersion>
 	<description>And if thy survive 
 the onslaught by a pair of moon,
 this will be your price
@@ -31,9 +33,8 @@ Why not try to get your own town charter via martial law instead?
 Here is your option for it...
 
 
-Note: This mod can be added anytime.
+Note: You can add this mod anytime. Even later in a running game.
    
-(Version: 1.3.1)
 Languages: English, German
 
 	
