@@ -27,7 +27,7 @@
 			</skillRequirements>
 			<researchPrerequisites>
 				<li>Fabrication</li>
-				<li MayRequire="Ludeon.RimWorld.Biotech">StandardMechtech</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">BasicMechtech</li>
 			</researchPrerequisites>
 			<recipeUsers>
 				<li>FabricationBench</li>
