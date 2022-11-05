@@ -183,6 +183,7 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>3</damageAmountBase>
 			<speed>100</speed>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
 		</projectile>
 	</ThingDef>
 
@@ -236,10 +237,14 @@
 		</weaponTags>
 		<tradeTags>
 			<li>ExoticMisc</li>
+			<li>WeaponRanged</li>
 		</tradeTags>
 		<thingSetMakerTags>
-			<li>RewardSpecial</li>
+			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
 	</ThingDef>
 
 </Defs>

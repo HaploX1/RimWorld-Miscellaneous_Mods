@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<TacticalComputer.label>전술 컴퓨터</TacticalComputer.label>
+	<TacticalComputer.description>여러 정보와 기능을 제공합니다.</TacticalComputer.description>
+	
+	<TacticalComputerExtension.label>전술 터미널</TacticalComputerExtension.label>
+	<TacticalComputerExtension.description>전술 컴퓨터 기능을 원격으로 제공합니다.</TacticalComputerExtension.description>
+	
+</LanguageData>

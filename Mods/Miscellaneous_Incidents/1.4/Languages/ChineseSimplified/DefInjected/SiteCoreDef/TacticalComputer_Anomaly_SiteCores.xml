@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anomaly: Nothing -->
+
+  <Anomaly_Nothing.label>异常现象</Anomaly_Nothing.label>
+
+
+  <!-- Anomaly: Item Stash -->
+
+  <Anomaly_ItemStash.label>异常现象</Anomaly_ItemStash.label>
+
+
+  <!-- Anomaly: Precious Lump -->
+
+  <Anomaly_PreciousLump.label>异常现象</Anomaly_PreciousLump.label>
+
+
+</LanguageData>

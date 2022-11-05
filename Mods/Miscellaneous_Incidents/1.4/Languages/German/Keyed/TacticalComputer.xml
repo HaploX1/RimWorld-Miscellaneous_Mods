@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Tactical Computer -->
+	<TacticalComputer_Offline>-= Offline =-</TacticalComputer_Offline>
+	<TacticalComputer_Colonist>Kolonisten</TacticalComputer_Colonist>
+	<TacticalComputer_Prisoner>Gefangene</TacticalComputer_Prisoner>
+	<TacticalComputer_Enemy>Gegner</TacticalComputer_Enemy>
+	<TacticalComputer_Friendly>Freunde</TacticalComputer_Friendly>
+	<TacticalComputer_Animal>Tiere</TacticalComputer_Animal>
+	<TacticalComputer_SwitchToNextColonist>Zum nächsten Kolonisten wechseln.</TacticalComputer_SwitchToNextColonist>
+	<TacticalComputer_SwitchToNextPrisoner>Zum nächsten Gefangenen wechseln.</TacticalComputer_SwitchToNextPrisoner>
+	<TacticalComputer_SwitchToNextEnemy>Zum nächsten Gegner wechseln.</TacticalComputer_SwitchToNextEnemy>
+	<TacticalComputer_SwitchToNextFriendly>Zum nächsten Freund wechseln.</TacticalComputer_SwitchToNextFriendly>
+	<TacticalComputer_SwitchToNextColonyAnimal>Zum nächsten Tier wechseln.</TacticalComputer_SwitchToNextColonyAnimal>
+	<TacticalComputer_CallColonistsToArms>Rufe bewaffnete Kolonisten.</TacticalComputer_CallColonistsToArms>
+	<TacticalComputer_MessageCalledColonists>{0} Kolonisten sind auf dem Weg.</TacticalComputer_MessageCalledColonists>
+	
+	<!-- Tactical Computer - Incident Anomaly -->
+	<TacticalComputer_Message_AnomalyFound>Die Sensoren deines Taktischen Computers haben etwas Ungewöhnliches nur ein paar Tage entfernt erfasst.\n\nWenn du willst, kannst Du ein Team zur Untersuchung hinschicken.</TacticalComputer_Message_AnomalyFound>
+	<TacticalComputer_LetterLabel_AnomalyFound>Anomalie</TacticalComputer_LetterLabel_AnomalyFound>
+	
+	<TacticalComputer_LongRangeAnomalyScannerEfficiency>Effizienz: {0}</TacticalComputer_LongRangeAnomalyScannerEfficiency>
+
+	<TacticalComputer_PlacementRestricter_NoTacticalComputerFound>Kein Taktischer Computer gefunden</TacticalComputer_PlacementRestricter_NoTacticalComputerFound>
+
+
+	<!-- Tactical Computer External Terminal -->
+	<TacticalComputer_CallColonistsToArmsToMe>Rufe bewaffnete Kolonisten.\nZiel: Hier</TacticalComputer_CallColonistsToArmsToMe>
+	<TacticalComputer_CallColonistsToArmsToMainComputer>Rufe bewaffnete Kolonisten.\nZiel: Taktischer Computer</TacticalComputer_CallColonistsToArmsToMainComputer>
+	<TacticalComputer_CallColonistsNotArmedToMe>Rufe unbewaffnete Kolonisten.\nZiel: Hier</TacticalComputer_CallColonistsNotArmedToMe>
+	<TacticalComputer_CallColonistsNotArmedToMainComputer>Rufe unbewaffnete Kolonisten.\nZiel: Taktischer Computer</TacticalComputer_CallColonistsNotArmedToMainComputer>
+	
+	
+</LanguageData>

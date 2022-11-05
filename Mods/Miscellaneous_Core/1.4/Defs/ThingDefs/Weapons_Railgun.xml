@@ -31,7 +31,7 @@
 	</ThingDef>
 
 	<ThingDef Name="BaseGun_MiscCore" Abstract="True" ParentName="BaseWeapon_MiscCore">
-		<techLevel>Industrial</techLevel>
+		<techLevel>spacer</techLevel>
 		<smeltable>true</smeltable>
 		<thingCategories>
 			<li>WeaponsRanged</li>
@@ -122,13 +122,13 @@
 		<soundInteract>Interact_ChargeLance</soundInteract>
 		<statBases>
 			<Mass>6.25</Mass>
-			<MarketValue>1600</MarketValue>
+			<MarketValue>1750</MarketValue>
 			<WorkToMake>200000</WorkToMake>
-			<SellPriceFactor>0.9</SellPriceFactor>
+			<SellPriceFactor>0.8</SellPriceFactor>
 			<AccuracyTouch>0.45</AccuracyTouch>
 			<AccuracyShort>0.76</AccuracyShort>
-			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.90</AccuracyLong>
+			<AccuracyMedium>0.91</AccuracyMedium>
+			<AccuracyLong>0.94</AccuracyLong>
 			<RangedWeapon_Cooldown>3.75</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
@@ -176,8 +176,15 @@
 			<li>SniperRifle</li>
 			<li>SpacerGun</li>
 		</weaponTags>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
 		<thingSetMakerTags>
-			<li>RewardSpecial</li>
+			<li>RewardStandardLowFreq</li>
+			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 	</ThingDef>  
 </Defs>

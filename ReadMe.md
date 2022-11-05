@@ -14,8 +14,8 @@ https://ludeon.com/forums/index.php?topic=3612.0
 - [x] Miscellaneous_Core                        -->   1.4
 - [x] Miscellaneous_BeeAndHoney                 -->   1.4
 - [x] Miscellaneous_EndGame                     -->   1.4
-- [x] Miscellaneous_Incidents                   -->   1.3
-- [x] Miscellaneous_MAI                         -->   1.3
+- [x] Miscellaneous_Incidents                   -->   1.4
+- [ ] Miscellaneous_MAI                         -->   1.3
 - [x] Miscellaneous_MapGenerator                -->   1.4
 - [x] Miscellaneous_MapGenerator 'Urban'        -->   1.4
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.4
