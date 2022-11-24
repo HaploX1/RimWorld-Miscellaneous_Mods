@@ -86,9 +86,9 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
-			<WorkToMake>50000</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MarketValue>2350</MarketValue>
-			<Mass>11</Mass>
+			<Mass>6</Mass>
 			<SellPriceFactor>0.30</SellPriceFactor>
 		</statBases>
 		<costList>
@@ -127,9 +127,9 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Beauty>0</Beauty>
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>4500</WorkToMake>
 			<MarketValue>1950</MarketValue>
-			<Mass>13</Mass>
+			<Mass>8</Mass>
 			<SellPriceFactor>0.30</SellPriceFactor>
 		</statBases>
 		<costList>
