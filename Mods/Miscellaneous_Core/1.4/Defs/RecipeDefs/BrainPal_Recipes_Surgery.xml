@@ -15,7 +15,7 @@
 		<defName>InstallBionicTacticalImplant</defName>
 		<label>install bionic BrainPal</label>
 		<description>Installs a bionic BrainPal.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing bionic BrainPal.</jobString>
 		<workAmount>4000</workAmount>
 		<ingredients>
@@ -57,7 +57,7 @@
 		<defName>InstallElectronicTacticalImplant</defName>
 		<label>install electronic BrainPal</label>
 		<description>Installs an electronic BrainPal.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing electronic BrainPal.</jobString>
 		<workAmount>3500</workAmount>
 		<ingredients>
