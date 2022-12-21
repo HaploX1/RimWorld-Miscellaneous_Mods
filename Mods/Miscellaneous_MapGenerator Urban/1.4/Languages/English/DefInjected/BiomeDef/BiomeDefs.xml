@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<Tundra_UrbanRuins.label>urban ruins in tundra</Tundra_UrbanRuins.label>
+	<Tundra_UrbanRuins.description>These mostly-frozen plains with almost no trees and little vegetation surround the ruins of an ancient dwelling. There are a few small animals interspersed with large herds of migratory grazers and their predators.</Tundra_UrbanRuins.description>
+
 	<BorealForest_UrbanRuins.label>urban ruins in boreal forest</BorealForest_UrbanRuins.label>
 	<BorealForest_UrbanRuins.description>Forests of coniferous trees surround the ruins of an ancient dwelling. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. Snow makes it extremely slow to travel in winter.</BorealForest_UrbanRuins.description>
 	

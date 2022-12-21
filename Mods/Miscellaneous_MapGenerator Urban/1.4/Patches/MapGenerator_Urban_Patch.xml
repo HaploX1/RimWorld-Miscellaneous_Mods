@@ -49,6 +49,12 @@
 		<attribute>Name</attribute>
 		<value>Desert</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="Tundra"]</xpath>
+		<attribute>Name</attribute>
+		<value>Tundra</value>
+	</Operation>
 
 
 </Patch>

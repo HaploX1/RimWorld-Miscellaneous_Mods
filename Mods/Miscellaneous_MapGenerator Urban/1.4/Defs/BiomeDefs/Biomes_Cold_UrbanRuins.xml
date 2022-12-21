@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<BiomeDef ParentName="Tundra">
+		<modExtensions Inherit="false" />
+		<defName>Tundra_UrbanRuins</defName>
+		<label>urban ruins in tundra</label>
+		<description>These mostly-frozen plains with almost no trees and little vegetation surround the ruins of an ancient dwelling. There are a few small animals interspersed with large herds of migratory grazers and their predators.</description>
+		<workerClass>MapGenerator.BiomeWorker_Tundra_UrbanRuins</workerClass>
+		<forageability>0.25</forageability>
+		<texture>World/Biomes/Tundra_UrbanRuins</texture>
+	</BiomeDef>
+
 	<BiomeDef ParentName="BorealForest">
 		<modExtensions Inherit="false" />
 		<defName>BorealForest_UrbanRuins</defName>
