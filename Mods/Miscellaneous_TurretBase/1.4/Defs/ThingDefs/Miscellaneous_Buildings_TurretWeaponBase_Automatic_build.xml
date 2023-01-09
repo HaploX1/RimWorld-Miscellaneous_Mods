@@ -13,6 +13,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
+		<uiIconScale>0.80</uiIconScale>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
@@ -20,7 +21,9 @@
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>300</MarketValue>
+			<Mass>10</Mass>
 			<ShootingAccuracyTurret>0.965</ShootingAccuracyTurret>
+			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -35,7 +38,7 @@
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>350</basePowerConsumption>
+				<basePowerConsumption>100</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -67,13 +70,14 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>45</costStuffCount>
 		<costList>
-			<Steel>75</Steel>
+			<Steel>35</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 		</building>
@@ -112,8 +116,9 @@
 			<WorkToBuild>4500</WorkToBuild>
 			<Mass>22</Mass>
 			<Beauty>-10</Beauty>
-			<ShootingAccuracyTurret>0.989</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.992</ShootingAccuracyTurret>
 		</statBases>
+		<costStuffCount>65</costStuffCount>
 		<researchPrerequisites>
 			<li>ResearchTurretWeaponBaseHighTechTargeting</li>
 		</researchPrerequisites>
@@ -124,5 +129,50 @@
 		<cooldownResearchAddition>250</cooldownResearchAddition>
 	</ThingDef>
 
+	<ThingDef ParentName="BuildingTurretBase_BuildAutoTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<defName>TurretWeaponBaseAutomaticHeavy_Buildable</defName>
+		<label>Heavy Turret Base Automatic</label>
+		<graphicData>
+			<texPath>Things/Building/Turret/TurretBaseWithMaterialMKIV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.95</uiIconScale>
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<MarketValue>1350</MarketValue>
+			<Mass>75</Mass>
+			<Beauty>-10</Beauty>
+			<ShootingAccuracyTurret>0.957</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+
+		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon2_Top</TopMatShortPath>
+		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon2_Top</TopMatMediumPath>
+		<TopMatLongPath>Things/Building/Turret/TurretLargeWeapon2_Top</TopMatLongPath>
+		<priceShortMax>500</priceShortMax>
+		<priceMediumMax>950</priceMediumMax>
+		<usedTopGraphic>ShortMediumLongMat</usedTopGraphic>
+		<cooldownMultiplicator>1.38</cooldownMultiplicator>
+		<cooldownAddition>450</cooldownAddition>
+		<cooldownResearchName>ResearchTurretWeaponBaseAlternateCooldown</cooldownResearchName>
+		<cooldownResearchMultiplicator>1.05</cooldownResearchMultiplicator>
+		<cooldownResearchAddition>250</cooldownResearchAddition>
+	</ThingDef>
 
 </Defs>

@@ -15,12 +15,16 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>3000</WorkToBuild>
 			<MarketValue>350</MarketValue>
-			<Mass>20</Mass>
+			<Mass>10</Mass>
 			<Beauty>-10</Beauty>
+			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
 		</thingCategories>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+		</building>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingTurretBase_MiscTurret" Name="BuildingTurretBase_AutoTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
@@ -35,6 +39,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
+		<uiIconScale>0.80</uiIconScale>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
@@ -59,7 +64,7 @@
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>300</basePowerConsumption>
+				<basePowerConsumption>90</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -93,9 +98,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
-		</building>
 
 		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
 		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon_Top</TopMatMediumPath>
@@ -122,7 +124,7 @@
 			</damageData>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>350</MaxHitPoints>
+			<MaxHitPoints>450</MaxHitPoints>
 			<WorkToBuild>3200</WorkToBuild>
 			<MarketValue>750</MarketValue>
 			<Mass>25</Mass>
@@ -139,9 +141,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
-		</building>
 
 		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
 		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon_Top</TopMatMediumPath>
@@ -173,13 +172,58 @@
 			<MarketValue>1250</MarketValue>
 			<Mass>22</Mass>
 			<Beauty>-10</Beauty>
-			<ShootingAccuracyTurret>0.990</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.996</ShootingAccuracyTurret>
 		</statBases>
 			
 		<cooldownMultiplicator>1.30</cooldownMultiplicator>
 		<cooldownAddition>550</cooldownAddition>
 		<cooldownResearchMultiplicator>1.10</cooldownResearchMultiplicator>
 		<cooldownResearchAddition>210</cooldownResearchAddition>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingTurretBase_AutoTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<defName>TurretWeaponBaseAutomaticHeavy</defName>
+		<label>Heavy Turret Base Automatic</label>
+		<graphicData>
+			<texPath>Things/Building/Turret/TurretBaseWithMaterialMKIV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.95</uiIconScale>
+		<statBases>
+			<MaxHitPoints>790</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<MarketValue>1350</MarketValue>
+			<Mass>75</Mass>
+			<Beauty>-10</Beauty>
+			<ShootingAccuracyTurret>0.958</ShootingAccuracyTurret>
+		</statBases>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>180</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+
+		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon2_Top</TopMatShortPath>
+		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon2_Top</TopMatMediumPath>
+		<TopMatLongPath>Things/Building/Turret/TurretLargeWeapon2_Top</TopMatLongPath>
+		<priceShortMax>500</priceShortMax>
+		<priceMediumMax>950</priceMediumMax>
+		<usedTopGraphic>ShortMediumLongMat</usedTopGraphic>
+		<cooldownMultiplicator>1.35</cooldownMultiplicator>
+		<cooldownAddition>450</cooldownAddition>
+		<cooldownResearchName>ResearchTurretWeaponBaseAlternateCooldown</cooldownResearchName>
+		<cooldownResearchMultiplicator>1.05</cooldownResearchMultiplicator>
+		<cooldownResearchAddition>250</cooldownResearchAddition>
 	</ThingDef>
 
 </Defs>

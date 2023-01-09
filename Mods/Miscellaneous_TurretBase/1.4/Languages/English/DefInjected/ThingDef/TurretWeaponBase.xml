@@ -19,4 +19,10 @@
 	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>Turret Base A MK-III</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.label>
 	<TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>An automatic weapon base. This turret comes with an high-tech targeting system, but without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticHighTechTargeting_Buildable.description>
 	
+	<TurretWeaponBaseAutomaticHeavy.label>Heavy Turret Base A</TurretWeaponBaseAutomaticHeavy.label>
+	<TurretWeaponBaseAutomaticHeavy.description>A heavy automatic weapon base. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticHeavy.description>
+
+	<TurretWeaponBaseAutomaticHeavy_Buildable.label>Heavy Turret Base A</TurretWeaponBaseAutomaticHeavy_Buildable.label>
+	<TurretWeaponBaseAutomaticHeavy_Buildable.description>A heavy automatic weapon base. This turret comes without a gun. You need to install one, before you can use it.</TurretWeaponBaseAutomaticHeavy_Buildable.description>
+	
 </LanguageData>
