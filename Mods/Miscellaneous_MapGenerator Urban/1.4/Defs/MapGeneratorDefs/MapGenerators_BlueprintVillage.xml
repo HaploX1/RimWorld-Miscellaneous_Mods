@@ -21,23 +21,23 @@
 		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage_urban">
 			<allowInWaterBiome>false</allowInWaterBiome>
 			<countPer10kCellsRange>
-				<min>0.40</min>
-				<max>2.70</max>
+				<min>0.60</min>
+				<max>2.90</max>
 			</countPer10kCellsRange>
 			<ruinCountRange>
 				<min>2</min>
 				<max>5</max>
 			</ruinCountRange>
 			<ruinDistanceRange>
-				<min>3</min>
+				<min>2</min>
 				<max>13</max>
 			</ruinDistanceRange>
 			<ruinOffsetHorizontalRange>
-				<min>3</min>
+				<min>2</min>
 				<max>13</max>
 			</ruinOffsetHorizontalRange>
 			<ruinOffsetVerticalRange>
-				<min>3</min>
+				<min>2</min>
 				<max>13</max>
 			</ruinOffsetVerticalRange>
 		</genStep>
