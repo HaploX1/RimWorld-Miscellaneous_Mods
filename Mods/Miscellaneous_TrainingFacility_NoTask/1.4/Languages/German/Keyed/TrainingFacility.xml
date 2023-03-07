@@ -12,4 +12,6 @@
 	
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>Die ausgerüstete Waffe ist zu gefährlich für den Schießstand. {0} wirft lieber ein paar Steine.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
+	<TrainingFacility_CannotUseTooTired>Kann nicht verwendet werden. Zu müde.</TrainingFacility_CannotUseTooTired>
+	
 </LanguageData>

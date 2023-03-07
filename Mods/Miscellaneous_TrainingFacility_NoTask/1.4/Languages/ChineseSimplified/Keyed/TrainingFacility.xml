@@ -9,5 +9,7 @@
 	<TrainingFacility_MeleeWeaponRequired>缺少近战武器</TrainingFacility_MeleeWeaponRequired>
 
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>The equipped weapon is too dangerous for shooting. {0} will throw stones instead.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
+	
+	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
 
 </LanguageData>

@@ -11,4 +11,6 @@
 	
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>A arma equipada é demasiado perigosa para disparar. {0} vai atirar pedras em vez disso.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
+	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	
 </LanguageData>

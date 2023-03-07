@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MiscTraining_CombatTraining.labelShort>Training</MiscTraining_CombatTraining.labelShort>
+	<MiscTraining_CombatTraining.pawnLabel>Trainer</MiscTraining_CombatTraining.pawnLabel>
+	<MiscTraining_CombatTraining.gerundLabel>trainieren</MiscTraining_CombatTraining.gerundLabel>
+	<MiscTraining_CombatTraining.description>Trainiere für den Kampf. Ob der Nah- oder Fernkampf trainiert wird ist abhängig von der Waffe des Benutzers und den verfügbaren Zielen.</MiscTraining_CombatTraining.description>
+	<MiscTraining_CombatTraining.verb>trainiert</MiscTraining_CombatTraining.verb>
+
+</LanguageData>

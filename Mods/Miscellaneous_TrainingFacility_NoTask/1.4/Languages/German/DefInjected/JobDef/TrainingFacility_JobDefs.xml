@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<UseShootingRange.reportString>Verschieße ein paar Kugeln.</UseShootingRange.reportString>
+	<UseShootingRange_NonJoy.reportString>Verschieße ein paar Kugeln.</UseShootingRange_NonJoy.reportString>
+	<UseShootingRange_NonJoy_Work.reportString>Verschieße ein paar Kugeln.</UseShootingRange_NonJoy_Work.reportString>
+	<UseMartialArtsTarget.reportString>Trainiere meine Kampfkunst.</UseMartialArtsTarget.reportString>
+	<UseMartialArtsTarget_NonJoy.reportString>Trainiere meine Kampfkunst.</UseMartialArtsTarget_NonJoy.reportString>
+	<UseMartialArtsTarget_NonJoy_Work.reportString>Trainiere meine Kampfkunst.</UseMartialArtsTarget_NonJoy_Work.reportString>
+
+</LanguageData>

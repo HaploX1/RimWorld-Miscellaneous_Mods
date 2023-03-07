@@ -11,4 +11,6 @@
 	
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>L'arme équipée est trop dangereuse pour être utilisée. Alors, {0} jettera des pierres à la place.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
+	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	
 </LanguageData>
