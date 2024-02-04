@@ -45,6 +45,8 @@
 		<size>(1,1)</size>
 		<statBases>
 			<Flammability>1.0</Flammability>
+			<HypoxiaResistanceOffset MayRequire="kentington.saveourship2">1</HypoxiaResistanceOffset>
+			<DecompressionResistanceOffset MayRequire="kentington.saveourship2">1</DecompressionResistanceOffset>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<tradeTags>

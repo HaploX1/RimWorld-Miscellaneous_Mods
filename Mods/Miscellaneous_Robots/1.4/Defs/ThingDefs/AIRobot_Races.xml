@@ -21,6 +21,9 @@
 			<Mass>15</Mass>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">2</VacuumSpeedMultiplier>
 		</statBases>
 		<receivesSignals>false</receivesSignals>
 		<inspectorTabs>

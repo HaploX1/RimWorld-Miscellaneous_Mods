@@ -34,4 +34,26 @@
 		<forageability>0.05</forageability>
 	</BiomeDef>
 
+	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
+		<defName>ExtremeDesert_UrbanRuins</defName>
+		<label>urban ruins in extreme desert</label>
+		<description>An extremely hot, dry area, devoid of almost all life, but still there are some ruins to be found here. Searing heat and a near total lack of arable land make it very difficult to survive here.</description>
+		<workerClass>MapGenerator.BiomeWorker_ExtremeDesert_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/ExtremeDesert_UrbanRuins</texture>
+		<forageability>0.03</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
+		<defName>AridShrubland_UrbanRuins</defName>
+		<label>urban ruins in arid shrubland</label>
+		<description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</description>
+		<workerClass>MapGenerator.BiomeWorker_AridShrubland_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/AridShrubland_UrbanRuins</texture>
+		<forageability>0.05</forageability>
+	</BiomeDef>
+
 </Defs>

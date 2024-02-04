@@ -55,6 +55,24 @@
 		<attribute>Name</attribute>
 		<value>Tundra</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="ColdBog"]</xpath>
+		<attribute>Name</attribute>
+		<value>ColdBog</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="ExtremeDesert"]</xpath>
+		<attribute>Name</attribute>
+		<value>ExtremeDesert</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="AridShrubland"]</xpath>
+		<attribute>Name</attribute>
+		<value>AridShrubland</value>
+	</Operation>
 
 
 </Patch>

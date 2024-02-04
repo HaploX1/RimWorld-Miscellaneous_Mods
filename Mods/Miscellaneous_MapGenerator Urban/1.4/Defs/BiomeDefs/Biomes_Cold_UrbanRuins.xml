@@ -32,4 +32,15 @@
 		<texture>World/Biomes/IceSheet_UrbanRuins</texture>
 	</BiomeDef>
 
+	<BiomeDef ParentName="IceSheet">
+		<modExtensions Inherit="false" />
+		<defName>ColdBog_UrbanRuins</defName>
+		<label>urban ruins in cold bog</label>
+		<description>A wetland packed with trees and vines surround the ruins of an ancient dwelling. Much of the marshy land here can't support heavy structures, moving around is slow due to choking vegetation. Disease is endemic in this dense, wet ecosystem.</description>
+		<workerClass>MapGenerator.BiomeWorker_ColdBog_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<forageability>0.75</forageability>
+		<texture>World/Biomes/ColdBog_UrbanRuins</texture>
+	</BiomeDef>
+
 </Defs>

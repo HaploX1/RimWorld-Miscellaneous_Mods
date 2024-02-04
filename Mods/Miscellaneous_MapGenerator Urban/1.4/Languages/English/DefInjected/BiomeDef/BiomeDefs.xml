@@ -23,4 +23,13 @@
 	<Desert_UrbanRuins.label>urban ruins in the desert</Desert_UrbanRuins.label>
 	<Desert_UrbanRuins.description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</Desert_UrbanRuins.description>
 	
+	<ColdBog_UrbanRuins.label>urban ruins in cold bog</ColdBog_UrbanRuins.label>
+	<ColdBog_UrbanRuins.description>A wetland packed with trees and vines surround the ruins of an ancient dwelling. Much of the marshy land here can't support heavy structures, moving around is slow due to choking vegetation. Disease is endemic in this dense, wet ecosystem.</ColdBog_UrbanRuins.description>
+	
+	<ExtremeDesert_UrbanRuins.label>urban ruins in extreme desert</ExtremeDesert_UrbanRuins.label>
+	<ExtremeDesert_UrbanRuins.description>An extremely hot, dry area, devoid of almost all life, but still there are some ruins to be found here. Searing heat and a near total lack of arable land make it very difficult to survive here.</ExtremeDesert_UrbanRuins.description>
+	
+	<AridShrubland_UrbanRuins.label>urban ruins in arid shrubland</AridShrubland_UrbanRuins.label>
+	<AridShrubland_UrbanRuins.description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</AridShrubland_UrbanRuins.description>
+	
 </LanguageData>
