@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<NanoPrinter.label>Нано-принтер</NanoPrinter.label>
+	<NanoPrinter.description>Нано-принтер может изготавливать копии объектов. Примечани: качество копий может быть не самым лучшим.</NanoPrinter.description>:
+
+	<NanoScanner.label>Нано-сканер</NanoScanner.label>
+	<NanoScanner.description>Позволяет нано-принтеру сканировать внутреннюю структуру объектов.</NanoScanner.description>
+
+</LanguageData>

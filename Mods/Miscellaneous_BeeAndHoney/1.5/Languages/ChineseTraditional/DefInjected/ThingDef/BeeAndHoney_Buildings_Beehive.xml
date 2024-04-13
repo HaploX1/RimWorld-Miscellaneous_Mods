@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work tables -->
+
+  <Misc_Beehive.label>蜂箱</Misc_Beehive.label>
+  <Misc_Beehive.description>這是一個供蜜蜂生活繁衍的封閉結構。你的殖民者可以從中收穫蜂蜜。</Misc_Beehive.description>
+  <Misc_Beehive_Blueprint.label>蜂箱（藍圖）</Misc_Beehive_Blueprint.label>
+  <Misc_Beehive_Blueprint_Install.label>蜂箱（藍圖）</Misc_Beehive_Blueprint_Install.label>
+  <Misc_Beehive_Frame.label>蜂箱（建造中）</Misc_Beehive_Frame.label>
+  <Misc_Beehive_Frame.description>這是一個供蜜蜂生活繁衍的封閉結構。你的殖民者可以從中收穫蜂蜜。</Misc_Beehive_Frame.description>
+
+
+</LanguageData>

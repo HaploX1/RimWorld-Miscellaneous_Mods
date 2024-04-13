@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<WeaponRepair_NotAssignedToWorkType>Nicht möglich (ist kein {0})</WeaponRepair_NotAssignedToWorkType>
+	<WeaponRepair_NoRepairTableFound>Keine Mechanik Werkbank vorhanden</WeaponRepair_NoRepairTableFound>
+	<WeaponRepair_NoWeaponTwinFound>Keine zweite Waffe verfügbar</WeaponRepair_NoWeaponTwinFound>
+	<WeaponRepair_RepairWeapon>Repariere mit zweiter Waffe</WeaponRepair_RepairWeapon>
+	
+</LanguageData>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="BuildingTurretMBase_MiscTurret" Abstract="True" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>3200</WorkToBuild>
+			<Beauty>-10</Beauty>
+			<Mass>40</Mass>
+		</statBases>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingTurretMBase_MiscTurret" Class="TurretWeaponBase.ThingDef_TurretWeaponBase">
+		<defName>TurretWeaponBaseMannable</defName>
+		<label>Turret Base</label>
+		<thingClass>TurretWeaponBase.Building_TurretWeaponBase</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Turret/TurretBaseManualWithMaterial</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<ShootingAccuracyTurret>0.975</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<description>A manned turret controlling a fixed weapon.</description>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.75</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Steel>100</Steel>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+		</building>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+
+		<TopMatShortPath>Things/Building/Turret/TurretSmallWeapon_Top</TopMatShortPath>
+		<TopMatMediumPath>Things/Building/Turret/TurretMediumWeapon_Top</TopMatMediumPath>
+		<TopMatLongPath>Things/Building/Turret/TurretLargeWeapon_Top</TopMatLongPath>
+		<priceShortMax>400</priceShortMax>
+		<priceMediumMax>750</priceMediumMax>
+		<usedTopGraphic>ShortMediumLongMat</usedTopGraphic>
+		<cooldownMultiplicator>1.15</cooldownMultiplicator>
+		<cooldownAddition>120</cooldownAddition>
+		<cooldownResearchName>ResearchTurretWeaponBaseAlternateCooldown</cooldownResearchName>
+		<cooldownResearchMultiplicator>1.02</cooldownResearchMultiplicator>
+		<cooldownResearchAddition>80</cooldownResearchAddition>
+	</ThingDef>
+
+</Defs>

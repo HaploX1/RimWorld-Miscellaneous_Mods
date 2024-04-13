@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Nano Printer -->
+  <NanoPrinter_Error>错误</NanoPrinter_Error>
+  <NanoPrinter_ErrorDescr>发生了错误。点击以重置。</NanoPrinter_ErrorDescr>
+  <NanoPrinter_Start>开始</NanoPrinter_Start>
+  <NanoPrinter_Stop>停止</NanoPrinter_Stop>
+  <NanoPrinter_ScanningNoHoppersFound>扫描仪未连接。</NanoPrinter_ScanningNoHoppersFound>
+  <NanoPrinter_ScanningNoItemsFound>扫描仪上未放置物品。</NanoPrinter_ScanningNoItemsFound>
+  <NanoPrinter_ActiveBlueprint>已扫描装备：</NanoPrinter_ActiveBlueprint>
+  <NanoPrinter_ActiveStatus>状态：</NanoPrinter_ActiveStatus>
+
+  <NanoPrinterStatus_Idle>闲置</NanoPrinterStatus_Idle>
+  <NanoPrinterStatus_Paused>暂停</NanoPrinterStatus_Paused>
+  <NanoPrinterStatus_Scanning>扫描中</NanoPrinterStatus_Scanning>
+  <NanoPrinterStatus_Gathering>需要材料</NanoPrinterStatus_Gathering>
+  <NanoPrinterStatus_Printing>打印中</NanoPrinterStatus_Printing>
+  <NanoPrinterStatus_Error>错误！</NanoPrinterStatus_Error>
+
+  <!-- Nano Scanner -->
+  <NanoScanner_MustPlaceNextToNanoPrinter>必须放置于纳米打印机旁。</NanoScanner_MustPlaceNextToNanoPrinter>
+
+</LanguageData>

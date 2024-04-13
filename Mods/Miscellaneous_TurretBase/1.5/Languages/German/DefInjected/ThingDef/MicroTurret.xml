@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<MicroTurretMKI.label>Mikro Geschütz</MicroTurretMKI.label>
+	<MicroTurretMKI.description>Ein miniatur Geschütz das automatisch auf nahe Gegner schießt. Die Mikro-KI ist nicht sonderlich klug und kann nicht direkt gesteuert werden, also achte auf Friendly-Fire.</MicroTurretMKI.description>
+	
+	<Bullet_MicroTurretMKI.label>Mikro Geschütz-Kugel</Bullet_MicroTurretMKI.label>
+	
+	<Gun_MicroTurretMKI.label>Mikro Geschütz</Gun_MicroTurretMKI.label>
+	<Gun_MicroTurretMKI.description>Ein mikro Geschütz, das auf einem Mikro Geschützturm sitzt.</Gun_MicroTurretMKI.description>
+	
+	<Bullet_MicroThingSpawnerMKI.label>Mikro Geschütz Nanobots</Bullet_MicroThingSpawnerMKI.label>
+	
+	<Gun_MicroTurretLauncher.label>Mikro Geschütz-Werfer</Gun_MicroTurretLauncher.label>
+	<Gun_MicroTurretLauncher.description>Ein Werfer für Mikro Geschütze. Die Projektile verursachen fast keinen Schaden, aber die Nanobots bauen ein Mikro Geschütz nahe dem Einschlagsort.</Gun_MicroTurretLauncher.description>
+	
+	
+</LanguageData>
