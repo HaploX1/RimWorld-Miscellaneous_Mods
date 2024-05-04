@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MapGeneratorDef[@Name = "MapCommonBase"]/genSteps</xpath>
+		<value>
+			<li>ScatterBlueprintSimple_urban</li>
+			<li>ScatterBlueprintVillage_urban</li>
+		</value>
+	</Operation>
+
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/BiomeDef[defName="BorealForest"]</xpath>
+		<attribute>Name</attribute>
+		<value>BorealForest</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TemperateForest"]</xpath>
+		<attribute>Name</attribute>
+		<value>TemperateForest</value>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TemperateSwamp"]</xpath>
+		<attribute>Name</attribute>
+		<value>TemperateSwamp</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TropicalRainforest"]</xpath>
+		<attribute>Name</attribute>
+		<value>TropicalRainforest</value>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="TropicalSwamp"]</xpath>
+		<attribute>Name</attribute>
+		<value>TropicalSwamp</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="IceSheet"]</xpath>
+		<attribute>Name</attribute>
+		<value>IceSheet</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="Desert"]</xpath>
+		<attribute>Name</attribute>
+		<value>Desert</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="Tundra"]</xpath>
+		<attribute>Name</attribute>
+		<value>Tundra</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="ColdBog"]</xpath>
+		<attribute>Name</attribute>
+		<value>ColdBog</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="ExtremeDesert"]</xpath>
+		<attribute>Name</attribute>
+		<value>ExtremeDesert</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>*/BiomeDef[defName="AridShrubland"]</xpath>
+		<attribute>Name</attribute>
+		<value>AridShrubland</value>
+	</Operation>
+
+
+</Patch>
+

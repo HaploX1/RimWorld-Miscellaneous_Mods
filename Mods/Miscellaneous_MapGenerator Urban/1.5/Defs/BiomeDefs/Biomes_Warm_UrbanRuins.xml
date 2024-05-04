@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BiomeDef ParentName="TropicalRainforest">
+		<modExtensions Inherit="false" />
+		<defName>TropicalRainforest_UrbanRuins</defName>
+		<label>urban ruins in tropical rainforest</label>
+		<description>A thick, moist jungle surround the ruins of an ancient dwelling. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant disease are why some explorers call this the "green hell".</description>
+		<workerClass>MapGenerator.BiomeWorker_TropicalRainforest_UrbanRuins</workerClass>
+		<movementDifficulty>1.5</movementDifficulty>
+		<texture>World/Biomes/TropicalRainforest_UrbanRuins</texture>
+		<forageability>1</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="TropicalSwamp">
+		<modExtensions Inherit="false" />
+		<defName>TropicalSwamp_UrbanRuins</defName>
+		<label>urban ruins in tropical swamp</label>
+		<description>A thick jungle with lots of marsh and mud surround the ruins of an ancient dwelling. Difficult movement, little space to build heavy structures, aggresive animals, and constant diseases make living here a nightmare.</description>
+		<workerClass>MapGenerator.BiomeWorker_TropicalSwamp_UrbanRuins</workerClass>
+		<movementDifficulty>3</movementDifficulty>
+		<texture>World/Biomes/TropicalSwamp_UrbanRuins</texture>
+		<forageability>0.75</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
+		<defName>Desert_UrbanRuins</defName>
+		<label>urban ruins in the desert</label>
+		<description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</description>
+		<workerClass>MapGenerator.BiomeWorker_Desert_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/Desert_UrbanRuins</texture>
+		<forageability>0.05</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
+		<defName>ExtremeDesert_UrbanRuins</defName>
+		<label>urban ruins in extreme desert</label>
+		<description>An extremely hot, dry area, devoid of almost all life, but still there are some ruins to be found here. Searing heat and a near total lack of arable land make it very difficult to survive here.</description>
+		<workerClass>MapGenerator.BiomeWorker_ExtremeDesert_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/ExtremeDesert_UrbanRuins</texture>
+		<forageability>0.03</forageability>
+	</BiomeDef>
+
+	<BiomeDef ParentName="Desert">
+		<modExtensions Inherit="false" />
+		<defName>AridShrubland_UrbanRuins</defName>
+		<label>urban ruins in arid shrubland</label>
+		<description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</description>
+		<workerClass>MapGenerator.BiomeWorker_AridShrubland_UrbanRuins</workerClass>
+		<movementDifficulty>1.25</movementDifficulty>
+		<texture>World/Biomes/AridShrubland_UrbanRuins</texture>
+		<forageability>0.05</forageability>
+	</BiomeDef>
+
+</Defs>

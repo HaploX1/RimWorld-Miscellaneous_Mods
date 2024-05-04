@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Blueprint Faction Base -->
+	<GenStepDef>
+		<defName>FactionBase</defName>
+		<order>400</order>
+		<genStep Class="MapGenerator.Genstep_CreateBlueprintBase">
+			<count>1</count>
+			<nearMapCenter>true</nearMapCenter>
+			<randomlyUseVanilla>true</randomlyUseVanilla>
+		</genStep>
+	</GenStepDef>
+
+</Defs>

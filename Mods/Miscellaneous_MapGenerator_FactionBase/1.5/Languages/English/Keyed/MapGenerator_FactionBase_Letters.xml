@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MapGenerator_FactionBase_Header_ProvidedBy>MapInfo</MapGenerator_FactionBase_Header_ProvidedBy>
+	<MapGenerator_FactionBase_Body_ProvidedBy>This map was brought to you by {0}.</MapGenerator_FactionBase_Body_ProvidedBy>
+
+</LanguageData>

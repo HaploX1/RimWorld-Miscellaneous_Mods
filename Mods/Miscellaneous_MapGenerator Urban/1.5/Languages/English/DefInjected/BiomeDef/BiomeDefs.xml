@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Tundra_UrbanRuins.label>urban ruins in tundra</Tundra_UrbanRuins.label>
+	<Tundra_UrbanRuins.description>These mostly-frozen plains with almost no trees and little vegetation surround the ruins of an ancient dwelling. There are a few small animals interspersed with large herds of migratory grazers and their predators.</Tundra_UrbanRuins.description>
+
+	<BorealForest_UrbanRuins.label>urban ruins in boreal forest</BorealForest_UrbanRuins.label>
+	<BorealForest_UrbanRuins.description>Forests of coniferous trees surround the ruins of an ancient dwelling. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. Snow makes it extremely slow to travel in winter.</BorealForest_UrbanRuins.description>
+	
+	<IceSheet_UrbanRuins.label>urban ruins on ice sheets</IceSheet_UrbanRuins.label>
+	<IceSheet_UrbanRuins.description>Sheets of ice which can be kilometers thick the ruins of an ancient dwelling. There is no soil for plants to grow in. The only animals here are migrating to somewhere else - or badly lost.</IceSheet_UrbanRuins.description>
+	
+	<TemperateForest_UrbanRuins.label>urban ruins in temperate forest</TemperateForest_UrbanRuins.label>
+	<TemperateForest_UrbanRuins.description>Forests of deciduous trees surround the ruins of an ancient dwelling. Ancient structures that survived the forces of nature.</TemperateForest_UrbanRuins.description>
+	<TemperateSwamp_UrbanRuins.label>urban ruins in temperate swamp</TemperateSwamp_UrbanRuins.label>
+	<TemperateSwamp_UrbanRuins.description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures.</TemperateSwamp_UrbanRuins.description>
+	
+	<TropicalRainforest_UrbanRuins.label>urban ruins in tropical rainforest</TropicalRainforest_UrbanRuins.label>
+	<TropicalRainforest_UrbanRuins.description>A thick, moist jungle surround the ruins of an ancient dwelling. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant disease are why some explorers call this the "green hell".</TropicalRainforest_UrbanRuins.description>
+	<TropicalSwamp_UrbanRuins.label>urban ruins in tropical swamp</TropicalSwamp_UrbanRuins.label>
+	<TropicalSwamp_UrbanRuins.description>A thick jungle with lots of marsh and mud surround the ruins of an ancient dwelling. Difficult movement, little space to build heavy structures, aggresive animals, and constant diseases make living here a nightmare.</TropicalSwamp_UrbanRuins.description>
+	
+	<Desert_UrbanRuins.label>urban ruins in the desert</Desert_UrbanRuins.label>
+	<Desert_UrbanRuins.description>A very dry area which supports little life surround the ruins of an ancient dwelling. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</Desert_UrbanRuins.description>
+	
+	<ColdBog_UrbanRuins.label>urban ruins in cold bog</ColdBog_UrbanRuins.label>
+	<ColdBog_UrbanRuins.description>A wetland packed with trees and vines surround the ruins of an ancient dwelling. Much of the marshy land here can't support heavy structures, moving around is slow due to choking vegetation. Disease is endemic in this dense, wet ecosystem.</ColdBog_UrbanRuins.description>
+	
+	<ExtremeDesert_UrbanRuins.label>urban ruins in extreme desert</ExtremeDesert_UrbanRuins.label>
+	<ExtremeDesert_UrbanRuins.description>An extremely hot, dry area, devoid of almost all life, but still there are some ruins to be found here. Searing heat and a near total lack of arable land make it very difficult to survive here.</ExtremeDesert_UrbanRuins.description>
+	
+	<AridShrubland_UrbanRuins.label>urban ruins in arid shrubland</AridShrubland_UrbanRuins.label>
+	<AridShrubland_UrbanRuins.description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</AridShrubland_UrbanRuins.description>
+	
+</LanguageData>

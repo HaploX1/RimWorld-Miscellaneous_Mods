@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_Room1Base1">
+		<defName>Zymex_Room1_w_holes</defName>
+		<chance>13</chance>
+		<size>(13, 13)</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>false</createTrigger>
+		<buildingData>
+aaaaaaaaaaaaa
+a....a......a
+a....a......a
+a....b......a
+a....a......a
+aaaaaa......a
+.....a......a
+.....b......a
+.....a......a
+.....a......a
+.....a......a
+.....a......a
+.....aaaaaaaa
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Door</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>1</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+		</floorData>
+		<floorLegend />
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="Zymex_Room1Base1">
+		<defName>Zymex_Room1_wo_holes</defName>
+		<chance>7</chance>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+</Defs>

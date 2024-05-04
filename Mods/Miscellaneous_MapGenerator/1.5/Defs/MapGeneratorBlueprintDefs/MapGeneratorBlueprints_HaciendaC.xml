@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<MapGenerator.MapGeneratorBlueprintDef Name="HaciendaCBase">
+		<defName>HaciendaC_w_holes</defName>
+		<chance>15</chance>
+		<size>16,20</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>true</createTrigger>
+		<buildingData>
+			....wwwwwwwwwww.
+			...ww.........ww
+			...w...........w
+			...w...........w
+			...w...........w
+			...ww.........ww
+			....wwwwwdwwwww.
+			................
+			................
+			wwwwwwww........
+			w......w........
+			w......w........
+			w......d........
+			w......w........
+			w......wwdwwwdww
+			w......w...w...w
+			w......w...w...w
+			w......w...w...w
+			w......w...w...w
+			wwwwwwwwwwwwwwww
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>w</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Door</value>
+			</li>
+		</buildingLegend>
+		<floorData>
+			....wwwwwwwwwww.
+			...ww.........ww
+			...w...........w
+			...w...........w
+			...w...........w
+			...ww.........ww
+			....wwwwwcwwwww.
+			.........c......
+			.........c..www.
+			wwwwwwww.cccwow.
+			w......w.c..www.
+			w......w.c......
+			w......cccccc...
+			w......w.c...c..
+			w......wwcwwwcww
+			w......w...w...w
+			w......w...w...w
+			w......w...w...w
+			w......w...w...w
+			wwwwwwwwwwwwwwww
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>c</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>WaterShallow</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>TileGranite</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>TileSlate</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>SoilRich</value>
+			</li>
+		</floorLegend>
+	</MapGenerator.MapGeneratorBlueprintDef>
+		
+		
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="HaciendaCBase">
+		<defName>HaciendaC_wo_holes</defName>
+		<chance>7</chance>
+		<createTrigger>true</createTrigger>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+
+		
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="HaciendaCBase">
+		<defName>HaciendaC_wo_holes_w_enemies</defName>
+		<chance>5</chance>
+		<createTrigger>true</createTrigger>
+		<canHaveHoles>false</canHaveHoles>
+		<pawnData>
+			....wwwwwwwwwww.
+			...ww.......s.ww
+			...w...........w
+			...w...........w
+			...w...........w
+			...ww.........ww
+			....wwwwwdwwwww.
+			................
+			................
+			wwwwwwww........
+			w......w........
+			w......w........
+			w......d........
+			w......w........
+			w......wwdwwwdww
+			w......w...w...w
+			w......w...w...w
+			w.s....w...w...w
+			w......w...w...w
+			wwwwwwwwwwwwwwww
+		</pawnData>
+		<pawnLegend>
+			<li>
+				<key>s</key>
+				<value>Mech_Scyther</value>
+			</li>
+		</pawnLegend>
+		<pawnSpawnChance>25</pawnSpawnChance>
+		<factionDef>Mechanoid</factionDef>
+		<itemData>
+			....wwwwwwwwwww.
+			...ww.......11ww
+			...w...........w
+			...w...........w
+			...w...........w
+			...ww.........ww
+			....wwwwwdwwwww.
+			................
+			................
+			wwwwwwww........
+			w......w........
+			w......w........
+			w......d........
+			w......w........
+			w......wwdwwwdww
+			w......w...w...w
+			w......w...w...w
+			w......w...w...w
+			w11...1w...w...w
+			wwwwwwwwwwwwwwww
+		</itemData>
+		<itemLegend>
+			<li>
+				<key>1</key>
+				<value>Silver</value>
+			</li>
+		</itemLegend>
+		<itemSpawnChance>35</itemSpawnChance>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+
+
+
+</Defs>

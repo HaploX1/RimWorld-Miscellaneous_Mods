@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_Garage1Base1">
+		<defName>Zymex_Garage1_w_holes</defName>
+		<chance>13</chance>
+		<size>(14, 5)</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>false</createTrigger>
+		<buildingData>
+aaaaaaaaaaaa..
+a..b......a...
+a..a......a...
+a..a..aa..a...
+aaaaccaaccaa..
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>Door</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+...........ccc
+.aaabbbbbb.ccc
+.aa.bbbbbb.ccc
+.aa.bbbbbb.ccc
+....bbbbbb.ccc
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>FlagstoneSlate</value>
+			</li>
+		</floorLegend>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="Zymex_Garage1Base1">
+		<defName>Zymex_Garage1_wo_holes</defName>
+		<chance>7</chance>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+</Defs>

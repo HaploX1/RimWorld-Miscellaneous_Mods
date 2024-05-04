@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EndGameWarning>Zwei Monde bringen Angst und Blut,\nZwei Monde zu brechen deinen Mut.\nDenn wenn du bestehest des Krieges Schrei,\nSo sei selbst der ärmste Sklave frei..\n\nVor einer Weile hast du eine alte Schriftrolle mit der Anweisung erhalten, wie dein Aussenposten durch Ausrufen eines speziellen Ausnahmezustandes das Recht einer international anerkannten Stadt erhalten kann.\n\nDu stehst jetzt so kurz davor. Nur noch ein paar Monate und alles wofür du gekämpft und gelitten hast bekommt endlich einen Sinn..\n\n\nAchtung --> Die Übertragung wird all deine Gegner dazu veranlassen dich anzugreifen um genau dieses zu verhindern!\n\n\nSoll die Übertragung gesendet werden?</EndGameWarning>
+	<EndGame_RemainingTime>Verbleibende Zeit {0}</EndGame_RemainingTime>
+	
+	<CommandStartEndGame>Aktivieren</CommandStartEndGame>
+	<CommandStartEndGameDesc>Zwei Monde bringen Angst und Blut,\nZwei Monde zu brechen deinen Mut.\nDenn wenn du bestehest des Krieges Schrei,\nSo sei selbst der ärmste Sklave frei..</CommandStartEndGameDesc>
+	<CommandStartEndGame_DisabledReason>Das Signal kann nicht aktiviert werden.</CommandStartEndGame_DisabledReason>
+	
+	<EndGame_Victory>Zwei Monde bringen Angst und Blut,\nZwei Monde zu brechen deinen Mut.\nDenn wenn du bestehest des Krieges Schrei,\nSo sei selbst der ärmste Sklave frei..\n\n\nSieg!\n\nDu hast den Ansturm über die notwendige Zeit überstanden und kannst jetzt deinen Preis einfordern: Dein kleiner Aussenposten hat endlich das Recht erworben offiziell eine Stadt zu sein!\nBald werden Karavanen ankommen, die neue Siedler und Händler bringen. Und unsere Stadt wird noch weiter wachsen und gedeihen!\n\nDie folgenden Kolonisten sind jetzt, gemäß dem Recht des Siegers, vollwärtige Bürger:\n\n{0}\n\nUnd sie lebten glücklich und zufrieden bis ans Ende.. ihrer.. .. Tage.. .. .. ?!?\n\n\n**KREEEIIIIIIIIIIIIIISCH**</EndGame_Victory>
+	
+</LanguageData>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBlueprintDef Name="Zymex_CastleRuin1Base1">
+		<defName>Zymex_CastleRuin1_w_holes</defName>
+		<chance>10</chance>
+		<size>(27, 27)</size>
+		<canHaveHoles>true</canHaveHoles>
+		<createTrigger>false</createTrigger>
+		<buildingData>
+...........................
+...........................
+..aa.aa.............aaaaa..
+.aa...aa...........aa...aa.
+.a.....aaaaa...aaaaa.......
+.a.........a...a...a.....a.
+.a.....aaaa....aaaaa.....a.
+.aa...aa...........aa...aa.
+..aaaaa.............aa.aa..
+...a.a...............a.a...
+...a.a...............a.a...
+...a.a...............a.....
+...a.................a.a...
+...a......aaa.aaaa...a.a...
+...a.a...........a...a.a...
+...a.a...............a.a...
+...a.a...a.......a...a.a...
+...a.a...a.......a...a.a...
+...a.a...a.aaa.aaa.....a...
+...a.a...............a.a...
+..aaaaa.............aaaaa..
+.aa...aa...........aa...a..
+.a.....aa.aaaaaaaaaa.......
+.......a...........a.....a.
+.a.....aaaaaaaa.aaaa.....a.
+.aa...aa...........aa...aa.
+..aaaaa.............aa..a..
+		</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Wall</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+............bb.............
+aaaaaaaaa...bbb...aaaaaaaaa
+a.......a....bb...a.......a
+a.bbbbb.aaaabbbaaaa.bbbbb.a
+a.bbbbb.....bbb.....bbbbb.a
+..b.bbbbbbbbbbbbbbb.bb.bb.a
+..bbbbb.....bbb.....b..bb..
+..bbbbbbbbbbbbbbbbb.bbbbb..
+......bbbbbbbbbb.bb...b....
+....b.bbbbbbbbbb..bbb.b....
+....b.bbb.bbbbbbb.bbbcb....
+....b.b...bbbbbbbbbbbcb....
+....b.b..bbbbbbbbbbbbcb....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbbbbbbbbbb.b....
+....b.bbbbbbb.bbbbbbb.b....
+........bbbbb...bbbbb.b....
+..bbbbb.bbbbbbbbbbbbbbbbb..
+..bbbbb.............bbbbb..
+..bbbbb.bbbbbbbbbbbbbbbbb..
+..bbbbb.............bbbbb..
+..bbbbb.............bbbbb..
+...........................
+		</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>WaterShallow</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>FlagstoneSlate</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>TileSlate</value>
+			</li>
+		</floorLegend>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+	<MapGenerator.MapGeneratorBlueprintDef ParentName="Zymex_CastleRuin1Base1">
+		<defName>Zymex_CastleRuin1_wo_holes</defName>
+		<chance>7</chance>
+		<canHaveHoles>false</canHaveHoles>
+	</MapGenerator.MapGeneratorBlueprintDef>
+	
+</Defs>
