@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- artificial - bionics -->
+
+  <BionicTacticalImplant.label>仿生大腦芯片</BionicTacticalImplant.label>
+  <BionicTacticalImplant.description>將先進的仿生電腦完美地植入人類的大腦中。</BionicTacticalImplant.description>
+
+  <ElectronicTacticalImplant.label>電子大腦芯片</ElectronicTacticalImplant.label>
+  <ElectronicTacticalImplant.description>帶有與大腦間接口的先進電腦。</ElectronicTacticalImplant.description>
+
+
+</LanguageData>

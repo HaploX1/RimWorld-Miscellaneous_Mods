@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Colonist Groups -->
+  <ColonistGroups_GroupSaved>{1}位殖民者已添加進編組{0}。</ColonistGroups_GroupSaved>
+  <ColonistGroups_GroupNotSet_PositionMode>編組{0}為空。使用快捷鍵Shift+{1}將徵召的殖民者添加進編組。</ColonistGroups_GroupNotSet_PositionMode>
+  <ColonistGroups_GroupInvalid_PositionMode>編組{0}為空。需要徵召的殖民者。</ColonistGroups_GroupInvalid_PositionMode>
+  <ColonistGroups_GroupNotSet_SelectionMode>編組{0}為空。使用快捷鍵Shift+{1}將選定的殖民者添加進編組。</ColonistGroups_GroupNotSet_SelectionMode>
+  <ColonistGroups_GroupInvalid_SelectionMode>編組{0}為空。需要選定的殖民者。</ColonistGroups_GroupInvalid_SelectionMode>
+  <ColonistGroups_GroupPositioned>編組{0}正在集合。</ColonistGroups_GroupPositioned>
+  <ColonistGroups_GroupSelected>編組{0}已選定。</ColonistGroups_GroupSelected>
+  <ColonistGroups_PawnsUndrafted>解散無任務活動的殖民者。</ColonistGroups_PawnsUndrafted>
+  <ColonistGroups_GroupSelectionActive>切換為「編組模式」</ColonistGroups_GroupSelectionActive>
+  <ColonistGroups_GroupPositioningActive>切換為「集合模式」。</ColonistGroups_GroupPositioningActive>
+
+  <!-- Colonist Groups: Help Screen -->
+  <ColonistGroups_GameStartHelp_prt1>綜合類：殖民者編組</ColonistGroups_GameStartHelp_prt1>
+  <ColonistGroups_GameStartHelp_prt2>按鍵6、7、8、9可用於定義編組和集合位置。\n使用方法如下：\n徵召你想定義編組和集合位置的殖民者，並命令他們到達目標位置。選中你想添加進編組的人，按下Shift+6（編入編組1）。\n你的徵召的位置和選定的殖民者就被添加進編組了。\n按下數字鍵6即可將編組內的殖民者召集到預定位置。數字鍵6、7、8、9的用法相同。\n\n注意：只有「集合模式」（通過Shift+0切換）下，才能徵召殖民者並自主集合。</ColonistGroups_GameStartHelp_prt2>
+  <ColonistGroups_GameStartHelp_prt3>按鍵0有兩種功能：\n單獨按下時，徵召的殖民者中，沒有活動任務的將會解散。\n而同時按下Shift+0，則可以讓召集模式在「集合」和「編組」兩種模式間切換。編組模式為單純徵召殖民者，而不會自主前往集合位置。集合模式則會徵召殖民者並讓他們自主前往集合位置。\n\n按下退格鍵（Backspace）可以在居住區範圍內隨機跳轉鏡頭。\n相當於「跳轉至殖民地按鈕」\n\n所有快捷鍵都可以在「菜單」-「按鍵設置」中修改。</ColonistGroups_GameStartHelp_prt3>
+  <ColonistGroups_GameStartHelp_openHelp>你可以按下Shift+K打開本幫助。</ColonistGroups_GameStartHelp_openHelp>
+  <ColonistGroups_Letter_InfoOpenHelp>信息</ColonistGroups_Letter_InfoOpenHelp>
+  <ColonistGroups_Message_InfoOpenHelp>你可以隨時打開「綜合類：殖民者編組」的幫助。\n\n只需按下Shift+K即可。\n\n</ColonistGroups_Message_InfoOpenHelp>
+
+
+</LanguageData>

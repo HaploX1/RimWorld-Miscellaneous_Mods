@@ -32,8 +32,7 @@
 		<li>Haplo.Miscellaneous.MapGenerator</li>
 	</loadAfter>
 	<incompatibleWith></incompatibleWith>
-	<description>*** You must load Miscellaneous CORE first for this to work without errors! ***
-*** You must load Miscellaneous MapGenerator BEFORE this to work! ***
+	<description>*** You must load Miscellaneous MapGenerator BEFORE this to work! ***
 	
 This will provide biomes with an urban like map from the blueprints provided in Misc MapGenerator.
 
@@ -51,6 +50,6 @@ Note: You can increase the occurence of urban ruins in the mod settings of Misc.
 Because of how it works, it sometimes may happen that you get attacked by Mechanoids or Insects shortly after the start!
 
 
-(Version: 1.5.0)
+(Version: 1.5.1)
 	</description>
 </ModMetaData>

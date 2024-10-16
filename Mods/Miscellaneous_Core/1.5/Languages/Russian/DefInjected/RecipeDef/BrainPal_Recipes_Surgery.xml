@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<InstallBionicTacticalImplant.label>вживить бионический мозговой имплант</InstallBionicTacticalImplant.label>
+	<InstallBionicTacticalImplant.description>Вживить бионический мозговой имплант.</InstallBionicTacticalImplant.description>
+	<InstallBionicTacticalImplant.jobString>Вживляет бионический мозговой имплант.</InstallBionicTacticalImplant.jobString>
+
+	<InstallElectronicTacticalImplant.label>вживить электронный мозговой имплант</InstallElectronicTacticalImplant.label>
+	<InstallElectronicTacticalImplant.description>Вживить электронный мозговой имплант.</InstallElectronicTacticalImplant.description>
+	<InstallElectronicTacticalImplant.jobString>Вживляет электронный мозговой имплант.</InstallElectronicTacticalImplant.jobString>
+
+</LanguageData>
