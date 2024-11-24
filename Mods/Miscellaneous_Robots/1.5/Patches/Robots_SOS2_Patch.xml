@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+      <!-- https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131 OR https://github.com/KentHaeger/SaveOurShip2 -->
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[(HypoxiaResistance)]</xpath>
+			<match Class="PatchOperationReplace">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases/HypoxiaResistance/text()</xpath>
+				<value>1</value>
+			</match>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[(DecompressionResistance)]</xpath>
+			<match Class="PatchOperationReplace">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases/DecompressionResistance/text()</xpath>
+				<value>1</value>
+			</match>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[(VacuumSpeedMultiplier)]</xpath>
+			<match Class="PatchOperationReplace">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases/VacuumSpeedMultiplier/text()</xpath>
+				<value>3</value>
+			</match>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(HypoxiaResistance)]</xpath>
+			<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(HypoxiaResistance)]</xpath>
+				<value>
+					<HypoxiaResistance>1</HypoxiaResistance>
+				</value>
+			</match>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(DecompressionResistance)]</xpath>
+			<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(DecompressionResistance)]</xpath>
+				<value>
+					<DecompressionResistance>1</DecompressionResistance>
+				</value>
+			</match>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(VacuumSpeedMultiplier)]</xpath>
+			<match Class="PatchOperationAdd">
+			<xpath>*/ThingDef[@Name="Base_X2_AIRobot"]/statBases[not(VacuumSpeedMultiplier)]</xpath>
+				<value>
+					<VacuumSpeedMultiplier>3</VacuumSpeedMultiplier>
+				</value>
+			</match>
+		</li>
+		
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>

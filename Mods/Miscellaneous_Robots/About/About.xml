@@ -22,7 +22,7 @@
 		<li>Haplo.Miscellaneous.Core</li>
 	</loadAfter>
 	<incompatibleWith></incompatibleWith>
-	<modVersion>1.5.0</modVersion>
+	<modVersion>1.5.1</modVersion>
 	<description>This mod adds some robots to buy from traders:
 
 &lt;b&gt;- Haulingbot&lt;/b&gt;

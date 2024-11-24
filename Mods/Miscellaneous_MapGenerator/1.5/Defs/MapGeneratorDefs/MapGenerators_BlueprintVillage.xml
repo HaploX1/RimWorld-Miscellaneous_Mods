@@ -7,7 +7,7 @@
 		<order>300</order>
 		<genStep Class="GenStep_ScatterRuinsSimple">
 			<allowInWaterBiome>false</allowInWaterBiome>
-			<countPer10kCellsRange>0~2.5</countPer10kCellsRange>
+			<countPer10kCellsRange>0.5~1.75</countPer10kCellsRange>
 		</genStep>
 	</GenStepDef>
 
@@ -17,7 +17,7 @@
 		<order>331</order>
 		<genStep Class="MapGenerator.Genstep_CreateBlueprintSingle_normal">
 			<allowInWaterBiome>false</allowInWaterBiome>
-			<countPer10kCellsRange>0.85~1.75</countPer10kCellsRange>
+			<countPer10kCellsRange>0.75~2.5</countPer10kCellsRange>
 		</genStep>
 	</GenStepDef>
 
@@ -27,8 +27,8 @@
 		<order>341</order>
 		<genStep Class="MapGenerator.Genstep_CreateBlueprintVillage_normal">
 			<allowInWaterBiome>false</allowInWaterBiome>
-			<countPer10kCellsRange>0~0.5</countPer10kCellsRange>
-			<ruinCountRange>3~6</ruinCountRange>
+			<countPer10kCellsRange>0.01~0.75</countPer10kCellsRange>
+			<ruinCountRange>3~7</ruinCountRange>
 			<ruinDistanceRange>4~10</ruinDistanceRange>
 			<ruinOffsetHorizontalRange>4~10</ruinOffsetHorizontalRange>
 			<ruinOffsetVerticalRange>4~10</ruinOffsetVerticalRange>

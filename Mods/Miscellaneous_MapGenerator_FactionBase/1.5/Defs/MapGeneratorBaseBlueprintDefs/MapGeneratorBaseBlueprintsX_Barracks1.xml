@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<MapGenerator.MapGeneratorBaseBlueprintDef Name="seti_barracksbaseA">
+		<defName>seti_barracksbaseA</defName>
+		<createdBy>Seti</createdBy>
+		<techLevelRequired>Industrial</techLevelRequired>
+		<chance>10</chance>
+		<size>(45, 30)</size>
+		<canHaveHoles>False</canHaveHoles>
+		<createTrigger>False</createTrigger>
+		<buildingData>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+a..aca.b.......acab..dddddddddaca............
+a..aaaob.p.....aaab..d€@..v.wdaaa............
+a..dddddddd.....dddd.d.....o.d..a............
+aaadi..n.id.....d.0+.d....v.wd..a............
+acad......d..4..d.0.bd.....o.dbbaaaaaaaaaaaaa
+aaadj.m..jd.....dddd.d?......d.aca........aca
+a..d......d..........d.......d.aaa........aaa
+a..di....id.........zd?......d...ddddddddd..a
+a..d...n..d..4...4...-.......d...d.......d..a
+a..dj....jd.........ad!......d...d.......dbba
+a..d..m...d..........d?......dbbbd.......d..a
+a..di....id.........bd.......d...d.......d..a
+abbd...u..d..4...4...d#*.....d...d.......d..a
+a..dddlddddb.........ddddddddd...d7......daaa
+aaaba...a.z..2...b....b.........zd.......daca
+acab.............b....b..........-.......daaa
+aaaba...a........b....b.........ad.......d..a
+a..dddldddd..a.z.b....b..........d.......d..a
+a..d.k...xddddldddd...ddddddddd..d......wd..a
+a..dg..r.wd1k.....d...d...k...d..d.......d..a
+a..d...svyd..7.7..d...d.......d..d.......d..a
+a..d...q....3...8.d..zd.......d..d.......d..a
+a..df.........6..9d...-.......dbbddddddddd..a
+a..d........3...8.d..ad.......d..........baaa
+a..d.e.e.e...5.5..d...d.......d..........baca
+a..dddddddddddddddd...ddddddddd.aaaaaaaaaaaaa
+aaa....b..w...aaa........b.....aa............
+aca....bp.....aca........b.....ca............
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+</buildingData>
+		<buildingLegend>
+			<li>
+				<key>a</key>
+				<value>Sandbags</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>PowerConduit</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>Turret_MiniTurret</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>Wall</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>VFEPD_WarehouseShelfBoxes</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>VFEPD_KitchenSink</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>ElectricStove</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>VFEPD_CookingPan</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>Bed</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>EndTable</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>WallLamp</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>VFEPD_WoodenDivider</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>Dresser</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>Shelf</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>Turret_Mortar</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>VFEPD_DoubleOven</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>VFEPD_KitchenSurface</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>VFEPD_CookingAppliances</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>VFEPD_Cleaver</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>WallLamp</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>Shelf</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>Shelf</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>VFEPD_WoodenCupboardPlates</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>VFEPD_MopBucket</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>VFEPD_PowerPole</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>VFEPD_WaterDispenser</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>VFEPD_CarDeliveryBlack</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>DiningChair</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>SolarGenerator</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>DiningChair</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>Table3x3c</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>DiningChair</value>
+			</li>
+			<li>
+				<key>8</key>
+				<value>DiningChair</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>FlatscreenTelevision</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>Battery</value>
+			</li>
+			<li>
+				<key>-</key>
+				<value>Door</value>
+			</li>
+			<li>
+				<key>*</key>
+				<value>ElectricSmelter</value>
+			</li>
+			<li>
+				<key>#</key>
+				<value>VFEPD_ConveyorInput</value>
+			</li>
+			<li>
+				<key>?</key>
+				<value>VFEPD_PalletBoxes</value>
+			</li>
+			<li>
+				<key>!</key>
+				<value>WallLamp</value>
+			</li>
+			<li>
+				<key>@</key>
+				<value>ElectricSmithy</value>
+			</li>
+			<li>
+				<key>€</key>
+				<value>VFEPD_Potentiometer</value>
+			</li>
+		</buildingLegend>
+		<rotationLegend>
+			<li>
+				<key>a</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>i</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>j</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>k</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>l</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>m</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>n</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>o</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>p</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>q</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>r</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>s</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>t</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>u</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>v</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>w</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>x</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>y</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>z</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>6</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>7</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>8</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>9</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>0</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>+</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>-</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>*</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>#</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>?</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>!</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>@</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>€</key>
+				<value>0</value>
+			</li>
+		</rotationLegend>
+		<floorData>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+aaaaaaaaaaaaaaaaaaaaaeeeeeeeeeaaa............
+aaaaaaaaaaaaaaaaaaaaaeeeeeeeeeaaa............
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaa............
+aaabbbbbbbbaaaaaabbbaeeeeeeeeeaaa............
+aaabbbbbbbbaaaaaabbbaeeeeeeeeeaaaaaaaaaaaaaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaaaaaaaaaaaaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaaaaaaaaaaaaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaagggggggggaaa
+aaabbbbbbbbaaaaaaaaaaeeeeeeeeeaaahhhhgggggaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhgggggaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhgggggaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhgggggaaa
+aaa.cccccccaaaaaaaaaaaaaaaaaaaaaahhhhgggggaaa
+aaa.ccccccdddddddd.aaa.........aagggggggggaaa
+aaa.ccccccdddddddd.aaaffffffff.aagggggggggaaa
+aaa.ccccccdddddddd.aaaffffffff.aagggggggggaaa
+aaa.ccccccdddddddd.aaaffffffff.aagggggggggaaa
+aaa.ccccccdddddddd.aaaffffffff.aagggggggggaaa
+aaa.ccccccdddddddd.aaaffffffff.aaaaaaaaaaaaaa
+aaa.ccccccdddddddd.aaaffffffff.aaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa.........aaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+</floorData>
+		<floorLegend>
+			<li>
+				<key>a</key>
+				<value>FlagstoneGranite</value>
+			</li>
+			<li>
+				<key>b</key>
+				<value>Concrete</value>
+			</li>
+			<li>
+				<key>c</key>
+				<value>TileMarble</value>
+			</li>
+			<li>
+				<key>d</key>
+				<value>CarpetBlueIce</value>
+			</li>
+			<li>
+				<key>e</key>
+				<value>MetalTile</value>
+			</li>
+			<li>
+				<key>f</key>
+				<value>CarpetGranite</value>
+			</li>
+			<li>
+				<key>g</key>
+				<value>SterileTile</value>
+			</li>
+			<li>
+				<key>h</key>
+				<value>WoodPlankFloor</value>
+			</li>
+		</floorLegend>
+		<itemData>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+a..aca.b.......acab..dddddddddaca............
+a..aaaob.p.....aaab..d€@..v.wdaaa............
+a..dddddddd.....dddd.d.....o.d..a............
+aaadi..n.id.....d.0+.d....v.wd..a............
+acad......d..4..d.0.bd.....o.dbbaaaaaaaaaaaaa
+aaadj.m..jd.....dddd.d?......d.aca........aca
+a..d......d..........d.......d.aaa........aaa
+a..di....id.........zd?......d...ddddddddd..a
+a..d...n..d..4...4...-.......d...d.......d..a
+a..dj....jd.........ad!......d...d.......dbba
+a..d..m...d..........d?......dbbbd.......d..a
+a..di....id.........bd.......d...d.......d..a
+abbd...u..d..4...4...d#*.....d...d.......d..a
+a..dddlddddb.........ddddddddd...d7......daaa
+aaaba...a.z..2...b....b.........zd.......daca
+acab.............b....b..........-.......daaa
+aaaba...a........b....b.........ad.......d..a
+a..dddldddd..a.z.b....b..........d.......d..a
+a..d.k...xddddldddd...ddddddddd..d......wd..a
+a..dg..r.wd1k.....d...d...k...d..d.......d..a
+a..d...svyd..7.7..d...d.......d..d.......d..a
+a..d...q....3...8.d..zd.......d..d.......d..a
+a..df.........6..9d...-.......dbbddddddddd..a
+a..d........3...8.d..ad.......d..........baaa
+a..d.e.e.e...5.5..d...d.......d..........baca
+a..dddddddddddddddd...ddddddddd.aaaaaaaaaaaaa
+aaa....b..w...aaa........b.....aa............
+aca....bp.....aca........b.....ca............
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+</itemData>
+		<itemLegend>
+			<li>
+				<key>s</key>
+				<value>Silver</value>
+			</li>
+		</itemLegend>
+		<pawnData>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+a..aca.b...x...acab.xdddddddddaca............
+a..aaaob.p.....aaab..d€@..v.wdaaa............
+a..dddddddd.....dddd.d.....o.d.xa............
+aaadi..n.id.....d.0+.d....v.wd..a............
+acad......d..4..d.0.bd.....o.dbbaaaaaaaaaaaaa
+aaadj.m..jd.....dddd.d?......d.aca........aca
+a..d......d..........d.......d.aaa........aaa
+a.xdi....id.........zd?......d...ddddddddd.xa
+a..d...n..d..4...4...-.......d...d.......d..a
+a..dj....jd.........ad!......d...d.......dbba
+a..d..m...d..........d?......dbbbd.......d..a
+a..di....id.........bd.......d...d.......d.xa
+abbd...u..d..4...4...d#*.....d...d.......d..a
+a..dddlddddb.........ddddddddd...d7......daaa
+aaaba...a.z..2...b....b.........zd.......daca
+acab.............b....b..........-.......daaa
+aaaba...a........b....b.........ad.......d..a
+a..dddldddd..a.z.b....b..........d.......d..a
+a.xd.k...xddddldddd...ddddddddd..d......wd..a
+a..dg..r.wd1k.....d...d...k...d..d.......d.xa
+a..d...svyd..7.7..d...d.......d..d.......d..a
+a..d...q....3...8.d..zd.......d..d.......d..a
+a..df.........6..9d...-.......dbbddddddddd..a
+a..d........3...8.d..ad.......d..........baaa
+a..d.e.e.e...5.5..d...d.......d..........baca
+a..dddddddddddddddd...ddddddddd.aaaaaaaaaaaaa
+aaa....b..w...aaa........b.....aa............
+aca....bpx....aca........b.....ca.x..........
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa............
+</pawnData>
+		<pawnLegend>
+			<li>
+				<key>x</key>
+				<value>Mercenary_Elite</value>
+			</li>
+		</pawnLegend>
+	</MapGenerator.MapGeneratorBaseBlueprintDef>
+</Defs>
