@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef>
+		<defName>Battlefield</defName>
+		<label>battlefield</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Incidents.IncidentWorker_Battlefield</workerClass>
+		<baseChance>2</baseChance>
+		<minRefireDays>25</minRefireDays>
+		<category>ThreatSmall</category>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+
+</Defs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ArtefactFound_LabelLetterArtefact>Artefact</ArtefactFound_LabelLetterArtefact>
+	<ArtefactFound_ArtefactWasFound>{0}이(가) 고대의 유물을 발견했습니다.</ArtefactFound_ArtefactWasFound>
+
+	<ArtefactFound_ActivateArtefact>당신은 유물 활성화</ArtefactFound_ActivateArtefact>
+	<ArtefactFound_ActivatedArtefactMechanoids>유물을 활성화했습니다.
+		\n짧은 신호를 보내고 자폭을...
+		\n\n아, 젠장, 신호가 경비병들을 깨웠습니다!</ArtefactFound_ActivatedArtefactMechanoids>
+	<ArtefactFound_ActivatedArtefactRaiders>당신은 유물을 활성화했습니다.
+		\n짧은 신호를 보내고 자폭을...
+		\n\n이런, 좋지 않습니다. 약탈자 무리가 신호를 받고 접근하고 있습니다. 준비하십시오!</ArtefactFound_ActivatedArtefactRaiders>
+	<ArtefactFound_ActivatedArtefactResources>당신은 유물을 활성화했습니다.
+		\n짧은 신호를 보내고 자폭을...
+		\n\n그 신호는 고대의 저장고를 열었습니다. 내용물을 가져갈 수 있습니다.</ArtefactFound_ActivatedArtefactResources>
+	<ArtefactFound_ActivatedArtefactPawnReleased>당신은 유물을 활성화했습니다.
+		\n짧은 신호를 보내고 자폭을...
+		\n\n그 신호는 고대 동면기를 열었습니다. 그 안의 사람이 정착지에 합류하고 있습니다.</ArtefactFound_ActivatedArtefactPawnReleased>
+	<ArtefactFound_ActivatedArtefactNothing>당신은 유물을 활성화했습니다.
+		\n스스로 파괴되었지만 아무 일도 일어나지 않았습니다.
+		\n\n단순한 고철 덩어리였나봅니다.</ArtefactFound_ActivatedArtefactNothing>
+
+	
+
+</LanguageData>

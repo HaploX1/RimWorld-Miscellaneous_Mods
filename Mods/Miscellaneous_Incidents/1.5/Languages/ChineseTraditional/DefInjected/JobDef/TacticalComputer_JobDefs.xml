@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Miscellaneous Jobs -->
+
+  <GotoCellAndDraft.reportString>前往集合點。</GotoCellAndDraft.reportString>
+
+
+  <!-- Joy giving jobs -->
+
+  <PlayTacticalComputer.reportString>正在玩邊緣爭霸遊戲。</PlayTacticalComputer.reportString>
+  <PlayComputerTerminal.reportString>在邊緣網上衝浪。</PlayComputerTerminal.reportString>
+
+
+</LanguageData>

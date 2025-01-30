@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArtefactFound_LabelLetterArtefact>人工制品</ArtefactFound_LabelLetterArtefact>
+  <ArtefactFound_ArtefactWasFound>{0}发现了一个神秘的人工制品。</ArtefactFound_ArtefactWasFound>
+
+  <ArtefactFound_ActivateArtefact>激活人工制品</ArtefactFound_ActivateArtefact>
+  <ArtefactFound_ActivatedArtefactMechanoids>你激活了人工制品。\n这东西发射了一条简短的信号然后自毁了……\n\n哦，我*……这东西唤醒了一些远古守卫！</ArtefactFound_ActivatedArtefactMechanoids>
+  <ArtefactFound_ActivatedArtefactRaiders>你激活了人工制品。\n这东西发射了一条简短的信号然后自毁了……\n\n哦，糟了……一群袭击者捕获了这段信号并追踪而来。赶紧做好准备！</ArtefactFound_ActivatedArtefactRaiders>
+  <ArtefactFound_ActivatedArtefactResources>你激活了人工制品。\n这东西发射了一条简短的信号然后自毁了……\n\n这段信号开启了一个远古储备，并释放了出内部的物品给你拾取。</ArtefactFound_ActivatedArtefactResources>
+  <ArtefactFound_ActivatedArtefactPawnReleased>你激活了人工制品。\n这东西发射了一条简短的信号然后自毁了……\n\n这段信号激活了一个远古休眠仓。休眠仓内的人苏醒过来，并加入了你的殖民地。</ArtefactFound_ActivatedArtefactPawnReleased>
+  <ArtefactFound_ActivatedArtefactNothing>你激活了人工制品。\n这东西自毁了，但什么也没发生……\n\n看来这东西仅仅是块废铁……</ArtefactFound_ActivatedArtefactNothing>
+
+
+
+
+</LanguageData>

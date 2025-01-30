@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============================== Tier 3: Hi-tech research bench ===================================-->
+
+	<ResearchProjectDef>
+		<defName>ResearchTacticalComputer</defName>
+		<label>Tactical Computer</label>
+		<description>Allows the construction of tactical computers which provides various informations and also automatically scans the nearby areas for interesting places which then can be investigated.\nAdditionally you can also play games on it.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>Miscellaneous</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ResearchSatelliteComputerTerminal</defName>
+		<label>Computer Terminal</label>
+		<description>Allows the construction of satellite computer terminals which provides additional functions but need a tactical computer to connect to.\nAdditionally you can play games on it, too.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ResearchTacticalComputer</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ResearchTacticalComputerImprovedSensors</defName>
+		<label>Improved Computer Sensors</label>
+		<description>Improves the sensors of your tactical computer.\nThis will result in more detailed informations with many anomalies.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ResearchTacticalComputer</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<tab>Miscellaneous</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Misc_Battlefield.label>Battlefield</Misc_Battlefield.label>
+  <Misc_Battlefield.description>Two mortal enemies meet each other on the battlefield.</Misc_Battlefield.description>
+  <Misc_Battlefield.descriptionDialogue>there are {0} warriors in the area</Misc_Battlefield.descriptionDialogue>
+  <Misc_Battlefield.arrivedLetter>In this area are some warriors who meet their mortal enemies on the battlefield.\n\nBeware, the enemies may also engage you if you approach them.</Misc_Battlefield.arrivedLetter>
+
+</LanguageData>
