@@ -13,16 +13,16 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 - [x] Miscellaneous_Core                        -->   1.5
 - [x] Miscellaneous_BeeAndHoney                 -->   1.5
-- [x] Miscellaneous_EndGame                     -->   1.5
+- [x] Miscellaneous_EndGame                     -->   1.6
 - [x] Miscellaneous_Incidents                   -->   1.4
 - [ ] Miscellaneous_MAI                         -->   1.3
 - [x] Miscellaneous_MapGenerator                -->   1.5
 - [x] Miscellaneous_MapGenerator 'Urban'        -->   1.5
 - [x] Miscellaneous_MapGenerator_FactionBase    -->   1.5
-- [x] Miscellaneous_Robots                      -->   1.5
-- [x] Miscellaneous_TurretBase + Objects        -->   1.5
-- [x] Miscellaneous_TrainingFacility            -->   1.5
-- [x] Miscellaneous_WeaponRepair                -->   1.5
+- [x] Miscellaneous_Robots                      -->   1.6
+- [x] Miscellaneous_TurretBase + Objects        -->   1.6
+- [x] Miscellaneous_TrainingFacility            -->   1.6
+- [x] Miscellaneous_WeaponRepair                -->   1.6
 
 
 

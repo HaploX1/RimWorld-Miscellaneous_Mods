@@ -3,6 +3,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Save Our Ship 2</li>
+      <li>Save Our Ship 2_steam</li>
       <!-- https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131 OR https://github.com/KentHaeger/SaveOurShip2 -->
     </mods>
     <match Class="PatchOperationSequence">

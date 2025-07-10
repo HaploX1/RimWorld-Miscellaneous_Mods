@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="BuildingBase_MiscNano" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="NanoPrinter.ThingDef_NanoPrinter" ParentName="BuildingBase_MiscNano">
+		<defName>NanoPrinter</defName>
+		<label>Nano Printer</label>
+		<description>The nano printer can make nearly identical copies of equipment. Note: The resulting quality may not be the best.</description>
+		<thingClass>NanoPrinter.Building_NanoPrinter</thingClass>
+		<graphicData>
+			<texPath>Things/Building/NanoPrinter/NanoPrinter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.5, 0.3, 0.5)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<Mass>8</Mass>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>450</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<researchPrerequisites>
+			<li>ResearchNanoReplication</li>
+		</researchPrerequisites>
+
+		<XmlExtended>True</XmlExtended>
+		<ScannerDefName>NanoScanner</ScannerDefName>
+		<ResourceDefName>Steel</ResourceDefName>
+		<ProductionCountDownStartValue>500</ProductionCountDownStartValue>
+		<CostPriceToSteel>0.85</CostPriceToSteel>
+		<CostHealthToSteel>1.75</CostHealthToSteel>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="BuildingBase_MiscNano">
+		<defName>NanoScanner</defName>
+		<label>Nano Scanner</label>
+		<description>Allows the nano printer to scan the internal structure of objects.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Things/Building/NanoPrinter/NanoScanner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.5, 0.3, 0.5)</volume>
+				<offset>(0, 0, 0)</offset>
+			</shadowData>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<building>
+			<fixedStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>Weapons</li>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<castEdgeShadows>false</castEdgeShadows>
+		<statBases>
+			<WorkToBuild>330</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<Mass>3.5</Mass>
+		</statBases>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<tickerType>Never</tickerType>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<designationCategory>Production</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>NanoPrinter.PlaceWorker_NextToNanoPrinter</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ResearchNanoReplication</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TurretWeaponBaseAutomatic.label>自动炮台基座</TurretWeaponBaseAutomatic.label>
+  <TurretWeaponBaseAutomatic.description>能控制所安装武器的自动炮台。受损严重时会发生爆炸。</TurretWeaponBaseAutomatic.description>
+  <TurretWeaponBaseAutomatic_Blueprint_Install.label>自动炮台基座（蓝图）</TurretWeaponBaseAutomatic_Blueprint_Install.label>
+
+  <TurretWeaponBaseAutomaticPlasteel.label>自动炮台基座</TurretWeaponBaseAutomaticPlasteel.label>
+  <TurretWeaponBaseAutomaticPlasteel.description>能控制所安装武器的自动炮台，覆盖有轻装甲。受损严重时会发生爆炸。</TurretWeaponBaseAutomaticPlasteel.description>
+  <TurretWeaponBaseAutomaticPlasteel_Blueprint_Install.label>自动炮台基座（蓝图）</TurretWeaponBaseAutomaticPlasteel_Blueprint_Install.label>
+
+
+</LanguageData>

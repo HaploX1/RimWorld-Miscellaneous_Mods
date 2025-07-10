@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EndGame_PreRequirements_PartOne.label>Town Charter rules fragment 1</EndGame_PreRequirements_PartOne.label>
+	<EndGame_PreRequirements_PartOne.description>This is part of the ruling that allows you to call yourself a town. There must be another part out there..</EndGame_PreRequirements_PartOne.description>
+	
+	<EndGame_PreRequirements_PartTwo.label>Town Charter rules fragment 2</EndGame_PreRequirements_PartTwo.label>
+	<EndGame_PreRequirements_PartTwo.description>This is part of the ruling that allows you to call yourself a town. There must be another part out there..</EndGame_PreRequirements_PartTwo.description>
+
+	<EndGame_Requirements.label>Town charter by martial law</EndGame_Requirements.label>
+	<EndGame_Requirements.description>And if thy survive\nThe onslaught by a pair of moon,\nThis will be your price\nOl' civic right in thee harvest soon..\n\nThis is the main paragraph on the scroll you've found about winning the right to be a town. It contains the exact requirements for archiving it by martial law. We just need to find a way to decipher it..</EndGame_Requirements.description>
+	
+</LanguageData>

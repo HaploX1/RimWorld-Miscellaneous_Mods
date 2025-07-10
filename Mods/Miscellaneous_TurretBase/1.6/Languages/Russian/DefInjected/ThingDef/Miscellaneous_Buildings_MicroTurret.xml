@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<MicroTurretMKI.label>Микро-турель</MicroTurretMKI.label>
+	<MicroTurretMKI.description>Миниатюрная турель, которая автоматически стреляет в ближайших врагов. Её ИИ оставляет желать лучшего и не контролируется напрямую, поэтому остерегайтесь дружественного огня.</MicroTurretMKI.description>
+
+	<Bullet_MicroTurretMKI.label>Пуля микро-турели</Bullet_MicroTurretMKI.label>
+
+	<Gun_MicroTurretMKI.label>Пушка микро-турели</Gun_MicroTurretMKI.label>
+	<Gun_MicroTurretMKI.description>Пушка для микро-турели.</Gun_MicroTurretMKI.description>
+
+	<Bullet_MicroThingSpawnerMKI.label>Создатель микро-турели</Bullet_MicroThingSpawnerMKI.label>
+
+	<Gun_MicroTurretLauncher.label>Пусковая установка микро-турели</Gun_MicroTurretLauncher.label>
+	<Gun_MicroTurretLauncher.description>Пусковая установка для микро-турели.</Gun_MicroTurretLauncher.description>
+
+</LanguageData>

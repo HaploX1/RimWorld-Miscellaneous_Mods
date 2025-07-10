@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<NanoPrinter.label>나노 출력기</NanoPrinter.label>
+	<NanoPrinter.description>나노 출력기는 원본과 거의 동일한 물건을 만들어낼 수 있습니다.
+		\n\n참고: 나노 스캐너가 필요합니다.</NanoPrinter.description>
+	
+	<NanoScanner.label>나노 스캐너</NanoScanner.label>
+	<NanoScanner.description>나노 출력기가 물체의 내부 구조까지 읽을 수 있도록 만듭니다.</NanoScanner.description>
+	
+</LanguageData>
