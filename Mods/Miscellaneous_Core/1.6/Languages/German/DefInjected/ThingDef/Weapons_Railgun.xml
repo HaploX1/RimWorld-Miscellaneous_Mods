@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<Bullet_RailgunMKI.label>Railgun Kugel</Bullet_RailgunMKI.label>
+	
+	<Gun_RailgunMKI.label>Railgun</Gun_RailgunMKI.label>
+	<Gun_RailgunMKI.description>Das Gewehr beschleunigt die Projektile mit Hilfe eines elektromagnetischen Schienensystems auf sehr hohe Geschwindigkeiten von mehreren Kilometern pro Sekunde.</Gun_RailgunMKI.description>
+	<Gun_RailgunMKI.tools.0.label>Griff</Gun_RailgunMKI.tools.0.label>
+	<Gun_RailgunMKI.tools.1.label>Lauf</Gun_RailgunMKI.tools.1.label>
+	
+  <!-- EN: unique assault rifle -->
+  <Gun_RailgunMKI_Unique.label>einzigartige Railgun</Gun_RailgunMKI_Unique.label>
+  <!-- EN: An assault rifle with customized parts. -->
+  <Gun_RailgunMKI_Unique.description>Eine Schienengewehr mit angepassten Teilen.</Gun_RailgunMKI_Unique.description>
+  <!-- EN: charge -->
+  <Gun_RailgunMKI_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>Ladung</Gun_RailgunMKI_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Gun_RailgunMKI_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>klingt gerade ab</Gun_RailgunMKI_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <!-- EN: assault rifle -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.0>|N|Schienengewehr</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <!-- EN: carbine -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.1>|M|Schienenkarabiner</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <!-- EN: battle rifle -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.2>|N|Kampfschienengewehr</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <!-- EN: war rifle -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.3>|N|Kriegsschienengewehr</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.3>
+  <!-- EN: wargun -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.4>|N|Angriffsschienengewehr</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.4>
+  <!-- EN: fusil -->
+  <Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.5>|N|Militärschienengewehr</Gun_RailgunMKI_Unique.comps.CompUniqueWeapon.namerLabels.5>
+  <!-- EN: stock -->
+  <Gun_RailgunMKI_Unique.tools.stock.label>Schaft</Gun_RailgunMKI_Unique.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_RailgunMKI_Unique.tools.barrel.label>Lauf</Gun_RailgunMKI_Unique.tools.barrel.label>
+  <!-- EN: unique assault rifle -->
+  <Gun_RailgunMKI_Unique.verbs.Verb_Shoot.label>einzigartiges Schienengewehr</Gun_RailgunMKI_Unique.verbs.Verb_Shoot.label>
+
+</LanguageData>

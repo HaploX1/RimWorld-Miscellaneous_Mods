@@ -3,24 +3,23 @@
 
   <!--============= Burning ============-->
   <ThinkTreeDef>
-		<defName>AIRobot_BurningResponse</defName>
-		<thinkRoot Class="ThinkNode_ConditionalBurning">
-			<subNodes>
-				<li Class="ThinkNode_Priority">
-					<subNodes>
+    <defName>AIRobot_BurningResponse</defName>
+    <thinkRoot Class="ThinkNode_ConditionalBurning">
+      <subNodes>
+        <li Class="ThinkNode_Priority">
+          <subNodes>
             <li Class="ThinkNode_ConditionalIntelligence">
               <minIntelligence>ToolUser</minIntelligence>
               <subNodes>
                 <li Class="JobGiver_JumpInWater" />
               </subNodes>
             </li>
-						<li Class="JobGiver_ExtinguishSelf" />
-					</subNodes>
-				</li>
-			</subNodes>
-		</thinkRoot>
-	</ThinkTreeDef>
-
+            <li Class="JobGiver_ExtinguishSelf" />
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
 
 
 

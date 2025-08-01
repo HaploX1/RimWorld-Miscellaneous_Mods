@@ -85,7 +85,7 @@
 				</li>
 
 				<li Class="JobGiver_WanderAnywhere">
-					<maxDanger>Deadly</maxDanger>
+					<maxDanger>Some</maxDanger>
 				</li>
 
 				<li Class="JobGiver_IdleError"/>

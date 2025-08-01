@@ -4,5 +4,8 @@
 	<!-- Turret WeaponBase -->
 	<Install>Install</Install>
 	<NoWeaponFoundForTurretBase>No usable weapon available</NoWeaponFoundForTurretBase>
+	<CommandEjectWeaponFromTurretBase>Eject weapon</CommandEjectWeaponFromTurretBase>
+	<CommandEjectWeaponFromTurretBaseDesc>Eject the currently installed weapon from the weapon base.</CommandEjectWeaponFromTurretBaseDesc>
+	<DebugGunAlreadyInstalled>DEBUG: Gun is already installed.</DebugGunAlreadyInstalled>
 	
 </LanguageData>

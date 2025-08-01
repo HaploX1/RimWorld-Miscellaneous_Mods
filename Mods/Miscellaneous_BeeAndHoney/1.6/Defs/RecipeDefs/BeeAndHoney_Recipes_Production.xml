@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>GrowNewQueenBee</defName>
+		<label>grow a new queen</label>
+		<description>Grow a queen to start a new hive.</description>
+		<jobString>growing a new queen.</jobString>
+		<workSpeedStat>PlantWorkSpeed</workSpeedStat>
+		<effectWorking>Harvest_Plant</effectWorking>
+		<soundWorking>Harvest_Standard</soundWorking>
+		<workAmount>3300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Honey</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Honey</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<HoneycombWithQueen>1</HoneycombWithQueen>
+		</products>
+		<skillRequirements>
+			<Plants>7</Plants>
+		</skillRequirements>
+		<workSkill>Plants</workSkill>
+		<recipeUsers>
+			<li>Misc_Beehive</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

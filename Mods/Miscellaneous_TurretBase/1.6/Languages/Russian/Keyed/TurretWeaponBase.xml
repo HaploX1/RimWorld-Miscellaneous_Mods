@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
-	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
-
 <LanguageData>
 
 	<Install>Установить</Install>
 	<NoWeaponFoundForTurretBase>Нет доступного оружия</NoWeaponFoundForTurretBase>
+	<CommandEjectWeaponFromTurretBase>Выбросить оружие</CommandEjectWeaponFromTurretBase>
+	<CommandEjectWeaponFromTurretBaseDesc>Выбросить текущее установленное оружие из оружейной базы.</CommandEjectWeaponFromTurretBaseDesc>
+	<DebugGunAlreadyInstalled>DEBUG: Оружие уже установлено.</DebugGunAlreadyInstalled>
 
 </LanguageData>

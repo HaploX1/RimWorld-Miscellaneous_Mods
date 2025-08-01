@@ -4,5 +4,8 @@
 	<!-- Equipable Turret -->
 	<Install>Installiere</Install>
 	<NoWeaponFoundForTurretBase>Keine brauchbare Waffe verfügbar</NoWeaponFoundForTurretBase>
+	<CommandEjectWeaponFromTurretBase>Waffe auswerfen</CommandEjectWeaponFromTurretBase>
+	<CommandEjectWeaponFromTurretBaseDesc>Die installierte Waffe wird ausgeworfen.</CommandEjectWeaponFromTurretBaseDesc>
+	<DebugGunAlreadyInstalled>DEBUG: Waffe ist schon installiert.</DebugGunAlreadyInstalled>
 	
 </LanguageData>

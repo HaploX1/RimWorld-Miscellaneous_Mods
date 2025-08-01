@@ -4,5 +4,8 @@
   <!-- Turret WeaponBase -->
   <Install>安裝</Install>
   <NoWeaponFoundForTurretBase>沒有可用的武器</NoWeaponFoundForTurretBase>
+	<CommandEjectWeaponFromTurretBase>彈出武器</CommandEjectWeaponFromTurretBase>
+	<CommandEjectWeaponFromTurretBaseDesc>彈出當前安裝在武器基座上的武器。</CommandEjectWeaponFromTurretBaseDesc>
+	<DebugGunAlreadyInstalled>DEBUG: 槍已安裝。</DebugGunAlreadyInstalled>
 
 </LanguageData>

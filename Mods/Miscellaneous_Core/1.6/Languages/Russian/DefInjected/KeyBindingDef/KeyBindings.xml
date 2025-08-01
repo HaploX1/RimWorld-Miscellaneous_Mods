@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+	<!-- Перевод: Well Steam76561198079058811 ноябрь2018 -->
+
+<LanguageData>
+
+	<ColonistSelectionKeys_Help.label>открыть меню справки (SHIFT + клавиша)</ColonistSelectionKeys_Help.label>
+	<ColonistSelectionKeys_Release.label>распуск колонистов / SHIFT: изменить режим</ColonistSelectionKeys_Release.label>
+	<ColonistSelectionKeys_Group1.label>выбрать группу 1 / назначить SHIFT+клавиша</ColonistSelectionKeys_Group1.label>
+	<ColonistSelectionKeys_Group2.label>выбрать группу 2 / назначить SHIFT+клавиша</ColonistSelectionKeys_Group2.label>
+	<ColonistSelectionKeys_Group3.label>выбрать группу 3 / назначить SHIFT+клавиша</ColonistSelectionKeys_Group3.label>
+	<ColonistSelectionKeys_Group4.label>выбрать группу 4 / назначить SHIFT+клавиша</ColonistSelectionKeys_Group4.label>
+	<ColonistSelectionKeys_CenterOnColony.label>перейти к случайной позиции в колонии</ColonistSelectionKeys_CenterOnColony.label>
+
+</LanguageData>

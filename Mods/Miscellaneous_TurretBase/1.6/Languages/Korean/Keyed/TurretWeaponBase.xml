@@ -3,6 +3,9 @@
 
 	<!-- Turret WeaponBase -->
 	<Install>설치: </Install>
-	<NoWeaponFoundForTurretBase>No usable weapon available</NoWeaponFoundForTurretBase>
+	<NoWeaponFoundForTurretBase>사용 가능한 무기가 없습니다</NoWeaponFoundForTurretBase>
+	<CommandEjectWeaponFromTurretBase>무기 배출</CommandEjectWeaponFromTurretBase>
+	<CommandEjectWeaponFromTurretBaseDesc>현재 장착된 무기를 무기 베이스에서 배출합니다.</CommandEjectWeaponFromTurretBaseDesc>
+	<DebugGunAlreadyInstalled>DEBUG: 총이 이미 설치되었습니다.</DebugGunAlreadyInstalled>
 	
 </LanguageData>

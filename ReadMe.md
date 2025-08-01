@@ -11,8 +11,8 @@ https://ludeon.com/forums/index.php?topic=3612.0
 **==============================**
 **These mods are available here:**
 **==============================**
-- [x] Miscellaneous_Core                        -->   1.5
-- [x] Miscellaneous_BeeAndHoney                 -->   1.5
+- [x] Miscellaneous_Core                        -->   1.6
+- [x] Miscellaneous_BeeAndHoney                 -->   1.6
 - [x] Miscellaneous_EndGame                     -->   1.6
 - [x] Miscellaneous_Incidents                   -->   1.4
 - [ ] Miscellaneous_MAI                         -->   1.3

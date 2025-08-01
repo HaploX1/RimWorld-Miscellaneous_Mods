@@ -19,7 +19,7 @@
 		<li>Haplo.Miscellaneous.Core</li>
 	</loadAfter>
 	<incompatibleWith></incompatibleWith>
-	<modVersion>1.6.0</modVersion>
+	<modVersion>1.6.2</modVersion>
 	<description>
 -Turret: Weapon Base
    You want to build your own turrets? Build or buy an automatic base from a trader and add your weapon of choice to it.

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+	<BionicTacticalImplant.label>Bionischer BrainPal</BionicTacticalImplant.label>
+	<BionicTacticalImplant.description>Ein fortschrittlicher bionischer Computer der ins Gehirn eingepflanzt wird.</BionicTacticalImplant.description>
+	
+	<ElectronicTacticalImplant.label>Elektronischer BrainPal</ElectronicTacticalImplant.label>
+	<ElectronicTacticalImplant.description>Ein fortschrittlicher elektronischer Computer der direkt mit dem Gehirn vernetzt wird.</ElectronicTacticalImplant.description>	
+	
+</LanguageData>
