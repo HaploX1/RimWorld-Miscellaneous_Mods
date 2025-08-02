@@ -11,7 +11,7 @@
 		<joyMaxParticipants>1</joyMaxParticipants>
 		<joyGainRate>1.3</joyGainRate>
 		<joySkill>Shooting</joySkill>
-		<joyXpPerTick>0.026</joyXpPerTick>
+		<joyXpPerTick>0.035</joyXpPerTick>
 		<joyKind>Gaming_Shooting</joyKind>
 	</JobDef>
 
@@ -20,7 +20,7 @@
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
 		<joyGainRate>0.8</joyGainRate>
 		<joyDuration>17000</joyDuration>
-		<joyXpPerTick>0.034</joyXpPerTick>
+		<joyXpPerTick>0.044</joyXpPerTick>
 	</JobDef>
 
 	<JobDef ParentName="UseShootingRangeBase_MiscTraining">
@@ -28,7 +28,7 @@
 		<driverClass>TrainingFacility.JobDriver_ShootingRange_NonJoy</driverClass>
 		<joyGainRate>-0.3</joyGainRate>
 		<joyDuration>800</joyDuration>
-		<joyXpPerTick>0.043</joyXpPerTick>
+		<joyXpPerTick>0.057</joyXpPerTick>
 	</JobDef>
 	
 	<JobDef Name="UseMartialArtsBase_MiscTraining">
