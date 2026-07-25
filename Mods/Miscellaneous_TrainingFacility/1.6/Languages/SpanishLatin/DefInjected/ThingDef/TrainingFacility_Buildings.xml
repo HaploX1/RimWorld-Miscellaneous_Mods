@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ShootingRangeTarget.label>diana de tiro</ShootingRangeTarget.label>
+	<ShootingRangeTarget.description>El campo de tiro es un lugar donde se puede entrenar la coordinación entre la vista y las manos.</ShootingRangeTarget.description>
+
+	<MartialArtsTarget.label>maniquí de artes marciales</MartialArtsTarget.label>
+	<MartialArtsTarget.description>El maniquí de artes marciales es un lugar donde se pueden entrenar las artes marciales, con o sin arma.</MartialArtsTarget.description>
+
+</LanguageData>
