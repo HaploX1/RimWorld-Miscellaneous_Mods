@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- FloatMenu -->
+	<TrainingFacility_PracticeArchery>Practicar tiro con arco</TrainingFacility_PracticeArchery>
+
+	<TrainingFacility_PracticeShooting>Practicar tiro</TrainingFacility_PracticeShooting>
+	<TrainingFacility_RangedWeaponRequired>Se necesita un arma a distancia</TrainingFacility_RangedWeaponRequired>
+
+	<TrainingFacility_PracticeMartialArts>Practicar artes marciales</TrainingFacility_PracticeMartialArts>
+	<TrainingFacility_MeleeWeaponRequired>Se necesita un arma cuerpo a cuerpo</TrainingFacility_MeleeWeaponRequired>
+
+
+	<TrainingFacility_DangerousWeaponFound_ThrowingStones>El arma equipada es demasiado peligrosa para disparar. {0} va a tirar piedras en su lugar.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
+
+	<TrainingFacility_CannotUseTooTired>No se puede usar, demasiado cansado</TrainingFacility_CannotUseTooTired>
+
+	<Text_Building_Repairing_RepairingHomezone>Reparando (área del hogar)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>desactivado</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>activado</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Miscellaneous - Entrenamiento</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Multiplicador de experiencia de entrenamiento - Tiro (predeterminado: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>Este es el multiplicador de la experiencia de habilidad obtenida. Un valor mayor a 1 aumenta la experiencia obtenida; uno menor a 1 la reduce.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Multiplicador de experiencia de entrenamiento - Cuerpo a cuerpo (predeterminado: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>Este es el multiplicador de la experiencia de habilidad obtenida. Un valor mayor a 1 aumenta la experiencia obtenida; uno menor a 1 la reduce.</Text_Option_Melee_LearningXpMultiplier_hint>
+
+</LanguageData>
