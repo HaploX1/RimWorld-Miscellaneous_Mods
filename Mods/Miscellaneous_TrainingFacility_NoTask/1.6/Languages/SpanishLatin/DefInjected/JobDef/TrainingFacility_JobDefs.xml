@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<UseShootingRange.reportString>disparando algunas balas.</UseShootingRange.reportString>
+	<UseShootingRange_NonJoy.reportString>disparando algunas balas.</UseShootingRange_NonJoy.reportString>
+	<UseShootingRange_NonJoy_Work.reportString>disparando algunas balas.</UseShootingRange_NonJoy_Work.reportString>
+	<UseMartialArtsTarget.reportString>practicando artes marciales.</UseMartialArtsTarget.reportString>
+	<UseMartialArtsTarget_NonJoy.reportString>practicando artes marciales.</UseMartialArtsTarget_NonJoy.reportString>
+	<UseMartialArtsTarget_NonJoy_Work.reportString>practicando artes marciales.</UseMartialArtsTarget_NonJoy_Work.reportString>
+
+</LanguageData>

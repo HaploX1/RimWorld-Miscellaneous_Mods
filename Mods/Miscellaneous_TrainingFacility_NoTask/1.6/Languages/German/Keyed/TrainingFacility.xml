@@ -14,4 +14,15 @@
 	
 	<TrainingFacility_CannotUseTooTired>Kann nicht verwendet werden. Zu müde.</TrainingFacility_CannotUseTooTired>
 	
+	<Text_Building_Repairing_RepairingHomezone>Reparieren (Homezone)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>deaktiviert</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>aktiviert</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Miscellaneous - Training</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Trainingsskill-Multiplikator - Schießen (Standard: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>Dies ist der Multiplikator für die erhaltene Skill-EP. Um die erhaltenen EP zu erhöhen, auf mehr als 1 setzen; um sie zu verringern, auf weniger als 1 setzen.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Trainingsskill-Multiplikator - Nahkampf (Standard: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>Dies ist der Multiplikator für die erhaltene Skill-EP. Um die erhaltenen EP zu erhöhen, auf mehr als 1 setzen; um sie zu verringern, auf weniger als 1 setzen.</Text_Option_Melee_LearningXpMultiplier_hint>
+
 </LanguageData>

@@ -8,8 +8,19 @@
 	<TrainingFacility_PracticeMartialArts>训练格斗技术</TrainingFacility_PracticeMartialArts>
 	<TrainingFacility_MeleeWeaponRequired>缺少近战武器</TrainingFacility_MeleeWeaponRequired>
 
-	<TrainingFacility_DangerousWeaponFound_ThrowingStones>The equipped weapon is too dangerous for shooting. {0} will throw stones instead.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
+	<TrainingFacility_DangerousWeaponFound_ThrowingStones>所装备的武器对于射击训练过于危险。{0} 将改为投掷石块。</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
-	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	<TrainingFacility_CannotUseTooTired>无法使用，过于疲劳</TrainingFacility_CannotUseTooTired>
+
+	<Text_Building_Repairing_RepairingHomezone>修复中 (家园区域)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>已禁用</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>已启用</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>杂项 - 训练</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>训练技能倍率 - 射击 (默认: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>此为获得技能经验值的倍率。要增加获得的经验值，请设置为大于 1；要减少则设置为小于 1。</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>训练技能倍率 - 近战 (默认: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>此为获得技能经验值的倍率。要增加获得的经验值，请设置为大于 1；要减少则设置为小于 1。</Text_Option_Melee_LearningXpMultiplier_hint>
 
 </LanguageData>

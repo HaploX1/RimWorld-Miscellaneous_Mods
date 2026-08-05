@@ -15,4 +15,15 @@
 	
 	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
 	
+	<Text_Building_Repairing_RepairingHomezone>Repairing (Homezone)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>disabled</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>enabled</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Miscellaneous - Training</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Training skill multiplier - Shooting (Default: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>This is the multiplier for the gained skill XP. To increase the gained XP, set it to more than 1; to decrease, set it to less than 1.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Training skill multiplier - Melee (Default: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>This is the multiplier for the gained skill XP. To increase the gained XP, set it to more than 1; to decrease, set it to less than 1.</Text_Option_Melee_LearningXpMultiplier_hint>
+
 </LanguageData>

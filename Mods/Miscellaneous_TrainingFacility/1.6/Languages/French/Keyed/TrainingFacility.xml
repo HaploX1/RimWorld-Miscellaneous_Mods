@@ -11,6 +11,17 @@
 	
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>L'arme équipée est trop dangereuse pour être utilisée. Alors, {0} jettera des pierres à la place.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
-	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	<TrainingFacility_CannotUseTooTired>Impossible à utiliser, trop fatigué</TrainingFacility_CannotUseTooTired>
 	
+	<Text_Building_Repairing_RepairingHomezone>Réparation (Zone de base)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>désactivé</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>activé</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Divers - Entraînement</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Multiplicateur de compétence - Tir (Par défaut : 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>Ceci est le multiplicateur pour les points d'expérience de compétence obtenus. Pour augmenter les PE gagnés, réglez sur plus de 1 ; pour les diminuer, réglez sur moins de 1.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Multiplicateur de compétence - Mêlée (Par défaut : 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>Ceci est le multiplicateur pour les points d'expérience de compétence obtenus. Pour augmenter les PE gagnés, réglez sur plus de 1 ; pour les diminuer, réglez sur moins de 1.</Text_Option_Melee_LearningXpMultiplier_hint>
+
 </LanguageData>

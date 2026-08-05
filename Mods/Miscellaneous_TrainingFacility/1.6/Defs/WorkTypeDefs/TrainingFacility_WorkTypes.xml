@@ -10,7 +10,7 @@
 		<verb>combat training</verb>
 		<naturalPriority>435</naturalPriority>
 		<alwaysStartActive>false</alwaysStartActive>
-		<disabledForSlaves>true</disabledForSlaves>
+		<disabledForSlaves>false</disabledForSlaves>
 		<relevantSkills>
 			<li>Shooting</li>
 			<!-- <li>Melee</li> BugFix: Ghuls loosing Melee -->

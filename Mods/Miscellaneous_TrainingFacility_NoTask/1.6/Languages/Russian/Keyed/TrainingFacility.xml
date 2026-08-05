@@ -8,8 +8,19 @@
 	<TrainingFacility_PracticeMartialArts>Практика в рукопашной</TrainingFacility_PracticeMartialArts>
 	<TrainingFacility_MeleeWeaponRequired>Необходимо оружие ближнего боя</TrainingFacility_MeleeWeaponRequired>
 	
-	<TrainingFacility_DangerousWeaponFound_ThrowingStones>The equipped weapon is too dangerous for shooting. {0} will throw stones instead.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
+	<TrainingFacility_DangerousWeaponFound_ThrowingStones>Экипированное оружие слишком опасно для стрельбы. {0} будет бросать камни вместо этого.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
-	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	<TrainingFacility_CannotUseTooTired>Нельзя использовать, слишком устал</TrainingFacility_CannotUseTooTired>
 	
+	<Text_Building_Repairing_RepairingHomezone>Ремонт (Домашняя зона)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>отключено</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>включено</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Разное - Тренировка</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Множитель опыта - Стрельба (По умолчанию: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>Это множитель для получаемого опыта навыка. Чтобы увеличить получаемый опыт, установите значение больше 1; чтобы уменьшить - меньше 1.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Множитель опыта - Ближний бой (По умолчанию: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>Это множитель для получаемого опыта навыка. Чтобы увеличить получаемый опыт, установите значение больше 1; чтобы уменьшить - меньше 1.</Text_Option_Melee_LearningXpMultiplier_hint>
+
 </LanguageData>

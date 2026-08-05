@@ -21,7 +21,7 @@
 	<incompatibleWith>
 		<li>Haplo.Miscellaneous.TrainingNoTask</li>
 	</incompatibleWith>
-	<modVersion>1.6.2</modVersion>
+	<modVersion>1.6.6</modVersion>
 	<description>This adds some training facilities:
 - Shooting Target
    Train up your shooting ability.

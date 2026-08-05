@@ -11,6 +11,17 @@
 	
 	<TrainingFacility_DangerousWeaponFound_ThrowingStones>A arma equipada é demasiado perigosa para disparar. {0} vai atirar pedras em vez disso.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
 	
-	<TrainingFacility_CannotUseTooTired>Can not use, too tired</TrainingFacility_CannotUseTooTired>
+	<TrainingFacility_CannotUseTooTired>Não pode usar, muito cansado</TrainingFacility_CannotUseTooTired>
 	
+	<Text_Building_Repairing_RepairingHomezone>Reparando (Área Base)</Text_Building_Repairing_RepairingHomezone>
+	<Text_Building_Repairing_disabled>desativado</Text_Building_Repairing_disabled>
+	<Text_Building_Repairing_enabled>ativado</Text_Building_Repairing_enabled>
+
+	<!-- MOD OPTIONS -->
+	<TrainingFacility_ModOptions_Category>Diversos - Treinamento</TrainingFacility_ModOptions_Category>
+	<Text_Option_Shooting_LearningXpMultiplier>Multiplicador de habilidade - Tiro (Padrão: 1)</Text_Option_Shooting_LearningXpMultiplier>
+	<Text_Option_Shooting_LearningXpMultiplier_hint>Este é o multiplicador para o XP de habilidade ganho. Para aumentar o XP ganho, defina para mais que 1; para diminuir, defina para menos que 1.</Text_Option_Shooting_LearningXpMultiplier_hint>
+	<Text_Option_Melee_LearningXpMultiplier>Multiplicador de habilidade - Corpo a corpo (Padrão: 1)</Text_Option_Melee_LearningXpMultiplier>
+	<Text_Option_Melee_LearningXpMultiplier_hint>Este é o multiplicador para o XP de habilidade ganho. Para aumentar o XP ganho, defina para mais que 1; para diminuir, defina para menos que 1.</Text_Option_Melee_LearningXpMultiplier_hint>
+
 </LanguageData>
